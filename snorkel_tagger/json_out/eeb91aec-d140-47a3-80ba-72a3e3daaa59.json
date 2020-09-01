@@ -1,0 +1,3968 @@
+{
+  "Results": [
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 568.5,
+          "y1": 1203,
+          "x1": 633.5,
+          "y0": 1191
+        },
+        "pos_normalized": {
+          "x0": 0.6688235294117647,
+          "y1": 0.8584681255946718,
+          "x1": 0.7452941176470588,
+          "y0": 0.8499048525214082
+        },
+        "text": "$9.401.50 -",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1705.5,
+          "y1": 3609,
+          "x1": 1900.5,
+          "y0": 3573
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 44,
+            "id": "word_2_332",
+            "text": "$9.401.50",
+            "distance": 140151.92213144596,
+            "pos": {
+              "x0": 574.6666666666666,
+              "y1": 1202.3333333333333,
+              "x1": 616,
+              "y0": 1193.3333333333333
+            }
+          },
+          {
+            "score": 58,
+            "id": "word_2_333",
+            "text": "-",
+            "distance": 140134.43450497018,
+            "pos": {
+              "x0": 614.6666666666666,
+              "y1": 1206.6666666666665,
+              "x1": 622.3333333333333,
+              "y0": 1192
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "9401.50",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a441085771ef22e66653746ccf0a8891",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 571675,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "9401.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 434.5,
+          "y1": 434,
+          "x1": 450.5,
+          "y0": 416
+        },
+        "pos_normalized": {
+          "x0": 0.5111764705882353,
+          "y1": 0.3097050428163654,
+          "x1": 0.53,
+          "y0": 0.29686013320647003
+        },
+        "text": "[0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb2edb44404a191b4e1717a",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda5740437589907cb1",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1303.5,
+          "y1": 1302,
+          "x1": 1351.5,
+          "y0": 1248
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 28,
+            "id": "word_4_343",
+            "text": "[0",
+            "distance": 140807.47014521086,
+            "pos": {
+              "x0": 435.66666666666663,
+              "y1": 429.66666666666663,
+              "x1": 445.3333333333333,
+              "y0": 419.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 704091,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "66ac59c610022d67953a0d223b52629b",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 475.5,
+          "y1": 630,
+          "x1": 505.5,
+          "y0": 608
+        },
+        "pos_normalized": {
+          "x0": 0.5594117647058824,
+          "y1": 0.5742935278030994,
+          "x1": 0.5947058823529412,
+          "y0": 0.5542388331814039
+        },
+        "text": "0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1426.5,
+          "y1": 1890,
+          "x1": 1516.5,
+          "y0": 1824
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_157",
+            "text": "0",
+            "distance": 140637.79434587355,
+            "pos": {
+              "x0": 483.66666666666663,
+              "y1": 623,
+              "x1": 491,
+              "y0": 612.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mi Initial Premium Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "227f924cc2635f6f9ccabbf8ff339b04",
+      "DATAPOINT ORDER": "16",
+      "ID": "2a7a5bfe-3163-3270-a5c6-4e1f02470490",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 168737,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "MI INITIAL PREMIUM AMOUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 273.3333333333333,
+          "y1": 348.3333333333333,
+          "x1": 295.66666666666663,
+          "y0": 332.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.32156862745098036,
+          "y1": 0.3175326648435126,
+          "x1": 0.3478431372549019,
+          "y0": 0.3029474323913704
+        },
+        "text": "4%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 820,
+          "y1": 1045,
+          "x1": 886.9999999999999,
+          "y0": 997
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_107",
+            "text": "4%",
+            "distance": 140977.4165579761,
+            "pos": {
+              "x0": 275.3333333333333,
+              "y1": 346.3333333333333,
+              "x1": 293.66666666666663,
+              "y0": 334.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 135077,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4%",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6b57786a0000836cbd6965b3fc1c082c",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 186.5,
+          "y1": 203,
+          "x1": 301.5,
+          "y0": 188
+        },
+        "pos_normalized": {
+          "x0": 0.21941176470588236,
+          "y1": 0.18505013673655424,
+          "x1": 0.3547058823529412,
+          "y0": 0.17137648131267091
+        },
+        "text": "18712 232ND AVE NW",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 559.5,
+          "y1": 609,
+          "x1": 904.5,
+          "y0": 564
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_23",
+            "text": "18712",
+            "distance": 141138.042164597,
+            "pos": {
+              "x0": 188.66666666666666,
+              "y1": 200,
+              "x1": 214,
+              "y0": 192.66666666666666
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_1_24",
+            "text": "232ND",
+            "distance": 141116.47763825377,
+            "pos": {
+              "x0": 217.66666666666666,
+              "y1": 200,
+              "x1": 246.33333333333331,
+              "y0": 192.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_25",
+            "text": "AVE",
+            "distance": 141097.2726616484,
+            "pos": {
+              "x0": 250.33333333333331,
+              "y1": 200,
+              "x1": 268,
+              "y0": 192.33333333333331
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_1_26",
+            "text": "NW",
+            "distance": 141082.66449339394,
+            "pos": {
+              "x0": 272.66666666666663,
+              "y1": 200,
+              "x1": 287,
+              "y0": 192.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 296265,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "18712 232ND AVE NW",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "ObjectId": "0b5d9238259530112ccf2fb5fb1b1ee8",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 605.5,
+          "y1": 656,
+          "x1": 682.5,
+          "y0": 643
+        },
+        "pos_normalized": {
+          "x0": 0.7123529411764706,
+          "y1": 0.5979945305378305,
+          "x1": 0.8029411764705883,
+          "y0": 0.5861440291704649
+        },
+        "text": "MONTICELLO,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2edb46249554588af3a04",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddbb5215b99ddc006c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1816.5,
+          "y1": 1968,
+          "x1": 2047.5,
+          "y0": 1929
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_443",
+            "text": "MONTICELLO,",
+            "distance": 140505.77093535656,
+            "pos": {
+              "x0": 607.3333333333333,
+              "y1": 655,
+              "x1": 676,
+              "y0": 645.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "MONTICELLO"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "518785688c0588fd094675146522d269",
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 814382,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "MONTICELLO",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 186.33333333333331,
+          "y1": 153,
+          "x1": 221.33333333333331,
+          "y0": 140.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.21921568627450977,
+          "y1": 0.13947128532360983,
+          "x1": 0.2603921568627451,
+          "y0": 0.12822850197508356
+        },
+        "text": "4/10/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 559,
+          "y1": 459,
+          "x1": 664,
+          "y0": 422
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 75,
+            "id": "word_1_13",
+            "text": "4/10/18",
+            "distance": 141171.28189267896,
+            "pos": {
+              "x0": 188.33333333333331,
+              "y1": 151,
+              "x1": 219.33333333333331,
+              "y0": 142.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "edit_input": {
+        "text": "04/10/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d3106443521288c154ae831bcc3f00fa",
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 68963,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/10/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 386.3333333333333,
+          "y1": 125.33333333333333,
+          "x1": 421,
+          "y0": 114
+        },
+        "pos_normalized": {
+          "x0": 0.4545098039215686,
+          "y1": 0.1142509875417806,
+          "x1": 0.49529411764705883,
+          "y0": 0.10391978122151321
+        },
+        "text": "JAMES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1159,
+          "y1": 376,
+          "x1": 1263,
+          "y0": 342
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_49",
+            "text": "JAMES",
+            "distance": 141049.32532529967,
+            "pos": {
+              "x0": 388.3333333333333,
+              "y1": 123.33333333333333,
+              "x1": 419,
+              "y0": 116
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "db59c8c1a937196ba39f4581d3acb45f",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 205329,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "JAMES",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 556.5,
+          "y1": 883,
+          "x1": 610.5,
+          "y0": 870
+        },
+        "pos_normalized": {
+          "x0": 0.6547058823529411,
+          "y1": 0.6301141769743103,
+          "x1": 0.7182352941176471,
+          "y0": 0.620837297811608
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1669.5,
+          "y1": 2649,
+          "x1": 1831.5,
+          "y0": 2610
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "781.80"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "52e217929ce186b449c30862833743c8",
+      "DATAPOINT ORDER": "4",
+      "ID": "5234449a-1671-3214-ba16-9ad299691f0f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 455308,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "781.80",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 265.5,
+          "y1": 906,
+          "x1": 309.5,
+          "y0": 891
+        },
+        "pos_normalized": {
+          "x0": 0.3123529411764706,
+          "y1": 0.6465271170313988,
+          "x1": 0.36411764705882355,
+          "y0": 0.6358230256898193
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 796.5,
+          "y1": 2718,
+          "x1": 928.5,
+          "y0": 2673
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "04/10/2018"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7cc6cb092572cb807a79116485bbefaf",
+      "DATAPOINT ORDER": "10",
+      "ID": "78640e69-866a-39bf-a5d6-80e73c2a7811",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 487115,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/10/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 559.5,
+          "y1": 546,
+          "x1": 598.5,
+          "y0": 528
+        },
+        "pos_normalized": {
+          "x0": 0.658235294117647,
+          "y1": 0.38962892483349193,
+          "x1": 0.7041176470588235,
+          "y0": 0.3767840152235966
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1678.5,
+          "y1": 1638,
+          "x1": 1795.5,
+          "y0": 1584
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Appraisal Fee Borrower Paid At Closing",
+      "edit_input": {
+        "text": "400.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8ecb1770be76e918c99872b1249004f0",
+      "DATAPOINT ORDER": "9",
+      "ID": "5efd8943-a0a6-3fd3-b5e0-e3cfa2f56048",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 370519,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "400.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 273.3333333333333,
+          "y1": 325,
+          "x1": 336.3333333333333,
+          "y0": 300.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.32156862745098036,
+          "y1": 0.29626253418413856,
+          "x1": 0.3956862745098039,
+          "y0": 0.27377696748708596
+        },
+        "text": "000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 820,
+          "y1": 975,
+          "x1": 1009,
+          "y0": 901
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_103",
+            "text": "000",
+            "distance": 140982.59658839297,
+            "pos": {
+              "x0": 275.3333333333333,
+              "y1": 323,
+              "x1": 334.3333333333333,
+              "y0": 302.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "200.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a7f77a5bdc1912cd80c293b1e981bdb3",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 124913,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "200.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 646.3333333333333,
+          "y1": 746.3333333333333,
+          "x1": 671.3333333333333,
+          "y0": 731.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.760392156862745,
+          "y1": 0.68034032209055,
+          "x1": 0.7898039215686273,
+          "y0": 0.6669705256760863
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1938.9999999999998,
+          "y1": 2239,
+          "x1": 2013.9999999999998,
+          "y0": 2195
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_183",
+            "text": "NO",
+            "distance": 140430.82892902984,
+            "pos": {
+              "x0": 648.3333333333333,
+              "y1": 744.3333333333333,
+              "x1": 669.3333333333333,
+              "y0": 733.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 187905,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NOT ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "NOT ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "1053850617527e51aa4ba36575547148",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 523.3333333333333,
+          "y1": 301.3333333333333,
+          "x1": 537.3333333333333,
+          "y0": 288
+        },
+        "pos_normalized": {
+          "x0": 0.6156862745098038,
+          "y1": 0.27468854451534486,
+          "x1": 0.632156862745098,
+          "y0": 0.2625341841385597
+        },
+        "text": "A",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 5,
+          "PageJpeg": "5eb2edb4376fe8700d85c49a",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddb122019e5fed1407f",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 1569.9999999999998,
+          "y1": 904,
+          "x1": 1611.9999999999998,
+          "y0": 864
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_6_50",
+            "text": "A",
+            "distance": 140835.97041022187,
+            "pos": {
+              "x0": 525.3333333333333,
+              "y1": 299.3333333333333,
+              "x1": 535.3333333333333,
+              "y0": 290
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name (2)",
+      "edit_input": {
+        "text": "P"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9b12d252f917c61287ae64d324cc3af2",
+      "DATAPOINT ORDER": "2",
+      "prototype": "Borrower Middle Name",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 264162,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "A",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": null,
+      "FileIndex": 5,
+      "manual_input": null,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 181.5,
+          "y1": 215,
+          "x1": 235.5,
+          "y0": 201
+        },
+        "pos_normalized": {
+          "x0": 0.21352941176470588,
+          "y1": 0.1959890610756609,
+          "x1": 0.27705882352941175,
+          "y0": 0.18322698268003645
+        },
+        "text": "BIG LAKE,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 544.5,
+          "y1": 645,
+          "x1": 706.5,
+          "y0": 603
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_86",
+            "text": "BIG",
+            "distance": 141134.27109848266,
+            "pos": {
+              "x0": 188.66666666666666,
+              "y1": 210.66666666666666,
+              "x1": 203.33333333333331,
+              "y0": 203.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_87",
+            "text": "LAKE,",
+            "distance": 141116.3578273066,
+            "pos": {
+              "x0": 208.66666666666666,
+              "y1": 211.66666666666666,
+              "x1": 233,
+              "y0": 203.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": {
+        "text": "BIG LAKE"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "18ad449a850dd39eadbc351fd0a923a6",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 303818,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "BIG LAKE",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 664.5,
+          "y1": 788,
+          "x1": 677.5,
+          "y0": 776
+        },
+        "pos_normalized": {
+          "x0": 0.7817647058823529,
+          "y1": 0.5623215984776404,
+          "x1": 0.7970588235294118,
+          "y0": 0.5537583254043769
+        },
+        "text": "[X",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb2edb44404a191b4e1717a",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda5740437589907cb1",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1993.5,
+          "y1": 2364,
+          "x1": 2032.5,
+          "y0": 2328
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_4_492",
+            "text": "[X",
+            "distance": 140395.01449926916,
+            "pos": {
+              "x0": 659.6666666666666,
+              "y1": 788.6666666666666,
+              "x1": 673.3333333333333,
+              "y0": 775.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Escrow Absence Reason Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 784422,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "BORROWER DECLINED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "BORROWER DECLINED",
+        "control": "radio"
+      },
+      "ObjectId": "922ecb341c575ad5eb2a406d2c45254b",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "2",
+      "ID": "c6d04093-e096-35ee-a294-c2a3b478a787",
+      "NAME": "ESCROW ABSENCE REASON TYPE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 235.66666666666666,
+          "y1": 212.33333333333331,
+          "x1": 253.33333333333331,
+          "y0": 201.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.2772549019607843,
+          "y1": 0.19355818900030383,
+          "x1": 0.2980392156862745,
+          "y0": 0.18353084168945608
+        },
+        "text": "MN",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 707,
+          "y1": 637,
+          "x1": 760,
+          "y0": 604
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_88",
+            "text": "MN",
+            "distance": 141100.09657016935,
+            "pos": {
+              "x0": 237.66666666666666,
+              "y1": 210.33333333333331,
+              "x1": 251.33333333333331,
+              "y0": 203.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 312293,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "MN",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "ObjectId": "ab50b268d01ce09601ae4af75b2360a4",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 406,
+          "y1": 348.3333333333333,
+          "x1": 431.3333333333333,
+          "y0": 334.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.4776470588235294,
+          "y1": 0.3175326648435126,
+          "x1": 0.5074509803921569,
+          "y0": 0.3047705864478882
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1218,
+          "y1": 1045,
+          "x1": 1294,
+          "y0": 1003
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_108",
+            "text": "NO",
+            "distance": 140881.8443757826,
+            "pos": {
+              "x0": 408,
+              "y1": 346.3333333333333,
+              "x1": 429.3333333333333,
+              "y0": 336.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Interest Only Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 105026,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "27d79d336abbb52980501b44064f0c9d",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "10",
+      "ID": "91cec963-8a42-34c7-9928-e0dafef170ac",
+      "NAME": "INTEREST ONLY INDICATOR"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 581.5,
+          "y1": 943,
+          "x1": 613.5,
+          "y0": 930
+        },
+        "pos_normalized": {
+          "x0": 0.6841176470588235,
+          "y1": 0.672930542340628,
+          "x1": 0.721764705882353,
+          "y0": 0.6636536631779258
+        },
+        "text": "SO0,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1744.5,
+          "y1": 2829,
+          "x1": 1840.5,
+          "y0": 2790
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 32,
+            "id": "word_2_209",
+            "text": "SO0,",
+            "distance": 140331.7897596225,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 943.3333333333333,
+              "x1": 615.3333333333333,
+              "y0": 932.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "44adc53fd4f3c2d6c6f24ef442c3051b",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 511258,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 456.5,
+          "y1": 209,
+          "x1": 656.5,
+          "y0": 179
+        },
+        "pos_normalized": {
+          "x0": 0.5370588235294118,
+          "y1": 0.19051959890610756,
+          "x1": 0.7723529411764706,
+          "y0": 0.16317228805834094
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 5,
+          "PageJpeg": "5eb2edb4376fe8700d85c49a",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddb122019e5fed1407f",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 1369.5,
+          "y1": 627,
+          "x1": 1969.5,
+          "y0": 537
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Borrower Signature Present Indicator",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "84e62832ee644ba169664dde43a958c6",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 243506,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "FileIndex": 5,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 687.3333333333333,
+          "y1": 127.33333333333333,
+          "x1": 714,
+          "y0": 115.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.808627450980392,
+          "y1": 0.11607414159829839,
+          "x1": 0.84,
+          "y0": 0.10543907626861136
+        },
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2062,
+          "y1": 382,
+          "x1": 2142,
+          "y0": 347
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_67",
+            "text": "years",
+            "distance": 140838.47071625863,
+            "pos": {
+              "x0": 689.3333333333333,
+              "y1": 125.33333333333333,
+              "x1": 712,
+              "y0": 117.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 91729,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "3c7e9ebb9c62a2efe823f688faa125c9",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 186.33333333333331,
+          "y1": 126.33333333333333,
+          "x1": 216.33333333333331,
+          "y0": 114.33333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.21921568627450977,
+          "y1": 0.1151625645700395,
+          "x1": 0.2545098039215686,
+          "y0": 0.10422364023093285
+        },
+        "text": "4/2/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 559,
+          "y1": 379,
+          "x1": 649,
+          "y0": 343
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 75,
+            "id": "word_1_7",
+            "text": "4/2/18",
+            "distance": 141191.79385286133,
+            "pos": {
+              "x0": 188.33333333333331,
+              "y1": 124.33333333333333,
+              "x1": 214.33333333333331,
+              "y0": 116.33333333333333
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "edit_input": {
+        "text": "04/02/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "19f6cef77da8bab6c11392322334a41b",
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 62108,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/02/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 673.3333333333333,
+          "y1": 167.33333333333331,
+          "x1": 742.3333333333333,
+          "y0": 153.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.792156862745098,
+          "y1": 0.1525372227286539,
+          "x1": 0.8733333333333333,
+          "y0": 0.1400790033424491
+        },
+        "text": "®&IConventional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2019.9999999999998,
+          "y1": 501.99999999999994,
+          "x1": 2227,
+          "y0": 461
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 0,
+            "id": "word_1_76",
+            "text": "®&IConventional",
+            "distance": 140805.7624215398,
+            "pos": {
+              "x0": 675.3333333333333,
+              "y1": 165.33333333333331,
+              "x1": 740.3333333333333,
+              "y0": 155.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 112073,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "c298e18e9abe8459d08b5d04977a1b9c",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 421.3333333333333,
+          "y1": 125.33333333333333,
+          "x1": 432.3333333333333,
+          "y0": 114.33333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.4956862745098039,
+          "y1": 0.1142509875417806,
+          "x1": 0.5086274509803921,
+          "y0": 0.10422364023093285
+        },
+        "text": "P.",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1264,
+          "y1": 376,
+          "x1": 1297,
+          "y0": 343
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_50",
+            "text": "P.",
+            "distance": 141032.85027924838,
+            "pos": {
+              "x0": 423.3333333333333,
+              "y1": 123.33333333333333,
+              "x1": 430.3333333333333,
+              "y0": 116.33333333333333
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name",
+      "edit_input": {
+        "text": "P"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9b12d252f917c61287ae64d324cc3af2",
+      "DATAPOINT ORDER": "2",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 212161,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "P",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 459.5,
+          "y1": 275,
+          "x1": 710.5,
+          "y0": 250
+        },
+        "pos_normalized": {
+          "x0": 0.5405882352941176,
+          "y1": 0.2506836827711942,
+          "x1": 0.8358823529411765,
+          "y0": 0.22789425706472197
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 5,
+          "PageJpeg": "5eb2edb4376fe8700d85c49a",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddb122019e5fed1407f",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 1378.5,
+          "y1": 825,
+          "x1": 2131.5,
+          "y0": 750
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Borrower Signature Present Indicator (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "84e62832ee644ba169664dde43a958c6",
+      "DATAPOINT ORDER": "6",
+      "prototype": "Borrower Signature Present Indicator",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 278113,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 5,
+      "manual_input": null,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 603.5,
+          "y1": 768,
+          "x1": 717.5,
+          "y0": 751
+        },
+        "pos_normalized": {
+          "x0": 0.71,
+          "y1": 0.7000911577028259,
+          "x1": 0.8441176470588235,
+          "y0": 0.6845943482224248
+        },
+        "text": "SHEILA SIGURDSON",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2edb46249554588af3a04",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddbb5215b99ddc006c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1810.5,
+          "y1": 2304,
+          "x1": 2152.5,
+          "y0": 2253
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_5_447",
+            "text": "SHEILA",
+            "distance": 140441.33756918658,
+            "pos": {
+              "x0": 607.3333333333333,
+              "y1": 762,
+              "x1": 643,
+              "y0": 753.6666666666666
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_5_448",
+            "text": "SIGURDSON",
+            "distance": 140404.66607561713,
+            "pos": {
+              "x0": 647,
+              "y1": 762,
+              "x1": 707.3333333333333,
+              "y0": 753.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 822459,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "SHEILA SIGURDSON",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "ObjectId": "0dda54213ffb79451eb2bf8d815dee0b",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 568.5,
+          "y1": 410,
+          "x1": 621.5,
+          "y0": 392
+        },
+        "pos_normalized": {
+          "x0": 0.6688235294117647,
+          "y1": 0.29257849666983826,
+          "x1": 0.7311764705882353,
+          "y0": 0.27973358705994295
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1705.5,
+          "y1": 1230,
+          "x1": 1864.5,
+          "y0": 1176
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "3450.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6a9c0ee533cb093804ff9adde311278e",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 334842,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3450.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 186.33333333333331,
+          "y1": 226.33333333333331,
+          "x1": 229,
+          "y0": 214
+        },
+        "pos_normalized": {
+          "x0": 0.21921568627450977,
+          "y1": 0.20632026739592826,
+          "x1": 0.26941176470588235,
+          "y0": 0.195077484047402
+        },
+        "text": "$273,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 559,
+          "y1": 679,
+          "x1": 687,
+          "y0": 642
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_93",
+            "text": "$273,000",
+            "distance": 141116.71134255818,
+            "pos": {
+              "x0": 188.33333333333331,
+              "y1": 224.33333333333331,
+              "x1": 227,
+              "y0": 216
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "273000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "be47da40012369e0eba78afb3d09f8f6",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 74500,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "273000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 466.5,
+          "y1": 624,
+          "x1": 528.5,
+          "y0": 608
+        },
+        "pos_normalized": {
+          "x0": 0.5488235294117647,
+          "y1": 0.568824065633546,
+          "x1": 0.6217647058823529,
+          "y0": 0.5542388331814039
+        },
+        "text": "0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1399.5,
+          "y1": 1872,
+          "x1": 1585.5,
+          "y0": 1824
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_157",
+            "text": "0",
+            "distance": 140637.79434587355,
+            "pos": {
+              "x0": 483.66666666666663,
+              "y1": 623,
+              "x1": 491,
+              "y0": 612.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Projected Payment Mi Payment Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "643097ae163f9b995014c250a1c93101",
+      "DATAPOINT ORDER": "17",
+      "ID": "4201173e-084d-370c-a869-fbd49dbeb784",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 175041,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROJECTED PAYMENT MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 385.5,
+          "y1": 160,
+          "x1": 482.5,
+          "y0": 148
+        },
+        "pos_normalized": {
+          "x0": 0.4535294117647059,
+          "y1": 0.14585232452142205,
+          "x1": 0.5676470588235294,
+          "y0": 0.1349134001823154
+        },
+        "text": "RIVERWOOD BANK",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1156.5,
+          "y1": 480,
+          "x1": 1447.5,
+          "y0": 444
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_60",
+            "text": "RIVERWOOD",
+            "distance": 141016.66038618353,
+            "pos": {
+              "x0": 388.66666666666663,
+              "y1": 157,
+              "x1": 444,
+              "y0": 149.33333333333331
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_61",
+            "text": "BANK",
+            "distance": 140985.71060966112,
+            "pos": {
+              "x0": 448.3333333333333,
+              "y1": 156.33333333333331,
+              "x1": 472.66666666666663,
+              "y0": 149.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 78537,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "RIVERWOOD BANK",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "ObjectId": "9b53e2e99eab39c07cb74e03bf538c32",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 273.3333333333333,
+          "y1": 397,
+          "x1": 328,
+          "y0": 379.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.32156862745098036,
+          "y1": 0.3618960802187785,
+          "x1": 0.38588235294117645,
+          "y0": 0.3457915527195381
+        },
+        "text": "$954.83",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 820,
+          "y1": 1191,
+          "x1": 984,
+          "y0": 1138
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_114",
+            "text": "$954.83",
+            "distance": 140932.16977730417,
+            "pos": {
+              "x0": 275.3333333333333,
+              "y1": 395,
+              "x1": 326,
+              "y0": 381.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "954.83",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e5c072e82849aa852422c567db836e5f",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 140722,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "954.83",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 275.66666666666663,
+          "y1": 909,
+          "x1": 350,
+          "y0": 889.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.32431372549019605,
+          "y1": 0.8286235186873291,
+          "x1": 0.4117647058823529,
+          "y0": 0.8109996961409905
+        },
+        "text": "$77,026.54",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 826.9999999999999,
+          "y1": 2727,
+          "x1": 1050,
+          "y0": 2669
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 77,
+            "id": "word_1_248",
+            "text": "$77,026.54",
+            "distance": 140562.71544334065,
+            "pos": {
+              "x0": 277.66666666666663,
+              "y1": 907,
+              "x1": 348,
+              "y0": 891.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Cash From Borrower At Closing Amount",
+      "edit_input": {
+        "text": "77026.54",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f0630db6c0ad55056526d55b570f912b",
+      "DATAPOINT ORDER": "4",
+      "ID": "df0f9de0-b502-331a-9910-2492d3df813d",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 200585,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "77026.54",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH FROM BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 477.5,
+          "y1": 626,
+          "x1": 522.5,
+          "y0": 606
+        },
+        "pos_normalized": {
+          "x0": 0.5617647058823529,
+          "y1": 0.5706472196900638,
+          "x1": 0.6147058823529412,
+          "y0": 0.5524156791248861
+        },
+        "text": "0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1432.5,
+          "y1": 1878,
+          "x1": 1567.5,
+          "y0": 1818
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_157",
+            "text": "0",
+            "distance": 140637.79434587355,
+            "pos": {
+              "x0": 483.66666666666663,
+              "y1": 623,
+              "x1": 491,
+              "y0": 612.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mi Payment Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "41f123675bf1f9c3a7070af5ecc35b9f",
+      "DATAPOINT ORDER": "1",
+      "ID": "f7d344d0-dbed-3a16-8f9b-a039cadab6cc",
+      "GROUP NAME": "Group10",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 842301,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 395.5,
+          "y1": 479,
+          "x1": 461.5,
+          "y0": 466
+        },
+        "pos_normalized": {
+          "x0": 0.4652941176470588,
+          "y1": 0.4366453965360073,
+          "x1": 0.5429411764705883,
+          "y0": 0.4247948951686418
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1186.5,
+          "y1": 1437,
+          "x1": 1384.5,
+          "y0": 1398
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_141",
+            "text": "NO",
+            "distance": 140789.67898093793,
+            "pos": {
+              "x0": 408.3333333333333,
+              "y1": 476,
+              "x1": 430,
+              "y0": 466.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5a4f53ed3e8b3db4e4891835791f1282",
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 162505,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 464.66666666666663,
+          "y1": 301.3333333333333,
+          "x1": 522.3333333333333,
+          "y0": 287.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.5466666666666666,
+          "y1": 0.27468854451534486,
+          "x1": 0.6145098039215685,
+          "y0": 0.26223032512914
+        },
+        "text": "MARCIE",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 5,
+          "PageJpeg": "5eb2edb4376fe8700d85c49a",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddb122019e5fed1407f",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 1394,
+          "y1": 904,
+          "x1": 1566.9999999999998,
+          "y0": 862.9999999999999
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_6_49",
+            "text": "MARCIE",
+            "distance": 140862.105056683,
+            "pos": {
+              "x0": 466.66666666666663,
+              "y1": 299.3333333333333,
+              "x1": 520.3333333333333,
+              "y0": 289.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "db59c8c1a937196ba39f4581d3acb45f",
+      "DATAPOINT ORDER": "1",
+      "prototype": "Borrower First Name",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 260764,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "MARCIE",
+        "source": "selection"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": null,
+      "FileIndex": 5,
+      "manual_input": null,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 538.3333333333333,
+          "y1": 301.3333333333333,
+          "x1": 607.3333333333333,
+          "y0": 287.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.6333333333333332,
+          "y1": 0.27468854451534486,
+          "x1": 0.7145098039215685,
+          "y0": 0.26223032512914
+        },
+        "text": "SWANSON",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 5,
+          "PageJpeg": "5eb2edb4376fe8700d85c49a",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddb122019e5fed1407f",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 1614.9999999999998,
+          "y1": 904,
+          "x1": 1821.9999999999998,
+          "y0": 862.9999999999999
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_6_51",
+            "text": "SWANSON",
+            "distance": 140806.07518182983,
+            "pos": {
+              "x0": 540.3333333333333,
+              "y1": 299.3333333333333,
+              "x1": 605.3333333333333,
+              "y0": 289.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9a26d4b467ae9c029d5139a5f3d0510a",
+      "DATAPOINT ORDER": "3",
+      "prototype": "Borrower Last Name",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 269403,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "SWANSON",
+        "source": "selection"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": null,
+      "FileIndex": 5,
+      "manual_input": null,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 673.6666666666666,
+          "y1": 138.33333333333331,
+          "x1": 719,
+          "y0": 127.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7925490196078431,
+          "y1": 0.12610148890914613,
+          "x1": 0.8458823529411764,
+          "y0": 0.11607414159829837
+        },
+        "text": "Refinance",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2021,
+          "y1": 414.99999999999994,
+          "x1": 2157,
+          "y0": 381.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 67,
+            "id": "word_1_69",
+            "text": "Refinance",
+            "distance": 140833.4892114522,
+            "pos": {
+              "x0": 675.6666666666666,
+              "y1": 136.33333333333331,
+              "x1": 717,
+              "y0": 129.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 96601,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "REFINANCE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "REFINANCE",
+        "control": "radio"
+      },
+      "ObjectId": "f61cfa4b0bb106b87ea21abd6e554e65",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 186.33333333333331,
+          "y1": 139.66666666666666,
+          "x1": 216.33333333333331,
+          "y0": 127.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.21921568627450977,
+          "y1": 0.12731692494682467,
+          "x1": 0.2545098039215686,
+          "y0": 0.11607414159829837
+        },
+        "text": "4/5/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 559,
+          "y1": 419,
+          "x1": 649,
+          "y0": 381.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 78,
+            "id": "word_1_10",
+            "text": "4/5/18",
+            "distance": 141182.48014429567,
+            "pos": {
+              "x0": 188.33333333333331,
+              "y1": 137.66666666666666,
+              "x1": 214.33333333333331,
+              "y0": 129.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "edit_input": {
+        "text": "04/05/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7a92a01ac46c9a46726371cd5945fdeb",
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 65659,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/05/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 441.5,
+          "y1": 712,
+          "x1": 524.5,
+          "y0": 689
+        },
+        "pos_normalized": {
+          "x0": 0.5194117647058824,
+          "y1": 0.6490428441203282,
+          "x1": 0.6170588235294118,
+          "y0": 0.6280765724703737
+        },
+        "text": "$954.83",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1324.5,
+          "y1": 2136,
+          "x1": 1573.5,
+          "y0": 2067
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_171",
+            "text": "$954.83",
+            "distance": 140582.45560810764,
+            "pos": {
+              "x0": 459.3333333333333,
+              "y1": 706,
+              "x1": 510,
+              "y0": 691.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "954.83",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6e1fd178d6ddab0aa893b4cb62523108",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 183314,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "954.83",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 646.3333333333333,
+          "y1": 761,
+          "x1": 671.3333333333333,
+          "y0": 746.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.760392156862745,
+          "y1": 0.6937101185050136,
+          "x1": 0.7898039215686273,
+          "y0": 0.6806441810999696
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1938.9999999999998,
+          "y1": 2283,
+          "x1": 2013.9999999999998,
+          "y0": 2240
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_191",
+            "text": "NO",
+            "distance": 140420.34480523903,
+            "pos": {
+              "x0": 648.3333333333333,
+              "y1": 759,
+              "x1": 669.3333333333333,
+              "y0": 748.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 191473,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NOT ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "control_input": {
+        "type": "text",
+        "value": "NOT ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "1f933dde5d52a5dda24fd68bd48314e4",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 572.5,
+          "y1": 866,
+          "x1": 633.5,
+          "y0": 855
+        },
+        "pos_normalized": {
+          "x0": 0.6735294117647059,
+          "y1": 0.6179828734538535,
+          "x1": 0.7452941176470588,
+          "y0": 0.6101332064700286
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1717.5,
+          "y1": 2598,
+          "x1": 1900.5,
+          "y0": 2565
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "3315.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "13a5235946ec61ca6ee8ca2e70fafa74",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 432054,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3315.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 673.3333333333333,
+          "y1": 125.33333333333333,
+          "x1": 688,
+          "y0": 114.33333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.792156862745098,
+          "y1": 0.1142509875417806,
+          "x1": 0.8094117647058824,
+          "y0": 0.10422364023093285
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2019.9999999999998,
+          "y1": 376,
+          "x1": 2064,
+          "y0": 343
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_66",
+            "text": "30",
+            "distance": 140853.7542032121,
+            "pos": {
+              "x0": 675.3333333333333,
+              "y1": 123.33333333333333,
+              "x1": 686,
+              "y0": 116.33333333333333
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 84147,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e85f7a66a7d886e7cd2f6155c3b20ada",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 554.5,
+          "y1": 1233,
+          "x1": 615.5,
+          "y0": 1216
+        },
+        "pos_normalized": {
+          "x0": 0.6523529411764706,
+          "y1": 0.8798763082778307,
+          "x1": 0.7241176470588235,
+          "y0": 0.8677450047573739
+        },
+        "text": "- $14.10",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1663.5,
+          "y1": 3699,
+          "x1": 1846.5,
+          "y0": 3648
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 74,
+            "id": "word_2_359",
+            "text": "-",
+            "distance": 140157.3643405472,
+            "pos": {
+              "x0": 558.3333333333333,
+              "y1": 1225.3333333333333,
+              "x1": 563.3333333333333,
+              "y0": 1224.3333333333333
+            }
+          },
+          {
+            "score": 74,
+            "id": "word_2_360",
+            "text": "$14.10",
+            "distance": 140143.29155477104,
+            "pos": {
+              "x0": 567.3333333333333,
+              "y1": 1228.3333333333333,
+              "x1": 595,
+              "y0": 1220.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Lender Credits Borrower Paid At Closing",
+      "edit_input": {
+        "text": "-14.10"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c8f53c4bb9311f8a4bec1483a249bdd9",
+      "DATAPOINT ORDER": "28",
+      "ID": "d219d9b6-42dc-3624-9d54-a9801f3226b0",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 679433,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "-14.10",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "LENDER CREDITS BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 253.33333333333331,
+          "y1": 212.66666666666666,
+          "x1": 283,
+          "y0": 201.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.2980392156862745,
+          "y1": 0.19386204800972348,
+          "x1": 0.33294117647058824,
+          "y0": 0.18383470069887572
+        },
+        "text": "55309",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 760,
+          "y1": 638,
+          "x1": 849,
+          "y0": 605
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 47,
+            "id": "word_1_89",
+            "text": "55309",
+            "distance": 141083.13008727238,
+            "pos": {
+              "x0": 255.33333333333331,
+              "y1": 210.66666666666666,
+              "x1": 281,
+              "y0": 203.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 307494,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "55309",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "ObjectId": "9a9cf5f36b060478af6aa40338105640",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 606.5,
+          "y1": 559,
+          "x1": 773.5,
+          "y0": 534
+        },
+        "pos_normalized": {
+          "x0": 0.7135294117647059,
+          "y1": 0.5095715587967183,
+          "x1": 0.91,
+          "y0": 0.48678213309024615
+        },
+        "text": "CUSTOM TITLE SERVICES, LLC",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2edb46249554588af3a04",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddbb5215b99ddc006c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1819.5,
+          "y1": 1677,
+          "x1": 2320.5,
+          "y0": 1602
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_435",
+            "text": "CUSTOM",
+            "distance": 140592.87698271836,
+            "pos": {
+              "x0": 606.6666666666666,
+              "y1": 546,
+              "x1": 651.3333333333333,
+              "y0": 533.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_436",
+            "text": "TITLE",
+            "distance": 140563.1929935983,
+            "pos": {
+              "x0": 655.3333333333333,
+              "y1": 546,
+              "x1": 682.3333333333333,
+              "y0": 537.6666666666666
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_437",
+            "text": "SERVICES,",
+            "distance": 140531.63141482102,
+            "pos": {
+              "x0": 686.6666666666666,
+              "y1": 548,
+              "x1": 738.3333333333333,
+              "y0": 537.6666666666666
+            }
+          },
+          {
+            "score": 76,
+            "id": "word_5_438",
+            "text": "LLC",
+            "distance": 140506.3233149036,
+            "pos": {
+              "x0": 742.3333333333333,
+              "y1": 546.3333333333333,
+              "x1": 762.3333333333333,
+              "y0": 531.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 793814,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "CUSTOM TITLE SERVICES, LLC",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "ObjectId": "0d6640daa5e753d38d35c550ac2d459e",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 388.5,
+          "y1": 243,
+          "x1": 434.5,
+          "y0": 224
+        },
+        "pos_normalized": {
+          "x0": 0.45705882352941174,
+          "y1": 0.22151321786690975,
+          "x1": 0.5111764705882353,
+          "y0": 0.2041932543299909
+        },
+        "text": "4.172%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2edb46249554588af3a04",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2eddbb5215b99ddc006c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1165.5,
+          "y1": 729,
+          "x1": 1303.5,
+          "y0": 672
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 85,
+            "id": "word_5_75",
+            "text": "4.172%",
+            "distance": 140962.02999409294,
+            "pos": {
+              "x0": 392.3333333333333,
+              "y1": 238.33333333333331,
+              "x1": 434.3333333333333,
+              "y0": 228.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 799513,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4.172%",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "336cc6ba57ed31dd983142b17f124292",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 643.5,
+          "y1": 1217,
+          "x1": 696.5,
+          "y0": 1205
+        },
+        "pos_normalized": {
+          "x0": 0.7570588235294118,
+          "y1": 0.8684586108468126,
+          "x1": 0.8194117647058824,
+          "y0": 0.8598953377735491
+        },
+        "text": "$1,018.53",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1930.5,
+          "y1": 3651,
+          "x1": 2089.5,
+          "y0": 3615
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_342",
+            "text": "$1,018.53",
+            "distance": 140092.76579090173,
+            "pos": {
+              "x0": 644.3333333333333,
+              "y1": 1216.3333333333333,
+              "x1": 685,
+              "y0": 1207.6666666666665
+            }
+          }
+        ]
+      },
+      "label": "Closing Costs Subtotal Seller Paid At Closing",
+      "edit_input": {
+        "text": "1018.53",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8d9d10ed3d757cfdac3d23e5dbd2f4dd",
+      "DATAPOINT ORDER": "25",
+      "ID": "a1680f06-0112-3210-a60b-ec66e0aa60fa",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 632321,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1018.53",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "CLOSING COSTS SUBTOTAL SELLER PAID AT CLOSING"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589401427376,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 433.3333333333333,
+          "y1": 125.33333333333333,
+          "x1": 484,
+          "y0": 113.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.5098039215686274,
+          "y1": 0.1142509875417806,
+          "x1": 0.5694117647058824,
+          "y0": 0.10361592221209358
+        },
+        "text": "SWANSON",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1097
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2edb4afb5a33e2b56bc51",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda985e5af4baa752e1",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1300,
+          "y1": 376,
+          "x1": 1452,
+          "y0": 341
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_51",
+            "text": "SWANSON",
+            "distance": 141010.61329214825,
+            "pos": {
+              "x0": 435.3333333333333,
+              "y1": 123.33333333333333,
+              "x1": 482,
+              "y0": 115.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9a26d4b467ae9c029d5139a5f3d0510a",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 218548,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "SWANSON",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 313.5,
+          "y1": 906,
+          "x1": 353.5,
+          "y0": 892
+        },
+        "pos_normalized": {
+          "x0": 0.3688235294117647,
+          "y1": 0.6465271170313988,
+          "x1": 0.4158823529411765,
+          "y0": 0.6365366317792579
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 940.5,
+          "y1": 2718,
+          "x1": 1060.5,
+          "y0": 2676
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "05/01/2018"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9d99515938dffc1e517e855b06f02d54",
+      "DATAPOINT ORDER": "11",
+      "ID": "042e688a-3ebf-3c4f-bfca-55a2748db428",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 496411,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "05/01/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "ts": 1589401427376,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 562.5,
+          "y1": 762,
+          "x1": 637.5,
+          "y0": 749
+        },
+        "pos_normalized": {
+          "x0": 0.6617647058823529,
+          "y1": 0.543767840152236,
+          "x1": 0.75,
+          "y0": 0.5344909609895339
+        },
+        "text": "G OGO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1401.3333333333333
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2edb4f05d9716d35e3dbb",
+          "DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+          "scale": 3,
+          "PageOcr": "5eb2edda905a7345696ac93b",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1687.5,
+          "y1": 2286,
+          "x1": 1912.5,
+          "y0": 2247
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 14,
+            "id": "word_2_117",
+            "text": "G",
+            "distance": 140486.15413488657,
+            "pos": {
+              "x0": 560.3333333333333,
+              "y1": 755.6666666666666,
+              "x1": 569,
+              "y0": 754.3333333333333
+            }
+          },
+          {
+            "score": 0,
+            "id": "word_2_118",
+            "text": "OGO",
+            "distance": 140461.02913273766,
+            "pos": {
+              "x0": 588.3333333333333,
+              "y1": 761,
+              "x1": 613.6666666666666,
+              "y0": 747.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "5500.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "abf93dcc7ab4c899eac70682c924fb87",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "workflow_time_elapsed": 407591,
+      "Type": "ExtractionUI",
+      "UserName": "gyanaranjan.mohapatra@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5500.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "43c7c2af-b6b2-49b3-9a2c-f65644a933ac",
+      "ExtractionUI::DocumentId": "eeb91aec-d140-47a3-80ba-72a3e3daaa59",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    }
+  ],
+  "Total": 50,
+  "IndexScannedCount": 50
+}

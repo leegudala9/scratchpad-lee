@@ -1,0 +1,5499 @@
+{
+  "Results": [
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589990730081,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 38.5,
+          "y1": 1032,
+          "x1": 233.5,
+          "y0": 1002
+        },
+        "pos_normalized": {
+          "x0": 0.045294117647058825,
+          "y1": 0.9381818181818182,
+          "x1": 0.2747058823529412,
+          "y0": 0.9109090909090909
+        },
+        "text": "SJQZ th; 7",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31ba3f017bfa8a91b507a",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc264e2907020e9c5b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 115.5,
+          "y1": 3096,
+          "x1": 700.5,
+          "y0": 3006
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 59,
+            "id": "word_5_563",
+            "text": "SJQZ",
+            "distance": 140655.668360322,
+            "pos": {
+              "x0": 57.33333333333333,
+              "y1": 1034.3333333333333,
+              "x1": 99,
+              "y0": 973.3333333333333
+            }
+          },
+          {
+            "score": 45,
+            "id": "word_5_543",
+            "text": "th;",
+            "distance": 140673.67618495255,
+            "pos": {
+              "x0": 34.666666666666664,
+              "y1": 1026.3333333333333,
+              "x1": 68,
+              "y0": 984.3333333333333
+            }
+          },
+          {
+            "score": 0,
+            "id": "word_5_546",
+            "text": "7",
+            "distance": 140563.30783325987,
+            "pos": {
+              "x0": 149.33333333333331,
+              "y1": 1034.6666666666665,
+              "x1": 240,
+              "y0": 1000.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "edit_input": {
+        "text": null
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0defb50b2667afaab599045409fc362c",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 136503,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 219,
+          "y1": 249,
+          "x1": 253,
+          "y0": 235.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.2576470588235294,
+          "y1": 0.22636363636363635,
+          "x1": 0.29764705882352943,
+          "y0": 0.21424242424242423
+        },
+        "text": "97701",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 657,
+          "y1": 747,
+          "x1": 759,
+          "y0": 707
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 95,
+            "id": "word_1_91",
+            "text": "97701",
+            "distance": 141081.00224437655,
+            "pos": {
+              "x0": 221,
+              "y1": 247,
+              "x1": 251,
+              "y0": 237.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 171996,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "97701",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "ObjectId": "cbe0ffc83985b6777cab7c822ee5cc59",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 654.6666666666666,
+          "y1": 826.3333333333333,
+          "x1": 680.6666666666666,
+          "y0": 806
+        },
+        "pos_normalized": {
+          "x0": 0.7701960784313725,
+          "y1": 0.7512121212121211,
+          "x1": 0.8007843137254902,
+          "y0": 0.7327272727272728
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1964,
+          "y1": 2479,
+          "x1": 2042,
+          "y0": 2418
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_198",
+            "text": "YES",
+            "distance": 140370.0455800271,
+            "pos": {
+              "x0": 656.6666666666666,
+              "y1": 824.3333333333333,
+              "x1": 678.6666666666666,
+              "y0": 808
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 108001,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "4ee9ad9b6052bc4bb9967c632668bc15",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 728.5,
+          "y1": 118,
+          "x1": 807.5,
+          "y0": 103
+        },
+        "pos_normalized": {
+          "x0": 0.8570588235294118,
+          "y1": 0.10727272727272727,
+          "x1": 0.95,
+          "y0": 0.09363636363636364
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 2185.5,
+          "y1": 354,
+          "x1": 2422.5,
+          "y0": 309
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Origination Charges Paid By Others",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d56f5cc80077f89146c3ca3f0a76092c",
+      "DATAPOINT ORDER": "3",
+      "ID": "63e5c0dd-4212-3c05-9e65-9da06804f13d",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 194509,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES PAID BY OTHERS"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589990730081,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 412,
+          "y1": 159,
+          "x1": 463.66666666666663,
+          "y0": 145.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.48470588235294115,
+          "y1": 0.14454545454545453,
+          "x1": 0.5454901960784313,
+          "y0": 0.1321212121212121
+        },
+        "text": "Hamilton",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1236,
+          "y1": 477,
+          "x1": 1391,
+          "y0": 435.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 73,
+            "id": "word_1_42",
+            "text": "Hamilton",
+            "distance": 141002.18660440066,
+            "pos": {
+              "x0": 414,
+              "y1": 157,
+              "x1": 461.66666666666663,
+              "y0": 147.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3b037980cabfcce8eaff6662418901a1",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 124984,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Hamilton",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589990730081,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 368,
+          "y1": 158.33333333333331,
+          "x1": 412.66666666666663,
+          "y0": 144.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4329411764705882,
+          "y1": 0.14393939393939392,
+          "x1": 0.4854901960784313,
+          "y0": 0.1315151515151515
+        },
+        "text": "Joelene",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1104,
+          "y1": 474.99999999999994,
+          "x1": 1238,
+          "y0": 434
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_41",
+            "text": "Joelene",
+            "distance": 141036.20200393387,
+            "pos": {
+              "x0": 370,
+              "y1": 156.33333333333331,
+              "x1": 410.66666666666663,
+              "y0": 146.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bcb169e86a9caf683d64287a5b376942",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 121224,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Joelene",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 197.33333333333331,
+          "y1": 248.33333333333331,
+          "x1": 216.33333333333331,
+          "y0": 235.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.23215686274509803,
+          "y1": 0.22575757575757574,
+          "x1": 0.2545098039215686,
+          "y0": 0.21393939393939393
+        },
+        "text": "OR",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 592,
+          "y1": 745,
+          "x1": 649,
+          "y0": 706
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_90",
+            "text": "OR",
+            "distance": 141101.9818448896,
+            "pos": {
+              "x0": 199.33333333333331,
+              "y1": 246.33333333333331,
+              "x1": 214.33333333333331,
+              "y0": 237.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 174436,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "OR",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "ObjectId": "5edeb25f04628e311717ba4487be48ed",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 654.3333333333333,
+          "y1": 841.3333333333333,
+          "x1": 681,
+          "y0": 827.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.7698039215686273,
+          "y1": 0.7648484848484848,
+          "x1": 0.8011764705882353,
+          "y0": 0.7521212121212121
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1962.9999999999998,
+          "y1": 2524,
+          "x1": 2043,
+          "y0": 2482
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_205",
+            "text": "YES",
+            "distance": 140357.21000856668,
+            "pos": {
+              "x0": 656.3333333333333,
+              "y1": 839.3333333333333,
+              "x1": 679,
+              "y0": 829.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 110385,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "4c7309b67bc4954b0f51391ce7751489",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 576.5,
+          "y1": 119,
+          "x1": 725.5,
+          "y0": 102
+        },
+        "pos_normalized": {
+          "x0": 0.678235294117647,
+          "y1": 0.10818181818181818,
+          "x1": 0.8535294117647059,
+          "y0": 0.09272727272727273
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1729.5,
+          "y1": 357,
+          "x1": 2176.5,
+          "y0": 306
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Origination Charges Seller Paid",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b342af9622326d6d3fb11d8a9a806abd",
+      "DATAPOINT ORDER": "2",
+      "ID": "949b7663-69bb-3402-82a1-cfca9d7e48f2",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 189445,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES SELLER PAID"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 341.66666666666663,
+          "y1": 775.3333333333333,
+          "x1": 422.66666666666663,
+          "y0": 743.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.40196078431372545,
+          "y1": 0.7048484848484847,
+          "x1": 0.49725490196078426,
+          "y0": 0.676060606060606
+        },
+        "text": "$2,183.99",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1025,
+          "y1": 2326,
+          "x1": 1268,
+          "y0": 2231
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_185",
+            "text": "$2,183.99",
+            "distance": 140612.20781915693,
+            "pos": {
+              "x0": 343.66666666666663,
+              "y1": 773.3333333333333,
+              "x1": 420.66666666666663,
+              "y0": 745.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "2183.99",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "98ab4a38c6e7313bd07db6053a19321e",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 103186,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "2183.99",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 365.66666666666663,
+          "y1": 691,
+          "x1": 407,
+          "y0": 676.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.43019607843137253,
+          "y1": 0.6281818181818182,
+          "x1": 0.4788235294117647,
+          "y0": 0.6151515151515151
+        },
+        "text": "201.15",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1097,
+          "y1": 2073,
+          "x1": 1221,
+          "y0": 2030
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_166",
+            "text": "201.15",
+            "distance": 140662.670112361,
+            "pos": {
+              "x0": 367.66666666666663,
+              "y1": 689,
+              "x1": 405,
+              "y0": 678.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Projected Payment Mi Payment Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 99392,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "201.15",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d9cf4fe2ad521d0e9e27c2932eb1ed3a",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "17",
+      "ID": "4201173e-084d-370c-a869-fbd49dbeb784",
+      "NAME": "PROJECTED PAYMENT MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 241.66666666666666,
+          "y1": 1035.6666666666665,
+          "x1": 323,
+          "y0": 1014.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.28431372549019607,
+          "y1": 0.9415151515151514,
+          "x1": 0.38,
+          "y0": 0.9224242424242424
+        },
+        "text": "$8,450.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 725,
+          "y1": 3106.9999999999995,
+          "x1": 969,
+          "y0": 3044
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_267",
+            "text": "$8,450.00",
+            "distance": 140495.67468717875,
+            "pos": {
+              "x0": 243.66666666666666,
+              "y1": 1033.6666666666665,
+              "x1": 321,
+              "y0": 1016.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Cash From Borrower At Closing Amount",
+      "edit_input": {
+        "text": "8450.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a8bc3458b0e9b8f34bd819a84f465483",
+      "DATAPOINT ORDER": "4",
+      "ID": "df0f9de0-b502-331a-9910-2492d3df813d",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 113506,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "8450.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH FROM BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 422.5,
+          "y1": 132,
+          "x1": 500.5,
+          "y0": 118
+        },
+        "pos_normalized": {
+          "x0": 0.4970588235294118,
+          "y1": 0.12,
+          "x1": 0.5888235294117647,
+          "y0": 0.10727272727272727
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1267.5,
+          "y1": 396,
+          "x1": 1501.5,
+          "y0": 354
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Discount Points Borrower Paid At Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "89b5a073296e48366afeafdcc8eb22ce",
+      "DATAPOINT ORDER": "4",
+      "ID": "846f68fb-82a9-3ceb-a0cb-7129420f2f42",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 201277,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "DISCOUNT POINTS BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 165,
+          "y1": 249.33333333333331,
+          "x1": 198.33333333333331,
+          "y0": 234.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.19411764705882353,
+          "y1": 0.22666666666666666,
+          "x1": 0.2333333333333333,
+          "y0": 0.21333333333333332
+        },
+        "text": "Bend,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 495,
+          "y1": 748,
+          "x1": 595,
+          "y0": 704
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_89",
+            "text": "Bend,",
+            "distance": 141119.6637926283,
+            "pos": {
+              "x0": 167,
+              "y1": 247.33333333333331,
+              "x1": 196.33333333333331,
+              "y0": 236.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": {
+        "text": "Bend"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5939378c9b62bab5652d889d9c473554",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 169805,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Bend",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 158.5,
+          "y1": 237,
+          "x1": 263.5,
+          "y0": 216
+        },
+        "pos_normalized": {
+          "x0": 0.1864705882352941,
+          "y1": 0.21545454545454545,
+          "x1": 0.31,
+          "y0": 0.19636363636363635
+        },
+        "text": "21045 Don Street",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 475.5,
+          "y1": 711,
+          "x1": 790.5,
+          "y0": 648
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_81",
+            "text": "21045",
+            "distance": 141129.7958675315,
+            "pos": {
+              "x0": 167,
+              "y1": 231,
+              "x1": 199,
+              "y0": 221.66666666666666
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_82",
+            "text": "Don",
+            "distance": 141107.8725459513,
+            "pos": {
+              "x0": 203,
+              "y1": 231.33333333333331,
+              "x1": 224,
+              "y0": 222.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_83",
+            "text": "Street",
+            "distance": 141086.42379800798,
+            "pos": {
+              "x0": 228,
+              "y1": 232,
+              "x1": 259,
+              "y0": 222.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 164456,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "21045 Don Street",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "ObjectId": "7006bbbd51cbff9d03d7c4e157d08fec",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1589990730081,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 682.5,
+          "y1": 647,
+          "x1": 800.5,
+          "y0": 624
+        },
+        "pos_normalized": {
+          "x0": 0.8029411764705883,
+          "y1": 0.5881818181818181,
+          "x1": 0.941764705882353,
+          "y0": 0.5672727272727273
+        },
+        "text": "Deschutes DRy County Title",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31ba3f017bfa8a91b507a",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc264e2907020e9c5b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2047.5,
+          "y1": 1941,
+          "x1": 2401.5,
+          "y0": 1872
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_5_444",
+            "text": "Deschutes",
+            "distance": 125.63892266685872,
+            "pos": {
+              "x0": 689.3333333333333,
+              "y1": 639.3333333333333,
+              "x1": 737,
+              "y0": 631.3333333333333
+            }
+          },
+          {
+            "score": 12,
+            "id": "word_5_434",
+            "text": "DRy",
+            "distance": 134.26673286989435,
+            "pos": {
+              "x0": 698.6666666666666,
+              "y1": 627.3333333333333,
+              "x1": 714.6666666666666,
+              "y0": 623.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_445",
+            "text": "County",
+            "distance": 140.1842042139953,
+            "pos": {
+              "x0": 739.6666666666666,
+              "y1": 642,
+              "x1": 773.3333333333333,
+              "y0": 631.6666666666666
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_446",
+            "text": "Title",
+            "distance": 157.55933626556208,
+            "pos": {
+              "x0": 775.6666666666666,
+              "y1": 640,
+              "x1": 795.3333333333333,
+              "y0": 631.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "edit_input": {
+        "text": "Deschutes County Title"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e8773bdc128a12e97c714142169d6d10",
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 764948,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Deschutes County Title",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 728.5,
+          "y1": 263,
+          "x1": 803.5,
+          "y0": 246
+        },
+        "pos_normalized": {
+          "x0": 0.8570588235294118,
+          "y1": 0.2390909090909091,
+          "x1": 0.9452941176470588,
+          "y0": 0.22363636363636363
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 2185.5,
+          "y1": 789,
+          "x1": 2410.5,
+          "y0": 738
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Appraisal Fee Paid By Others",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d21c4b6c2922bc8a2555808fbaf09677",
+      "DATAPOINT ORDER": "13",
+      "ID": "51afc1fc-17fc-3658-992a-faf6e286ad66",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 257874,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE PAID BY OTHERS"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 686.6666666666666,
+          "y1": 689.3333333333333,
+          "x1": 716.3333333333333,
+          "y0": 676.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.8078431372549019,
+          "y1": 0.6266666666666666,
+          "x1": 0.8427450980392156,
+          "y0": 0.6148484848484848
+        },
+        "text": "Bend,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31ba3f017bfa8a91b507a",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc264e2907020e9c5b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2060,
+          "y1": 2068,
+          "x1": 2149,
+          "y0": 2028.9999999999998
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_5_471",
+            "text": "Bend,",
+            "distance": 76.74814510968841,
+            "pos": {
+              "x0": 688.6666666666666,
+              "y1": 687.3333333333333,
+              "x1": 714.3333333333333,
+              "y0": 678.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "Bend"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "28d5728f996534d6f3c705d23beef22a",
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 828038,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Bend",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 649.5,
+          "y1": 672,
+          "x1": 728.5,
+          "y0": 657
+        },
+        "pos_normalized": {
+          "x0": 0.7641176470588236,
+          "y1": 0.610909090909091,
+          "x1": 0.8570588235294118,
+          "y0": 0.5972727272727273
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1948.5,
+          "y1": 2016,
+          "x1": 2185.5,
+          "y0": 1971
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mi Prepaid Item Seller Paid Before Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2f05b20a40a640ecfb7a9220ca6ab76d",
+      "DATAPOINT ORDER": "8",
+      "ID": "029f2956-0d7e-36ba-8c7e-7da4ae1d08ea",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 315336,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "MI PREPAID ITEM SELLER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 593,
+          "y1": 1044,
+          "x1": 647.3333333333333,
+          "y0": 1030.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6976470588235294,
+          "y1": 0.9490909090909091,
+          "x1": 0.7615686274509803,
+          "y0": 0.9366666666666666
+        },
+        "text": "$10,548.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1779,
+          "y1": 3132,
+          "x1": 1941.9999999999998,
+          "y0": 3091
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_2_161",
+            "text": "$10,548.00",
+            "distance": 140247.6332464196,
+            "pos": {
+              "x0": 595,
+              "y1": 1042,
+              "x1": 645.3333333333333,
+              "y0": 1032.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Costs Subtotal Seller Paid At Closing",
+      "edit_input": {
+        "text": "10548.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0a39a1d8bf24655c5e6fdcb247c43d3d",
+      "DATAPOINT ORDER": "25",
+      "ID": "a1680f06-0112-3210-a60b-ec66e0aa60fa",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 705418,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "10548.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "CLOSING COSTS SUBTOTAL SELLER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "NUMBER",
+      "selection_input": {
+        "pos": {
+          "x0": 297.5,
+          "y1": 759,
+          "x1": 315.5,
+          "y0": 741
+        },
+        "pos_normalized": {
+          "x0": 0.35,
+          "y1": 0.69,
+          "x1": 0.3711764705882353,
+          "y0": 0.6736363636363636
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 892.5,
+          "y1": 2277,
+          "x1": 946.5,
+          "y0": 2223
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mi Escrow Collected Number Of Months Count",
+      "edit_input": {
+        "text": "0"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "48d5622d3e8561a4d0430c6f57bc131a",
+      "DATAPOINT ORDER": "19",
+      "ID": "0b7a5311-3b56-3f47-bc54-ee86d49a3155",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 672058,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "MI ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 242,
+          "y1": 682.3333333333333,
+          "x1": 287,
+          "y0": 670.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.2847058823529412,
+          "y1": 0.6203030303030302,
+          "x1": 0.3376470588235294,
+          "y0": 0.6093939393939394
+        },
+        "text": "11/15/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 726,
+          "y1": 2046.9999999999998,
+          "x1": 861,
+          "y0": 2010.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 57,
+            "id": "word_2_87",
+            "text": "11/15/18",
+            "distance": 140754.26653342028,
+            "pos": {
+              "x0": 244,
+              "y1": 680.3333333333333,
+              "x1": 285,
+              "y0": 672.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "11/15/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f6a522ea408c6b1823fc9a008677270f",
+      "DATAPOINT ORDER": "10",
+      "ID": "78640e69-866a-39bf-a5d6-80e73c2a7811",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 326024,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "11/15/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 497.5,
+          "y1": 1059,
+          "x1": 575.5,
+          "y0": 1046
+        },
+        "pos_normalized": {
+          "x0": 0.5852941176470589,
+          "y1": 0.9627272727272728,
+          "x1": 0.6770588235294117,
+          "y0": 0.9509090909090909
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1492.5,
+          "y1": 3177,
+          "x1": 1726.5,
+          "y0": 3138
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Lender Credits Borrower Paid Before Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a6f18329318d64c1e1dc2f1950ea37fc",
+      "DATAPOINT ORDER": "29",
+      "ID": "a9195488-98b8-315f-9e76-ec502a50bfbd",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 730068,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "LENDER CREDITS BORROWER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 661.6666666666666,
+          "y1": 161.33333333333331,
+          "x1": 678.3333333333333,
+          "y0": 148.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7784313725490196,
+          "y1": 0.14666666666666664,
+          "x1": 0.7980392156862745,
+          "y0": 0.13484848484848483
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1985,
+          "y1": 483.99999999999994,
+          "x1": 2034.9999999999998,
+          "y0": 444.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_44",
+            "text": "30",
+            "distance": 140836.46078233593,
+            "pos": {
+              "x0": 663.6666666666666,
+              "y1": 159.33333333333331,
+              "x1": 676.3333333333333,
+              "y0": 150.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 59672,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "521590f2215e0245b3a5bbd4e0ba0c52",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 456.5,
+          "y1": 842,
+          "x1": 502.5,
+          "y0": 823
+        },
+        "pos_normalized": {
+          "x0": 0.5370588235294118,
+          "y1": 0.7654545454545455,
+          "x1": 0.5911764705882353,
+          "y0": 0.7481818181818182
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1369.5,
+          "y1": 2526,
+          "x1": 1507.5,
+          "y0": 2469
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6a9dd66fec92563df611802679a5264b",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 684314,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 728.5,
+          "y1": 134,
+          "x1": 806.5,
+          "y0": 118
+        },
+        "pos_normalized": {
+          "x0": 0.8570588235294118,
+          "y1": 0.12181818181818181,
+          "x1": 0.9488235294117647,
+          "y0": 0.10727272727272727
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 2185.5,
+          "y1": 402,
+          "x1": 2419.5,
+          "y0": 354
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Discount Points Paid By Others",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c13037812f2ec37f4c758af528d0dd01",
+      "DATAPOINT ORDER": "8",
+      "ID": "065c61a4-2a60-3dc1-9520-89e900b88ad4",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 224898,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "DISCOUNT POINTS PAID BY OTHERS"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 665.5,
+          "y1": 223,
+          "x1": 690.5,
+          "y0": 204
+        },
+        "pos_normalized": {
+          "x0": 0.7829411764705883,
+          "y1": 0.20272727272727273,
+          "x1": 0.8123529411764706,
+          "y0": 0.18545454545454546
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1996.5,
+          "y1": 669,
+          "x1": 2071.5,
+          "y0": 612
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 77601,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "deaac0b5861f8665274a0c9c94cfcf17",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 499.5,
+          "y1": 132,
+          "x1": 574.5,
+          "y0": 117
+        },
+        "pos_normalized": {
+          "x0": 0.5876470588235294,
+          "y1": 0.12,
+          "x1": 0.6758823529411765,
+          "y0": 0.10636363636363637
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1498.5,
+          "y1": 396,
+          "x1": 1723.5,
+          "y0": 351
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Discount Points Borrower Paid Before Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d8099b322e50482655fbeb7dcbb4b49f",
+      "DATAPOINT ORDER": "5",
+      "ID": "e99c4128-bab3-3a54-89c1-914af77ecee7",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 207028,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "DISCOUNT POINTS BORROWER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 726.5,
+          "y1": 645,
+          "x1": 808.5,
+          "y0": 626
+        },
+        "pos_normalized": {
+          "x0": 0.8547058823529412,
+          "y1": 0.5863636363636363,
+          "x1": 0.9511764705882353,
+          "y0": 0.5690909090909091
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 2179.5,
+          "y1": 1935,
+          "x1": 2425.5,
+          "y0": 1878
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepaids Paid By Others",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7dd85406077a3d712d6dd3dfcc70a65a",
+      "DATAPOINT ORDER": "3",
+      "ID": "2eb6a4c6-7a26-37c5-8b82-c280da5d5f28",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 284608,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS PAID BY OTHERS"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 298,
+          "y1": 740.3333333333333,
+          "x1": 307,
+          "y0": 728.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.35058823529411764,
+          "y1": 0.673030303030303,
+          "x1": 0.3611764705882353,
+          "y0": 0.6624242424242424
+        },
+        "text": "3",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 894,
+          "y1": 2221,
+          "x1": 921,
+          "y0": 2186
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_101",
+            "text": "3",
+            "distance": 140686.29681671204,
+            "pos": {
+              "x0": 300,
+              "y1": 738.3333333333333,
+              "x1": 305,
+              "y0": 730.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 655735,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "3",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4397a97f3fef47f128f0baa3b8f12221",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "16",
+      "ID": "8558b5f4-fe1e-3399-921f-2c63e018db83",
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 193.5,
+          "y1": 745,
+          "x1": 236.5,
+          "y0": 727
+        },
+        "pos_normalized": {
+          "x0": 0.22764705882352942,
+          "y1": 0.6772727272727272,
+          "x1": 0.2782352941176471,
+          "y0": 0.6609090909090909
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 580.5,
+          "y1": 2235,
+          "x1": 709.5,
+          "y0": 2181
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Homeowners Insurance Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "49.60"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0129f17cbd2b5b64843499cf509f0309",
+      "DATAPOINT ORDER": "15",
+      "ID": "7dcfcd32-9f28-34a8-8c6a-4fb5be237e0e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 378373,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "49.60",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 167,
+          "y1": 156.33333333333331,
+          "x1": 230.33333333333331,
+          "y0": 143
+        },
+        "pos_normalized": {
+          "x0": 0.19647058823529412,
+          "y1": 0.1421212121212121,
+          "x1": 0.2709803921568627,
+          "y0": 0.13
+        },
+        "text": "11/13/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 501,
+          "y1": 468.99999999999994,
+          "x1": 691,
+          "y0": 429
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_39",
+            "text": "11/13/2018",
+            "distance": 141172.93030673015,
+            "pos": {
+              "x0": 169,
+              "y1": 154.33333333333331,
+              "x1": 228.33333333333331,
+              "y0": 145
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 18318,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "11/13/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b6683af31ca1fd07d58d3097a6a08ae1",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 652.5,
+          "y1": 1046,
+          "x1": 726.5,
+          "y0": 1031
+        },
+        "pos_normalized": {
+          "x0": 0.7676470588235295,
+          "y1": 0.9509090909090909,
+          "x1": 0.8547058823529412,
+          "y0": 0.9372727272727273
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1957.5,
+          "y1": 3138,
+          "x1": 2179.5,
+          "y0": 3093
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Closing Costs Subtotal Seller Paid Before Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "aa90135aae1404de132eee48fd4c4af9",
+      "DATAPOINT ORDER": "26",
+      "ID": "b50ef5f2-2b15-396e-8b2f-12617f0f9290",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 711730,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "CLOSING COSTS SUBTOTAL SELLER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 462.5,
+          "y1": 1033,
+          "x1": 531.5,
+          "y0": 1013
+        },
+        "pos_normalized": {
+          "x0": 0.5441176470588235,
+          "y1": 0.9390909090909091,
+          "x1": 0.6252941176470588,
+          "y0": 0.9209090909090909
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1387.5,
+          "y1": 3099,
+          "x1": 1594.5,
+          "y0": 3039
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "4848.10"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3066ddfe3a6cf6eb56fc66a79a12f20f",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 700995,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "4848.10",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 166.66666666666666,
+          "y1": 187.33333333333331,
+          "x1": 230,
+          "y0": 174.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.19607843137254902,
+          "y1": 0.1703030303030303,
+          "x1": 0.27058823529411763,
+          "y0": 0.15848484848484848
+        },
+        "text": "11/15/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 500,
+          "y1": 562,
+          "x1": 690,
+          "y0": 523
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_56",
+            "text": "11/15/2018",
+            "distance": 141151.12413818113,
+            "pos": {
+              "x0": 168.66666666666666,
+              "y1": 185.33333333333331,
+              "x1": 228,
+              "y0": 176.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 22667,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "11/15/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c94369b79a0fa35b0ae7cb3c39e4d53a",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 726.5,
+          "y1": 757,
+          "x1": 798.5,
+          "y0": 741
+        },
+        "pos_normalized": {
+          "x0": 0.8547058823529412,
+          "y1": 0.6881818181818182,
+          "x1": 0.9394117647058824,
+          "y0": 0.6736363636363636
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 2179.5,
+          "y1": 2271,
+          "x1": 2395.5,
+          "y0": 2223
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mi Prepaid Item By Lender",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "58a6956b410e94d8c433bee5b3b7a4a9",
+      "DATAPOINT ORDER": "19",
+      "ID": "897c6f0a-b1d0-3903-868b-3e5d33bcbab7",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 666978,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "MI PREPAID ITEM BY LENDER"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 249.5,
+          "y1": 379,
+          "x1": 335.5,
+          "y0": 351
+        },
+        "pos_normalized": {
+          "x0": 0.29352941176470587,
+          "y1": 0.34454545454545454,
+          "x1": 0.3947058823529412,
+          "y0": 0.3190909090909091
+        },
+        "text": "5.25 %",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 748.5,
+          "y1": 1137,
+          "x1": 1006.5,
+          "y0": 1053
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_118",
+            "text": "5.25",
+            "distance": 140967.52532064886,
+            "pos": {
+              "x0": 259,
+              "y1": 370.3333333333333,
+              "x1": 291.66666666666663,
+              "y0": 356.66666666666663
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_1_119",
+            "text": "%",
+            "distance": 140946.3044709856,
+            "pos": {
+              "x0": 297.3333333333333,
+              "y1": 370.3333333333333,
+              "x1": 312.66666666666663,
+              "y0": 357.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "edit_input": {
+        "text": "5.25%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bfde5fbad075fe6c44d5a1ba5c9a352c",
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 85537,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "5.25%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 189.66666666666666,
+          "y1": 769,
+          "x1": 230.66666666666666,
+          "y0": 755.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.22313725490196076,
+          "y1": 0.6990909090909091,
+          "x1": 0.27137254901960783,
+          "y0": 0.6866666666666666
+        },
+        "text": "$245.98",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 569,
+          "y1": 2307,
+          "x1": 692,
+          "y0": 2266
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_106",
+            "text": "$245.98",
+            "distance": 140732.23270768102,
+            "pos": {
+              "x0": 191.66666666666666,
+              "y1": 767,
+              "x1": 228.66666666666666,
+              "y0": 757.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "245.98",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ff80615d878079bc4e4bb1e06b973e83",
+      "DATAPOINT ORDER": "20",
+      "ID": "3620d405-85e5-3565-a0e3-6fe0a7eac86b",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 675450,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "245.98",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 444.5,
+          "y1": 662,
+          "x1": 508.5,
+          "y0": 641
+        },
+        "pos_normalized": {
+          "x0": 0.5229411764705882,
+          "y1": 0.6018181818181818,
+          "x1": 0.5982352941176471,
+          "y0": 0.5827272727272728
+        },
+        "text": "1",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1333.5,
+          "y1": 1986,
+          "x1": 1525.5,
+          "y0": 1923
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_2_78",
+            "text": "1",
+            "distance": 140613.1781341991,
+            "pos": {
+              "x0": 489,
+              "y1": 653.3333333333333,
+              "x1": 492,
+              "y0": 645.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "595.21"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d4a1bd5ff8683224efc67cddc561515e",
+      "DATAPOINT ORDER": "4",
+      "ID": "5234449a-1671-3214-ba16-9ad299691f0f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 291955,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "595.21",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 651.5,
+          "y1": 261,
+          "x1": 728.5,
+          "y0": 243
+        },
+        "pos_normalized": {
+          "x0": 0.7664705882352941,
+          "y1": 0.23727272727272727,
+          "x1": 0.8570588235294118,
+          "y0": 0.22090909090909092
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1954.5,
+          "y1": 783,
+          "x1": 2185.5,
+          "y0": 729
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Appraisal Fee Seller Paid Before Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "68b8dad19621f7fe48e46129f8ea4417",
+      "DATAPOINT ORDER": "12",
+      "ID": "ca01092b-98a0-31e0-a15f-e2c643278b08",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 251546,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE SELLER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 442.5,
+          "y1": 180,
+          "x1": 463.5,
+          "y0": 164
+        },
+        "pos_normalized": {
+          "x0": 0.5205882352941177,
+          "y1": 0.16363636363636364,
+          "x1": 0.5452941176470588,
+          "y0": 0.14909090909090908
+        },
+        "text": "[X]",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb31ba3400c49184d45a098",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2be2a2a9f1509c622",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1327.5,
+          "y1": 540,
+          "x1": 1390.5,
+          "y0": 492
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 26,
+            "id": "word_4_360",
+            "text": "[X]",
+            "distance": 140979.08113105135,
+            "pos": {
+              "x0": 445,
+              "y1": 178,
+              "x1": 456.66666666666663,
+              "y0": 165.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 756598,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "21ab23213ae0b83f0a88247f29bcca3f",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 463.5,
+          "y1": 532,
+          "x1": 536.5,
+          "y0": 510
+        },
+        "pos_normalized": {
+          "x0": 0.5452941176470588,
+          "y1": 0.48363636363636364,
+          "x1": 0.6311764705882353,
+          "y0": 0.4636363636363636
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1390.5,
+          "y1": 1596,
+          "x1": 1609.5,
+          "y0": 1530
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "3211.10"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "148e04bf09e18861dc96b0578faa5c33",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 264532,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "3211.10",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 247.5,
+          "y1": 437,
+          "x1": 351.5,
+          "y0": 404
+        },
+        "pos_normalized": {
+          "x0": 0.2911764705882353,
+          "y1": 0.3972727272727273,
+          "x1": 0.41352941176470587,
+          "y0": 0.36727272727272725
+        },
+        "text": "$1,687.26",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 742.5,
+          "y1": 1311,
+          "x1": 1054.5,
+          "y0": 1212
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_125",
+            "text": "$1,687.26",
+            "distance": 140911.55938113175,
+            "pos": {
+              "x0": 258.3333333333333,
+              "y1": 429.3333333333333,
+              "x1": 336,
+              "y0": 412.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "1687.26",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f1e381b3b99b1336163ac7c29393597d",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 90034,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "1687.26",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 421.5,
+          "y1": 671,
+          "x1": 492.5,
+          "y0": 657
+        },
+        "pos_normalized": {
+          "x0": 0.4958823529411765,
+          "y1": 0.61,
+          "x1": 0.5794117647058824,
+          "y0": 0.5972727272727273
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1264.5,
+          "y1": 2013,
+          "x1": 1477.5,
+          "y0": 1971
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mi Prepaid Item Borrower Paid At Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8e7c37b83d55071667f78a2dc1663e68",
+      "DATAPOINT ORDER": "5",
+      "ID": "0216f637-969e-312d-91f0-e46c0b81390a",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 298176,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "MI PREPAID ITEM BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 725.5,
+          "y1": 674,
+          "x1": 812.5,
+          "y0": 656
+        },
+        "pos_normalized": {
+          "x0": 0.8535294117647059,
+          "y1": 0.6127272727272727,
+          "x1": 0.9558823529411765,
+          "y0": 0.5963636363636363
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 2176.5,
+          "y1": 2022,
+          "x1": 2437.5,
+          "y0": 1968
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mi Prepaid Item Paid By Others",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "12c76928047a559852c88f730080a7d9",
+      "DATAPOINT ORDER": "9",
+      "ID": "8ce9f076-6098-3af1-a65d-63076b2e079e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 321568,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "MI PREPAID ITEM PAID BY OTHERS"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 401.5,
+          "y1": 531,
+          "x1": 463.5,
+          "y0": 501
+        },
+        "pos_normalized": {
+          "x0": 0.4723529411764706,
+          "y1": 0.4827272727272727,
+          "x1": 0.5452941176470588,
+          "y0": 0.45545454545454545
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1204.5,
+          "y1": 1593,
+          "x1": 1390.5,
+          "y0": 1503
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 95074,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "cdde7db18cdd83047197e654bb7434dd",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 299.3333333333333,
+          "y1": 682.6666666666666,
+          "x1": 338.66666666666663,
+          "y0": 670.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.352156862745098,
+          "y1": 0.6206060606060606,
+          "x1": 0.39843137254901956,
+          "y0": 0.6093939393939394
+        },
+        "text": "12/1/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 898,
+          "y1": 2048,
+          "x1": 1015.9999999999999,
+          "y0": 2010.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_89",
+            "text": "12/1/18",
+            "distance": 140715.5371814001,
+            "pos": {
+              "x0": 301.3333333333333,
+              "y1": 680.6666666666666,
+              "x1": 336.66666666666663,
+              "y0": 672.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "12/01/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9f303b372556212be141117cafcba26e",
+      "DATAPOINT ORDER": "11",
+      "ID": "042e688a-3ebf-3c4f-bfca-55a2748db428",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 328768,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "12/01/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 498.5,
+          "y1": 260,
+          "x1": 577.5,
+          "y0": 247
+        },
+        "pos_normalized": {
+          "x0": 0.5864705882352941,
+          "y1": 0.23636363636363636,
+          "x1": 0.6794117647058824,
+          "y0": 0.22454545454545455
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1495.5,
+          "y1": 780,
+          "x1": 1732.5,
+          "y0": 741
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Appraisal Fee Borrower Paid Before Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "04d5d324a7ae9b566d3b1d0e752c781b",
+      "DATAPOINT ORDER": "10",
+      "ID": "c9c79e02-6ac9-3777-9372-bc18bcb32cb4",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 239722,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 725.5,
+          "y1": 1044,
+          "x1": 806.5,
+          "y0": 1029
+        },
+        "pos_normalized": {
+          "x0": 0.8535294117647059,
+          "y1": 0.9490909090909091,
+          "x1": 0.9488235294117647,
+          "y0": 0.9354545454545454
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 2176.5,
+          "y1": 3132,
+          "x1": 2419.5,
+          "y0": 3087
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Closing Costs Subtotal Paid By Others",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f37fca9a8bec645dd1a14c11e15953e4",
+      "DATAPOINT ORDER": "27",
+      "ID": "4807021b-41d4-3c19-90ad-93cce4568841",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 719402,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "CLOSING COSTS SUBTOTAL PAID BY OTHERS"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 449.5,
+          "y1": 260,
+          "x1": 501.5,
+          "y0": 243
+        },
+        "pos_normalized": {
+          "x0": 0.5288235294117647,
+          "y1": 0.23636363636363636,
+          "x1": 0.59,
+          "y0": 0.22090909090909092
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1348.5,
+          "y1": 780,
+          "x1": 1504.5,
+          "y0": 729
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Appraisal Fee Borrower Paid At Closing",
+      "edit_input": {
+        "text": "725.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3692ee3add2c44427d942f54a55b246a",
+      "DATAPOINT ORDER": "9",
+      "ID": "5efd8943-a0a6-3fd3-b5e0-e3cfa2f56048",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 233570,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "725.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 653.5,
+          "y1": 131,
+          "x1": 730.5,
+          "y0": 117
+        },
+        "pos_normalized": {
+          "x0": 0.7688235294117647,
+          "y1": 0.1190909090909091,
+          "x1": 0.8594117647058823,
+          "y0": 0.10636363636363637
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1960.5,
+          "y1": 393,
+          "x1": 2191.5,
+          "y0": 351
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Discount Points Seller Paid Before Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "308e48ce716805a86f1ae6d99ab8ff62",
+      "DATAPOINT ORDER": "7",
+      "ID": "841d2c86-5c9d-3784-aed4-a9d0b9c26cd0",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 219354,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "DISCOUNT POINTS SELLER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 258.3333333333333,
+          "y1": 337,
+          "x1": 335,
+          "y0": 315.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.30392156862745096,
+          "y1": 0.30636363636363634,
+          "x1": 0.3941176470588235,
+          "y0": 0.28696969696969693
+        },
+        "text": "$305,550",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 775,
+          "y1": 1011,
+          "x1": 1005,
+          "y0": 946.9999999999999
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 45,
+            "id": "word_1_114",
+            "text": "$305,550",
+            "distance": 140978.7089530031,
+            "pos": {
+              "x0": 260.3333333333333,
+              "y1": 335,
+              "x1": 333,
+              "y0": 317.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "305550",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "12405631f87f6bf1ad70e24e4949fd9b",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 80282,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "305550",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 575.5,
+          "y1": 645,
+          "x1": 728.5,
+          "y0": 625
+        },
+        "pos_normalized": {
+          "x0": 0.6770588235294117,
+          "y1": 0.5863636363636363,
+          "x1": 0.8570588235294118,
+          "y0": 0.5681818181818182
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1726.5,
+          "y1": 1935,
+          "x1": 2185.5,
+          "y0": 1875
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepaids Seller Paid",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7ad93b270d5dbe860ab608d0241317ab",
+      "DATAPOINT ORDER": "2",
+      "ID": "5af0f980-91c6-3a4f-b909-66162cc49882",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 279129,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS SELLER PAID"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 390.3333333333333,
+          "y1": 279.3333333333333,
+          "x1": 422,
+          "y0": 266.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.45921568627450976,
+          "y1": 0.2539393939393939,
+          "x1": 0.4964705882352941,
+          "y0": 0.2421212121212121
+        },
+        "text": "59%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31ba3f017bfa8a91b507a",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc264e2907020e9c5b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1171,
+          "y1": 838,
+          "x1": 1266,
+          "y0": 799
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_75",
+            "text": "59%",
+            "distance": 560.0833767296517,
+            "pos": {
+              "x0": 392.3333333333333,
+              "y1": 277.3333333333333,
+              "x1": 420,
+              "y0": 268.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "edit_input": {
+        "text": "5.9%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bf57497976baba5a5daf5d0b8b118353",
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 771628,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "5.9%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 358.5,
+          "y1": 269,
+          "x1": 582.5,
+          "y0": 236
+        },
+        "pos_normalized": {
+          "x0": 0.42176470588235293,
+          "y1": 0.24454545454545454,
+          "x1": 0.6852941176470588,
+          "y0": 0.21454545454545454
+        },
+        "text": "| PMC, Mortgage LLC dba Company Landmark Professional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1075.5,
+          "y1": 807,
+          "x1": 1747.5,
+          "y0": 708
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 78,
+            "id": "word_1_93",
+            "text": "|",
+            "distance": 140985.45209869073,
+            "pos": {
+              "x0": 362.66666666666663,
+              "y1": 253.66666666666666,
+              "x1": 374.66666666666663,
+              "y0": 236
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_1_94",
+            "text": "PMC,",
+            "distance": 140973.20356257228,
+            "pos": {
+              "x0": 370,
+              "y1": 250.33333333333331,
+              "x1": 401.66666666666663,
+              "y0": 239.66666666666666
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_104",
+            "text": "Mortgage",
+            "distance": 140956.46609237193,
+            "pos": {
+              "x0": 369.3333333333333,
+              "y1": 265.3333333333333,
+              "x1": 420.66666666666663,
+              "y0": 253.66666666666666
+            }
+          },
+          {
+            "score": 86,
+            "id": "word_1_95",
+            "text": "LLC",
+            "distance": 140953.42035629673,
+            "pos": {
+              "x0": 405,
+              "y1": 249.33333333333331,
+              "x1": 423.3333333333333,
+              "y0": 240
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_1_96",
+            "text": "dba",
+            "distance": 140937.52466055463,
+            "pos": {
+              "x0": 426.66666666666663,
+              "y1": 249.33333333333331,
+              "x1": 446.3333333333333,
+              "y0": 240.33333333333331
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_1_105",
+            "text": "Company",
+            "distance": 140917.9595810981,
+            "pos": {
+              "x0": 423.66666666666663,
+              "y1": 266,
+              "x1": 474.3333333333333,
+              "y0": 254
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_1_97",
+            "text": "Landmark",
+            "distance": 140909.15191050895,
+            "pos": {
+              "x0": 450,
+              "y1": 250,
+              "x1": 502.3333333333333,
+              "y0": 240.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_98",
+            "text": "Professional",
+            "distance": 140865.95595202476,
+            "pos": {
+              "x0": 505.66666666666663,
+              "y1": 251,
+              "x1": 567.6666666666666,
+              "y0": 241
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "edit_input": {
+        "text": "LPMC, LLC dba Landmark Professional Mortgage Company "
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e9364f52a17328261e16e33461d3416e",
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 53334,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "LPMC, LLC dba Landmark Professional Mortgage Company ",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 465.5,
+          "y1": 117,
+          "x1": 542.5,
+          "y0": 102
+        },
+        "pos_normalized": {
+          "x0": 0.5476470588235294,
+          "y1": 0.10636363636363637,
+          "x1": 0.638235294117647,
+          "y0": 0.09272727272727273
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1396.5,
+          "y1": 351,
+          "x1": 1627.5,
+          "y0": 306
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "1295.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e619cdb1bc93cbbc124d5edb5b0539f8",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 184357,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "1295.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 681.5,
+          "y1": 773,
+          "x1": 743.5,
+          "y0": 754
+        },
+        "pos_normalized": {
+          "x0": 0.8017647058823529,
+          "y1": 0.7027272727272728,
+          "x1": 0.8747058823529412,
+          "y0": 0.6854545454545454
+        },
+        "text": "Becky Felix",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31ba3f017bfa8a91b507a",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc264e2907020e9c5b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2044.5,
+          "y1": 2319,
+          "x1": 2230.5,
+          "y0": 2262
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_501",
+            "text": "Becky",
+            "distance": 15.441646429200617,
+            "pos": {
+              "x0": 687.6666666666666,
+              "y1": 769,
+              "x1": 714.3333333333333,
+              "y0": 754.3333333333333
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_502",
+            "text": "Felix",
+            "distance": 42.11162415401336,
+            "pos": {
+              "x0": 717.3333333333333,
+              "y1": 767,
+              "x1": 738.3333333333333,
+              "y0": 758.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 831290,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Becky Felix",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "ObjectId": "ad378f9278220f7edc060ffc634ed379",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 573.5,
+          "y1": 671,
+          "x1": 650.5,
+          "y0": 655
+        },
+        "pos_normalized": {
+          "x0": 0.6747058823529412,
+          "y1": 0.61,
+          "x1": 0.7652941176470588,
+          "y0": 0.5954545454545455
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1720.5,
+          "y1": 2013,
+          "x1": 1951.5,
+          "y0": 1965
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mi Prepaid Item Seller Paid At Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "34b8d80d8432bdf4f4a71bea2723a858",
+      "DATAPOINT ORDER": "7",
+      "ID": "b3653ddf-417d-3e83-8ed5-86ee4bf3a431",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 309536,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "MI PREPAID ITEM SELLER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 576.5,
+          "y1": 133,
+          "x1": 651.5,
+          "y0": 117
+        },
+        "pos_normalized": {
+          "x0": 0.678235294117647,
+          "y1": 0.12090909090909091,
+          "x1": 0.7664705882352941,
+          "y0": 0.10636363636363637
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1729.5,
+          "y1": 399,
+          "x1": 1954.5,
+          "y0": 351
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Discount Points Seller Paid At Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8ef21a8c67846b111fc8e8c5522a28ce",
+      "DATAPOINT ORDER": "6",
+      "ID": "a240b365-77be-3566-874f-58a2661cdb89",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 213572,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "DISCOUNT POINTS SELLER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 657.5,
+          "y1": 212,
+          "x1": 791.5,
+          "y0": 178
+        },
+        "pos_normalized": {
+          "x0": 0.7735294117647059,
+          "y1": 0.19272727272727272,
+          "x1": 0.9311764705882353,
+          "y0": 0.1618181818181818
+        },
+        "text": "Fixed Rate",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1972.5,
+          "y1": 636,
+          "x1": 2374.5,
+          "y0": 534
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 48,
+            "id": "word_1_61",
+            "text": "Fixed",
+            "distance": 140809.31281395734,
+            "pos": {
+              "x0": 663.6666666666666,
+              "y1": 190.33333333333331,
+              "x1": 691,
+              "y0": 181.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_62",
+            "text": "Rate",
+            "distance": 140788.73950335817,
+            "pos": {
+              "x0": 694.6666666666666,
+              "y1": 191,
+              "x1": 717.3333333333333,
+              "y0": 181.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Interest Only Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 73189,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "a76b77013164cb9cad32969acceab3bb",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "10",
+      "ID": "91cec963-8a42-34c7-9928-e0dafef170ac",
+      "NAME": "INTEREST ONLY INDICATOR"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 167,
+          "y1": 172,
+          "x1": 230.33333333333331,
+          "y0": 157.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.19647058823529412,
+          "y1": 0.15636363636363637,
+          "x1": 0.2709803921568627,
+          "y0": 0.1433333333333333
+        },
+        "text": "11/14/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 501,
+          "y1": 516,
+          "x1": 691,
+          "y0": 473
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_48",
+            "text": "11/14/2018",
+            "distance": 141162.20362927258,
+            "pos": {
+              "x0": 169,
+              "y1": 170,
+              "x1": 228.33333333333331,
+              "y0": 159.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 20532,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "11/14/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "111a57fdfa23251ff070bcb18391c86d",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 726.5,
+          "y1": 728,
+          "x1": 805.5,
+          "y0": 711
+        },
+        "pos_normalized": {
+          "x0": 0.8547058823529412,
+          "y1": 0.6618181818181819,
+          "x1": 0.9476470588235294,
+          "y0": 0.6463636363636364
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 2179.5,
+          "y1": 2184,
+          "x1": 2416.5,
+          "y0": 2133
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Initial Escrow Payment At Closing Paid By Others",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8b15075750fa6185938779d341901a57",
+      "DATAPOINT ORDER": "14",
+      "ID": "c306b007-5089-36b1-acfd-a15bf5ae1419",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 372190,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING PAID BY OTHERS"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 575.5,
+          "y1": 729,
+          "x1": 727.5,
+          "y0": 711
+        },
+        "pos_normalized": {
+          "x0": 0.6770588235294117,
+          "y1": 0.6627272727272727,
+          "x1": 0.8558823529411764,
+          "y0": 0.6463636363636364
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1726.5,
+          "y1": 2187,
+          "x1": 2182.5,
+          "y0": 2133
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Initial Escrow Payment At Closing Seller Paid",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4d8672e09d006674d4b37694ef81bb80",
+      "DATAPOINT ORDER": "13",
+      "ID": "90ad1b72-2207-3bf4-b758-301561e93b9f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 366158,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING SELLER PAID"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 496.5,
+          "y1": 670,
+          "x1": 578.5,
+          "y0": 657
+        },
+        "pos_normalized": {
+          "x0": 0.5841176470588235,
+          "y1": 0.6090909090909091,
+          "x1": 0.6805882352941176,
+          "y0": 0.5972727272727273
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1489.5,
+          "y1": 2010,
+          "x1": 1735.5,
+          "y0": 1971
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mi Prepaid Item Borrower Paid Before Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1b4d62a67b8ad0067217f755c3080dcd",
+      "DATAPOINT ORDER": "6",
+      "ID": "d88b2d6f-794d-3891-bc81-fd82b3a2194e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 304520,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "MI PREPAID ITEM BORROWER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 165,
+          "y1": 271,
+          "x1": 216.33333333333331,
+          "y0": 255.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.19411764705882353,
+          "y1": 0.24636363636363637,
+          "x1": 0.2545098039215686,
+          "y0": 0.2324242424242424
+        },
+        "text": "$315,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 495,
+          "y1": 813,
+          "x1": 649,
+          "y0": 766.9999999999999
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_103",
+            "text": "$315,000",
+            "distance": 141098.21779428053,
+            "pos": {
+              "x0": 167,
+              "y1": 269,
+              "x1": 214.33333333333331,
+              "y0": 257.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "315000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c5f07ef621f476b496c0bb2532b0c615",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 27311,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "315000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 462.5,
+          "y1": 645,
+          "x1": 535.5,
+          "y0": 625
+        },
+        "pos_normalized": {
+          "x0": 0.5441176470588235,
+          "y1": 0.5863636363636363,
+          "x1": 0.63,
+          "y0": 0.5681818181818182
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1387.5,
+          "y1": 1935,
+          "x1": 1606.5,
+          "y0": 1875
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "1298.41"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9724bf2baa51305315597cce686d9d6e",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 273154,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "1298.41",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 297.66666666666663,
+          "y1": 768.3333333333333,
+          "x1": 307.3333333333333,
+          "y0": 756.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3501960784313725,
+          "y1": 0.6984848484848484,
+          "x1": 0.3615686274509804,
+          "y0": 0.6875757575757575
+        },
+        "text": "3",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 892.9999999999999,
+          "y1": 2305,
+          "x1": 922,
+          "y0": 2269
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_2_110",
+            "text": "3",
+            "distance": 140666.6598405409,
+            "pos": {
+              "x0": 299.66666666666663,
+              "y1": 766.3333333333333,
+              "x1": 305.3333333333333,
+              "y0": 758.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 678439,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "3",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ac3a7b0344f5df0eba21c49d66a3459b",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "21",
+      "ID": "8c9921ed-62f0-38c2-b6de-b669654c4533",
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 450.3333333333333,
+          "y1": 1057.3333333333333,
+          "x1": 494,
+          "y0": 1044
+        },
+        "pos_normalized": {
+          "x0": 0.5298039215686274,
+          "y1": 0.9612121212121212,
+          "x1": 0.5811764705882353,
+          "y0": 0.9490909090909091
+        },
+        "text": "-$834.15",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1351,
+          "y1": 3172,
+          "x1": 1482,
+          "y0": 3132
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 82,
+            "id": "word_2_170",
+            "text": "-$834.15",
+            "distance": 140343.0252920995,
+            "pos": {
+              "x0": 452.3333333333333,
+              "y1": 1055.3333333333333,
+              "x1": 492,
+              "y0": 1046
+            }
+          }
+        ]
+      },
+      "label": "Lender Credits Borrower Paid At Closing",
+      "edit_input": {
+        "text": "-834.15"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bb67bb8fe6e88510e4cf435cf649fe5b",
+      "DATAPOINT ORDER": "28",
+      "ID": "d219d9b6-42dc-3624-9d54-a9801f3226b0",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 724146,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "-834.15",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "LENDER CREDITS BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 677,
+          "y1": 163.66666666666666,
+          "x1": 708.3333333333333,
+          "y0": 150.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7964705882352942,
+          "y1": 0.14878787878787877,
+          "x1": 0.8333333333333333,
+          "y0": 0.13696969696969696
+        },
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2031,
+          "y1": 491,
+          "x1": 2125,
+          "y0": 452
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_45",
+            "text": "years",
+            "distance": 140818.82109933157,
+            "pos": {
+              "x0": 679,
+              "y1": 161.66666666666666,
+              "x1": 706.3333333333333,
+              "y0": 152.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 63786,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "49e8ad41d346b6eb92559457bb1ba55d",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 662.3333333333333,
+          "y1": 178.66666666666666,
+          "x1": 713,
+          "y0": 164.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7792156862745098,
+          "y1": 0.16242424242424242,
+          "x1": 0.8388235294117647,
+          "y0": 0.1496969696969697
+        },
+        "text": "pyrchase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1986.9999999999998,
+          "y1": 536,
+          "x1": 2139,
+          "y0": 494
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 42,
+            "id": "word_1_53",
+            "text": "pyrchase",
+            "distance": 140812.06720562774,
+            "pos": {
+              "x0": 664.3333333333333,
+              "y1": 176.66666666666666,
+              "x1": 711,
+              "y0": 166.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 67998,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "PURCHASE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "control_input": {
+        "type": "text",
+        "value": "PURCHASE",
+        "control": "radio"
+      },
+      "ObjectId": "e96965e006b45757a8f83bf8fc6587be",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 190.5,
+          "y1": 758,
+          "x1": 233.5,
+          "y0": 741
+        },
+        "pos_normalized": {
+          "x0": 0.22411764705882353,
+          "y1": 0.6890909090909091,
+          "x1": 0.2747058823529412,
+          "y0": 0.6736363636363636
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 571.5,
+          "y1": 2274,
+          "x1": 700.5,
+          "y0": 2223
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Mi Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fafd17251bef62e26d8040fdc66ad3b4",
+      "DATAPOINT ORDER": "18",
+      "ID": "8589b5e8-ba93-3e0d-aea2-32f725654d6f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 660331,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "MI ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 365.66666666666663,
+          "y1": 691,
+          "x1": 407,
+          "y0": 676.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.43019607843137253,
+          "y1": 0.6281818181818182,
+          "x1": 0.4788235294117647,
+          "y0": 0.6151515151515151
+        },
+        "text": "201.15",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31ba31d0480a8dd4ed8bf",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc2813a2f49071e96c5",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1097,
+          "y1": 2073,
+          "x1": 1221,
+          "y0": 2030
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_166",
+            "text": "201.15",
+            "distance": 140662.670112361,
+            "pos": {
+              "x0": 367.66666666666663,
+              "y1": 689,
+              "x1": 405,
+              "y0": 678.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mi Initial Premium Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 97103,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "201.15",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4788c3394db34864276abc7e99e57776",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "16",
+      "ID": "2a7a5bfe-3163-3270-a5c6-4e1f02470490",
+      "NAME": "MI INITIAL PREMIUM AMOUNT"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 463.5,
+          "y1": 731,
+          "x1": 529.5,
+          "y0": 711
+        },
+        "pos_normalized": {
+          "x0": 0.5452941176470588,
+          "y1": 0.6645454545454546,
+          "x1": 0.6229411764705882,
+          "y0": 0.6463636363636364
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1390.5,
+          "y1": 2193,
+          "x1": 1588.5,
+          "y0": 2133
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "886.74"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3e8b0cfc32ebdebd720f6db8b3a2232f",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 359877,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "886.74",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "ts": 1589990730080,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 574.5,
+          "y1": 259,
+          "x1": 654.5,
+          "y0": 245
+        },
+        "pos_normalized": {
+          "x0": 0.6758823529411765,
+          "y1": 0.23545454545454544,
+          "x1": 0.77,
+          "y0": 0.22272727272727272
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31ba33b5204bebe296d74",
+          "DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+          "scale": 3,
+          "PageOcr": "5eb31bc283d0a56a30f76fdb",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1723.5,
+          "y1": 777,
+          "x1": 1963.5,
+          "y0": 735
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Appraisal Fee Seller Paid At Closing",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "928832ec9b15b9f03abaae60777e26c6",
+      "DATAPOINT ORDER": "11",
+      "ID": "49efdd08-9cd0-3337-b183-6c091b62b252",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "workflow_time_elapsed": 245450,
+      "Type": "ExtractionUI",
+      "UserName": "marissa.mcwilliams@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "cdc5f7dc-92cd-4a68-9fd6-d57ebd12458c",
+      "ExtractionUI::DocumentId": "3044f93e-0993-4b39-b749-795b83ba4ce4",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE SELLER PAID AT CLOSING"
+    }
+  ],
+  "Total": 74,
+  "IndexScannedCount": 74
+}

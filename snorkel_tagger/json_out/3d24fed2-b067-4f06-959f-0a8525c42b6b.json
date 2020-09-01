@@ -1,0 +1,3560 @@
+{
+  "Results": [
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1582896258669,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "Wallace S Riase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 371.5,
+          "y1": 160,
+          "x1": 467.5,
+          "y0": 142
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_252_40",
+            "text": "Wallace",
+            "distance": 141034.08181722523,
+            "pos": {
+              "x0": 372.66666666666663,
+              "y1": 157,
+              "x1": 412.3333333333333,
+              "y0": 147.66666666666666
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_252_41",
+            "text": "S",
+            "distance": 141015.72039325183,
+            "pos": {
+              "x0": 416,
+              "y1": 156.66666666666666,
+              "x1": 421,
+              "y0": 148
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_252_42",
+            "text": "Riase",
+            "distance": 141001.83254532152,
+            "pos": {
+              "x0": 425,
+              "y1": 157,
+              "x1": 450.66666666666663,
+              "y0": 148.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.4370588235294118,
+          "y1": 0.14545454545454545,
+          "x1": 0.55,
+          "y0": 0.1290909090909091
+        }
+      },
+      "label": "Borrower Full Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ded11febdc3e8e75223741bb1c25d226",
+      "DATAPOINT ORDER": "5",
+      "ID": "5ab00829-e85a-3fd2-a437-0ba8fded3f34",
+      "clone_id": 0,
+      "ENTITY ORIGIN": "BORROWER FULL NAME",
+      "ENTITY DERIVATION": "[{\"operands\":[\"BORROWER FIRST NAME\",\"BORROWER MIDDLE NAME\",\"BORROWER LAST NAME\",\"BORROWER SUFFIX NAME\",\" \"],\"operator\":\"CONCAT\",\"id\":\"BORROWER FULL NAME\"}]",
+      "GROUP NAME": "Group13",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 125051,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Wallace S Riase",
+        "source": "selection"
+      },
+      "ENTITY": "BORROWER FIRST NAME",
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "NAME": "BORROWER FULL NAME"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 674.6666666666666,
+          "y1": 161.33333333333331,
+          "x1": 705.3333333333333,
+          "y0": 148.33333333333331
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_252_46",
+            "text": "years",
+            "distance": 140822.35598687603,
+            "pos": {
+              "x0": 676.6666666666666,
+              "y1": 159.33333333333331,
+              "x1": 703.3333333333333,
+              "y0": 150.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.7937254901960784,
+          "y1": 0.14666666666666664,
+          "x1": 0.8298039215686274,
+          "y0": 0.13484848484848483
+        }
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 91463,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "663b361d412b1ad18d5495a82639d7fb",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "2",
+      "ID": "30200fe4-94ca-328f-9df3-988f0ee6fbda",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "text": "4/16/2019",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 152.33333333333331,
+          "y1": 175,
+          "x1": 209.33333333333331,
+          "y0": 161.66666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_252_49",
+            "text": "4/16/2019",
+            "distance": 141172.33707590244,
+            "pos": {
+              "x0": 154.33333333333331,
+              "y1": 173,
+              "x1": 207.33333333333331,
+              "y0": 163.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.1792156862745098,
+          "y1": 0.1590909090909091,
+          "x1": 0.24627450980392154,
+          "y0": 0.14696969696969697
+        }
+      },
+      "label": "Closing Date",
+      "edit_input": {
+        "text": "04/16/2019"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8bdec91e820fcef13e8886ab554ddcc9",
+      "DATAPOINT ORDER": "2",
+      "ID": "1b7f472c-71d5-3f5a-9267-dbb97fd682dc",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 68698,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/16/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "manual_input": true,
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "Flagstar Bank, FSB",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 365.5,
+          "y1": 277,
+          "x1": 483.5,
+          "y0": 256
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_252_118",
+            "text": "Flagstar",
+            "distance": 140953.39838292103,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 271.3333333333333,
+              "x1": 413.3333333333333,
+              "y0": 259.66666666666663
+            }
+          },
+          {
+            "score": 94,
+            "id": "word_252_119",
+            "text": "Bank,",
+            "distance": 140927.49073991916,
+            "pos": {
+              "x0": 417,
+              "y1": 270.3333333333333,
+              "x1": 444,
+              "y0": 259.66666666666663
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_252_120",
+            "text": "FSB",
+            "distance": 140909.35882145027,
+            "pos": {
+              "x0": 448,
+              "y1": 268.66666666666663,
+              "x1": 465.66666666666663,
+              "y0": 260
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.43,
+          "y1": 0.25181818181818183,
+          "x1": 0.5688235294117647,
+          "y0": 0.23272727272727273
+        }
+      },
+      "label": "Lender Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 167679,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Flagstar Bank, FSB",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "ObjectId": "940ec7cbe799401c51b0a34cd709241d",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "2",
+      "ID": "d891d2f0-84db-313e-bb8f-cd72cbbf45d6",
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$19.89",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 188.33333333333331,
+          "y1": 764.3333333333333,
+          "x1": 222,
+          "y0": 751
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_253_243",
+            "text": "$19.89",
+            "distance": 140738.95117724952,
+            "pos": {
+              "x0": 190.33333333333331,
+              "y1": 762.3333333333333,
+              "x1": 220,
+              "y0": 753
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.22156862745098038,
+          "y1": 0.6948484848484848,
+          "x1": 0.2611764705882353,
+          "y0": 0.6827272727272727
+        }
+      },
+      "label": "City Bond Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "19.89",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ef00222313d4e4172a990ec12b87d934",
+      "DATAPOINT ORDER": "47",
+      "ID": "055cd88a-f8dd-3376-8de4-6cf5523b0f2e",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 326559,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "19.89",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "CITY BOND TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$570.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 535,
+          "y1": 245.66666666666666,
+          "x1": 574.3333333333333,
+          "y0": 232.33333333333331
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_253_73",
+            "text": "$570.00",
+            "distance": 140858.2046892469,
+            "pos": {
+              "x0": 537,
+              "y1": 243.66666666666666,
+              "x1": 572.3333333333333,
+              "y0": 234.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.6294117647058823,
+          "y1": 0.22333333333333333,
+          "x1": 0.6756862745098038,
+          "y0": 0.21121212121212118
+        }
+      },
+      "label": "Appraisal Fee Borrower Paid Before Closing",
+      "edit_input": {
+        "text": "570.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4f0cba4548d9522b213f5c7db1d48320",
+      "DATAPOINT ORDER": "20",
+      "ID": "20f1ca30-2da9-3542-bcd5-f3638d9172d4",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 230992,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "570.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group12",
+      "selection_input": {
+        "text": "N",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 386.66666666666663,
+          "y1": 522,
+          "x1": 400,
+          "y0": 506.66666666666663
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 97,
+            "id": "word_252_174",
+            "text": "N",
+            "distance": 140777.44366217038,
+            "pos": {
+              "x0": 388.66666666666663,
+              "y1": 520,
+              "x1": 398,
+              "y0": 508.66666666666663
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.45490196078431366,
+          "y1": 0.47454545454545455,
+          "x1": 0.47058823529411764,
+          "y0": 0.4606060606060606
+        }
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 105668,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "678480f16b0de48033e9470af1e62d83",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "3",
+      "ID": "64fe8bf0-2813-3c91-b6bf-6e1e95cf937f",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "text": "Mount Clemens",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 154.5,
+          "y1": 256,
+          "x1": 219.5,
+          "y0": 241
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_252_97",
+            "text": "Mount",
+            "distance": 141127.6804892569,
+            "pos": {
+              "x0": 155,
+              "y1": 246,
+              "x1": 185,
+              "y0": 238.66666666666666
+            }
+          },
+          {
+            "score": 86,
+            "id": "word_252_98",
+            "text": "Clemens",
+            "distance": 141101.27465622383,
+            "pos": {
+              "x0": 188,
+              "y1": 246,
+              "x1": 227.33333333333331,
+              "y0": 238
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.18176470588235294,
+          "y1": 0.23272727272727273,
+          "x1": 0.25823529411764706,
+          "y0": 0.2190909090909091
+        }
+      },
+      "label": "Property Address City",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 16848,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Mount Clemens",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "ObjectId": "1b2875dc880d0629cacb8140cacfc672",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "3",
+      "ID": "8e2f5e7e-d629-3bf8-b338-bb9a749e1843",
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "text": "117 Jones St",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 142.5,
+          "y1": 238,
+          "x1": 228.5,
+          "y0": 220
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_252_88",
+            "text": "117",
+            "distance": 141140.17163109712,
+            "pos": {
+              "x0": 155.66666666666666,
+              "y1": 235,
+              "x1": 171,
+              "y0": 227.66666666666666
+            }
+          },
+          {
+            "score": 87,
+            "id": "word_252_89",
+            "text": "Jones",
+            "distance": 141123.66781676118,
+            "pos": {
+              "x0": 173.66666666666666,
+              "y1": 235,
+              "x1": 199.66666666666666,
+              "y0": 227.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_252_90",
+            "text": "St",
+            "distance": 141109.28746503146,
+            "pos": {
+              "x0": 203,
+              "y1": 235,
+              "x1": 211.33333333333331,
+              "y0": 227.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.1676470588235294,
+          "y1": 0.21636363636363637,
+          "x1": 0.2688235294117647,
+          "y0": 0.2
+        }
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 12718,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "117 Jones St",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "ObjectId": "8428bfad46cd58152cb1b5ab5b783635",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "1",
+      "ID": "6eb08a9f-14d1-32fb-be49-1a1ff5b312f5",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "FHA",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 758.6666666666666,
+          "y1": 218,
+          "x1": 783.3333333333333,
+          "y0": 205.66666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_252_86",
+            "text": "FHA",
+            "distance": 140724.82226208155,
+            "pos": {
+              "x0": 760.6666666666666,
+              "y1": 216,
+              "x1": 781.3333333333333,
+              "y0": 207.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.892549019607843,
+          "y1": 0.19818181818181818,
+          "x1": 0.9215686274509803,
+          "y0": 0.18696969696969695
+        }
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 182106,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "FHA",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "control_input": {
+        "type": "text",
+        "value": "FHA",
+        "control": "radio"
+      },
+      "ObjectId": "3ff2452317482b5542720b7aa547022b",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "4",
+      "ID": "3f2fddef-8f65-38fd-a030-d6b72e518912",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$4,593.04",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 475.66666666666663,
+          "y1": 509.66666666666663,
+          "x1": 527.6666666666666,
+          "y0": 496.3333333333333
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 80,
+            "id": "word_253_150",
+            "text": "$4,593.04",
+            "distance": 140708.82830729248,
+            "pos": {
+              "x0": 477.66666666666663,
+              "y1": 507.66666666666663,
+              "x1": 525.6666666666666,
+              "y0": 498.3333333333333
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5596078431372549,
+          "y1": 0.4633333333333333,
+          "x1": 0.6207843137254901,
+          "y0": 0.4512121212121212
+        }
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "4593.04",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7d2e1f8c29f69bf41fa14b7416ba898c",
+      "DATAPOINT ORDER": "24",
+      "ID": "327ce552-4b13-3b2b-a9b4-7f631499e15b",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 238456,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4593.04",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "-$75.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 462,
+          "y1": 1016.3333333333333,
+          "x1": 499.3333333333333,
+          "y0": 1003
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 85,
+            "id": "word_253_311",
+            "text": "-$75.00",
+            "distance": 140365.90852502454,
+            "pos": {
+              "x0": 464,
+              "y1": 1014.3333333333333,
+              "x1": 497.3333333333333,
+              "y0": 1005
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5435294117647059,
+          "y1": 0.9239393939393938,
+          "x1": 0.5874509803921568,
+          "y0": 0.9118181818181819
+        }
+      },
+      "label": "Total Closing Costs Lender Credits",
+      "edit_input": {
+        "text": "75.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5e8d1e2d7b9946a9fa754acbabb8bb7e",
+      "DATAPOINT ORDER": "77",
+      "ID": "9968bcc2-32d8-322f-bf07-c804355eac79",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 347103,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "75.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS LENDER CREDITS"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$513.88",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 511.33333333333326,
+          "y1": 648.6666666666666,
+          "x1": 559.3333333333333,
+          "y0": 633
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 66,
+            "id": "word_252_190",
+            "text": "$513.88",
+            "distance": 140587.5792835397,
+            "pos": {
+              "x0": 513.3333333333333,
+              "y1": 646.6666666666666,
+              "x1": 557.3333333333333,
+              "y0": 635
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.6015686274509803,
+          "y1": 0.5896969696969696,
+          "x1": 0.6580392156862744,
+          "y0": 0.5754545454545454
+        }
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "513.88",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "93d87a5cdc0de08d8942393e057de8d0",
+      "DATAPOINT ORDER": "1",
+      "ID": "f98c03af-b764-30b3-a478-dfb3ac606ebe",
+      "GROUP NAME": "Group27",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 144523,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "513.88",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 686,
+          "y1": 826,
+          "x1": 712.3333333333333,
+          "y0": 812
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 81,
+            "id": "word_252_241",
+            "text": "YES",
+            "distance": 140345.75455173,
+            "pos": {
+              "x0": 688,
+              "y1": 824,
+              "x1": 710.3333333333333,
+              "y0": 814
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.8070588235294117,
+          "y1": 0.7509090909090909,
+          "x1": 0.8380392156862744,
+          "y0": 0.7381818181818182
+        }
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 204894,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "76a213632360f80636d83a589b43493b",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "9",
+      "ID": "3222e2f3-a384-3e26-ba5f-20482e64ebef",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$83,460",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 263.66666666666663,
+          "y1": 333.3333333333333,
+          "x1": 329.66666666666663,
+          "y0": 312.66666666666663
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 85,
+            "id": "word_252_130",
+            "text": "$83,460",
+            "distance": 140981.06564456725,
+            "pos": {
+              "x0": 265.66666666666663,
+              "y1": 331.3333333333333,
+              "x1": 327.66666666666663,
+              "y0": 314.66666666666663
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.3101960784313725,
+          "y1": 0.30303030303030304,
+          "x1": 0.38784313725490194,
+          "y0": 0.2842424242424242
+        }
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "83460",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "985636591956d41a3f9fc4020a98bf1d",
+      "DATAPOINT ORDER": "1",
+      "ID": "2175907c-f3b6-3865-b113-aa709dcb02c1",
+      "GROUP NAME": "Group12",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 97191,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "83460",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$849.37",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 480.3333333333333,
+          "y1": 629,
+          "x1": 523,
+          "y0": 616
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_253_179",
+            "text": "$849.37",
+            "distance": 140624.35500069364,
+            "pos": {
+              "x0": 482.3333333333333,
+              "y1": 627,
+              "x1": 521,
+              "y0": 618
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5650980392156862,
+          "y1": 0.5718181818181818,
+          "x1": 0.6152941176470588,
+          "y0": 0.56
+        }
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "849.37",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "48fd5f7e96ddf9925b674ec57fd403ba",
+      "DATAPOINT ORDER": "25",
+      "ID": "494c1e52-af8a-35d7-8e8e-02a94d336858",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 245896,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "849.37",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$139.23",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 460,
+          "y1": 764.3333333333333,
+          "x1": 499,
+          "y0": 751
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_253_249",
+            "text": "$139.23",
+            "distance": 140544.5636148707,
+            "pos": {
+              "x0": 462,
+              "y1": 762.3333333333333,
+              "x1": 497,
+              "y0": 753
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5411764705882353,
+          "y1": 0.6948484848484848,
+          "x1": 0.5870588235294117,
+          "y0": 0.6827272727272727
+        }
+      },
+      "label": "City Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "139.23",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e386a302233fdf63ca7b8816d6e9963a",
+      "DATAPOINT ORDER": "48",
+      "ID": "f1e5d80f-ac62-3d0d-bb17-800b77017d3a",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 333967,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "139.23",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "CITY PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "text": "Troy,M|",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5e4c7f86de35bdd59db6e704",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8458621e148c34b16a68",
+          "file_index": 255
+        },
+        "pos": {
+          "x0": 685.6666666666666,
+          "y1": 680.3333333333333,
+          "x1": 721,
+          "y0": 667.6666666666666
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_256_463",
+            "text": "Troy,M|",
+            "distance": 140445.31470864778,
+            "pos": {
+              "x0": 687.6666666666666,
+              "y1": 678.3333333333333,
+              "x1": 719,
+              "y0": 669.6666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.8066666666666666,
+          "y1": 0.6184848484848484,
+          "x1": 0.8482352941176471,
+          "y0": 0.6069696969696969
+        }
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "Troy"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "25a8e543b74393a3d1fd68d7711d46ee",
+      "DATAPOINT ORDER": "93",
+      "ID": "037ee2c6-362f-3855-84f0-eca98b4310e9",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 502295,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Troy",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 255,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "57.79",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 525.6666666666666,
+          "y1": 677.6666666666666,
+          "x1": 560,
+          "y0": 664
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_252_194",
+            "text": "57.79",
+            "distance": 140561.07212722718,
+            "pos": {
+              "x0": 527.6666666666666,
+              "y1": 675.6666666666666,
+              "x1": 558,
+              "y0": 666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.6184313725490196,
+          "y1": 0.616060606060606,
+          "x1": 0.6588235294117647,
+          "y0": 0.6036363636363636
+        }
+      },
+      "label": "Projected Payment Mi Payment Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 184245,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "57.79",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1966fc3026898aea76f4407e2d45b3fb",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a516de-3bb0-3e56-b03a-d148089e78be",
+      "NAME": "PROJECTED PAYMENT MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "text": "4/16/2019",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 152.33333333333331,
+          "y1": 190.66666666666666,
+          "x1": 209.33333333333331,
+          "y0": 177.33333333333331
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_252_59",
+            "text": "4/16/2019",
+            "distance": 141161.2588107225,
+            "pos": {
+              "x0": 154.33333333333331,
+              "y1": 188.66666666666666,
+              "x1": 207.33333333333331,
+              "y0": 179.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.1792156862745098,
+          "y1": 0.1733333333333333,
+          "x1": 0.24627450980392154,
+          "y0": 0.1612121212121212
+        }
+      },
+      "label": "Disbursement Date",
+      "edit_input": {
+        "text": "04/16/2019"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "32d848f5a4037657f47eebd0bcdae5ed",
+      "DATAPOINT ORDER": "3",
+      "ID": "7e153b80-e1fe-336c-8dea-b049dfd86124",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 76266,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/16/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "manual_input": true,
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$1,508.29",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 2,
+          "PageJpeg": "5e4c7f86f4d0acf301495b73",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457656760abf9a53ff5",
+          "file_index": 253
+        },
+        "pos": {
+          "x0": 356.66666666666663,
+          "y1": 992.3333333333333,
+          "x1": 408.66666666666663,
+          "y0": 979
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 85,
+            "id": "word_254_420",
+            "text": "$1,508.29",
+            "distance": 140452.32435025377,
+            "pos": {
+              "x0": 358.66666666666663,
+              "y1": 990.3333333333333,
+              "x1": 406.66666666666663,
+              "y0": 981
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.41960784313725485,
+          "y1": 0.9021212121212121,
+          "x1": 0.48078431372549013,
+          "y0": 0.89
+        }
+      },
+      "label": "Cash To Borrower At Closing Amount",
+      "edit_input": {
+        "text": "1508.29",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1475b146711755d5d2f06f3d73de689e",
+      "DATAPOINT ORDER": "4",
+      "ID": "ab8dec44-a11d-3b38-9156-d73f75a4ef22",
+      "GROUP NAME": "Group27",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 158635,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1508.29",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 2,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 253,
+      "manual_input": true,
+      "NAME": "CASH TO BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$140.64",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 182.66666666666666,
+          "y1": 750.3333333333333,
+          "x1": 222.33333333333331,
+          "y0": 737
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_253_233",
+            "text": "$140.64",
+            "distance": 140750.71422919238,
+            "pos": {
+              "x0": 184.66666666666666,
+              "y1": 748.3333333333333,
+              "x1": 220.33333333333331,
+              "y0": 739
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.21490196078431373,
+          "y1": 0.682121212121212,
+          "x1": 0.26156862745098036,
+          "y0": 0.67
+        }
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "140.64",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "218f17fd8feb453fc86a6df3961ab189",
+      "DATAPOINT ORDER": "43",
+      "ID": "c09eda47-c17d-34ac-bfa1-784be8007448",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 311780,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "140.64",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$635.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 460,
+          "y1": 640.6666666666666,
+          "x1": 499.3333333333333,
+          "y0": 627.3333333333333
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_253_189",
+            "text": "$635.00",
+            "distance": 2.006932429798713,
+            "pos": {
+              "x0": 462,
+              "y1": 638.6666666666666,
+              "x1": 497.3333333333333,
+              "y0": 629.3333333333333
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5411764705882353,
+          "y1": 0.5824242424242424,
+          "x1": 0.5874509803921568,
+          "y0": 0.5703030303030302
+        }
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "635.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "03d2ddac50d4c90f5a5ee42dcb4e88af",
+      "DATAPOINT ORDER": "96",
+      "ID": "3dd1cc36-a8c8-3a4c-8e81-44014ce20151",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 512789,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "635.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group12",
+      "selection_input": {
+        "text": "6.25%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 263,
+          "y1": 365,
+          "x1": 315,
+          "y0": 347.66666666666663
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 83,
+            "id": "word_252_135",
+            "text": "6.25%",
+            "distance": 140962.92338156787,
+            "pos": {
+              "x0": 265,
+              "y1": 363,
+              "x1": 313,
+              "y0": 349.66666666666663
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.30941176470588233,
+          "y1": 0.33181818181818185,
+          "x1": 0.37058823529411766,
+          "y0": 0.31606060606060604
+        }
+      },
+      "label": "Interest Rate",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 99457,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "6.25%",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "014e70a81fe48617280ec88775374a97",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "2",
+      "ID": "0935519f-e1e3-30be-80ba-a3a7463059b9",
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$271.24",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 3,
+          "PageJpeg": "5e4c7f865e03b307ef583918",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457c59314371f3e5e68",
+          "file_index": 254
+        },
+        "pos": {
+          "x0": 560,
+          "y1": 451.66666666666663,
+          "x1": 599.6666666666666,
+          "y0": 438.3333333333333
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_255_475",
+            "text": "$271.24",
+            "distance": 140694.60062144452,
+            "pos": {
+              "x0": 562,
+              "y1": 449.66666666666663,
+              "x1": 597.6666666666666,
+              "y0": 440.3333333333333
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.6588235294117647,
+          "y1": 0.4106060606060606,
+          "x1": 0.7054901960784313,
+          "y0": 0.39848484848484844
+        }
+      },
+      "label": "Total Escrow Payment Amount",
+      "edit_input": {
+        "text": "271.24",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "760db3e764efb2892f00eb1af037ee27",
+      "DATAPOINT ORDER": "79",
+      "ID": "bffaa8c8-c69a-3764-8b41-e379df43d090",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 361272,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "271.24",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 3,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 254,
+      "manual_input": true,
+      "NAME": "TOTAL ESCROW PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 659.6666666666666,
+          "y1": 159,
+          "x1": 675.3333333333333,
+          "y0": 146.33333333333331
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 85,
+            "id": "word_252_45",
+            "text": "30",
+            "distance": 140839.7599935039,
+            "pos": {
+              "x0": 661.6666666666666,
+              "y1": 157,
+              "x1": 673.3333333333333,
+              "y0": 148.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.776078431372549,
+          "y1": 0.14454545454545453,
+          "x1": 0.7945098039215686,
+          "y0": 0.13303030303030303
+        }
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 86089,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d795961be38ace99091f93d2c7ab771e",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "1",
+      "ID": "24d04f20-26e9-33ce-8b78-7cdf108bb7df",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 686,
+          "y1": 809.3333333333333,
+          "x1": 712.3333333333333,
+          "y0": 795.3333333333333
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 95,
+            "id": "word_252_226",
+            "text": "YES",
+            "distance": 140357.53304260358,
+            "pos": {
+              "x0": 688,
+              "y1": 807.3333333333333,
+              "x1": 710.3333333333333,
+              "y0": 797.3333333333333
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.8070588235294117,
+          "y1": 0.7357575757575757,
+          "x1": 0.8380392156862744,
+          "y0": 0.7230303030303029
+        }
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 195810,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "11dafe4da6274bc5c5ef6e869f9a0c56",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "7",
+      "ID": "43a4fdb4-53c6-3150-9424-bf480de586f7",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "Purchase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 660,
+          "y1": 174.66666666666666,
+          "x1": 710,
+          "y0": 161.33333333333331
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_252_56",
+            "text": "Purchase",
+            "distance": 140816.54736748803,
+            "pos": {
+              "x0": 662,
+              "y1": 172.66666666666666,
+              "x1": 708,
+              "y0": 163.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.7764705882352941,
+          "y1": 0.15878787878787878,
+          "x1": 0.8352941176470589,
+          "y0": 0.14666666666666664
+        }
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 177307,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "PURCHASE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "control_input": {
+        "type": "text",
+        "value": "PURCHASE",
+        "control": "radio"
+      },
+      "ObjectId": "042631a22566bc0a01e5ef94ec5da25c",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "3",
+      "ID": "2ec547b9-20b5-3eb1-baaf-44dc65a0cbbe",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group27",
+      "selection_input": {
+        "text": "57.79",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 525.6666666666666,
+          "y1": 677.6666666666666,
+          "x1": 560,
+          "y0": 664
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_252_194",
+            "text": "57.79",
+            "distance": 140561.07212722718,
+            "pos": {
+              "x0": 527.6666666666666,
+              "y1": 675.6666666666666,
+              "x1": 558,
+              "y0": 666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.6184313725490196,
+          "y1": 0.616060606060606,
+          "x1": 0.6588235294117647,
+          "y0": 0.6036363636363636
+        }
+      },
+      "label": "Mi Payment Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 146702,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "57.79",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c6525352da870f3bbeeb614675c6aba4",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "2",
+      "ID": "5b997384-7019-3f28-b31e-f225541b1133",
+      "NAME": "MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$85,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 153,
+          "y1": 265.3333333333333,
+          "x1": 197,
+          "y0": 250.33333333333331
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 80,
+            "id": "word_252_113",
+            "text": "$85,000",
+            "distance": 141113.18768761875,
+            "pos": {
+              "x0": 155,
+              "y1": 263.3333333333333,
+              "x1": 195,
+              "y0": 252.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.18,
+          "y1": 0.24121212121212118,
+          "x1": 0.23176470588235293,
+          "y0": 0.22757575757575757
+        }
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "85000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9819246430a7919ed7ca5c95bb14751c",
+      "DATAPOINT ORDER": "4",
+      "ID": "8ce94e42-e23e-3a15-b115-d4b31dcc14df",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 82055,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "85000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$995.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 480.3333333333333,
+          "y1": 110.33333333333333,
+          "x1": 523.3333333333333,
+          "y0": 97.33333333333333
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_253_46",
+            "text": "$995.00",
+            "distance": 140991.2447857037,
+            "pos": {
+              "x0": 482.3333333333333,
+              "y1": 108.33333333333333,
+              "x1": 521.3333333333333,
+              "y0": 99.33333333333333
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5650980392156862,
+          "y1": 0.1003030303030303,
+          "x1": 0.6156862745098038,
+          "y0": 0.08848484848484849
+        }
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "995.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f2b94fd6d6d831eec318f76e1e33647e",
+      "DATAPOINT ORDER": "11",
+      "ID": "85fb65cc-ad19-3936-b4d3-bfbcf0b7e74d",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 213921,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "995.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "7.558%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5e4c7f86de35bdd59db6e704",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8458621e148c34b16a68",
+          "file_index": 255
+        },
+        "pos": {
+          "x0": 363,
+          "y1": 282.3333333333333,
+          "x1": 408.3333333333333,
+          "y0": 268.66666666666663
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_256_73",
+            "text": "7.558%",
+            "distance": 140951.7410098025,
+            "pos": {
+              "x0": 365,
+              "y1": 280.3333333333333,
+              "x1": 406.3333333333333,
+              "y0": 270.66666666666663
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.42705882352941177,
+          "y1": 0.25666666666666665,
+          "x1": 0.48039215686274506,
+          "y0": 0.2442424242424242
+        }
+      },
+      "label": "Apr Percent",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 352742,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "7.558%",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0e701187bb6008cf1c97ec0246539241",
+      "FileIndex": 255,
+      "DATAPOINT ORDER": "78",
+      "ID": "be0d0b37-4051-3632-8165-67c9822baf97",
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "text": "48043—5724",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 246.66666666666666,
+          "y1": 248,
+          "x1": 305,
+          "y0": 236.66666666666666
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_252_101",
+            "text": "48043—5724",
+            "distance": 141052.83774224075,
+            "pos": {
+              "x0": 248.66666666666666,
+              "y1": 246,
+              "x1": 303,
+              "y0": 238.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.2901960784313725,
+          "y1": 0.22545454545454546,
+          "x1": 0.3588235294117647,
+          "y0": 0.21515151515151515
+        }
+      },
+      "label": "Property Address Zipcode",
+      "edit_input": {
+        "text": "48043-5724"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "602acc74abf382d39d8752f91648a27c",
+      "DATAPOINT ORDER": "5",
+      "ID": "a1b41962-ab72-3c5d-a0b9-69e84d6334f4",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 31161,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "48043-5724",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "text": "4/15/2019",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 152.33333333333331,
+          "y1": 159.33333333333331,
+          "x1": 209.33333333333331,
+          "y0": 146
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_252_38",
+            "text": "4/15/2019",
+            "distance": 141183.41621028143,
+            "pos": {
+              "x0": 154.33333333333331,
+              "y1": 157.33333333333331,
+              "x1": 207.33333333333331,
+              "y0": 148
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.1792156862745098,
+          "y1": 0.14484848484848484,
+          "x1": 0.24627450980392154,
+          "y0": 0.13272727272727272
+        }
+      },
+      "label": "Date Issued",
+      "edit_input": {
+        "text": "04/15/2019"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0e9e290f39c98a4f2d5d318455c20094",
+      "DATAPOINT ORDER": "1",
+      "ID": "a513856f-54c1-32f1-995d-95627650a82b",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 63378,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/15/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "manual_input": true,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1582896258669,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "Riase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 423,
+          "y1": 159,
+          "x1": 452.66666666666663,
+          "y0": 146.33333333333331
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_252_42",
+            "text": "Riase",
+            "distance": 141001.83254532152,
+            "pos": {
+              "x0": 425,
+              "y1": 157,
+              "x1": 450.66666666666663,
+              "y0": 148.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.4976470588235294,
+          "y1": 0.14454545454545453,
+          "x1": 0.5325490196078431,
+          "y0": 0.13303030303030303
+        }
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "616568866c475d92f45505b5947c2f39",
+      "DATAPOINT ORDER": "4",
+      "ID": "87f2229c-3f23-360d-ae8e-d6a7c2043e91",
+      "clone_id": 0,
+      "GROUP NAME": "Group13",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 115229,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Riase",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$1,406.40",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 452,
+          "y1": 750.6666666666666,
+          "x1": 499.3333333333333,
+          "y0": 737
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_253_239",
+            "text": "$1,406.40",
+            "distance": 140557.04610515104,
+            "pos": {
+              "x0": 454,
+              "y1": 748.6666666666666,
+              "x1": 497.3333333333333,
+              "y0": 739
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5317647058823529,
+          "y1": 0.6824242424242424,
+          "x1": 0.5874509803921568,
+          "y0": 0.67
+        }
+      },
+      "label": "Property Tax Escrow Item Actual Total Amount",
+      "edit_input": {
+        "text": "1406.40",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e1f88f75091eece9535f1ef6d40d8f45",
+      "DATAPOINT ORDER": "45",
+      "ID": "627e6482-8162-34ba-955d-18432396cd22",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 318343,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1406.40",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "text": "4/16/19",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 239.66666666666666,
+          "y1": 668,
+          "x1": 279,
+          "y0": 656
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_253_201",
+            "text": "4/16/19",
+            "distance": 140768.04182630058,
+            "pos": {
+              "x0": 241.66666666666666,
+              "y1": 666,
+              "x1": 277,
+              "y0": 658
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.28196078431372545,
+          "y1": 0.6072727272727273,
+          "x1": 0.32823529411764707,
+          "y0": 0.5963636363636363
+        }
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "04/16/2019"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4f66a98acf4bade8a0c50d342589f847",
+      "DATAPOINT ORDER": "33",
+      "ID": "e1da836d-69c3-3c8a-811c-bb17c5727042",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 261360,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/16/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "3",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 288.3333333333333,
+          "y1": 721.3333333333333,
+          "x1": 296.66666666666663,
+          "y0": 710
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 99,
+            "id": "word_253_222",
+            "text": "3",
+            "distance": 140706.6715926947,
+            "pos": {
+              "x0": 290.3333333333333,
+              "y1": 719.3333333333333,
+              "x1": 294.66666666666663,
+              "y0": 712
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.33921568627450976,
+          "y1": 0.6557575757575757,
+          "x1": 0.34901960784313724,
+          "y0": 0.6454545454545455
+        }
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 301226,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b6eacd085f6a3819e4055b77f4aad5bc",
+      "FileIndex": 252,
+      "DATAPOINT ORDER": "39",
+      "ID": "332fa9ef-c41e-384c-9de6-e305b54c5a35",
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$158.76",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 460,
+          "y1": 722.3333333333333,
+          "x1": 499.3333333333333,
+          "y0": 709
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_253_224",
+            "text": "$158.76",
+            "distance": 140574.10566218168,
+            "pos": {
+              "x0": 462,
+              "y1": 720.3333333333333,
+              "x1": 497.3333333333333,
+              "y0": 711
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5411764705882353,
+          "y1": 0.6566666666666666,
+          "x1": 0.5874509803921568,
+          "y0": 0.6445454545454545
+        }
+      },
+      "label": "Homeowners Insurance Escrow Item Actual Total Amount",
+      "edit_input": {
+        "text": "158.76",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "450bfe193fe667659a4703167fa07bd0",
+      "DATAPOINT ORDER": "40",
+      "ID": "f9c1c349-3f31-3718-b579-1e41a07e6396",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 305547,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "158.76",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$1,260.77",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 475.66666666666663,
+          "y1": 711,
+          "x1": 527.3333333333333,
+          "y0": 697.6666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_253_215",
+            "text": "$1,260.77",
+            "distance": 140566.65516055995,
+            "pos": {
+              "x0": 477.66666666666663,
+              "y1": 709,
+              "x1": 525.3333333333333,
+              "y0": 699.6666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.5596078431372549,
+          "y1": 0.6463636363636364,
+          "x1": 0.620392156862745,
+          "y0": 0.6342424242424242
+        }
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "1260.77",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "695881c92dbacb4bfbf0560b144c7d77",
+      "DATAPOINT ORDER": "35",
+      "ID": "5e886186-c6e2-3193-b7b5-ad81de6040f4",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 285524,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1260.77",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "5785'1",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 493.3333333333333,
+          "y1": 765.3333333333333,
+          "x1": 546,
+          "y0": 745.3333333333333
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 67,
+            "id": "word_252_208",
+            "text": "5785'1",
+            "distance": 140517.77258193673,
+            "pos": {
+              "x0": 495.3333333333333,
+              "y1": 763.3333333333333,
+              "x1": 544,
+              "y0": 747.3333333333333
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.580392156862745,
+          "y1": 0.6957575757575757,
+          "x1": 0.6423529411764706,
+          "y0": 0.6775757575757575
+        }
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "785.12"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cffd97bc01c9ffd579b8034dfd1d577d",
+      "DATAPOINT ORDER": "81",
+      "ID": "3c5829c8-7238-3b97-83d9-28cddc2ede8b",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 466823,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "785.12",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "text": "MI",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 233.33333333333331,
+          "y1": 248,
+          "x1": 247.33333333333331,
+          "y0": 236.66666666666666
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_252_100",
+            "text": "MI",
+            "distance": 141077.93805100152,
+            "pos": {
+              "x0": 235.33333333333331,
+              "y1": 246,
+              "x1": 245.33333333333331,
+              "y0": 238.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.2745098039215686,
+          "y1": 0.22545454545454546,
+          "x1": 0.2909803921568627,
+          "y0": 0.21515151515151515
+        }
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 22678,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "MI",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "ObjectId": "5d4ba4673e8a16c8b46d20efdf247e7a",
+      "FileIndex": 251,
+      "DATAPOINT ORDER": "4",
+      "ID": "de978ed9-b620-3c88-9750-f07e5c5a1d7f",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "Unassigned Scheduled Until",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5e4c7f86de35bdd59db6e704",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8458621e148c34b16a68",
+          "file_index": 255
+        },
+        "pos": {
+          "x0": 690.5,
+          "y1": 764,
+          "x1": 755.5,
+          "y0": 752
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_256_481",
+            "text": "Unassigned",
+            "distance": 140381.20477906655,
+            "pos": {
+              "x0": 688.3333333333333,
+              "y1": 758.3333333333333,
+              "x1": 741.3333333333333,
+              "y0": 748
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_256_483",
+            "text": "Scheduled",
+            "distance": 140376.25704690948,
+            "pos": {
+              "x0": 688,
+              "y1": 767,
+              "x1": 736,
+              "y0": 759
+            }
+          },
+          {
+            "score": 94,
+            "id": "word_256_482",
+            "text": "Until",
+            "distance": 140353.38931524873,
+            "pos": {
+              "x0": 745,
+              "y1": 756,
+              "x1": 765.6666666666666,
+              "y0": 748
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.8123529411764706,
+          "y1": 0.6945454545454546,
+          "x1": 0.8888235294117647,
+          "y0": 0.6836363636363636
+        }
+      },
+      "label": "Closing Agent Full Name",
+      "edit_input": {
+        "text": "Unassigned Until Scheduled "
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c2f31c1cebc2498bbe8b0244d70a80aa",
+      "DATAPOINT ORDER": "92",
+      "ID": "dcbe819a-41bd-3bac-ab04-726b0e5df088",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 494089,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Unassigned Until Scheduled ",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 255,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1582896258669,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "Wallace",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 370.66666666666663,
+          "y1": 159,
+          "x1": 414.3333333333333,
+          "y0": 145.66666666666666
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_252_40",
+            "text": "Wallace",
+            "distance": 141034.08181722523,
+            "pos": {
+              "x0": 372.66666666666663,
+              "y1": 157,
+              "x1": 412.3333333333333,
+              "y0": 147.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.436078431372549,
+          "y1": 0.14454545454545453,
+          "x1": 0.48745098039215684,
+          "y0": 0.13242424242424242
+        }
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cf194930531e1424f70aba1e14dfe595",
+      "DATAPOINT ORDER": "2",
+      "ID": "cb2b3493-1a17-35d4-afc8-1cec6cfa7f2d",
+      "clone_id": 0,
+      "GROUP NAME": "Group13",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 110396,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Wallace",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$52.92",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 188.33333333333331,
+          "y1": 722.3333333333333,
+          "x1": 222,
+          "y0": 709
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 94,
+            "id": "word_253_218",
+            "text": "$52.92",
+            "distance": 140768.5702579671,
+            "pos": {
+              "x0": 190.33333333333331,
+              "y1": 720.3333333333333,
+              "x1": 220,
+              "y0": 711
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.22156862745098038,
+          "y1": 0.6566666666666666,
+          "x1": 0.2611764705882353,
+          "y0": 0.6445454545454545
+        }
+      },
+      "label": "Homeowners Insurance Monthly Payment Amount",
+      "edit_input": {
+        "text": "52.92",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ecbb577104de95c01a099b4c62311755",
+      "DATAPOINT ORDER": "38",
+      "ID": "6edc49af-f0ef-37a5-a62c-574ce9233c15",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 296772,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "52.92",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1582896258669,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "S",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e4c7f863bd6f331ae3a063b",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c8457e7b425e02a15d9e7",
+          "file_index": 251
+        },
+        "pos": {
+          "x0": 414,
+          "y1": 158.66666666666666,
+          "x1": 423,
+          "y0": 146
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_252_41",
+            "text": "S",
+            "distance": 141015.72039325183,
+            "pos": {
+              "x0": 416,
+              "y1": 156.66666666666666,
+              "x1": 421,
+              "y0": 148
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.48705882352941177,
+          "y1": 0.14424242424242423,
+          "x1": 0.4976470588235294,
+          "y0": 0.13272727272727272
+        }
+      },
+      "label": "Borrower Middle Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d42a5baff8d6d74ca45023a634258302",
+      "DATAPOINT ORDER": "1",
+      "ID": "e6a1dfc3-cdd3-3b1c-9299-3334040d14e7",
+      "clone_id": 0,
+      "GROUP NAME": "Group13",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 119560,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "S",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 251,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "text": "5/1/19)",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 290.66666666666663,
+          "y1": 669,
+          "x1": 327,
+          "y0": 656
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 95,
+            "id": "word_253_203",
+            "text": "5/1/19)",
+            "distance": 140732.62072494463,
+            "pos": {
+              "x0": 292.66666666666663,
+              "y1": 667,
+              "x1": 325,
+              "y0": 658
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.34196078431372545,
+          "y1": 0.6081818181818182,
+          "x1": 0.3847058823529412,
+          "y0": 0.5963636363636363
+        }
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "05/01/2019"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bfdab430b0e9bb1fc95d370ccda338b0",
+      "DATAPOINT ORDER": "34",
+      "ID": "e6cb97b2-811a-33af-aaa9-6668a577f698",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 273838,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "05/01/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "FileIndex": 252,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "ts": 1582896258669,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "10",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e4c7f8622571ef7b4e272e9",
+          "DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+          "scale": 3,
+          "PageOcr": "5e4c845764c772f668e46835",
+          "file_index": 252
+        },
+        "pos": {
+          "x0": 289,
+          "y1": 749.3333333333333,
+          "x1": 302.66666666666663,
+          "y0": 738
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 95,
+            "id": "word_253_237",
+            "text": "10",
+            "distance": 140684.5538091237,
+            "pos": {
+              "x0": 291,
+              "y1": 747.3333333333333,
+              "x1": 300.66666666666663,
+              "y0": 740
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.34,
+          "y1": 0.6812121212121212,
+          "x1": 0.35607843137254896,
+          "y0": 0.6709090909090909
+        }
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "workflow_time_elapsed": 314134,
+      "Type": "ExtractionUI",
+      "UserName": "nithin.kumar.nanubala@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "10",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "b89955d0-9467-4bfc-88a0-b4aa0798f32b",
+      "ExtractionUI::DocumentId": "3d24fed2-b067-4f06-959f-0a8525c42b6b",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8f4b076c9e64d4a3604a0d3526f48832",
+      "FileIndex": 252,
+      "DATAPOINT ORDER": "44",
+      "ID": "47486c34-7ce1-37b2-b2ed-e5000ba2e527",
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    }
+  ],
+  "Total": 48,
+  "IndexScannedCount": 48
+}

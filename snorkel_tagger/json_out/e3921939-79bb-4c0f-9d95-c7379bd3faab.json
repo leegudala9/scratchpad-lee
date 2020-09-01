@@ -1,0 +1,4082 @@
+{
+  "Results": [
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 310.3333333333333,
+          "y1": 676,
+          "x1": 344.3333333333333,
+          "y0": 663.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.36509803921568623,
+          "y1": 0.6145454545454545,
+          "x1": 0.40509803921568627,
+          "y0": 0.6033333333333333
+        },
+        "text": "4/1/18 )",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 931,
+          "y1": 2028,
+          "x1": 1033,
+          "y0": 1991
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 57,
+            "id": "word_2_216",
+            "text": "4/1/18",
+            "distance": 140714.34001718595,
+            "pos": {
+              "x0": 312.3333333333333,
+              "y1": 674,
+              "x1": 342.3333333333333,
+              "y0": 665.6666666666666
+            }
+          },
+          {
+            "score": 57,
+            "id": "word_2_217",
+            "text": ")",
+            "distance": 140701.94684134418,
+            "pos": {
+              "x0": 341.66666666666663,
+              "y1": 677.6666666666666,
+              "x1": 346.3333333333333,
+              "y0": 663.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "04/01/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fadba99a7ee726d4b630325196731896",
+      "DATAPOINT ORDER": "11",
+      "ID": "042e688a-3ebf-3c4f-bfca-55a2748db428",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1933872,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/01/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589572374358,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 530.3333333333333,
+          "y1": 150.33333333333331,
+          "x1": 567.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.6239215686274509,
+          "y1": 0.13666666666666666,
+          "x1": 0.6674509803921568,
+          "y0": 0.12484848484848483
+        },
+        "text": "ADAIR",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1590.9999999999998,
+          "y1": 450.99999999999994,
+          "x1": 1701.9999999999998,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_41",
+            "text": "ADAIR",
+            "distance": 140929.73658962903,
+            "pos": {
+              "x0": 532.3333333333333,
+              "y1": 148.33333333333331,
+              "x1": 565.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "dca70c79eac9f77d49114be124420688",
+      "DATAPOINT ORDER": "3",
+      "prototype": "Borrower Last Name",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1750398,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "ADAIR",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 223.33333333333331,
+          "y1": 242.33333333333331,
+          "x1": 240.33333333333331,
+          "y0": 229.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.26274509803921564,
+          "y1": 0.22030303030303028,
+          "x1": 0.28274509803921566,
+          "y0": 0.20848484848484847
+        },
+        "text": "TX",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 670,
+          "y1": 727,
+          "x1": 721,
+          "y0": 688
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_85",
+            "text": "TX",
+            "distance": 141088.54467398202,
+            "pos": {
+              "x0": 225.33333333333331,
+              "y1": 240.33333333333331,
+              "x1": 238.33333333333331,
+              "y0": 231.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1779717,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "TX",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "ObjectId": "f06a4a034985a4735f7907dd14952a19",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 167.5,
+          "y1": 243,
+          "x1": 288.5,
+          "y0": 232
+        },
+        "pos_normalized": {
+          "x0": 0.19705882352941176,
+          "y1": 0.22090909090909092,
+          "x1": 0.33941176470588236,
+          "y0": 0.2109090909090909
+        },
+        "text": "Mckinney, TX 75070",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 502.5,
+          "y1": 729,
+          "x1": 865.5,
+          "y0": 696
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_84",
+            "text": "Mckinney,",
+            "distance": 141112.82495656525,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 243,
+              "x1": 222,
+              "y0": 231.33333333333331
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_1_85",
+            "text": "TX",
+            "distance": 141088.54467398202,
+            "pos": {
+              "x0": 225.33333333333331,
+              "y1": 240.33333333333331,
+              "x1": 238.33333333333331,
+              "y0": 231.33333333333331
+            }
+          },
+          {
+            "score": 96,
+            "id": "word_1_86",
+            "text": "75070",
+            "distance": 141068.7466765367,
+            "pos": {
+              "x0": 244.33333333333331,
+              "y1": 240.33333333333331,
+              "x1": 275.3333333333333,
+              "y0": 231.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1758036,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "Mckinney, TX 75070",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "ObjectId": "d30327cbfbd41ec085204afe8fe14628",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "2474b7b4-616d-38cb-b65c-7afaa3ac6467",
+      "NAME": "PROPERTY ADDRESS LINE 2"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333333333333,
+          "y1": 109.33333333333333,
+          "x1": 635.3333333333333,
+          "y0": 95.33333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6862745098039215,
+          "y1": 0.0993939393939394,
+          "x1": 0.7474509803921567,
+          "y0": 0.08666666666666666
+        },
+        "text": "$1,200.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999999999998,
+          "y1": 328,
+          "x1": 1905.9999999999998,
+          "y0": 286
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_25",
+            "text": "$1,200.00",
+            "distance": 140916.46662256646,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 107.33333333333333,
+              "x1": 633.3333333333333,
+              "y0": 97.33333333333333
+            }
+          }
+        ]
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "1200.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8ad7a0d324d18933e1034160e5ea956e",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1822115,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1200.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589572374358,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 520.3333333333333,
+          "y1": 150.33333333333331,
+          "x1": 530.6666666666666,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.612156862745098,
+          "y1": 0.13666666666666666,
+          "x1": 0.624313725490196,
+          "y0": 0.12484848484848483
+        },
+        "text": "H",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1560.9999999999998,
+          "y1": 450.99999999999994,
+          "x1": 1592,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_40",
+            "text": "H",
+            "distance": 140946.2031560663,
+            "pos": {
+              "x0": 522.3333333333333,
+              "y1": 148.33333333333331,
+              "x1": 528.6666666666666,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a5e460cd75e89dd695229a30023acf15",
+      "DATAPOINT ORDER": "2",
+      "prototype": "Borrower Middle Name",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1747480,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "H",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 339,
+          "y1": 734.3333333333333,
+          "x1": 348,
+          "y0": 722.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3988235294117647,
+          "y1": 0.6675757575757575,
+          "x1": 0.40941176470588236,
+          "y0": 0.6566666666666666
+        },
+        "text": "9",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1017,
+          "y1": 2203,
+          "x1": 1044,
+          "y0": 2167
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_2_236",
+            "text": "9",
+            "distance": 140661.59751342147,
+            "pos": {
+              "x0": 341,
+              "y1": 732.3333333333333,
+              "x1": 346,
+              "y0": 724.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1995969,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "9",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c21146af355d0e0116aaa691e1c3a4ed",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "16",
+      "ID": "8558b5f4-fe1e-3399-921f-2c63e018db83",
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 232.66666666666666,
+          "y1": 735.3333333333333,
+          "x1": 272.3333333333333,
+          "y0": 721.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.27372549019607845,
+          "y1": 0.6684848484848485,
+          "x1": 0.3203921568627451,
+          "y0": 0.656060606060606
+        },
+        "text": "$187.50",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 698,
+          "y1": 2206,
+          "x1": 817,
+          "y0": 2165
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_232",
+            "text": "$187.50",
+            "distance": 140725.96567797998,
+            "pos": {
+              "x0": 234.66666666666666,
+              "y1": 733.3333333333333,
+              "x1": 270.3333333333333,
+              "y0": 723.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "187.50",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2502be07b8898ff10b739db8fe520bf1",
+      "DATAPOINT ORDER": "15",
+      "ID": "7dcfcd32-9f28-34a8-8c6a-4fb5be237e0e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1989528,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "187.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333333333333,
+          "y1": 1023.3333333333333,
+          "x1": 635.3333333333333,
+          "y0": 1009
+        },
+        "pos_normalized": {
+          "x0": 0.6862745098039215,
+          "y1": 0.9303030303030302,
+          "x1": 0.7474509803921567,
+          "y0": 0.9172727272727272
+        },
+        "text": "$9,287.63",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999999999998,
+          "y1": 3070,
+          "x1": 1905.9999999999998,
+          "y0": 3027
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_281",
+            "text": "$9,287.63",
+            "distance": 140270.12783485142,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 1021.3333333333333,
+              "x1": 633.3333333333333,
+              "y0": 1011
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "9287.63",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c478c2b06f9741a6ce551e267cb522a0",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2073401,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "9287.63",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589572374358,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 419.5,
+          "y1": 1053,
+          "x1": 820.5,
+          "y0": 997
+        },
+        "pos_normalized": {
+          "x0": 0.4935294117647059,
+          "y1": 0.9572727272727273,
+          "x1": 0.9652941176470589,
+          "y0": 0.9063636363636364
+        },
+        "text": "RUBE H ADAIR Date",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe93f79ee3843b8397e7",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec1c50d5f36952cfa4a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1258.5,
+          "y1": 3159,
+          "x1": 2461.5,
+          "y0": 2991
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_5_511",
+            "text": "RUBE",
+            "distance": 140370.86302452514,
+            "pos": {
+              "x0": 433.3333333333333,
+              "y1": 1041.6666666666665,
+              "x1": 459.66666666666663,
+              "y0": 1032.3333333333333
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_5_512",
+            "text": "H",
+            "distance": 140356.44253718617,
+            "pos": {
+              "x0": 463.66666666666663,
+              "y1": 1041.3333333333333,
+              "x1": 470.3333333333333,
+              "y0": 1032.3333333333333
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_513",
+            "text": "ADAIR",
+            "distance": 140340.01522097047,
+            "pos": {
+              "x0": 473.66666666666663,
+              "y1": 1041.3333333333333,
+              "x1": 506.66666666666663,
+              "y0": 1032.3333333333333
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_514",
+            "text": "Date",
+            "distance": 140201.5814405973,
+            "pos": {
+              "x0": 673.6666666666666,
+              "y1": 1041.3333333333333,
+              "x1": 697.3333333333333,
+              "y0": 1032.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9df86b3d9e1c92cbce5c52908efce55b",
+      "DATAPOINT ORDER": "6",
+      "prototype": "Borrower Signature Present Indicator",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1736216,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "manual_input": null,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333333333333,
+          "y1": 520.6666666666666,
+          "x1": 635.3333333333333,
+          "y0": 506.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6862745098039215,
+          "y1": 0.4733333333333333,
+          "x1": 0.7474509803921567,
+          "y0": 0.46030303030303027
+        },
+        "text": "$4,765.70",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999999999998,
+          "y1": 1562,
+          "x1": 1905.9999999999998,
+          "y0": 1519
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_162",
+            "text": "$4,765.70",
+            "distance": 140625.28817995163,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 518.6666666666666,
+              "x1": 633.3333333333333,
+              "y0": 508.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "4765.70",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9cb54f2c2f6a6a09075ccdf218bb043f",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1890055,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4765.70",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 568.3333333333333,
+          "y1": 265.66666666666663,
+          "x1": 608,
+          "y0": 252.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.6686274509803921,
+          "y1": 0.2415151515151515,
+          "x1": 0.7152941176470589,
+          "y0": 0.22939393939393937
+        },
+        "text": "$450.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1704.9999999999998,
+          "y1": 796.9999999999999,
+          "x1": 1824,
+          "y0": 757
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_60",
+            "text": "$450.00",
+            "distance": 140820.38997849156,
+            "pos": {
+              "x0": 570.3333333333333,
+              "y1": 263.66666666666663,
+              "x1": 606,
+              "y0": 254.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Appraisal Fee Borrower Paid At Closing",
+      "edit_input": {
+        "text": "450.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "034c035856c7ded462e278b8e1d644f8",
+      "DATAPOINT ORDER": "9",
+      "ID": "5efd8943-a0a6-3fd3-b5e0-e3cfa2f56048",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1855988,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "450.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 587.6666666666666,
+          "y1": 634,
+          "x1": 631,
+          "y0": 620.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6913725490196078,
+          "y1": 0.5763636363636364,
+          "x1": 0.7423529411764705,
+          "y0": 0.5639393939393939
+        },
+        "text": "$404.23",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1763,
+          "y1": 1902,
+          "x1": 1893,
+          "y0": 1860.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_196",
+            "text": "$404.23",
+            "distance": 140544.89794773373,
+            "pos": {
+              "x0": 589.6666666666666,
+              "y1": 632,
+              "x1": 629,
+              "y0": 622.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "404.23",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6e3fe674c79bfa35960033c1e1edf09c",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1899667,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "404.23",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589572374358,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 489.66666666666663,
+          "y1": 150.66666666666666,
+          "x1": 520.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.576078431372549,
+          "y1": 0.13696969696969696,
+          "x1": 0.612156862745098,
+          "y0": 0.12484848484848483
+        },
+        "text": "RUBE",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1469,
+          "y1": 452,
+          "x1": 1560.9999999999998,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_39",
+            "text": "RUBE",
+            "distance": 140960.55374642936,
+            "pos": {
+              "x0": 491.66666666666663,
+              "y1": 148.66666666666666,
+              "x1": 518.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cb64ef6c5cffc630c15d9800e8bcf628",
+      "DATAPOINT ORDER": "1",
+      "prototype": "Borrower First Name",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1742673,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "RUBE",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 260,
+          "y1": 676,
+          "x1": 299.3333333333333,
+          "y0": 663.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.3058823529411765,
+          "y1": 0.6145454545454545,
+          "x1": 0.352156862745098,
+          "y0": 0.6033333333333333
+        },
+        "text": "3/22/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 780,
+          "y1": 2028,
+          "x1": 898,
+          "y0": 1991
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_214",
+            "text": "3/22/18",
+            "distance": 140748.107422938,
+            "pos": {
+              "x0": 262,
+              "y1": 674,
+              "x1": 297.3333333333333,
+              "y0": 665.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "03/22/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7d750ebf41c01955a3de5e0327fcbb3a",
+      "DATAPOINT ORDER": "10",
+      "ID": "78640e69-866a-39bf-a5d6-80e73c2a7811",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1929098,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/22/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333333333333,
+          "y1": 720.6666666666666,
+          "x1": 635.3333333333333,
+          "y0": 706.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6862745098039215,
+          "y1": 0.6551515151515152,
+          "x1": 0.7474509803921567,
+          "y0": 0.6421212121212121
+        },
+        "text": "$4,001.70",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999999999998,
+          "y1": 2162,
+          "x1": 1905.9999999999998,
+          "y0": 2119
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_229",
+            "text": "$4,001.70",
+            "distance": 140483.86980609,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 718.6666666666666,
+              "x1": 633.3333333333333,
+              "y0": 708.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "4001.70",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b96155b0c155138010a845f33b825a3d",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1977056,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4001.70",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "ts": 1589572374358,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 603.5,
+          "y1": 623,
+          "x1": 714.5,
+          "y0": 605
+        },
+        "pos_normalized": {
+          "x0": 0.71,
+          "y1": 0.5663636363636364,
+          "x1": 0.8405882352941176,
+          "y0": 0.55
+        },
+        "text": "Juniper Title, Inc.",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe93f79ee3843b8397e7",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec1c50d5f36952cfa4a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1810.5,
+          "y1": 1869,
+          "x1": 2143.5,
+          "y0": 1815
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_5_442",
+            "text": "Juniper",
+            "distance": 105.87466384572114,
+            "pos": {
+              "x0": 603.3333333333333,
+              "y1": 618.3333333333333,
+              "x1": 641.6666666666666,
+              "y0": 607
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_5_443",
+            "text": "Title,",
+            "distance": 117.09563992262433,
+            "pos": {
+              "x0": 644.6666666666666,
+              "y1": 617.3333333333333,
+              "x1": 668.6666666666666,
+              "y0": 607
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_5_444",
+            "text": "Inc.",
+            "distance": 130.4148295930251,
+            "pos": {
+              "x0": 673,
+              "y1": 616,
+              "x1": 689.3333333333333,
+              "y0": 607
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2122661,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Juniper Title, Inc.",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "ObjectId": "b167f5d693a61c5a2b6c854445310890",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 339,
+          "y1": 762,
+          "x1": 348,
+          "y0": 750
+        },
+        "pos_normalized": {
+          "x0": 0.3988235294117647,
+          "y1": 0.6927272727272727,
+          "x1": 0.40941176470588236,
+          "y0": 0.6818181818181818
+        },
+        "text": "5",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1017,
+          "y1": 2286,
+          "x1": 1044,
+          "y0": 2250
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_2_251",
+            "text": "5",
+            "distance": 140642.07347465408,
+            "pos": {
+              "x0": 341,
+              "y1": 760,
+              "x1": 346,
+              "y0": 752
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2019184,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ec956087b0f96f8fc9f5d1e20d7d029c",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "21",
+      "ID": "8c9921ed-62f0-38c2-b6de-b669654c4533",
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 253,
+          "y1": 1029.6666666666665,
+          "x1": 342.3333333333333,
+          "y0": 1008
+        },
+        "pos_normalized": {
+          "x0": 0.29764705882352943,
+          "y1": 0.9360606060606059,
+          "x1": 0.40274509803921565,
+          "y0": 0.9163636363636364
+        },
+        "text": "$56,349.69",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 759,
+          "y1": 3088.9999999999995,
+          "x1": 1027,
+          "y0": 3024
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_265",
+            "text": "$56,349.69",
+            "distance": 140489.25432503925,
+            "pos": {
+              "x0": 255,
+              "y1": 1027.6666666666665,
+              "x1": 340.3333333333333,
+              "y0": 1010
+            }
+          }
+        ]
+      },
+      "label": "Cash To Borrower At Closing Amount",
+      "edit_input": {
+        "text": "56349.69",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "313c5a2d1f2fdc6006991ac259d920eb",
+      "DATAPOINT ORDER": "5",
+      "ID": "238249d7-e93c-30db-9361-a016ec70df71",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1649898,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "56349.69",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH TO BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 261.5,
+          "y1": 366,
+          "x1": 333.5,
+          "y0": 349
+        },
+        "pos_normalized": {
+          "x0": 0.3076470588235294,
+          "y1": 0.3327272727272727,
+          "x1": 0.39235294117647057,
+          "y0": 0.31727272727272726
+        },
+        "text": "5.375%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 784.5,
+          "y1": 1098,
+          "x1": 1000.5,
+          "y0": 1047
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 80,
+            "id": "word_1_113",
+            "text": "5.375%",
+            "distance": 140959.97628927234,
+            "pos": {
+              "x0": 262,
+              "y1": 364,
+              "x1": 323.66666666666663,
+              "y0": 349.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1573953,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5.375%",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "31f29f81dd34ba0942b41d0d28e90172",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589572374357,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 430.66666666666663,
+          "y1": 150.33333333333331,
+          "x1": 467.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.5066666666666666,
+          "y1": 0.13666666666666666,
+          "x1": 0.5498039215686275,
+          "y0": 0.12484848484848483
+        },
+        "text": "ADAIR",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1292,
+          "y1": 450.99999999999994,
+          "x1": 1402,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_37",
+            "text": "ADAIR",
+            "distance": 141000.2035649634,
+            "pos": {
+              "x0": 432.66666666666663,
+              "y1": 148.33333333333331,
+              "x1": 465.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "dca70c79eac9f77d49114be124420688",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1663418,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "ADAIR",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 232.66666666666666,
+          "y1": 763,
+          "x1": 272.3333333333333,
+          "y0": 749.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.27372549019607845,
+          "y1": 0.6936363636363636,
+          "x1": 0.3203921568627451,
+          "y0": 0.6812121212121212
+        },
+        "text": "$612.84",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 698,
+          "y1": 2289,
+          "x1": 817,
+          "y0": 2248
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_247",
+            "text": "$612.84",
+            "distance": 140706.4506035329,
+            "pos": {
+              "x0": 234.66666666666666,
+              "y1": 761,
+              "x1": 270.3333333333333,
+              "y0": 751.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "612.84",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7e430429d54444d3008d915ce6f556d9",
+      "DATAPOINT ORDER": "20",
+      "ID": "3620d405-85e5-3565-a0e3-6fe0a7eac86b",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2013321,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "612.84",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 245,
+          "x1": 224,
+          "y0": 229.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.22272727272727272,
+          "x1": 0.2635294117647059,
+          "y0": 0.20848484848484847
+        },
+        "text": "Mckinney,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 735,
+          "x1": 672,
+          "y0": 688
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_84",
+            "text": "Mckinney,",
+            "distance": 141112.82495656525,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 243,
+              "x1": 222,
+              "y0": 231.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": {
+        "text": "Mckinney"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a8ec462b1c928ad219e3ed89c23ab8ec",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1772774,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Mckinney",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 432.5,
+          "y1": 174,
+          "x1": 605.5,
+          "y0": 151
+        },
+        "pos_normalized": {
+          "x0": 0.5088235294117647,
+          "y1": 0.15818181818181817,
+          "x1": 0.7123529411764706,
+          "y0": 0.13727272727272727
+        },
+        "text": "[X] will have an escrow account",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb2fe93d212b05717d8a5c3",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec035b4e4792f8b452b",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1297.5,
+          "y1": 522,
+          "x1": 1816.5,
+          "y0": 453
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 80,
+            "id": "word_4_362",
+            "text": "[X]",
+            "distance": 140990.74986964767,
+            "pos": {
+              "x0": 437.66666666666663,
+              "y1": 168.33333333333331,
+              "x1": 449,
+              "y0": 157.33333333333331
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_4_363",
+            "text": "will",
+            "distance": 140976.86122680246,
+            "pos": {
+              "x0": 453.3333333333333,
+              "y1": 168.66666666666666,
+              "x1": 470.3333333333333,
+              "y0": 159.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_364",
+            "text": "have",
+            "distance": 140959.44641722314,
+            "pos": {
+              "x0": 474.66666666666663,
+              "y1": 168.66666666666666,
+              "x1": 498.3333333333333,
+              "y0": 159.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_365",
+            "text": "an",
+            "distance": 140943.4418707061,
+            "pos": {
+              "x0": 501.66666666666663,
+              "y1": 168.66666666666666,
+              "x1": 513.6666666666666,
+              "y0": 162.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_366",
+            "text": "escrow",
+            "distance": 140923.79592531562,
+            "pos": {
+              "x0": 517.3333333333333,
+              "y1": 168.66666666666666,
+              "x1": 553.6666666666666,
+              "y0": 162.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_367",
+            "text": "account",
+            "distance": 140894.7462435267,
+            "pos": {
+              "x0": 556.6666666666666,
+              "y1": 168.66666666666666,
+              "x1": 598.3333333333333,
+              "y0": 160.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2111698,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "93800bf4afc2eedf1eb14f478ff35626",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 150.66666666666666,
+          "x1": 223.66666666666666,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.13696969696969696,
+          "x1": 0.26313725490196077,
+          "y0": 0.12484848484848483
+        },
+        "text": "3/16/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 452,
+          "x1": 671,
+          "y0": 411.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_33",
+            "text": "3/16/2018",
+            "distance": 141178.82339961614,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 148.66666666666666,
+              "x1": 221.66666666666666,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "edit_input": {
+        "text": "03/16/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ee4ec85ecdf34c6cfa222ed2b4e0c3d6",
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1414799,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/16/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 653.5,
+          "y1": 200,
+          "x1": 789.5,
+          "y0": 168
+        },
+        "pos_normalized": {
+          "x0": 0.7688235294117647,
+          "y1": 0.18181818181818182,
+          "x1": 0.9288235294117647,
+          "y0": 0.15272727272727274
+        },
+        "text": "Fixed Rate",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1960.5,
+          "y1": 600,
+          "x1": 2368.5,
+          "y0": 504
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 62,
+            "id": "word_1_60",
+            "text": "Fixed",
+            "distance": 140820.63879088257,
+            "pos": {
+              "x0": 659.6666666666666,
+              "y1": 179,
+              "x1": 686,
+              "y0": 169.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_61",
+            "text": "Rate",
+            "distance": 140800.53820466108,
+            "pos": {
+              "x0": 690.3333333333333,
+              "y1": 179,
+              "x1": 712.3333333333333,
+              "y0": 169.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Interest Only Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1557012,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "b2189c9d836748cdc18fce16ccd8b4bf",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "10",
+      "ID": "91cec963-8a42-34c7-9928-e0dafef170ac",
+      "NAME": "INTEREST ONLY INDICATOR"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 163.5,
+          "y1": 232,
+          "x1": 292.5,
+          "y0": 211
+        },
+        "pos_normalized": {
+          "x0": 0.1923529411764706,
+          "y1": 0.2109090909090909,
+          "x1": 0.34411764705882353,
+          "y0": 0.1918181818181818
+        },
+        "text": "9421 Woodhurst Dr",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 490.5,
+          "y1": 696,
+          "x1": 877.5,
+          "y0": 633
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_79",
+            "text": "9421",
+            "distance": 141134.74502915447,
+            "pos": {
+              "x0": 170,
+              "y1": 225.33333333333331,
+              "x1": 193,
+              "y0": 216.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_80",
+            "text": "Woodhurst",
+            "distance": 141102.686852322,
+            "pos": {
+              "x0": 198,
+              "y1": 225.33333333333331,
+              "x1": 256,
+              "y0": 216
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_1_81",
+            "text": "Dr",
+            "distance": 141075.5846098112,
+            "pos": {
+              "x0": 259.66666666666663,
+              "y1": 225,
+              "x1": 271.3333333333333,
+              "y0": 216
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1764746,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "9421 Woodhurst Dr",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "ObjectId": "30999236a51ce6e4d282c5eb22be89e1",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 365.5,
+          "y1": 200,
+          "x1": 534.5,
+          "y0": 187
+        },
+        "pos_normalized": {
+          "x0": 0.43,
+          "y1": 0.18181818181818182,
+          "x1": 0.6288235294117647,
+          "y0": 0.17
+        },
+        "text": "Nations Reliable Lending, LLC",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1096.5,
+          "y1": 600,
+          "x1": 1603.5,
+          "y0": 561
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 28,
+            "id": "word_1_68",
+            "text": "Nations",
+            "distance": 141010.5969370939,
+            "pos": {
+              "x0": 368.66666666666663,
+              "y1": 194.33333333333331,
+              "x1": 407.66666666666663,
+              "y0": 185.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_69",
+            "text": "Reliable",
+            "distance": 140980.1071775928,
+            "pos": {
+              "x0": 411.3333333333333,
+              "y1": 194.33333333333331,
+              "x1": 451.3333333333333,
+              "y0": 185.33333333333331
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_1_70",
+            "text": "Lending,",
+            "distance": 140946.67928619517,
+            "pos": {
+              "x0": 455.3333333333333,
+              "y1": 197,
+              "x1": 499.3333333333333,
+              "y0": 185.33333333333331
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_71",
+            "text": "LLC",
+            "distance": 140922.91261468292,
+            "pos": {
+              "x0": 503.3333333333333,
+              "y1": 194.33333333333331,
+              "x1": 521.3333333333333,
+              "y0": 185.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1456716,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Nations Reliable Lending, LLC",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "ObjectId": "f99cdae5c320df76f69b986117d2e134",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 352.5,
+          "y1": 276,
+          "x1": 429.5,
+          "y0": 249
+        },
+        "pos_normalized": {
+          "x0": 0.4147058823529412,
+          "y1": 0.2509090909090909,
+          "x1": 0.5052941176470588,
+          "y0": 0.22636363636363635
+        },
+        "text": "5459 %",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe93f79ee3843b8397e7",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec1c50d5f36952cfa4a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1057.5,
+          "y1": 828,
+          "x1": 1288.5,
+          "y0": 747
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 72,
+            "id": "word_5_73",
+            "text": "5459",
+            "distance": 501.0376455140095,
+            "pos": {
+              "x0": 375,
+              "y1": 269.3333333333333,
+              "x1": 402.3333333333333,
+              "y0": 260.3333333333333
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_5_74",
+            "text": "%",
+            "distance": 491.93972643449365,
+            "pos": {
+              "x0": 406,
+              "y1": 269.66666666666663,
+              "x1": 414.66666666666663,
+              "y0": 260.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "edit_input": {
+        "text": "5.459%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "767f80f2e8865b6c4b3d9b00c5068089",
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2133438,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5.459%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 672.6666666666666,
+          "y1": 153,
+          "x1": 703,
+          "y0": 139.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7913725490196079,
+          "y1": 0.1390909090909091,
+          "x1": 0.8270588235294117,
+          "y0": 0.12696969696969695
+        },
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2018,
+          "y1": 459,
+          "x1": 2109,
+          "y0": 419
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_44",
+            "text": "years",
+            "distance": 140829.91053680875,
+            "pos": {
+              "x0": 674.6666666666666,
+              "y1": 151,
+              "x1": 701,
+              "y0": 141.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1515277,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "45c8176b95a4ae94de310c21e009c362",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 601.3333333333333,
+          "y1": 656.6666666666666,
+          "x1": 660,
+          "y0": 641
+        },
+        "pos_normalized": {
+          "x0": 0.7074509803921568,
+          "y1": 0.5969696969696969,
+          "x1": 0.7764705882352941,
+          "y0": 0.5827272727272728
+        },
+        "text": "Colleyville,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe93f79ee3843b8397e7",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec1c50d5f36952cfa4a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1803.9999999999998,
+          "y1": 1970,
+          "x1": 1980,
+          "y0": 1923
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_450",
+            "text": "Colleyville,",
+            "distance": 73.01636041935326,
+            "pos": {
+              "x0": 603.3333333333333,
+              "y1": 654.6666666666666,
+              "x1": 658,
+              "y0": 643
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "Colleyville"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e216a8ed4be0b5cb39c7916e7164ef73",
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2140620,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Colleyville",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 46.5,
+          "y1": 1051,
+          "x1": 420.5,
+          "y0": 998
+        },
+        "pos_normalized": {
+          "x0": 0.054705882352941174,
+          "y1": 0.9554545454545454,
+          "x1": 0.49470588235294116,
+          "y0": 0.9072727272727272
+        },
+        "text": "PHILISHA W ADAIR Date",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe93f79ee3843b8397e7",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec1c50d5f36952cfa4a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 139.5,
+          "y1": 3153,
+          "x1": 1261.5,
+          "y0": 2994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_491",
+            "text": "PHILISHA",
+            "distance": 140634.5773076451,
+            "pos": {
+              "x0": 51,
+              "y1": 1041.6666666666665,
+              "x1": 99,
+              "y0": 1032.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_492",
+            "text": "W",
+            "distance": 140611.95981030364,
+            "pos": {
+              "x0": 102,
+              "y1": 1041.3333333333333,
+              "x1": 112,
+              "y0": 1032.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_493",
+            "text": "ADAIR",
+            "distance": 140594.5559345896,
+            "pos": {
+              "x0": 115,
+              "y1": 1041.3333333333333,
+              "x1": 148,
+              "y0": 1032.3333333333333
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_5_494",
+            "text": "Date",
+            "distance": 140472.551504338,
+            "pos": {
+              "x0": 291.66666666666663,
+              "y1": 1041.3333333333333,
+              "x1": 315,
+              "y0": 1032.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9df86b3d9e1c92cbce5c52908efce55b",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1680603,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 561.5,
+          "y1": 835,
+          "x1": 609.5,
+          "y0": 818
+        },
+        "pos_normalized": {
+          "x0": 0.6605882352941177,
+          "y1": 0.759090909090909,
+          "x1": 0.7170588235294117,
+          "y0": 0.7436363636363637
+        },
+        "text": "-$750.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe93bad3411dc2309e91",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec0d75d15abad3edd8f",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1684.5,
+          "y1": 2505,
+          "x1": 1828.5,
+          "y0": 2454
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_256",
+            "text": "-$750.00",
+            "distance": 140420.78412885006,
+            "pos": {
+              "x0": 567,
+              "y1": 830.3333333333333,
+              "x1": 606,
+              "y0": 821
+            }
+          }
+        ]
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "-750.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e8d396b42aab0607ffe93d34947e4c84",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2030849,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "-750.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589572374357,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 417.66666666666663,
+          "y1": 150.33333333333331,
+          "x1": 431.66666666666663,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.4913725490196078,
+          "y1": 0.13666666666666666,
+          "x1": 0.5078431372549019,
+          "y0": 0.12484848484848483
+        },
+        "text": "W",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1253,
+          "y1": 450.99999999999994,
+          "x1": 1295,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_36",
+            "text": "W",
+            "distance": 141017.38453043852,
+            "pos": {
+              "x0": 419.66666666666663,
+              "y1": 148.33333333333331,
+              "x1": 429.66666666666663,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a5e460cd75e89dd695229a30023acf15",
+      "DATAPOINT ORDER": "2",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1660094,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "W",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 656.5,
+          "y1": 173,
+          "x1": 731.5,
+          "y0": 153
+        },
+        "pos_normalized": {
+          "x0": 0.7723529411764706,
+          "y1": 0.1572727272727273,
+          "x1": 0.8605882352941177,
+          "y0": 0.1390909090909091
+        },
+        "text": "Refinance",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1969.5,
+          "y1": 519,
+          "x1": 2194.5,
+          "y0": 459
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 64,
+            "id": "word_1_52",
+            "text": "Refinance",
+            "distance": 140822.45408176607,
+            "pos": {
+              "x0": 659.6666666666666,
+              "y1": 164.66666666666666,
+              "x1": 709.6666666666666,
+              "y0": 155.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1520541,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "REFINANCE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "REFINANCE",
+        "control": "radio"
+      },
+      "ObjectId": "66ecdbb7571cf2bf05ee82b5dd033008",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 165.66666666666666,
+          "x1": 224.66666666666666,
+          "y0": 152.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.1506060606060606,
+          "x1": 0.26431372549019605,
+          "y0": 0.13848484848484846
+        },
+        "text": "3/17/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 497,
+          "x1": 674,
+          "y0": 456.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_47",
+            "text": "3/17/2018",
+            "distance": 141167.8609466404,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 163.66666666666666,
+              "x1": 222.66666666666666,
+              "y0": 154.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "edit_input": {
+        "text": "03/17/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d9fca012399ff49c5b3f1aa52305f4a2",
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1420634,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/17/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 260.5,
+          "y1": 422,
+          "x1": 354.5,
+          "y0": 406
+        },
+        "pos_normalized": {
+          "x0": 0.3064705882352941,
+          "y1": 0.3836363636363636,
+          "x1": 0.41705882352941176,
+          "y0": 0.3690909090909091
+        },
+        "text": "$1,537.12",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 781.5,
+          "y1": 1266,
+          "x1": 1063.5,
+          "y0": 1218
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 35,
+            "id": "word_1_119",
+            "text": "$1,537.12",
+            "distance": 140914.14829998836,
+            "pos": {
+              "x0": 261.66666666666663,
+              "y1": 423.3333333333333,
+              "x1": 338,
+              "y0": 405.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "1537.12",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e6ce73ae8bec7c841e228d987defe905",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1590717,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1537.12",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 602.5,
+          "y1": 739,
+          "x1": 693.5,
+          "y0": 714
+        },
+        "pos_normalized": {
+          "x0": 0.7088235294117647,
+          "y1": 0.6718181818181819,
+          "x1": 0.8158823529411765,
+          "y0": 0.649090909090909
+        },
+        "text": "Natalie Tipton",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe93f79ee3843b8397e7",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec1c50d5f36952cfa4a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1807.5,
+          "y1": 2217,
+          "x1": 2080.5,
+          "y0": 2142
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_455",
+            "text": "Natalie",
+            "distance": 19.49501360747285,
+            "pos": {
+              "x0": 603.6666666666666,
+              "y1": 731.3333333333333,
+              "x1": 639,
+              "y0": 722.3333333333333
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_456",
+            "text": "Tipton",
+            "distance": 55.435648378197065,
+            "pos": {
+              "x0": 642.3333333333333,
+              "y1": 733.6666666666666,
+              "x1": 675.3333333333333,
+              "y0": 722.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 2145578,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Natalie Tipton",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "ObjectId": "4432e8ee0a0dd2c3713da31d00e245fa",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 479.3333333333333,
+          "y1": 763.6666666666666,
+          "x1": 559.6666666666666,
+          "y0": 742
+        },
+        "pos_normalized": {
+          "x0": 0.5639215686274509,
+          "y1": 0.6942424242424242,
+          "x1": 0.6584313725490195,
+          "y0": 0.6745454545454546
+        },
+        "text": "$2’337'46",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1438,
+          "y1": 2291,
+          "x1": 1679,
+          "y0": 2226
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 75,
+            "id": "word_1_182",
+            "text": "$2’337'46",
+            "distance": 140519.65625175403,
+            "pos": {
+              "x0": 481.3333333333333,
+              "y1": 761.6666666666666,
+              "x1": 557.6666666666666,
+              "y0": 744
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "2337.46"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "160841f57aca3c474f42ab6b30310fee",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1623275,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "2337.46",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589572374357,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 366.66666666666663,
+          "y1": 150.33333333333331,
+          "x1": 418.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.4313725490196078,
+          "y1": 0.13666666666666666,
+          "x1": 0.492156862745098,
+          "y0": 0.12484848484848483
+        },
+        "text": "PHILISHA",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1100,
+          "y1": 450.99999999999994,
+          "x1": 1255,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_35",
+            "text": "PHILISHA",
+            "distance": 141040.0995855828,
+            "pos": {
+              "x0": 368.66666666666663,
+              "y1": 148.33333333333331,
+              "x1": 416.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cb64ef6c5cffc630c15d9800e8bcf628",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1656341,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "PHILISHA",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 657.3333333333333,
+          "y1": 150.33333333333331,
+          "x1": 673,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7733333333333332,
+          "y1": 0.13666666666666666,
+          "x1": 0.7917647058823529,
+          "y0": 0.12484848484848483
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1971.9999999999998,
+          "y1": 450.99999999999994,
+          "x1": 2019,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 33,
+            "id": "word_1_43",
+            "text": "30",
+            "distance": 140847.66794740417,
+            "pos": {
+              "x0": 659.3333333333333,
+              "y1": 148.33333333333331,
+              "x1": 671,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1509737,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f69eb6434aa9a3526bb176f3f3271463",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 260,
+          "y1": 330,
+          "x1": 336.3333333333333,
+          "y0": 308.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3058823529411765,
+          "y1": 0.3,
+          "x1": 0.3956862745098039,
+          "y0": 0.2803030303030303
+        },
+        "text": "$274,500",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 780,
+          "y1": 990,
+          "x1": 1009,
+          "y0": 925
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 79,
+            "id": "word_1_109",
+            "text": "$274,500",
+            "distance": 140982.7151127242,
+            "pos": {
+              "x0": 262,
+              "y1": 328,
+              "x1": 334.3333333333333,
+              "y0": 310.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "274500",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "db73802ef2290441fdfdb28d2d9fcad7",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1570633,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "274500",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 656.6666666666666,
+          "y1": 812.3333333333333,
+          "x1": 683.3333333333333,
+          "y0": 798.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.7725490196078431,
+          "y1": 0.7384848484848484,
+          "x1": 0.8039215686274509,
+          "y0": 0.7257575757575757
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1970,
+          "y1": 2437,
+          "x1": 2050,
+          "y0": 2395
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_194",
+            "text": "YES",
+            "distance": 140376.0493304008,
+            "pos": {
+              "x0": 658.6666666666666,
+              "y1": 810.3333333333333,
+              "x1": 681.3333333333333,
+              "y0": 800.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1631578,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "98cbc8896ee926eb1d8660919bf198a1",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 656.6666666666666,
+          "y1": 832,
+          "x1": 683.3333333333333,
+          "y0": 817.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7725490196078431,
+          "y1": 0.7563636363636363,
+          "x1": 0.8039215686274509,
+          "y0": 0.7433333333333333
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1970,
+          "y1": 2496,
+          "x1": 2050,
+          "y0": 2453
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_201",
+            "text": "YES",
+            "distance": 140362.27082931195,
+            "pos": {
+              "x0": 658.6666666666666,
+              "y1": 830,
+              "x1": 681.3333333333333,
+              "y0": 819.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1636553,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "18ece14f0b4ad43cb1bc0092f77fd193",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 656.5,
+          "y1": 230,
+          "x1": 819.5,
+          "y0": 190
+        },
+        "pos_normalized": {
+          "x0": 0.7723529411764706,
+          "y1": 0.20909090909090908,
+          "x1": 0.9641176470588235,
+          "y0": 0.17272727272727273
+        },
+        "text": "[XIConventional OvAa O [JFHA",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1969.5,
+          "y1": 690,
+          "x1": 2458.5,
+          "y0": 570
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 50,
+            "id": "word_1_76",
+            "text": "[XIConventional",
+            "distance": 140775.9819516257,
+            "pos": {
+              "x0": 667,
+              "y1": 208.33333333333331,
+              "x1": 746.6666666666666,
+              "y0": 198.66666666666666
+            }
+          },
+          {
+            "score": 35,
+            "id": "word_1_82",
+            "text": "OvAa",
+            "distance": 140784.15901142982,
+            "pos": {
+              "x0": 667,
+              "y1": 223.66666666666666,
+              "x1": 692.6666666666666,
+              "y0": 214
+            }
+          },
+          {
+            "score": 94,
+            "id": "word_1_83",
+            "text": "O",
+            "distance": 140766.17074711365,
+            "pos": {
+              "x0": 700.3333333333333,
+              "y1": 223.66666666666666,
+              "x1": 710.3333333333333,
+              "y0": 214
+            }
+          },
+          {
+            "score": 61,
+            "id": "word_1_77",
+            "text": "[JFHA",
+            "distance": 140729.67384670512,
+            "pos": {
+              "x0": 755.6666666666666,
+              "y1": 208.33333333333331,
+              "x1": 789.3333333333333,
+              "y0": 198.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1564883,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "10be5414ec7a55b26dad221ef16fe715",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 181.33333333333331,
+          "x1": 224.66666666666666,
+          "y0": 168
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.16484848484848483,
+          "x1": 0.26431372549019605,
+          "y0": 0.15272727272727274
+        },
+        "text": "3/22/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 544,
+          "x1": 674,
+          "y0": 504
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_55",
+            "text": "3/22/2018",
+            "distance": 141156.7812942797,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 179.33333333333331,
+              "x1": 222.66666666666666,
+              "y0": 170
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "edit_input": {
+        "text": "03/22/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1a1353c1513726c1c66722935ebc7ce0",
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1440425,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/22/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 415.66666666666663,
+          "y1": 516.3333333333333,
+          "x1": 441.66666666666663,
+          "y0": 500
+        },
+        "pos_normalized": {
+          "x0": 0.4890196078431372,
+          "y1": 0.4693939393939393,
+          "x1": 0.5196078431372548,
+          "y0": 0.45454545454545453
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1247,
+          "y1": 1548.9999999999998,
+          "x1": 1325,
+          "y0": 1500
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_150",
+            "text": "NO",
+            "distance": 140756.80493960337,
+            "pos": {
+              "x0": 417.66666666666663,
+              "y1": 514.3333333333333,
+              "x1": 439.66666666666663,
+              "y0": 502
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1607684,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "bc0cb8071fbd38835f5f722d955f86c8",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1589572374357,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 242.33333333333331,
+          "y1": 242.33333333333331,
+          "x1": 277.3333333333333,
+          "y0": 229.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.28509803921568627,
+          "y1": 0.22030303030303028,
+          "x1": 0.32627450980392153,
+          "y0": 0.20848484848484847
+        },
+        "text": "75070",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe93929ad83f2873e5a9",
+          "DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+          "scale": 3,
+          "PageOcr": "5eb2fec079601cf47137e82b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 727,
+          "y1": 727,
+          "x1": 832,
+          "y0": 688
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_86",
+            "text": "75070",
+            "distance": 141068.7466765367,
+            "pos": {
+              "x0": 244.33333333333331,
+              "y1": 240.33333333333331,
+              "x1": 275.3333333333333,
+              "y0": 231.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "workflow_time_elapsed": 1776610,
+      "Type": "ExtractionUI",
+      "UserName": "caroline.warden@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "75070",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "679db861-dbb9-467b-a6a2-4343b7cd048d",
+      "ExtractionUI::DocumentId": "e3921939-79bb-4c0f-9d95-c7379bd3faab",
+      "ObjectId": "27a5be677f0246daff91cf8d8c7e1733",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    }
+  ],
+  "Total": 48,
+  "IndexScannedCount": 48
+}

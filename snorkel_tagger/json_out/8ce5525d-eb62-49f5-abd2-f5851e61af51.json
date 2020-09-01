@@ -1,0 +1,4000 @@
+{
+  "Results": [
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 437.66666666666663,
+          "y1": 1029,
+          "x1": 469,
+          "y0": 1005.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.5149019607843137,
+          "y1": 0.9354545454545454,
+          "x1": 0.5517647058823529,
+          "y0": 0.9139393939393938
+        },
+        "text": "RW‘I\"'",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe9248b1a6e73449e044",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3a363b97b2912b52a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1313,
+          "y1": 3087,
+          "x1": 1407,
+          "y0": 3016
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 52,
+            "id": "word_5_503",
+            "text": "RW‘I\"'",
+            "distance": 140380.00055256762,
+            "pos": {
+              "x0": 439.66666666666663,
+              "y1": 1027,
+              "x1": 467,
+              "y0": 1007.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator (2)",
+      "edit_input": {
+        "text": " "
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "47a379bc80d738213d67630cabafba0b",
+      "DATAPOINT ORDER": "6",
+      "prototype": "Borrower Signature Present Indicator",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 421387,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 565,
+          "y1": 832.3333333333333,
+          "x1": 608,
+          "y0": 819
+        },
+        "pos_normalized": {
+          "x0": 0.6647058823529411,
+          "y1": 0.7566666666666666,
+          "x1": 0.7152941176470589,
+          "y0": 0.7445454545454545
+        },
+        "text": "-$750.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1695,
+          "y1": 2497,
+          "x1": 1824,
+          "y0": 2457
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_256",
+            "text": "-$750.00",
+            "distance": 140420.78412885006,
+            "pos": {
+              "x0": 567,
+              "y1": 830.3333333333333,
+              "x1": 606,
+              "y0": 821
+            }
+          }
+        ]
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "-750.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "19a8a8367d4b2e5b2b64dffe1bb60247",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 617465,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "-750.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 339,
+          "y1": 762,
+          "x1": 348,
+          "y0": 750
+        },
+        "pos_normalized": {
+          "x0": 0.3988235294117647,
+          "y1": 0.6927272727272727,
+          "x1": 0.40941176470588236,
+          "y0": 0.6818181818181818
+        },
+        "text": "5",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1017,
+          "y1": 2286,
+          "x1": 1044,
+          "y0": 2250
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_2_251",
+            "text": "5",
+            "distance": 140642.07347465408,
+            "pos": {
+              "x0": 341,
+              "y1": 760,
+              "x1": 346,
+              "y0": 752
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 606537,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a73cdfa8427efdbaca26c3647e9a8456",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "21",
+      "ID": "8c9921ed-62f0-38c2-b6de-b669654c4533",
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 605.5,
+          "y1": 618,
+          "x1": 700.5,
+          "y0": 607
+        },
+        "pos_normalized": {
+          "x0": 0.7123529411764706,
+          "y1": 0.5618181818181818,
+          "x1": 0.8241176470588235,
+          "y0": 0.5518181818181818
+        },
+        "text": "Juniper Title, Inc.",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe9248b1a6e73449e044",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3a363b97b2912b52a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1816.5,
+          "y1": 1854,
+          "x1": 2101.5,
+          "y0": 1821
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_5_408",
+            "text": "Juniper",
+            "distance": 140545.84036306842,
+            "pos": {
+              "x0": 603.3333333333333,
+              "y1": 618.3333333333333,
+              "x1": 641.6666666666666,
+              "y0": 607
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_5_409",
+            "text": "Title,",
+            "distance": 140522.03778579438,
+            "pos": {
+              "x0": 644.6666666666666,
+              "y1": 617.3333333333333,
+              "x1": 668.6666666666666,
+              "y0": 607
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_5_410",
+            "text": "Inc.",
+            "distance": 140505.19018685553,
+            "pos": {
+              "x0": 673,
+              "y1": 616,
+              "x1": 689.3333333333333,
+              "y0": 607
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 788753,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Juniper Title, Inc.",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "ObjectId": "18dcb119b300bd9f07fadd6f7e88cf07",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 664.5,
+          "y1": 163,
+          "x1": 689.5,
+          "y0": 158
+        },
+        "pos_normalized": {
+          "x0": 0.7817647058823529,
+          "y1": 0.1481818181818182,
+          "x1": 0.8111764705882353,
+          "y0": 0.14363636363636365
+        },
+        "text": "Refinance",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1993.5,
+          "y1": 489,
+          "x1": 2068.5,
+          "y0": 474
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 64,
+            "id": "word_1_52",
+            "text": "Refinance",
+            "distance": 140822.45408176607,
+            "pos": {
+              "x0": 659.6666666666666,
+              "y1": 164.66666666666666,
+              "x1": 709.6666666666666,
+              "y0": 155.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 67252,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "REFINANCE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "REFINANCE",
+        "control": "radio"
+      },
+      "ObjectId": "d281b602ff7008f25dbc1d7e2436b076",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 656.6666666666666,
+          "y1": 812.3333333333333,
+          "x1": 683.3333333333333,
+          "y0": 798.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.7725490196078431,
+          "y1": 0.7384848484848484,
+          "x1": 0.8039215686274509,
+          "y0": 0.7257575757575757
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1970,
+          "y1": 2437,
+          "x1": 2050,
+          "y0": 2395
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_194",
+            "text": "YES",
+            "distance": 140376.0493304008,
+            "pos": {
+              "x0": 658.6666666666666,
+              "y1": 810.3333333333333,
+              "x1": 681.3333333333333,
+              "y0": 800.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 244655,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "ff59b4e108961ffbcc72edffad910353",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 672.6666666666666,
+          "y1": 153,
+          "x1": 703,
+          "y0": 139.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7913725490196079,
+          "y1": 0.1390909090909091,
+          "x1": 0.8270588235294117,
+          "y0": 0.12696969696969695
+        },
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2018,
+          "y1": 459,
+          "x1": 2109,
+          "y0": 419
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_44",
+            "text": "years",
+            "distance": 140829.91053680875,
+            "pos": {
+              "x0": 674.6666666666666,
+              "y1": 151,
+              "x1": 701,
+              "y0": 141.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 59899,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "6167950348c11fc5953ac44c955bc05b",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 267.5,
+          "y1": 672,
+          "x1": 281.5,
+          "y0": 669
+        },
+        "pos_normalized": {
+          "x0": 0.31470588235294117,
+          "y1": 0.610909090909091,
+          "x1": 0.3311764705882353,
+          "y0": 0.6081818181818182
+        },
+        "text": "3/22/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 802.5,
+          "y1": 2016,
+          "x1": 844.5,
+          "y0": 2007
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_214",
+            "text": "3/22/18",
+            "distance": 140748.107422938,
+            "pos": {
+              "x0": 262,
+              "y1": 674,
+              "x1": 297.3333333333333,
+              "y0": 665.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "03/22/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0efd44c8897d581886b68df44f1188d8",
+      "DATAPOINT ORDER": "10",
+      "ID": "78640e69-866a-39bf-a5d6-80e73c2a7811",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 529604,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/22/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 366.66666666666663,
+          "y1": 150.33333333333331,
+          "x1": 418.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.4313725490196078,
+          "y1": 0.13666666666666666,
+          "x1": 0.492156862745098,
+          "y0": 0.12484848484848483
+        },
+        "text": "PHILISHA",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1100,
+          "y1": 450.99999999999994,
+          "x1": 1255,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_35",
+            "text": "PHILISHA",
+            "distance": 141040.0995855828,
+            "pos": {
+              "x0": 368.66666666666663,
+              "y1": 148.33333333333331,
+              "x1": 416.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b5787cac89aae5c6ef0ebef25074a5b9",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 287953,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "PHILISHA",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 657.3333333333333,
+          "y1": 150.33333333333331,
+          "x1": 673,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7733333333333332,
+          "y1": 0.13666666666666666,
+          "x1": 0.7917647058823529,
+          "y0": 0.12484848484848483
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1971.9999999999998,
+          "y1": 450.99999999999994,
+          "x1": 2019,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 33,
+            "id": "word_1_43",
+            "text": "30",
+            "distance": 140847.66794740417,
+            "pos": {
+              "x0": 659.3333333333333,
+              "y1": 148.33333333333331,
+              "x1": 671,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 49434,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ed6006a126bd478c41ba13b938a5dc13",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 339,
+          "y1": 734.3333333333333,
+          "x1": 348,
+          "y0": 722.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3988235294117647,
+          "y1": 0.6675757575757575,
+          "x1": 0.40941176470588236,
+          "y0": 0.6566666666666666
+        },
+        "text": "9",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1017,
+          "y1": 2203,
+          "x1": 1044,
+          "y0": 2167
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_2_236",
+            "text": "9",
+            "distance": 140661.59751342147,
+            "pos": {
+              "x0": 341,
+              "y1": 732.3333333333333,
+              "x1": 346,
+              "y0": 724.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 586676,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "9",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ded40d1d38168ed9923d3e9a0bab8d52",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "16",
+      "ID": "8558b5f4-fe1e-3399-921f-2c63e018db83",
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 530.3333333333333,
+          "y1": 150.33333333333331,
+          "x1": 567.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.6239215686274509,
+          "y1": 0.13666666666666666,
+          "x1": 0.6674509803921568,
+          "y0": 0.12484848484848483
+        },
+        "text": "ADAIR",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1590.9999999999998,
+          "y1": 450.99999999999994,
+          "x1": 1701.9999999999998,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_41",
+            "text": "ADAIR",
+            "distance": 140929.73658962903,
+            "pos": {
+              "x0": 532.3333333333333,
+              "y1": 148.33333333333331,
+              "x1": 565.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "17c75f34953ae31e34ecbb06363de3ac",
+      "DATAPOINT ORDER": "3",
+      "prototype": "Borrower Last Name",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 407978,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "ADAIR",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 260,
+          "y1": 330,
+          "x1": 336.3333333333333,
+          "y0": 308.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3058823529411765,
+          "y1": 0.3,
+          "x1": 0.3956862745098039,
+          "y0": 0.2803030303030303
+        },
+        "text": "$274,500",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 780,
+          "y1": 990,
+          "x1": 1009,
+          "y0": 925
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 79,
+            "id": "word_1_109",
+            "text": "$274,500",
+            "distance": 140982.7151127242,
+            "pos": {
+              "x0": 262,
+              "y1": 328,
+              "x1": 334.3333333333333,
+              "y0": 310.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "274500",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1533c1b9f847c729674641edcc5dcb51",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 130284,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "274500",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 314.5,
+          "y1": 671,
+          "x1": 330.5,
+          "y0": 669
+        },
+        "pos_normalized": {
+          "x0": 0.37,
+          "y1": 0.61,
+          "x1": 0.3888235294117647,
+          "y0": 0.6081818181818182
+        },
+        "text": "4/1/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 943.5,
+          "y1": 2013,
+          "x1": 991.5,
+          "y0": 2007
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 57,
+            "id": "word_2_216",
+            "text": "4/1/18",
+            "distance": 140714.34001718595,
+            "pos": {
+              "x0": 312.3333333333333,
+              "y1": 674,
+              "x1": 342.3333333333333,
+              "y0": 665.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "04/01/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "eeef0697f5880a2abc7dcb936910e7b9",
+      "DATAPOINT ORDER": "11",
+      "ID": "042e688a-3ebf-3c4f-bfca-55a2748db428",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 538596,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/01/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 174.5,
+          "y1": 146,
+          "x1": 213.5,
+          "y0": 144
+        },
+        "pos_normalized": {
+          "x0": 0.20529411764705882,
+          "y1": 0.13272727272727272,
+          "x1": 0.2511764705882353,
+          "y0": 0.13090909090909092
+        },
+        "text": "3/16/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 523.5,
+          "y1": 438,
+          "x1": 640.5,
+          "y0": 432
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_33",
+            "text": "3/16/2018",
+            "distance": 141178.82339961614,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 148.66666666666666,
+              "x1": 221.66666666666666,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "edit_input": {
+        "text": "03/16/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0cbb24b0dd7afff94252808e6a5a1f53",
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 15015,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/16/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 223.33333333333331,
+          "y1": 242.33333333333331,
+          "x1": 240.33333333333331,
+          "y0": 229.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.26274509803921564,
+          "y1": 0.22030303030303028,
+          "x1": 0.28274509803921566,
+          "y0": 0.20848484848484847
+        },
+        "text": "TX",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 670,
+          "y1": 727,
+          "x1": 721,
+          "y0": 688
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_85",
+            "text": "TX",
+            "distance": 141088.54467398202,
+            "pos": {
+              "x0": 225.33333333333331,
+              "y1": 240.33333333333331,
+              "x1": 238.33333333333331,
+              "y0": 231.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 452889,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "TX",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "ObjectId": "5f2a63ae49435667a28e2c6fcb37d2fa",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 430.66666666666663,
+          "y1": 150.33333333333331,
+          "x1": 467.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.5066666666666666,
+          "y1": 0.13666666666666666,
+          "x1": 0.5498039215686275,
+          "y0": 0.12484848484848483
+        },
+        "text": "ADAIR",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1292,
+          "y1": 450.99999999999994,
+          "x1": 1402,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_37",
+            "text": "ADAIR",
+            "distance": 141000.2035649634,
+            "pos": {
+              "x0": 432.66666666666663,
+              "y1": 148.33333333333331,
+              "x1": 465.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "17c75f34953ae31e34ecbb06363de3ac",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 302510,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "ADAIR",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 174.5,
+          "y1": 223,
+          "x1": 274.5,
+          "y0": 220
+        },
+        "pos_normalized": {
+          "x0": 0.20529411764705882,
+          "y1": 0.20272727272727273,
+          "x1": 0.32294117647058823,
+          "y0": 0.2
+        },
+        "text": "9421 Woodhurst Dr",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 523.5,
+          "y1": 669,
+          "x1": 823.5,
+          "y0": 660
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_79",
+            "text": "9421",
+            "distance": 141134.74502915447,
+            "pos": {
+              "x0": 170,
+              "y1": 225.33333333333331,
+              "x1": 193,
+              "y0": 216.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_80",
+            "text": "Woodhurst",
+            "distance": 141102.686852322,
+            "pos": {
+              "x0": 198,
+              "y1": 225.33333333333331,
+              "x1": 256,
+              "y0": 216
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_1_81",
+            "text": "Dr",
+            "distance": 141075.5846098112,
+            "pos": {
+              "x0": 259.66666666666663,
+              "y1": 225,
+              "x1": 271.3333333333333,
+              "y0": 216
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 434059,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "9421 Woodhurst Dr",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "ObjectId": "940b541090dc7644008eab3f9b968179",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "2474b7b4-616d-38cb-b65c-7afaa3ac6467",
+      "NAME": "PROPERTY ADDRESS LINE 2"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 451.3333333333333,
+          "y1": 170.66666666666666,
+          "x1": 472.3333333333333,
+          "y0": 157.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.5309803921568628,
+          "y1": 0.15515151515151515,
+          "x1": 0.5556862745098039,
+          "y0": 0.143030303030303
+        },
+        "text": "will",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb2fe923c4876dc42c6ba42",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3031b892e578e6bcf",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1354,
+          "y1": 512,
+          "x1": 1417,
+          "y0": 471.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_4_362",
+            "text": "will",
+            "distance": 140976.86122680246,
+            "pos": {
+              "x0": 453.3333333333333,
+              "y1": 168.66666666666666,
+              "x1": 470.3333333333333,
+              "y0": 159.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 768686,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "32421d70fda58d76968af6f166891235",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 181.33333333333331,
+          "x1": 224.66666666666666,
+          "y0": 168
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.16484848484848483,
+          "x1": 0.26431372549019605,
+          "y0": 0.15272727272727274
+        },
+        "text": "3/22/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 544,
+          "x1": 674,
+          "y0": 504
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_55",
+            "text": "3/22/2018",
+            "distance": 141156.7812942797,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 179.33333333333331,
+              "x1": 222.66666666666666,
+              "y0": 170
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "edit_input": {
+        "text": "03/22/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ca74466fad9d728954f7fa6c487a5f3d",
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 34028,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/22/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333333333333,
+          "y1": 520.6666666666666,
+          "x1": 635.3333333333333,
+          "y0": 506.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6862745098039215,
+          "y1": 0.4733333333333333,
+          "x1": 0.7474509803921567,
+          "y0": 0.46030303030303027
+        },
+        "text": "$4,765.70",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999999999998,
+          "y1": 1562,
+          "x1": 1905.9999999999998,
+          "y0": 1519
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_162",
+            "text": "$4,765.70",
+            "distance": 140625.28817995163,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 518.6666666666666,
+              "x1": 633.3333333333333,
+              "y0": 508.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "4765.70",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "affcfe7a7a67f2fda6ac041cb301db90",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 499716,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4765.70",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 176.5,
+          "y1": 162,
+          "x1": 234.5,
+          "y0": 159
+        },
+        "pos_normalized": {
+          "x0": 0.2076470588235294,
+          "y1": 0.14727272727272728,
+          "x1": 0.27588235294117647,
+          "y0": 0.14454545454545453
+        },
+        "text": "3/17/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 529.5,
+          "y1": 486,
+          "x1": 703.5,
+          "y0": 477
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_47",
+            "text": "3/17/2018",
+            "distance": 141167.8609466404,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 163.66666666666666,
+              "x1": 222.66666666666666,
+              "y0": 154.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "edit_input": {
+        "text": "03/17/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7f29c7bf2aa6e6b5cbfc7a78503c01cb",
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 20554,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/17/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 232.66666666666666,
+          "y1": 735.3333333333333,
+          "x1": 272.3333333333333,
+          "y0": 721.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.27372549019607845,
+          "y1": 0.6684848484848485,
+          "x1": 0.3203921568627451,
+          "y0": 0.656060606060606
+        },
+        "text": "$187.50",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 698,
+          "y1": 2206,
+          "x1": 817,
+          "y0": 2165
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_232",
+            "text": "$187.50",
+            "distance": 140725.96567797998,
+            "pos": {
+              "x0": 234.66666666666666,
+              "y1": 733.3333333333333,
+              "x1": 270.3333333333333,
+              "y0": 723.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "187.50",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "efd16eb4d35ba533cb8ce9deecd1ba66",
+      "DATAPOINT ORDER": "15",
+      "ID": "7dcfcd32-9f28-34a8-8c6a-4fb5be237e0e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 583193,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "187.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 489.66666666666663,
+          "y1": 150.66666666666666,
+          "x1": 520.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.576078431372549,
+          "y1": 0.13696969696969696,
+          "x1": 0.612156862745098,
+          "y0": 0.12484848484848483
+        },
+        "text": "RUBE",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1469,
+          "y1": 452,
+          "x1": 1560.9999999999998,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_39",
+            "text": "RUBE",
+            "distance": 140960.55374642936,
+            "pos": {
+              "x0": 491.66666666666663,
+              "y1": 148.66666666666666,
+              "x1": 518.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b5787cac89aae5c6ef0ebef25074a5b9",
+      "DATAPOINT ORDER": "1",
+      "prototype": "Borrower First Name",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 395845,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "RUBE",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 372.5,
+          "y1": 192,
+          "x1": 526.5,
+          "y0": 184
+        },
+        "pos_normalized": {
+          "x0": 0.43823529411764706,
+          "y1": 0.17454545454545456,
+          "x1": 0.6194117647058823,
+          "y0": 0.16727272727272727
+        },
+        "text": "Nations Reliable Lending, LLC",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1117.5,
+          "y1": 576,
+          "x1": 1579.5,
+          "y0": 552
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 28,
+            "id": "word_1_68",
+            "text": "Nations",
+            "distance": 141010.5969370939,
+            "pos": {
+              "x0": 368.66666666666663,
+              "y1": 194.33333333333331,
+              "x1": 407.66666666666663,
+              "y0": 185.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_69",
+            "text": "Reliable",
+            "distance": 140980.1071775928,
+            "pos": {
+              "x0": 411.3333333333333,
+              "y1": 194.33333333333331,
+              "x1": 451.3333333333333,
+              "y0": 185.33333333333331
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_1_70",
+            "text": "Lending,",
+            "distance": 140946.67928619517,
+            "pos": {
+              "x0": 455.3333333333333,
+              "y1": 197,
+              "x1": 499.3333333333333,
+              "y0": 185.33333333333331
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_71",
+            "text": "LLC",
+            "distance": 140922.91261468292,
+            "pos": {
+              "x0": 503.3333333333333,
+              "y1": 194.33333333333331,
+              "x1": 521.3333333333333,
+              "y0": 185.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 44337,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Nations Reliable Lending, LLC",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "ObjectId": "656e77a113a5287860cf6442bcd4788a",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 587.6666666666666,
+          "y1": 634,
+          "x1": 631,
+          "y0": 620.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6913725490196078,
+          "y1": 0.5763636363636364,
+          "x1": 0.7423529411764705,
+          "y0": 0.5639393939393939
+        },
+        "text": "$404.23",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1763,
+          "y1": 1902,
+          "x1": 1893,
+          "y0": 1860.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_196",
+            "text": "$404.23",
+            "distance": 140544.89794773373,
+            "pos": {
+              "x0": 589.6666666666666,
+              "y1": 632,
+              "x1": 629,
+              "y0": 622.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "404.23",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "422a8b9aa42097d1d18513f2edaa3537",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 514076,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "404.23",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 578.5,
+          "y1": 245,
+          "x1": 590.5,
+          "y0": 244
+        },
+        "pos_normalized": {
+          "x0": 0.6805882352941176,
+          "y1": 0.22272727272727272,
+          "x1": 0.6947058823529412,
+          "y0": 0.22181818181818183
+        },
+        "text": "$125.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1735.5,
+          "y1": 735,
+          "x1": 1771.5,
+          "y0": 732
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_52",
+            "text": "$125.00",
+            "distance": 140830.3061691426,
+            "pos": {
+              "x0": 570.3333333333333,
+              "y1": 249.66666666666666,
+              "x1": 606,
+              "y0": 240.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Appraisal Fee Borrower Paid At Closing",
+      "edit_input": {
+        "text": "125.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5d47c26395ee9ab4ddbc81a83fa7b596",
+      "DATAPOINT ORDER": "9",
+      "ID": "5efd8943-a0a6-3fd3-b5e0-e3cfa2f56048",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 480652,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "125.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 656.6666666666666,
+          "y1": 832,
+          "x1": 683.3333333333333,
+          "y0": 817.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7725490196078431,
+          "y1": 0.7563636363636363,
+          "x1": 0.8039215686274509,
+          "y0": 0.7433333333333333
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1970,
+          "y1": 2496,
+          "x1": 2050,
+          "y0": 2453
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_201",
+            "text": "YES",
+            "distance": 140362.27082931195,
+            "pos": {
+              "x0": 658.6666666666666,
+              "y1": 830,
+              "x1": 681.3333333333333,
+              "y0": 819.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 250834,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "62f0d5d5ac5b569462470c10b96c29f3",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333333333333,
+          "y1": 720.6666666666666,
+          "x1": 635.3333333333333,
+          "y0": 706.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6862745098039215,
+          "y1": 0.6551515151515152,
+          "x1": 0.7474509803921567,
+          "y0": 0.6421212121212121
+        },
+        "text": "$4,001.70",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999999999998,
+          "y1": 2162,
+          "x1": 1905.9999999999998,
+          "y0": 2119
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_229",
+            "text": "$4,001.70",
+            "distance": 140483.86980609,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 718.6666666666666,
+              "x1": 633.3333333333333,
+              "y0": 708.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "4001.70",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "556b2192079711042a844c13e498a6ac",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 560370,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4001.70",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 47,
+          "y1": 1031.6666666666665,
+          "x1": 135,
+          "y0": 998.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.05529411764705883,
+          "y1": 0.9378787878787878,
+          "x1": 0.1588235294117647,
+          "y0": 0.9075757575757575
+        },
+        "text": "DocuSigned %%/ by:",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe9248b1a6e73449e044",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3a363b97b2912b52a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 141,
+          "y1": 3094.9999999999995,
+          "x1": 405,
+          "y0": 2995
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 52,
+            "id": "word_5_494",
+            "text": "DocuSigned",
+            "distance": 140652.58458442127,
+            "pos": {
+              "x0": 66.33333333333333,
+              "y1": 1006.6666666666666,
+              "x1": 100.33333333333333,
+              "y0": 999.3333333333333
+            }
+          },
+          {
+            "score": 44,
+            "id": "word_5_498",
+            "text": "%%/",
+            "distance": 140638.6925013881,
+            "pos": {
+              "x0": 49,
+              "y1": 1029.6666666666665,
+              "x1": 133,
+              "y0": 1000.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_495",
+            "text": "by:",
+            "distance": 140636.59581237895,
+            "pos": {
+              "x0": 103,
+              "y1": 1004.6666666666666,
+              "x1": 110.66666666666666,
+              "y0": 999.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "edit_input": {
+        "text": " "
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "47a379bc80d738213d67630cabafba0b",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 384093,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 232.66666666666666,
+          "y1": 763,
+          "x1": 272.3333333333333,
+          "y0": 749.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.27372549019607845,
+          "y1": 0.6936363636363636,
+          "x1": 0.3203921568627451,
+          "y0": 0.6812121212121212
+        },
+        "text": "$612.84",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 698,
+          "y1": 2289,
+          "x1": 817,
+          "y0": 2248
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_247",
+            "text": "$612.84",
+            "distance": 140706.4506035329,
+            "pos": {
+              "x0": 234.66666666666666,
+              "y1": 761,
+              "x1": 270.3333333333333,
+              "y0": 751.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "612.84",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ea0c1192cd71d4f6e3c36cc56a10f287",
+      "DATAPOINT ORDER": "20",
+      "ID": "3620d405-85e5-3565-a0e3-6fe0a7eac86b",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 602978,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "612.84",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 497.5,
+          "y1": 756,
+          "x1": 561.5,
+          "y0": 747
+        },
+        "pos_normalized": {
+          "x0": 0.5852941176470589,
+          "y1": 0.6872727272727273,
+          "x1": 0.6605882352941177,
+          "y0": 0.6790909090909091
+        },
+        "text": "$2’337'46",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1492.5,
+          "y1": 2268,
+          "x1": 1684.5,
+          "y0": 2241
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 75,
+            "id": "word_1_182",
+            "text": "$2’337'46",
+            "distance": 140519.65625175403,
+            "pos": {
+              "x0": 481.3333333333333,
+              "y1": 761.6666666666666,
+              "x1": 557.6666666666666,
+              "y0": 744
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "2337.46"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d535f159ca4e8d664b761bc1de6cdbfb",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 230204,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "2337.46",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 245,
+          "x1": 224,
+          "y0": 229.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.22272727272727272,
+          "x1": 0.2635294117647059,
+          "y0": 0.20848484848484847
+        },
+        "text": "Mckinney,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 735,
+          "x1": 672,
+          "y0": 688
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_84",
+            "text": "Mckinney,",
+            "distance": 141112.82495656525,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 243,
+              "x1": 222,
+              "y0": 231.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 441034,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Mckinney,",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "ObjectId": "fecc3c205ea960fda57b4f20b4b5c2f5",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 520.3333333333333,
+          "y1": 150.33333333333331,
+          "x1": 530.6666666666666,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.612156862745098,
+          "y1": 0.13666666666666666,
+          "x1": 0.624313725490196,
+          "y0": 0.12484848484848483
+        },
+        "text": "H",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1560.9999999999998,
+          "y1": 450.99999999999994,
+          "x1": 1592,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_40",
+            "text": "H",
+            "distance": 140946.2031560663,
+            "pos": {
+              "x0": 522.3333333333333,
+              "y1": 148.33333333333331,
+              "x1": 528.6666666666666,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name (2)",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b3d6b8a1a283b419b5876e68f46ca926",
+      "DATAPOINT ORDER": "2",
+      "prototype": "Borrower Middle Name",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 1,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 402990,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "H",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 669.5,
+          "y1": 200,
+          "x1": 726.5,
+          "y0": 174
+        },
+        "pos_normalized": {
+          "x0": 0.7876470588235294,
+          "y1": 0.18181818181818182,
+          "x1": 0.8547058823529412,
+          "y0": 0.15818181818181817
+        },
+        "text": "Fixed Rate",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2008.5,
+          "y1": 600,
+          "x1": 2179.5,
+          "y0": 522
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 62,
+            "id": "word_1_60",
+            "text": "Fixed",
+            "distance": 140820.63879088257,
+            "pos": {
+              "x0": 659.6666666666666,
+              "y1": 179,
+              "x1": 686,
+              "y0": 169.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_61",
+            "text": "Rate",
+            "distance": 140800.53820466108,
+            "pos": {
+              "x0": 690.3333333333333,
+              "y1": 179,
+              "x1": 712.3333333333333,
+              "y0": 169.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Interest Only Indicator",
+      "edit_input": {
+        "text": " "
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2458f7fa6d1bfda433977c8c2c8c6352",
+      "DATAPOINT ORDER": "10",
+      "ID": "91cec963-8a42-34c7-9928-e0dafef170ac",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 114482,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INTEREST ONLY INDICATOR"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 260,
+          "y1": 366,
+          "x1": 325.66666666666663,
+          "y0": 347.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3058823529411765,
+          "y1": 0.3327272727272727,
+          "x1": 0.38313725490196077,
+          "y0": 0.31575757575757574
+        },
+        "text": "5.375%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 780,
+          "y1": 1098,
+          "x1": 976.9999999999999,
+          "y0": 1042
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 80,
+            "id": "word_1_113",
+            "text": "5.375%",
+            "distance": 140959.97628927234,
+            "pos": {
+              "x0": 262,
+              "y1": 364,
+              "x1": 323.66666666666663,
+              "y0": 349.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 133595,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5.375%",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3fcaab5c38ff5913505f764c1b56ecc3",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 259.66666666666663,
+          "y1": 425.3333333333333,
+          "x1": 340,
+          "y0": 403.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.3054901960784313,
+          "y1": 0.38666666666666666,
+          "x1": 0.4,
+          "y0": 0.36696969696969695
+        },
+        "text": "$1,537.12",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 778.9999999999999,
+          "y1": 1276,
+          "x1": 1020,
+          "y0": 1211
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 35,
+            "id": "word_1_119",
+            "text": "$1,537.12",
+            "distance": 140914.14829998836,
+            "pos": {
+              "x0": 261.66666666666663,
+              "y1": 423.3333333333333,
+              "x1": 338,
+              "y0": 405.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "1537.12",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1c6633a22905d6c35f00638ecefb8653",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 162101,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1537.12",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 605.5,
+          "y1": 730,
+          "x1": 677.5,
+          "y0": 722
+        },
+        "pos_normalized": {
+          "x0": 0.7123529411764706,
+          "y1": 0.6636363636363637,
+          "x1": 0.7970588235294118,
+          "y0": 0.6563636363636364
+        },
+        "text": "Natalie Tipton",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe9248b1a6e73449e044",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3a363b97b2912b52a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1816.5,
+          "y1": 2190,
+          "x1": 2032.5,
+          "y0": 2166
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_5_441",
+            "text": "Natalie",
+            "distance": 140465.95693431282,
+            "pos": {
+              "x0": 603.6666666666666,
+              "y1": 731.3333333333333,
+              "x1": 639,
+              "y0": 722.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_442",
+            "text": "Tipton",
+            "distance": 140438.604178817,
+            "pos": {
+              "x0": 642.3333333333333,
+              "y1": 733.6666666666666,
+              "x1": 675.3333333333333,
+              "y0": 722.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 841293,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Natalie Tipton",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "ObjectId": "6ad722cab5d0cfd6fc0d1bc8cab1706e",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 666.5,
+          "y1": 178,
+          "x1": 714.5,
+          "y0": 166
+        },
+        "pos_normalized": {
+          "x0": 0.7841176470588235,
+          "y1": 0.1618181818181818,
+          "x1": 0.8405882352941176,
+          "y0": 0.1509090909090909
+        },
+        "text": "Fixed Rate",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1999.5,
+          "y1": 534,
+          "x1": 2143.5,
+          "y0": 498
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 62,
+            "id": "word_1_60",
+            "text": "Fixed",
+            "distance": 140820.63879088257,
+            "pos": {
+              "x0": 659.6666666666666,
+              "y1": 179,
+              "x1": 686,
+              "y0": 169.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_61",
+            "text": "Rate",
+            "distance": 140800.53820466108,
+            "pos": {
+              "x0": 690.3333333333333,
+              "y1": 179,
+              "x1": 712.3333333333333,
+              "y0": 169.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type Other Description",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 80025,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "Fixed Rate",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f6ab20fa76d62aff6505e347d12b3404",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "9",
+      "ID": "bc5d5d72-d905-3182-80a4-ea5e01a9cbe4",
+      "NAME": "LOAN PURPOSE TYPE OTHER DESCRIPTION"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 253,
+          "y1": 1029.6666666666665,
+          "x1": 342.3333333333333,
+          "y0": 1008
+        },
+        "pos_normalized": {
+          "x0": 0.29764705882352943,
+          "y1": 0.9360606060606059,
+          "x1": 0.40274509803921565,
+          "y0": 0.9163636363636364
+        },
+        "text": "$56,349.69",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 759,
+          "y1": 3088.9999999999995,
+          "x1": 1027,
+          "y0": 3024
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_265",
+            "text": "$56,349.69",
+            "distance": 140489.25432503925,
+            "pos": {
+              "x0": 255,
+              "y1": 1027.6666666666665,
+              "x1": 340.3333333333333,
+              "y0": 1010
+            }
+          }
+        ]
+      },
+      "label": "Cash To Borrower At Closing Amount",
+      "edit_input": {
+        "text": "56349.69",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a03e1556bb0bafc5cc8580063b5daeb7",
+      "DATAPOINT ORDER": "5",
+      "ID": "238249d7-e93c-30db-9361-a016ec70df71",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 280380,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "56349.69",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH TO BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 665,
+          "y1": 210.33333333333331,
+          "x1": 748.6666666666666,
+          "y0": 196.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7823529411764706,
+          "y1": 0.1912121212121212,
+          "x1": 0.8807843137254902,
+          "y0": 0.17878787878787877
+        },
+        "text": "[XIConventional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1995,
+          "y1": 631,
+          "x1": 2246,
+          "y0": 590
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 50,
+            "id": "word_1_76",
+            "text": "[XIConventional",
+            "distance": 140775.9819516257,
+            "pos": {
+              "x0": 667,
+              "y1": 208.33333333333331,
+              "x1": 746.6666666666666,
+              "y0": 198.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "edit_input": {
+        "text": " Conventional"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "77c0e322d711c4953c4115c755606317",
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 123077,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 376.5,
+          "y1": 267,
+          "x1": 429.5,
+          "y0": 264
+        },
+        "pos_normalized": {
+          "x0": 0.4429411764705882,
+          "y1": 0.24272727272727274,
+          "x1": 0.5052941176470588,
+          "y0": 0.24
+        },
+        "text": "5459 %",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe9248b1a6e73449e044",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3a363b97b2912b52a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1129.5,
+          "y1": 801,
+          "x1": 1288.5,
+          "y0": 792
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 72,
+            "id": "word_5_163",
+            "text": "5459",
+            "distance": 140957.16783289958,
+            "pos": {
+              "x0": 375,
+              "y1": 269.3333333333333,
+              "x1": 402.3333333333333,
+              "y0": 260.3333333333333
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_5_164",
+            "text": "%",
+            "distance": 140941.73960285072,
+            "pos": {
+              "x0": 406,
+              "y1": 269.66666666666663,
+              "x1": 414.66666666666663,
+              "y0": 260.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "edit_input": {
+        "text": "5.459%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "353b4e437550f908b5c2d85038cc7f50",
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 827923,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5.459%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": null,
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 522.6666666666666,
+          "y1": 684,
+          "x1": 532.6666666666666,
+          "y0": 670
+        },
+        "pos_normalized": {
+          "x0": 0.6149019607843137,
+          "y1": 0.6218181818181818,
+          "x1": 0.6266666666666666,
+          "y0": 0.6090909090909091
+        },
+        "text": "0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1568,
+          "y1": 2052,
+          "x1": 1598,
+          "y0": 2010
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_167",
+            "text": "0",
+            "distance": 140567.4466093689,
+            "pos": {
+              "x0": 524.6666666666666,
+              "y1": 682,
+              "x1": 530.6666666666666,
+              "y0": 672
+            }
+          }
+        ]
+      },
+      "label": "Mi Initial Premium Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4a79d28eb845bf2975f88eafde26209d",
+      "DATAPOINT ORDER": "16",
+      "ID": "2a7a5bfe-3163-3270-a5c6-4e1f02470490",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 190493,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "MI INITIAL PREMIUM AMOUNT"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333333333333,
+          "y1": 1023.3333333333333,
+          "x1": 635.3333333333333,
+          "y0": 1009
+        },
+        "pos_normalized": {
+          "x0": 0.6862745098039215,
+          "y1": 0.9303030303030302,
+          "x1": 0.7474509803921567,
+          "y0": 0.9172727272727272
+        },
+        "text": "$9,287.63",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999999999998,
+          "y1": 3070,
+          "x1": 1905.9999999999998,
+          "y0": 3027
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_281",
+            "text": "$9,287.63",
+            "distance": 140270.12783485142,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 1021.3333333333333,
+              "x1": 633.3333333333333,
+              "y0": 1011
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "9287.63",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bdfed040555a233230378dcdd37eb580",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 749054,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "9287.63",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 242.33333333333331,
+          "y1": 242.33333333333331,
+          "x1": 277.3333333333333,
+          "y0": 229.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.28509803921568627,
+          "y1": 0.22030303030303028,
+          "x1": 0.32627450980392153,
+          "y0": 0.20848484848484847
+        },
+        "text": "75070",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 727,
+          "y1": 727,
+          "x1": 832,
+          "y0": 688
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_86",
+            "text": "75070",
+            "distance": 141068.7466765367,
+            "pos": {
+              "x0": 244.33333333333331,
+              "y1": 240.33333333333331,
+              "x1": 275.3333333333333,
+              "y0": 231.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 446187,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "75070",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "ObjectId": "807f0c7838fd468a12949be71d17d020",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589569184172,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 417.66666666666663,
+          "y1": 150.33333333333331,
+          "x1": 431.66666666666663,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.4913725490196078,
+          "y1": 0.13666666666666666,
+          "x1": 0.5078431372549019,
+          "y0": 0.12484848484848483
+        },
+        "text": "W",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1253,
+          "y1": 450.99999999999994,
+          "x1": 1295,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_36",
+            "text": "W",
+            "distance": 141017.38453043852,
+            "pos": {
+              "x0": 419.66666666666663,
+              "y1": 148.33333333333331,
+              "x1": 429.66666666666663,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b3d6b8a1a283b419b5876e68f46ca926",
+      "DATAPOINT ORDER": "2",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 296832,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "W",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 0,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 415.66666666666663,
+          "y1": 516.3333333333333,
+          "x1": 441.66666666666663,
+          "y0": 500
+        },
+        "pos_normalized": {
+          "x0": 0.4890196078431372,
+          "y1": 0.4693939393939393,
+          "x1": 0.5196078431372548,
+          "y0": 0.45454545454545453
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fe924b49a3414546d5d7",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb2e68473b1374f1a26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1247,
+          "y1": 1548.9999999999998,
+          "x1": 1325,
+          "y0": 1500
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_150",
+            "text": "NO",
+            "distance": 140756.80493960337,
+            "pos": {
+              "x0": 417.66666666666663,
+              "y1": 514.3333333333333,
+              "x1": 439.66666666666663,
+              "y0": 502
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 171522,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "90f8999bdb98e3ef8ebe44e14f768084",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333333333333,
+          "y1": 109.33333333333333,
+          "x1": 635.3333333333333,
+          "y0": 95.33333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6862745098039215,
+          "y1": 0.0993939393939394,
+          "x1": 0.7474509803921567,
+          "y0": 0.08666666666666666
+        },
+        "text": "$1,200.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fe927b93b266db57a589",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3cec92d6fbcb2bfe5",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999999999998,
+          "y1": 328,
+          "x1": 1905.9999999999998,
+          "y0": 286
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_25",
+            "text": "$1,200.00",
+            "distance": 140916.46662256646,
+            "pos": {
+              "x0": 585.3333333333333,
+              "y1": 107.33333333333333,
+              "x1": 633.3333333333333,
+              "y0": 97.33333333333333
+            }
+          }
+        ]
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "1200.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2f299e5dfedd543ab6d3dffee16e1712",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 464294,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1200.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1589569184172,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 601.3333333333333,
+          "y1": 656.6666666666666,
+          "x1": 660,
+          "y0": 641
+        },
+        "pos_normalized": {
+          "x0": 0.7074509803921568,
+          "y1": 0.5969696969696969,
+          "x1": 0.7764705882352941,
+          "y0": 0.5827272727272728
+        },
+        "text": "Colleyville,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fe9248b1a6e73449e044",
+          "DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+          "scale": 3,
+          "PageOcr": "5eb2feb3a363b97b2912b52a",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1803.9999999999998,
+          "y1": 1970,
+          "x1": 1980,
+          "y0": 1923
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_5_423",
+            "text": "Colleyville,",
+            "distance": 140514.49237761524,
+            "pos": {
+              "x0": 603.3333333333333,
+              "y1": 654.6666666666666,
+              "x1": 658,
+              "y0": 643
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "workflow_time_elapsed": 833822,
+      "Type": "ExtractionUI",
+      "UserName": "melissa.thomas@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Colleyville,",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "72346fc0-87c4-493a-a5f5-796043bbef7f",
+      "ExtractionUI::DocumentId": "8ce5525d-eb62-49f5-abd2-f5851e61af51",
+      "ObjectId": "638e1c56806d78c26cc2d9ccc844fd64",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "NAME": "CLOSING AGENT CITY NAME"
+    }
+  ],
+  "Total": 49,
+  "IndexScannedCount": 49
+}

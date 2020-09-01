@@ -1,0 +1,3839 @@
+{
+  "Results": [
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 655.5,
+          "y1": 765,
+          "x1": 745.5,
+          "y0": 751
+        },
+        "pos_normalized": {
+          "x0": 0.7711764705882352,
+          "y1": 0.6954545454545454,
+          "x1": 0.8770588235294118,
+          "y0": 0.6827272727272727
+        },
+        "text": "Jerry Weinberger",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb320178c112d3de1f20fd8",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320534e5bc255496ba9c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1966.5,
+          "y1": 2295,
+          "x1": 2236.5,
+          "y0": 2253
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_464",
+            "text": "Jerry",
+            "distance": 140412.4465519152,
+            "pos": {
+              "x0": 657.3333333333333,
+              "y1": 761,
+              "x1": 678.3333333333333,
+              "y0": 751
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_465",
+            "text": "Weinberger",
+            "distance": 140385.33137414244,
+            "pos": {
+              "x0": 680.3333333333333,
+              "y1": 761,
+              "x1": 732,
+              "y0": 751
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 432229,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Jerry Weinberger",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "ObjectId": "050cd62267ebd5733830828d4a8f806b",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 403.3333333333333,
+          "y1": 518,
+          "x1": 428.66666666666663,
+          "y0": 502.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.4745098039215686,
+          "y1": 0.4709090909090909,
+          "x1": 0.504313725490196,
+          "y0": 0.4569696969696969
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1210,
+          "y1": 1554,
+          "x1": 1286,
+          "y0": 1508
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_143",
+            "text": "NO",
+            "distance": 140764.23413972897,
+            "pos": {
+              "x0": 405.3333333333333,
+              "y1": 516,
+              "x1": 426.66666666666663,
+              "y0": 504.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 168659,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "838c5a09a0b884f89f746f0814f14a65",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 652.6666666666666,
+          "y1": 231,
+          "x1": 720,
+          "y0": 217.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7678431372549019,
+          "y1": 0.21,
+          "x1": 0.8470588235294118,
+          "y0": 0.19787878787878788
+        },
+        "text": "Conventional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1958,
+          "y1": 693,
+          "x1": 2160,
+          "y0": 653
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 26,
+            "id": "word_1_81",
+            "text": "Conventional",
+            "distance": 140775.67539193537,
+            "pos": {
+              "x0": 654.6666666666666,
+              "y1": 229,
+              "x1": 718,
+              "y0": 219.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 147632,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "fb1d106074e25678d71bfbab9d51d06b",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 656.3333333333333,
+          "y1": 685.3333333333333,
+          "x1": 700,
+          "y0": 670.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.772156862745098,
+          "y1": 0.6230303030303029,
+          "x1": 0.8235294117647058,
+          "y0": 0.6096969696969696
+        },
+        "text": "Brooklyn,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb320178c112d3de1f20fd8",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320534e5bc255496ba9c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1968.9999999999998,
+          "y1": 2056,
+          "x1": 2100,
+          "y0": 2012
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_5_460",
+            "text": "Brooklyn,",
+            "distance": 140460.2802705962,
+            "pos": {
+              "x0": 658.3333333333333,
+              "y1": 683.3333333333333,
+              "x1": 698,
+              "y0": 672.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "Brooklyn"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6b550d6c46b1f064469f6581ee41d11c",
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 428203,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Brooklyn",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 631.6666666666666,
+          "y1": 815.3333333333333,
+          "x1": 657,
+          "y0": 801.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7431372549019607,
+          "y1": 0.7412121212121211,
+          "x1": 0.7729411764705882,
+          "y0": 0.7287878787878788
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1895,
+          "y1": 2446,
+          "x1": 1971,
+          "y0": 2405
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_204",
+            "text": "YES",
+            "distance": 140391.97460691183,
+            "pos": {
+              "x0": 633.6666666666666,
+              "y1": 813.3333333333333,
+              "x1": 655,
+              "y0": 803.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 191256,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "d2bde2662dea957ae79632e37c6867ee",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 215.33333333333331,
+          "y1": 260,
+          "x1": 233,
+          "y0": 247.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.2533333333333333,
+          "y1": 0.23636363636363636,
+          "x1": 0.2741176470588235,
+          "y0": 0.22484848484848483
+        },
+        "text": "NY",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 646,
+          "y1": 780,
+          "x1": 699,
+          "y0": 742
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_92",
+            "text": "NY",
+            "distance": 141081.35726879563,
+            "pos": {
+              "x0": 217.33333333333331,
+              "y1": 258,
+              "x1": 231,
+              "y0": 249.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 245860,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "NY",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "ObjectId": "55b86e8badf9196a08600471f3c596eb",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 171.33333333333331,
+          "y1": 261.3333333333333,
+          "x1": 215.66666666666666,
+          "y0": 247.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.20156862745098036,
+          "y1": 0.23757575757575755,
+          "x1": 0.25372549019607843,
+          "y0": 0.22484848484848483
+        },
+        "text": "Monroe,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 514,
+          "y1": 784,
+          "x1": 647,
+          "y0": 742
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_91",
+            "text": "Monroe,",
+            "distance": 141102.57548686975,
+            "pos": {
+              "x0": 173.33333333333331,
+              "y1": 259.3333333333333,
+              "x1": 213.66666666666666,
+              "y0": 249.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": {
+        "text": "Monroe"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b2dcd646466757c411a437ca37956406",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 235669,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Monroe",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 649,
+          "y1": 177.33333333333331,
+          "x1": 678.3333333333333,
+          "y0": 164.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7635294117647059,
+          "y1": 0.1612121212121212,
+          "x1": 0.7980392156862745,
+          "y0": 0.1496969696969697
+        },
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1947,
+          "y1": 532,
+          "x1": 2034.9999999999998,
+          "y0": 494
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 78,
+            "id": "word_1_53",
+            "text": "years",
+            "distance": 140829.46733411695,
+            "pos": {
+              "x0": 651,
+              "y1": 175.33333333333331,
+              "x1": 676.3333333333333,
+              "y0": 166.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 134891,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "87cd35d4d7cf1af51eb9846b4f4ca08f",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "NUMBER",
+      "selection_input": {
+        "pos": {
+          "x0": 293,
+          "y1": 738,
+          "x1": 337.3333333333333,
+          "y0": 723.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3447058823529412,
+          "y1": 0.6709090909090909,
+          "x1": 0.3968627450980392,
+          "y0": 0.6575757575757575
+        },
+        "text": "for3mo.",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 879,
+          "y1": 2214,
+          "x1": 1012,
+          "y0": 2170
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 26,
+            "id": "word_2_252",
+            "text": "for3mo.",
+            "distance": 140680.02587126178,
+            "pos": {
+              "x0": 295,
+              "y1": 736,
+              "x1": 335.3333333333333,
+              "y0": 725.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "edit_input": {
+        "text": "3"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6ad966d503e824761cc706bb02248148",
+      "DATAPOINT ORDER": "16",
+      "ID": "8558b5f4-fe1e-3399-921f-2c63e018db83",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 347973,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 313.66666666666663,
+          "y1": 682.6666666666666,
+          "x1": 352,
+          "y0": 668
+        },
+        "pos_normalized": {
+          "x0": 0.3690196078431372,
+          "y1": 0.6206060606060606,
+          "x1": 0.41411764705882353,
+          "y0": 0.6072727272727273
+        },
+        "text": "1/1/19)",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 940.9999999999999,
+          "y1": 2048,
+          "x1": 1056,
+          "y0": 2004
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_2_230",
+            "text": "1/1/19)",
+            "distance": 140706.56185411382,
+            "pos": {
+              "x0": 315.66666666666663,
+              "y1": 680.6666666666666,
+              "x1": 350,
+              "y0": 670
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "01/01/2019",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "827e42ff4114f38e1a90a5cf285c3de4",
+      "DATAPOINT ORDER": "11",
+      "ID": "042e688a-3ebf-3c4f-bfca-55a2748db428",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 326864,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "01/01/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 631.6666666666666,
+          "y1": 797,
+          "x1": 657,
+          "y0": 783.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.7431372549019607,
+          "y1": 0.7245454545454545,
+          "x1": 0.7729411764705882,
+          "y0": 0.712121212121212
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1895,
+          "y1": 2391,
+          "x1": 1971,
+          "y0": 2350
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_197",
+            "text": "YES",
+            "distance": 140404.92810726253,
+            "pos": {
+              "x0": 633.6666666666666,
+              "y1": 795,
+              "x1": 655,
+              "y0": 785.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 186589,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "19614d4b85ca77800040326e0ebeacae",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 172.33333333333331,
+          "y1": 203,
+          "x1": 231.33333333333331,
+          "y0": 189.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.20274509803921567,
+          "y1": 0.18454545454545454,
+          "x1": 0.27215686274509804,
+          "y0": 0.17242424242424242
+        },
+        "text": "12/31/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 517,
+          "y1": 609,
+          "x1": 694,
+          "y0": 569
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_64",
+            "text": "12/31/2018",
+            "distance": 141137.68862050594,
+            "pos": {
+              "x0": 174.33333333333331,
+              "y1": 201,
+              "x1": 229.33333333333331,
+              "y0": 191.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 117163,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "12/31/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "97bbd00c5ff1cef4fe55022ccc36aff0",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 257.3333333333333,
+          "y1": 432,
+          "x1": 333.3333333333333,
+          "y0": 411.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.3027450980392157,
+          "y1": 0.3927272727272727,
+          "x1": 0.39215686274509803,
+          "y0": 0.3742424242424242
+        },
+        "text": "$1,739.96",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 772,
+          "y1": 1296,
+          "x1": 1000,
+          "y0": 1235
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_123",
+            "text": "$1,739.96",
+            "distance": 140912.14989420024,
+            "pos": {
+              "x0": 259.3333333333333,
+              "y1": 430,
+              "x1": 331.3333333333333,
+              "y0": 413.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "1739.96",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cedcb39ea81d45b0d392b96c013427bd",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 164523,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1739.96",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 524.6666666666666,
+          "y1": 268.3333333333333,
+          "x1": 562.3333333333333,
+          "y0": 253.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.6172549019607843,
+          "y1": 0.24393939393939393,
+          "x1": 0.6615686274509803,
+          "y0": 0.2303030303030303
+        },
+        "text": "$750.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1574,
+          "y1": 805,
+          "x1": 1686.9999999999998,
+          "y0": 760
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_2_85",
+            "text": "$750.00",
+            "distance": 140850.62718039672,
+            "pos": {
+              "x0": 526.6666666666666,
+              "y1": 266.3333333333333,
+              "x1": 560.3333333333333,
+              "y0": 255.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Appraisal Fee Borrower Paid Before Closing",
+      "edit_input": {
+        "text": "750.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7bad263711087a8bf3e3c29ab9d2f9ef",
+      "DATAPOINT ORDER": "10",
+      "ID": "c9c79e02-6ac9-3777-9372-bc18bcb32cb4",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 275470,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "750.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 252.5,
+          "y1": 384,
+          "x1": 325.5,
+          "y0": 359
+        },
+        "pos_normalized": {
+          "x0": 0.29705882352941176,
+          "y1": 0.3490909090909091,
+          "x1": 0.38294117647058823,
+          "y0": 0.32636363636363636
+        },
+        "text": "4.5 %",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 757.5,
+          "y1": 1152,
+          "x1": 976.5,
+          "y0": 1077
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_116",
+            "text": "4.5",
+            "distance": 140968.47131825457,
+            "pos": {
+              "x0": 259.3333333333333,
+              "y1": 374,
+              "x1": 280.3333333333333,
+              "y0": 361.3333333333333
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_1_117",
+            "text": "%",
+            "distance": 140952.20082048696,
+            "pos": {
+              "x0": 285.66666666666663,
+              "y1": 374,
+              "x1": 300,
+              "y0": 361.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "edit_input": {
+        "text": "4.5%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9a0bf8f0f70ab9b28368787130a89816",
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 158558,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4.5%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 258.3333333333333,
+          "y1": 344,
+          "x1": 330.3333333333333,
+          "y0": 320.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.30392156862745096,
+          "y1": 0.31272727272727274,
+          "x1": 0.38862745098039214,
+          "y0": 0.2912121212121212
+        },
+        "text": "$343,400",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 775,
+          "y1": 1032,
+          "x1": 991,
+          "y0": 961
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_112",
+            "text": "$343,400",
+            "distance": 140976.23505685473,
+            "pos": {
+              "x0": 260.3333333333333,
+              "y1": 342,
+              "x1": 328.3333333333333,
+              "y0": 322.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "343400",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0543171e4ad9b2b9eea74d856e52c728",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 150913,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "343400",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 172.5,
+          "y1": 246,
+          "x1": 302.5,
+          "y0": 232
+        },
+        "pos_normalized": {
+          "x0": 0.20294117647058824,
+          "y1": 0.22363636363636363,
+          "x1": 0.3558823529411765,
+          "y0": 0.2109090909090909
+        },
+        "text": "4 Teverya Way, Unit 202",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 517.5,
+          "y1": 738,
+          "x1": 907.5,
+          "y0": 696
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_84",
+            "text": "4",
+            "distance": 141125.79278332583,
+            "pos": {
+              "x0": 172.66666666666666,
+              "y1": 243.33333333333331,
+              "x1": 178.66666666666666,
+              "y0": 235.33333333333331
+            }
+          },
+          {
+            "score": 87,
+            "id": "word_1_85",
+            "text": "Teverya",
+            "distance": 141107.40366118285,
+            "pos": {
+              "x0": 181.33333333333331,
+              "y1": 246.33333333333331,
+              "x1": 219.66666666666666,
+              "y0": 234.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_86",
+            "text": "Way,",
+            "distance": 141083.47712189954,
+            "pos": {
+              "x0": 222.33333333333331,
+              "y1": 246.33333333333331,
+              "x1": 246,
+              "y0": 235
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_87",
+            "text": "Unit",
+            "distance": 141066.15363978074,
+            "pos": {
+              "x0": 249.33333333333331,
+              "y1": 244,
+              "x1": 270,
+              "y0": 235.33333333333331
+            }
+          },
+          {
+            "score": 96,
+            "id": "word_1_88",
+            "text": "202",
+            "distance": 141050.95318762964,
+            "pos": {
+              "x0": 272.3333333333333,
+              "y1": 244,
+              "x1": 290,
+              "y0": 235.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 229698,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "4 Teverya Way, Unit 202",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "ObjectId": "b07cc6dacc7e945d3ccfc70d7842c77c",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 448.5,
+          "y1": 823,
+          "x1": 514.5,
+          "y0": 819
+        },
+        "pos_normalized": {
+          "x0": 0.5276470588235294,
+          "y1": 0.7481818181818182,
+          "x1": 0.6052941176470589,
+          "y0": 0.7445454545454545
+        },
+        "text": "-$1,135.05",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1345.5,
+          "y1": 2469,
+          "x1": 1543.5,
+          "y0": 2457
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_2_294",
+            "text": "-$1,135.05",
+            "distance": 140508.23252788823,
+            "pos": {
+              "x0": 445,
+              "y1": 826,
+              "x1": 490,
+              "y0": 816.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "-1135.05"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d9a547ee5c414dfd20b436170b290cb3",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 383077,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "-1135.05",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 234.66666666666666,
+          "y1": 260.3333333333333,
+          "x1": 268.3333333333333,
+          "y0": 247.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.276078431372549,
+          "y1": 0.23666666666666664,
+          "x1": 0.3156862745098039,
+          "y0": 0.22515151515151513
+        },
+        "text": "10950",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 704,
+          "y1": 781,
+          "x1": 805,
+          "y0": 743
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_93",
+            "text": "10950",
+            "distance": 141061.79245015286,
+            "pos": {
+              "x0": 236.66666666666666,
+              "y1": 258.3333333333333,
+              "x1": 266.3333333333333,
+              "y0": 249.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 243616,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "10950",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "ObjectId": "72e2913825c86b2ad7173ea03a04fc24",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 659.5,
+          "y1": 639,
+          "x1": 772.5,
+          "y0": 618
+        },
+        "pos_normalized": {
+          "x0": 0.7758823529411765,
+          "y1": 0.5809090909090909,
+          "x1": 0.9088235294117647,
+          "y0": 0.5618181818181818
+        },
+        "text": "Fink & Zelmanovitz P.C.",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb320178c112d3de1f20fd8",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320534e5bc255496ba9c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1978.5,
+          "y1": 1917,
+          "x1": 2317.5,
+          "y0": 1854
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 74,
+            "id": "word_5_451",
+            "text": "Fink",
+            "distance": 140507.77815085143,
+            "pos": {
+              "x0": 658.6666666666666,
+              "y1": 625.3333333333333,
+              "x1": 677,
+              "y0": 617
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_5_452",
+            "text": "&",
+            "distance": 140497.40999767775,
+            "pos": {
+              "x0": 679.3333333333333,
+              "y1": 625,
+              "x1": 685.3333333333333,
+              "y0": 617.6666666666666
+            }
+          },
+          {
+            "score": 77,
+            "id": "word_5_453",
+            "text": "Zelmanovitz",
+            "distance": 140474.9092583401,
+            "pos": {
+              "x0": 687.3333333333333,
+              "y1": 625.3333333333333,
+              "x1": 741.3333333333333,
+              "y0": 617
+            }
+          },
+          {
+            "score": 77,
+            "id": "word_5_454",
+            "text": "P.C.",
+            "distance": 140448.64293676097,
+            "pos": {
+              "x0": 743.6666666666666,
+              "y1": 625.3333333333333,
+              "x1": 758.6666666666666,
+              "y0": 617.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "edit_input": {
+        "text": "Fink & Zelmanovitz P.C"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a3a9838a6203ae9d3883bd7e1eb0ff2a",
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 414606,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Fink & Zelmanovitz P.C",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group10",
+      "selection_input": {
+        "pos": {
+          "x0": 358.5,
+          "y1": 675,
+          "x1": 413.5,
+          "y0": 661
+        },
+        "pos_normalized": {
+          "x0": 0.42176470588235293,
+          "y1": 0.6136363636363636,
+          "x1": 0.4864705882352941,
+          "y0": 0.600909090909091
+        },
+        "text": "183.15",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1075.5,
+          "y1": 2025,
+          "x1": 1240.5,
+          "y0": 1983
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_166",
+            "text": "183.15",
+            "distance": 9.43986817233748,
+            "pos": {
+              "x0": 363.66666666666663,
+              "y1": 673,
+              "x1": 398.3333333333333,
+              "y0": 663.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mi Payment Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 447034,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "183.15",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b7911eaef49c35f7c941c1725933b073",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "f7d344d0-dbed-3a16-8f9b-a039cadab6cc",
+      "NAME": "MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 172.33333333333331,
+          "y1": 188.33333333333331,
+          "x1": 231.33333333333331,
+          "y0": 175
+        },
+        "pos_normalized": {
+          "x0": 0.20274509803921567,
+          "y1": 0.1712121212121212,
+          "x1": 0.27215686274509804,
+          "y0": 0.1590909090909091
+        },
+        "text": "12/31/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 517,
+          "y1": 565,
+          "x1": 694,
+          "y0": 525
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_56",
+            "text": "12/31/2018",
+            "distance": 141148.06018671393,
+            "pos": {
+              "x0": 174.33333333333331,
+              "y1": 186.33333333333331,
+              "x1": 229.33333333333331,
+              "y0": 177
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 115012,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "12/31/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fe712d6e0d92823cf5f26cbe734d3162",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 445.66666666666663,
+          "y1": 148.33333333333331,
+          "x1": 491.3333333333333,
+          "y0": 133.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.5243137254901961,
+          "y1": 0.13484848484848483,
+          "x1": 0.5780392156862745,
+          "y0": 0.1215151515151515
+        },
+        "text": "$7,726.50",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1337,
+          "y1": 444.99999999999994,
+          "x1": 1474,
+          "y0": 401
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_57",
+            "text": "$7,726.50",
+            "distance": 140988.44352020486,
+            "pos": {
+              "x0": 447.66666666666663,
+              "y1": 146.33333333333331,
+              "x1": 489.3333333333333,
+              "y0": 135.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Discount Points Borrower Paid At Closing",
+      "edit_input": {
+        "text": "7726.50",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "48114c417c6c1fc390a8838ce91e8b2b",
+      "DATAPOINT ORDER": "4",
+      "ID": "846f68fb-82a9-3ceb-a0cb-7129420f2f42",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 264339,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "7726.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "DISCOUNT POINTS BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 464.66666666666663,
+          "y1": 519.6666666666666,
+          "x1": 520.3333333333333,
+          "y0": 506.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.5466666666666666,
+          "y1": 0.4724242424242424,
+          "x1": 0.612156862745098,
+          "y0": 0.46030303030303027
+        },
+        "text": "$13,196.50",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1394,
+          "y1": 1559,
+          "x1": 1560.9999999999998,
+          "y0": 1519
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_2_167",
+            "text": "$13,196.50",
+            "distance": 140708.239795152,
+            "pos": {
+              "x0": 466.66666666666663,
+              "y1": 517.6666666666666,
+              "x1": 518.3333333333333,
+              "y0": 508.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "13196.50",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cd4727ab0e2baf0340038814430d5f87",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 286196,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "13196.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 472.3333333333333,
+          "y1": 721.3333333333333,
+          "x1": 513.3333333333333,
+          "y0": 707.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.5556862745098039,
+          "y1": 0.6557575757575757,
+          "x1": 0.6039215686274509,
+          "y0": 0.6433333333333333
+        },
+        "text": "$747.78",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1417,
+          "y1": 2164,
+          "x1": 1539.9999999999998,
+          "y0": 2123
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_245",
+            "text": "$747.78",
+            "distance": 140565.6087198351,
+            "pos": {
+              "x0": 474.3333333333333,
+              "y1": 719.3333333333333,
+              "x1": 511.3333333333333,
+              "y0": 709.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "747.78",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "62feece7a1bb245c543bc50992d1faf2",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 333986,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "747.78",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 306.3333333333333,
+          "y1": 765,
+          "x1": 319.3333333333333,
+          "y0": 747.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.36039215686274506,
+          "y1": 0.6954545454545454,
+          "x1": 0.3756862745098039,
+          "y0": 0.6796969696969697
+        },
+        "text": "2",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 919,
+          "y1": 2295,
+          "x1": 958,
+          "y0": 2243
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_268",
+            "text": "2",
+            "distance": 140663.56949641305,
+            "pos": {
+              "x0": 308.3333333333333,
+              "y1": 763,
+              "x1": 317.3333333333333,
+              "y0": 749.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 366115,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "2",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3c9bcb9a8709ba28f8509ee8e1796cb8",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "21",
+      "ID": "8c9921ed-62f0-38c2-b6de-b669654c4533",
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 467.5,
+          "y1": 989,
+          "x1": 524.5,
+          "y0": 981
+        },
+        "pos_normalized": {
+          "x0": 0.55,
+          "y1": 0.899090909090909,
+          "x1": 0.6170588235294118,
+          "y0": 0.8918181818181818
+        },
+        "text": "$23,570.77",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1402.5,
+          "y1": 2967,
+          "x1": 1573.5,
+          "y0": 2943
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 38,
+            "id": "word_2_339",
+            "text": "$23,570.77",
+            "distance": 140372.0905515251,
+            "pos": {
+              "x0": 468,
+              "y1": 992.3333333333333,
+              "x1": 519.6666666666666,
+              "y0": 983
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "23570.77",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ae8325b3389533eb7918b9a946a0bed6",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 392527,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "23570.77",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 367.3333333333333,
+          "y1": 288,
+          "x1": 397.3333333333333,
+          "y0": 275.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.432156862745098,
+          "y1": 0.26181818181818184,
+          "x1": 0.4674509803921568,
+          "y0": 0.25060606060606055
+        },
+        "text": "5.047",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb320178c112d3de1f20fd8",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320534e5bc255496ba9c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1102,
+          "y1": 864,
+          "x1": 1192,
+          "y0": 826.9999999999999
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_74",
+            "text": "5.047",
+            "distance": 140949.6160777752,
+            "pos": {
+              "x0": 369.3333333333333,
+              "y1": 286,
+              "x1": 395.3333333333333,
+              "y0": 277.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "edit_input": {
+        "text": "5.047%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1a9710f0fe7f8b0bab6d34b02b066111",
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 422486,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5.047%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "APR PERCENT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589998169724,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 360.3333333333333,
+          "y1": 174.33333333333331,
+          "x1": 394.3333333333333,
+          "y0": 161
+        },
+        "pos_normalized": {
+          "x0": 0.42392156862745095,
+          "y1": 0.15848484848484848,
+          "x1": 0.46392156862745093,
+          "y0": 0.14636363636363636
+        },
+        "text": "Efraim",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1081,
+          "y1": 523,
+          "x1": 1183,
+          "y0": 483
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_49",
+            "text": "Efraim",
+            "distance": 141033.93964594323,
+            "pos": {
+              "x0": 362.3333333333333,
+              "y1": 172.33333333333331,
+              "x1": 392.3333333333333,
+              "y0": 163
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "012d25dee19f3d23712a44c9783e1b70",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 208741,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Efraim",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 354.5,
+          "y1": 676,
+          "x1": 412.5,
+          "y0": 657
+        },
+        "pos_normalized": {
+          "x0": 0.41705882352941176,
+          "y1": 0.6145454545454545,
+          "x1": 0.4852941176470588,
+          "y0": 0.5972727272727273
+        },
+        "text": "183.15",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1063.5,
+          "y1": 2028,
+          "x1": 1237.5,
+          "y0": 1971
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_166",
+            "text": "183.15",
+            "distance": 140677.39092077938,
+            "pos": {
+              "x0": 363.66666666666663,
+              "y1": 673,
+              "x1": 398.3333333333333,
+              "y0": 663.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mi Initial Premium Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 172309,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "183.15",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "23c983da53cc92d7663766e7be0f8edb",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "16",
+      "ID": "2a7a5bfe-3163-3270-a5c6-4e1f02470490",
+      "NAME": "MI INITIAL PREMIUM AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 171,
+          "y1": 282.66666666666663,
+          "x1": 219.33333333333331,
+          "y0": 264.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.2011764705882353,
+          "y1": 0.25696969696969696,
+          "x1": 0.25803921568627447,
+          "y0": 0.24060606060606057
+        },
+        "text": "$404,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 513,
+          "y1": 847.9999999999999,
+          "x1": 658,
+          "y0": 793.9999999999999
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_102",
+            "text": "$404,000",
+            "distance": 141087.73060690128,
+            "pos": {
+              "x0": 173,
+              "y1": 280.66666666666663,
+              "x1": 217.33333333333331,
+              "y0": 266.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "404000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "310a0ed9103981e5fbb2bd6aae593691",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 121300,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "404000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 464,
+          "y1": 132.33333333333331,
+          "x1": 517,
+          "y0": 119
+        },
+        "pos_normalized": {
+          "x0": 0.5458823529411765,
+          "y1": 0.12030303030303029,
+          "x1": 0.6082352941176471,
+          "y0": 0.10818181818181818
+        },
+        "text": "1$9,071.50",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1392,
+          "y1": 396.99999999999994,
+          "x1": 1551,
+          "y0": 357
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 0,
+            "id": "word_2_49",
+            "text": "1$9,071.50",
+            "distance": 140983.77531484884,
+            "pos": {
+              "x0": 466,
+              "y1": 130.33333333333331,
+              "x1": 515,
+              "y0": 121
+            }
+          }
+        ]
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "9071.50"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "55199baf7409a0bc4f7e6bfb19f26934",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 257121,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "9071.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 468,
+          "y1": 640.6666666666666,
+          "x1": 517.6666666666666,
+          "y0": 625.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.5505882352941176,
+          "y1": 0.5824242424242424,
+          "x1": 0.6090196078431372,
+          "y0": 0.5684848484848484
+        },
+        "text": "$1,488.69",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1404,
+          "y1": 1922,
+          "x1": 1553,
+          "y0": 1875.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 0,
+            "id": "word_2_203",
+            "text": "$1,488.69",
+            "distance": 140623.18546039192,
+            "pos": {
+              "x0": 470,
+              "y1": 638.6666666666666,
+              "x1": 515.6666666666666,
+              "y0": 627.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "1488.69",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6116c0526c121610e8083e81a7add020",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 295172,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1488.69",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 634.6666666666666,
+          "y1": 190.33333333333331,
+          "x1": 683,
+          "y0": 177.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7466666666666666,
+          "y1": 0.173030303030303,
+          "x1": 0.8035294117647059,
+          "y0": 0.1612121212121212
+        },
+        "text": "purchase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1904,
+          "y1": 571,
+          "x1": 2049,
+          "y0": 532
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 46,
+            "id": "word_1_61",
+            "text": "purchase",
+            "distance": 140823.78014817747,
+            "pos": {
+              "x0": 636.6666666666666,
+              "y1": 188.33333333333331,
+              "x1": 681,
+              "y0": 179.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 140044,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "PURCHASE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "control_input": {
+        "type": "text",
+        "value": "PURCHASE",
+        "control": "radio"
+      },
+      "ObjectId": "8b502a8ef4136328bbb2bbc78dd9ae87",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589998169724,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 394,
+          "y1": 174.33333333333331,
+          "x1": 427.3333333333333,
+          "y0": 161.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.46352941176470586,
+          "y1": 0.15848484848484848,
+          "x1": 0.5027450980392156,
+          "y0": 0.14666666666666664
+        },
+        "text": "Hecht",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1182,
+          "y1": 523,
+          "x1": 1282,
+          "y0": 483.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_50",
+            "text": "Hecht",
+            "distance": 141010.2781897082,
+            "pos": {
+              "x0": 396,
+              "y1": 172.33333333333331,
+              "x1": 425.3333333333333,
+              "y0": 163.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "896781d98047d58b7b105ba0d2108dc7",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 210723,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Hecht",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 424.5,
+          "y1": 203,
+          "x1": 482.5,
+          "y0": 181
+        },
+        "pos_normalized": {
+          "x0": 0.49941176470588233,
+          "y1": 0.18454545454545454,
+          "x1": 0.5676470588235294,
+          "y0": 0.16454545454545455
+        },
+        "text": "%] will account) have",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb32017328a7c411114f8f0",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320533fad4b432b7bce44",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1273.5,
+          "y1": 609,
+          "x1": 1447.5,
+          "y0": 543
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 36,
+            "id": "word_4_365",
+            "text": "%]",
+            "distance": 140975.52197062047,
+            "pos": {
+              "x0": 435.3333333333333,
+              "y1": 192.33333333333331,
+              "x1": 446.3333333333333,
+              "y0": 181.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_366",
+            "text": "will",
+            "distance": 140962.573545447,
+            "pos": {
+              "x0": 450,
+              "y1": 192.33333333333331,
+              "x1": 466.3333333333333,
+              "y0": 183.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_377",
+            "text": "account)",
+            "distance": 140943.36271245425,
+            "pos": {
+              "x0": 450.3333333333333,
+              "y1": 207.33333333333331,
+              "x1": 492,
+              "y0": 196.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_367",
+            "text": "have",
+            "distance": 140946.09774465003,
+            "pos": {
+              "x0": 470.3333333333333,
+              "y1": 192.33333333333331,
+              "x1": 492.66666666666663,
+              "y0": 183.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 403661,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "be1444423a2a05a1e0ff631417dee7a2",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 358.5,
+          "y1": 266,
+          "x1": 488.5,
+          "y0": 244
+        },
+        "pos_normalized": {
+          "x0": 0.42176470588235293,
+          "y1": 0.24181818181818182,
+          "x1": 0.5747058823529412,
+          "y0": 0.22181818181818183
+        },
+        "text": "Ark Mortgage, inc.",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1075.5,
+          "y1": 798,
+          "x1": 1465.5,
+          "y0": 732
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 53,
+            "id": "word_1_95",
+            "text": "Ark",
+            "distance": 140977.90595466053,
+            "pos": {
+              "x0": 361.3333333333333,
+              "y1": 259,
+              "x1": 378,
+              "y0": 250
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_1_96",
+            "text": "Mortgage,",
+            "distance": 140951.28807509274,
+            "pos": {
+              "x0": 380.66666666666663,
+              "y1": 261.3333333333333,
+              "x1": 431.3333333333333,
+              "y0": 250.33333333333331
+            }
+          },
+          {
+            "score": 81,
+            "id": "word_1_97",
+            "text": "inc.",
+            "distance": 140926.09052551468,
+            "pos": {
+              "x0": 434.3333333333333,
+              "y1": 259.3333333333333,
+              "x1": 451,
+              "y0": 250.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "edit_input": {
+        "text": "Ark Mortgage, inc"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "77cf3b6d9806c721d2e539efd92642aa",
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 126447,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Ark Mortgage, inc",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 214.33333333333331,
+          "y1": 762.3333333333333,
+          "x1": 246,
+          "y0": 749.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.252156862745098,
+          "y1": 0.693030303030303,
+          "x1": 0.28941176470588237,
+          "y0": 0.6812121212121212
+        },
+        "text": "$80.73",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 643,
+          "y1": 2287,
+          "x1": 738,
+          "y0": 2248
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_264",
+            "text": "$80.73",
+            "distance": 140722.51853638145,
+            "pos": {
+              "x0": 216.33333333333331,
+              "y1": 760.3333333333333,
+              "x1": 244,
+              "y0": 751.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "80.73",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "96c746866c3f095687961e4551facf6b",
+      "DATAPOINT ORDER": "20",
+      "ID": "3620d405-85e5-3565-a0e3-6fe0a7eac86b",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 371848,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "80.73",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 634.3333333333333,
+          "y1": 175.33333333333331,
+          "x1": 650.3333333333333,
+          "y0": 162.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7462745098039215,
+          "y1": 0.15939393939393937,
+          "x1": 0.7650980392156862,
+          "y0": 0.14787878787878786
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1902.9999999999998,
+          "y1": 526,
+          "x1": 1950.9999999999998,
+          "y0": 488
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 78,
+            "id": "word_1_52",
+            "text": "30",
+            "distance": 140845.93329217724,
+            "pos": {
+              "x0": 636.3333333333333,
+              "y1": 173.33333333333331,
+              "x1": 648.3333333333333,
+              "y0": 164.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 129697,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "12abb8155448e5ae310d5c9e6f9a0f1d",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 172.33333333333331,
+          "y1": 174,
+          "x1": 231.33333333333331,
+          "y0": 160.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.20274509803921567,
+          "y1": 0.15818181818181817,
+          "x1": 0.27215686274509804,
+          "y0": 0.14606060606060606
+        },
+        "text": "12/27/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 517,
+          "y1": 522,
+          "x1": 694,
+          "y0": 482
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_47",
+            "text": "12/27/2018",
+            "distance": 141158.19677158518,
+            "pos": {
+              "x0": 174.33333333333331,
+              "y1": 172,
+              "x1": 229.33333333333331,
+              "y0": 162.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 112327,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "12/27/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "de6ee70db93aae308f09ac743c55a4bf",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 213.33333333333331,
+          "y1": 738.3333333333333,
+          "x1": 246,
+          "y0": 723.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.25098039215686274,
+          "y1": 0.6712121212121211,
+          "x1": 0.28941176470588237,
+          "y0": 0.6575757575757575
+        },
+        "text": "$39.75",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 640,
+          "y1": 2215,
+          "x1": 738,
+          "y0": 2170
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 50,
+            "id": "word_2_249",
+            "text": "$39.75",
+            "distance": 140740.50500882426,
+            "pos": {
+              "x0": 215.33333333333331,
+              "y1": 736.3333333333333,
+              "x1": 244,
+              "y0": 725.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "39.75",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f905b1472905af30b27c4105201ab382",
+      "DATAPOINT ORDER": "15",
+      "ID": "7dcfcd32-9f28-34a8-8c6a-4fb5be237e0e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 340864,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "39.75",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 345.5,
+          "y1": 677,
+          "x1": 413.5,
+          "y0": 659
+        },
+        "pos_normalized": {
+          "x0": 0.40647058823529414,
+          "y1": 0.6154545454545455,
+          "x1": 0.4864705882352941,
+          "y0": 0.5990909090909091
+        },
+        "text": "183.15",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1036.5,
+          "y1": 2031,
+          "x1": 1240.5,
+          "y0": 1977
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_166",
+            "text": "183.15",
+            "distance": 140677.39092077938,
+            "pos": {
+              "x0": 363.66666666666663,
+              "y1": 673,
+              "x1": 398.3333333333333,
+              "y0": 663.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Projected Payment Mi Payment Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 176451,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "183.15",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "15db89a038885b0139dbc040414a07ad",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "17",
+      "ID": "4201173e-084d-370c-a869-fbd49dbeb784",
+      "NAME": "PROJECTED PAYMENT MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 261.3333333333333,
+          "y1": 683,
+          "x1": 303.66666666666663,
+          "y0": 668
+        },
+        "pos_normalized": {
+          "x0": 0.30745098039215685,
+          "y1": 0.6209090909090909,
+          "x1": 0.35725490196078424,
+          "y0": 0.6072727272727273
+        },
+        "text": "12/31/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 784,
+          "y1": 2049,
+          "x1": 910.9999999999999,
+          "y0": 2004
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 26,
+            "id": "word_2_228",
+            "text": "12/31/18",
+            "distance": 140742.1009684025,
+            "pos": {
+              "x0": 263.3333333333333,
+              "y1": 681,
+              "x1": 301.66666666666663,
+              "y0": 670
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "12/31/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cb4a8b38e1921fa793ae00bc0603838d",
+      "DATAPOINT ORDER": "10",
+      "ID": "78640e69-866a-39bf-a5d6-80e73c2a7811",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 322904,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "12/31/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 331.5,
+          "y1": 751,
+          "x1": 433.5,
+          "y0": 734
+        },
+        "pos_normalized": {
+          "x0": 0.39,
+          "y1": 0.6827272727272727,
+          "x1": 0.51,
+          "y0": 0.6672727272727272
+        },
+        "text": "$2,288.70",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 994.5,
+          "y1": 2253,
+          "x1": 1300.5,
+          "y0": 2202
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_184",
+            "text": "$2,288.70",
+            "distance": 140629.39475898264,
+            "pos": {
+              "x0": 341.3333333333333,
+              "y1": 748.3333333333333,
+              "x1": 413.3333333333333,
+              "y0": 731.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "2288.70",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a06fdd4c974b88c825ada82af7c32b88",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 182134,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "2288.70",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 248.33333333333331,
+          "y1": 1003.3333333333333,
+          "x1": 333.3333333333333,
+          "y0": 983
+        },
+        "pos_normalized": {
+          "x0": 0.292156862745098,
+          "y1": 0.912121212121212,
+          "x1": 0.39215686274509803,
+          "y0": 0.8936363636363637
+        },
+        "text": "$83,070.77",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb3201763d3d10c068ee9ec",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320529aa7a43acbe7da26",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 745,
+          "y1": 3010,
+          "x1": 1000,
+          "y0": 2949
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_262",
+            "text": "$83,070.77",
+            "distance": 140512.18744491725,
+            "pos": {
+              "x0": 250.33333333333331,
+              "y1": 1001.3333333333333,
+              "x1": 331.3333333333333,
+              "y0": 985
+            }
+          }
+        ]
+      },
+      "label": "Cash From Borrower At Closing Amount",
+      "edit_input": {
+        "text": "83070.77",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "de10494ae5993fc9e9cb816f400cfb56",
+      "DATAPOINT ORDER": "4",
+      "ID": "df0f9de0-b502-331a-9910-2492d3df813d",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 204207,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "83070.77",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH FROM BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589998169724,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 30.5,
+          "y1": 996,
+          "x1": 190.5,
+          "y0": 973
+        },
+        "pos_normalized": {
+          "x0": 0.03588235294117647,
+          "y1": 0.9054545454545454,
+          "x1": 0.22411764705882353,
+          "y0": 0.8845454545454545
+        },
+        "text": "Chadn fHeckt",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb320178c112d3de1f20fd8",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb320534e5bc255496ba9c3",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 91.5,
+          "y1": 2988,
+          "x1": 571.5,
+          "y0": 2919
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 21,
+            "id": "word_5_502",
+            "text": "Chadn",
+            "distance": 140653.34539223652,
+            "pos": {
+              "x0": 57.33333333333333,
+              "y1": 1001.6666666666666,
+              "x1": 128,
+              "y0": 983.3333333333333
+            }
+          },
+          {
+            "score": 0,
+            "id": "word_5_503",
+            "text": "fHeckt",
+            "distance": 140603.97834777727,
+            "pos": {
+              "x0": 132.33333333333331,
+              "y1": 1002,
+              "x1": 195.33333333333331,
+              "y0": 979.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a2ba2639a84bc8bbadbd8f81db16d9a9",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 220668,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589998169724,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 454.3333333333333,
+          "y1": 660,
+          "x1": 492,
+          "y0": 636
+        },
+        "pos_normalized": {
+          "x0": 0.5345098039215687,
+          "y1": 0.6,
+          "x1": 0.5788235294117647,
+          "y0": 0.5781818181818181
+        },
+        "text": "$477.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb32017ed04c0ef0a95c961",
+          "DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+          "scale": 3,
+          "PageOcr": "5eb32053b20b4234d31c3440",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1363,
+          "y1": 1980,
+          "x1": 1476,
+          "y0": 1908
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_2_210",
+            "text": "$477.00",
+            "distance": 140626.5047043448,
+            "pos": {
+              "x0": 456.3333333333333,
+              "y1": 658,
+              "x1": 490,
+              "y0": 638
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "477.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3b414e0b343f8a006df49f8f3da421cf",
+      "DATAPOINT ORDER": "4",
+      "ID": "5234449a-1671-3214-ba16-9ad299691f0f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "workflow_time_elapsed": 313760,
+      "Type": "ExtractionUI",
+      "UserName": "romit.kumar.jena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "477.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "09b2c0d2-1251-4294-bf10-543a48ae2708",
+      "ExtractionUI::DocumentId": "9075e697-87c3-4ca0-98cb-955b39b4c8be",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    }
+  ],
+  "Total": 47,
+  "IndexScannedCount": 47
+}

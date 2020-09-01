@@ -1,0 +1,3451 @@
+{
+  "Results": [
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 653,
+          "y1": 176.66666666666666,
+          "x1": 706.3333333333333,
+          "y0": 163
+        },
+        "pos_normalized": {
+          "x0": 0.768235294117647,
+          "y1": 0.16060606060606059,
+          "x1": 0.8309803921568627,
+          "y0": 0.1481818181818182
+        },
+        "text": "Refinance",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1959,
+          "y1": 530,
+          "x1": 2119,
+          "y0": 489
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 52,
+            "id": "word_1_61",
+            "text": "Refinance",
+            "distance": 140819.0091682898,
+            "pos": {
+              "x0": 655,
+              "y1": 174.66666666666666,
+              "x1": 704.3333333333333,
+              "y0": 165
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 65898,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "REFINANCE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "control_input": {
+        "type": "text",
+        "value": "REFINANCE",
+        "control": "radio"
+      },
+      "ObjectId": "be6617fc61281f98586112a832dadc0b",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 423.66666666666663,
+          "y1": 191.33333333333331,
+          "x1": 442.3333333333333,
+          "y0": 178
+        },
+        "pos_normalized": {
+          "x0": 0.49843137254901954,
+          "y1": 0.17393939393939392,
+          "x1": 0.5203921568627451,
+          "y0": 0.1618181818181818
+        },
+        "text": "OR",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1271,
+          "y1": 574,
+          "x1": 1327,
+          "y0": 534
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_66",
+            "text": "OR",
+            "distance": 140982.58798498643,
+            "pos": {
+              "x0": 425.66666666666663,
+              "y1": 189.33333333333331,
+              "x1": 440.3333333333333,
+              "y0": 180
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 210604,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "OR",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "ObjectId": "3a81b8140b408359de7b67aa8c9f4aa3",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 368.3333435058594,
+          "y1": 192,
+          "x1": 498.3333435058594,
+          "y0": 177
+        },
+        "pos_normalized": {
+          "x0": 0.43333334530101103,
+          "y1": 0.17454545454545456,
+          "x1": 0.5862745217715992,
+          "y0": 0.16090909090909092
+        },
+        "text": "Sublimity, OR 97385",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1105.0000305175781,
+          "y1": 576,
+          "x1": 1495.0000305175781,
+          "y0": 531
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_65",
+            "text": "Sublimity,",
+            "distance": 141006.71791965168,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 191.66666666666666,
+              "x1": 422.3333333333333,
+              "y0": 179.66666666666666
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_66",
+            "text": "OR",
+            "distance": 140982.58798498643,
+            "pos": {
+              "x0": 425.66666666666663,
+              "y1": 189.33333333333331,
+              "x1": 440.3333333333333,
+              "y0": 180
+            }
+          },
+          {
+            "score": 96,
+            "id": "word_1_67",
+            "text": "97385",
+            "distance": 140964.69807977535,
+            "pos": {
+              "x0": 443,
+              "y1": 189.33333333333331,
+              "x1": 473.66666666666663,
+              "y0": 180
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 197648,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "Sublimity, OR 97385",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "ObjectId": "37473e2596d203a49e611413ecd2ac44",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "2474b7b4-616d-38cb-b65c-7afaa3ac6467",
+      "NAME": "PROPERTY ADDRESS LINE 2"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 655.3333129882812,
+          "y1": 542,
+          "x1": 690.3333129882812,
+          "y0": 530
+        },
+        "pos_normalized": {
+          "x0": 0.7709803682215074,
+          "y1": 0.49272727272727274,
+          "x1": 0.8121568388097427,
+          "y0": 0.4818181818181818
+        },
+        "text": "$975.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1965.9999389648438,
+          "y1": 1626,
+          "x1": 2070.9999389648438,
+          "y0": 1590
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 75,
+            "id": "word_2_161",
+            "text": "$975.00",
+            "distance": 140560.72421090625,
+            "pos": {
+              "x0": 659.6666666666666,
+              "y1": 541.3333333333333,
+              "x1": 694.3333333333333,
+              "y0": 533
+            }
+          }
+        ]
+      },
+      "label": "Closing Costs Subtotal Seller Paid Before Closing",
+      "edit_input": {
+        "text": "975.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3b06a96ad066e5fc47f4b3e6baa3a558",
+      "DATAPOINT ORDER": "26",
+      "ID": "b50ef5f2-2b15-396e-8b2f-12617f0f9290",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 1016199,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "975.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "CLOSING COSTS SUBTOTAL SELLER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 651.3333333333333,
+          "y1": 814.6666666666666,
+          "x1": 677,
+          "y0": 801
+        },
+        "pos_normalized": {
+          "x0": 0.7662745098039215,
+          "y1": 0.7406060606060606,
+          "x1": 0.7964705882352942,
+          "y0": 0.7281818181818182
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1953.9999999999998,
+          "y1": 2444,
+          "x1": 2031,
+          "y0": 2403
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_187",
+            "text": "YES",
+            "distance": 140378.41049305108,
+            "pos": {
+              "x0": 653.3333333333333,
+              "y1": 812.6666666666666,
+              "x1": 675,
+              "y0": 803
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 140075,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "a0f505d153ffbbf18d482b60a238c63a",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 436.3333435058594,
+          "y1": 181,
+          "x1": 451.3333435058594,
+          "y0": 160
+        },
+        "pos_normalized": {
+          "x0": 0.513333345301011,
+          "y1": 0.16454545454545455,
+          "x1": 0.5309804041245404,
+          "y0": 0.14545454545454545
+        },
+        "text": "(X1",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb2e75ef5fe8501e5096423",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781ada4be6f4fb15928",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1309.0000305175781,
+          "y1": 543,
+          "x1": 1354.0000305175781,
+          "y0": 480
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 40,
+            "id": "word_4_363",
+            "text": "(X1",
+            "distance": 140984.73437555018,
+            "pos": {
+              "x0": 439,
+              "y1": 175.66666666666666,
+              "x1": 451,
+              "y0": 163.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 1194040,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "bd704a1d96c6453fff4243a527bb5b32",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 566.3333129882812,
+          "y1": 641,
+          "x1": 636.3333129882812,
+          "y0": 628
+        },
+        "pos_normalized": {
+          "x0": 0.6662744858685662,
+          "y1": 0.5827272727272728,
+          "x1": 0.7486274270450368,
+          "y0": 0.5709090909090909
+        },
+        "text": "$1,362.08",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1698.9999389648438,
+          "y1": 1923,
+          "x1": 1908.9999389648438,
+          "y0": 1884
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_179",
+            "text": "$1,362.08",
+            "distance": 140543.48468168924,
+            "pos": {
+              "x0": 581.3333333333333,
+              "y1": 639,
+              "x1": 628,
+              "y0": 628.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "1362.08"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a418992b1c4331d6020c02df55bbc9ad",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 248371,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1362.08",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 653,
+          "y1": 161,
+          "x1": 668.6666666666666,
+          "y0": 148
+        },
+        "pos_normalized": {
+          "x0": 0.768235294117647,
+          "y1": 0.14636363636363636,
+          "x1": 0.7866666666666666,
+          "y0": 0.13454545454545455
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1959,
+          "y1": 483,
+          "x1": 2006,
+          "y0": 444
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_53",
+            "text": "30",
+            "distance": 140843.16225780285,
+            "pos": {
+              "x0": 655,
+              "y1": 159,
+              "x1": 666.6666666666666,
+              "y0": 150
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 60805,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "70dc3f222a580d102b5f2a4cce64b41b",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 268.3333333333333,
+          "y1": 433.66666666666663,
+          "x1": 343.66666666666663,
+          "y0": 412.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.3156862745098039,
+          "y1": 0.3942424242424242,
+          "x1": 0.404313725490196,
+          "y0": 0.3751515151515151
+        },
+        "text": "$1,125.31",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 805,
+          "y1": 1301,
+          "x1": 1031,
+          "y0": 1238
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_125",
+            "text": "$1,125.31",
+            "distance": 140903.66057946984,
+            "pos": {
+              "x0": 270.3333333333333,
+              "y1": 431.66666666666663,
+              "x1": 341.66666666666663,
+              "y0": 414.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "1125.31"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6d3a64a6042c6b0b0fcbe449f62533e3",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 94487,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1125.31",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589380644533,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 43.33333206176758,
+          "y1": 1036,
+          "x1": 323.3333435058594,
+          "y0": 978
+        },
+        "pos_normalized": {
+          "x0": 0.050980390660903034,
+          "y1": 0.9418181818181818,
+          "x1": 0.3803921688304228,
+          "y0": 0.889090909090909
+        },
+        "text": "\\\\9\\\\ 5",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e75e1a48408008368320",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e7822c2633dc9b3b4301",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 129.99999618530273,
+          "y1": 3108,
+          "x1": 970.0000305175781,
+          "y0": 2934
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 53,
+            "id": "word_5_494",
+            "text": "\\\\9\\\\",
+            "distance": 140478.45085377962,
+            "pos": {
+              "x0": 292.3333333333333,
+              "y1": 1038,
+              "x1": 349.66666666666663,
+              "y0": 983.3333333333333
+            }
+          },
+          {
+            "score": 45,
+            "id": "word_5_476",
+            "text": "5",
+            "distance": 140473.6117221942,
+            "pos": {
+              "x0": 294.3333333333333,
+              "y1": 1045.3333333333333,
+              "x1": 311,
+              "y0": 1026.6666666666665
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8343ae9b8ae1508072706cdc1cc2e3ed",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 180640,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 376.3333435058594,
+          "y1": 284,
+          "x1": 423.3333435058594,
+          "y0": 265
+        },
+        "pos_normalized": {
+          "x0": 0.44274511000689337,
+          "y1": 0.2581818181818182,
+          "x1": 0.4980392276539522,
+          "y0": 0.2409090909090909
+        },
+        "text": "4.359%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e75e1a48408008368320",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e7822c2633dc9b3b4301",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1129.0000305175781,
+          "y1": 852,
+          "x1": 1270.0000305175781,
+          "y0": 795
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 84,
+            "id": "word_5_74",
+            "text": "4.359%",
+            "distance": 492.77067244457027,
+            "pos": {
+              "x0": 379,
+              "y1": 276.66666666666663,
+              "x1": 418,
+              "y0": 267.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 1208997,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4.359%",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "de0ab6223c736c3bb47a162aa5425541",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 555.3333129882812,
+          "y1": 545,
+          "x1": 603.3333129882812,
+          "y0": 528
+        },
+        "pos_normalized": {
+          "x0": 0.653333309397978,
+          "y1": 0.4954545454545455,
+          "x1": 0.709803897633272,
+          "y0": 0.48
+        },
+        "text": "$3,550.99",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1665.9999389648438,
+          "y1": 1635,
+          "x1": 1809.9999389648438,
+          "y0": 1584
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 56,
+            "id": "word_2_160",
+            "text": "$3,550.99",
+            "distance": 140629.16454001362,
+            "pos": {
+              "x0": 560,
+              "y1": 544.6666666666666,
+              "x1": 602.3333333333333,
+              "y0": 527.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Costs Subtotal Seller Paid At Closing",
+      "edit_input": {
+        "text": "3550.99"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7ba0961aa0ce454a83426a669ca8e7e1",
+      "DATAPOINT ORDER": "25",
+      "ID": "a1680f06-0112-3210-a60b-ec66e0aa60fa",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 1010329,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3550.99",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "CLOSING COSTS SUBTOTAL SELLER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 341,
+          "y1": 768,
+          "x1": 352,
+          "y0": 750.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.4011764705882353,
+          "y1": 0.6981818181818182,
+          "x1": 0.41411764705882353,
+          "y0": 0.682121212121212
+        },
+        "text": "5",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1023,
+          "y1": 2304,
+          "x1": 1056,
+          "y0": 2251
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 57,
+            "id": "word_2_240",
+            "text": "5",
+            "distance": 140637.71323668642,
+            "pos": {
+              "x0": 343,
+              "y1": 766,
+              "x1": 350,
+              "y0": 752.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 508864,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fbd545493e75f935b82c00dd03bd1845",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "21",
+      "ID": "8c9921ed-62f0-38c2-b6de-b669654c4533",
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 378.3333435058594,
+          "y1": 205,
+          "x1": 568.3333129882812,
+          "y0": 196
+        },
+        "pos_normalized": {
+          "x0": 0.445098051183364,
+          "y1": 0.18636363636363637,
+          "x1": 0.6686274270450367,
+          "y0": 0.1781818181818182
+        },
+        "text": "{PMC, LLC dba Landmark Professional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1135.0000305175781,
+          "y1": 615,
+          "x1": 1704.9999389648438,
+          "y0": 588
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 15,
+            "id": "word_1_75",
+            "text": "{PMC,",
+            "distance": 141002.5759861224,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 206,
+              "x1": 404,
+              "y0": 195.33333333333331
+            }
+          },
+          {
+            "score": 86,
+            "id": "word_1_76",
+            "text": "LLC",
+            "distance": 140983.74012826997,
+            "pos": {
+              "x0": 407.3333333333333,
+              "y1": 204.66666666666666,
+              "x1": 425,
+              "y0": 195
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_77",
+            "text": "dba",
+            "distance": 140968.67236887934,
+            "pos": {
+              "x0": 428.3333333333333,
+              "y1": 204.66666666666666,
+              "x1": 446.66666666666663,
+              "y0": 195
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_78",
+            "text": "Landmark",
+            "distance": 140941.83693085756,
+            "pos": {
+              "x0": 450.3333333333333,
+              "y1": 204.66666666666666,
+              "x1": 500.66666666666663,
+              "y0": 195
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_1_79",
+            "text": "Professional",
+            "distance": 140901.1235796223,
+            "pos": {
+              "x0": 503.3333333333333,
+              "y1": 204.66666666666666,
+              "x1": 563.6666666666666,
+              "y0": 194.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "edit_input": {
+        "text": "LPMC, LLC dba Landmark Professional\nMortgage Company"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "614d22b2a8316bb513aace531214e446",
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 54119,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "LPMC, LLC dba Landmark Professional\nMortgage Company",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 269,
+          "y1": 341,
+          "x1": 342.66666666666663,
+          "y0": 316.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3164705882352941,
+          "y1": 0.31,
+          "x1": 0.40313725490196073,
+          "y0": 0.28757575757575754
+        },
+        "text": "$228,750",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 807,
+          "y1": 1023,
+          "x1": 1028,
+          "y0": 949
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_114",
+            "text": "$228,750",
+            "distance": 140970.57658889517,
+            "pos": {
+              "x0": 271,
+              "y1": 339,
+              "x1": 340.66666666666663,
+              "y0": 318.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "228750"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fbddec38addab4890f81314859865c28",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 79377,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "228750",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 581.6666666666666,
+          "y1": 113.66666666666666,
+          "x1": 631,
+          "y0": 98
+        },
+        "pos_normalized": {
+          "x0": 0.684313725490196,
+          "y1": 0.10333333333333332,
+          "x1": 0.7423529411764705,
+          "y0": 0.0890909090909091
+        },
+        "text": "$1,823.41",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1745,
+          "y1": 341,
+          "x1": 1893,
+          "y0": 294
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 35,
+            "id": "word_2_27",
+            "text": "$1,823.41",
+            "distance": 140916.10145214855,
+            "pos": {
+              "x0": 583.6666666666666,
+              "y1": 111.66666666666666,
+              "x1": 629,
+              "y0": 100
+            }
+          }
+        ]
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "1823.41"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b8b9a361cc2bbf68940483759095dd7d",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 223133,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1823.41",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 240,
+          "y1": 764.6666666666666,
+          "x1": 278.66666666666663,
+          "y0": 752
+        },
+        "pos_normalized": {
+          "x0": 0.2823529411764706,
+          "y1": 0.6951515151515151,
+          "x1": 0.32784313725490194,
+          "y0": 0.6836363636363636
+        },
+        "text": "$200.83",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 720,
+          "y1": 2294,
+          "x1": 835.9999999999999,
+          "y0": 2256
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 82,
+            "id": "word_2_236",
+            "text": "$200.83",
+            "distance": 140700.07834890817,
+            "pos": {
+              "x0": 242,
+              "y1": 762.6666666666666,
+              "x1": 276.66666666666663,
+              "y0": 754
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "200.83"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4e065803a53b954c39457d7341c4b1da",
+      "DATAPOINT ORDER": "20",
+      "ID": "3620d405-85e5-3565-a0e3-6fe0a7eac86b",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 504663,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "200.83",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 562.3333129882812,
+          "y1": 833,
+          "x1": 598.3333129882812,
+          "y0": 824
+        },
+        "pos_normalized": {
+          "x0": 0.661568603515625,
+          "y1": 0.7572727272727273,
+          "x1": 0.7039215446920956,
+          "y0": 0.7490909090909091
+        },
+        "text": "-$401.66",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1686.9999389648438,
+          "y1": 2499,
+          "x1": 1794.9999389648438,
+          "y0": 2472
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 78,
+            "id": "word_2_250",
+            "text": "-$401.66",
+            "distance": 140422.67637910988,
+            "pos": {
+              "x0": 562,
+              "y1": 832.6666666666666,
+              "x1": 600.6666666666666,
+              "y0": 823.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "-401.66"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8de54d234f1bd6bc3002649f1841eaa3",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 514767,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "-401.66",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 651.3333333333333,
+          "y1": 833.6666666666666,
+          "x1": 677,
+          "y0": 819.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7662745098039215,
+          "y1": 0.7578787878787878,
+          "x1": 0.7964705882352942,
+          "y0": 0.7451515151515151
+        },
+        "text": "VES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1953.9999999999998,
+          "y1": 2501,
+          "x1": 2031,
+          "y0": 2459
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 81,
+            "id": "word_1_194",
+            "text": "VES",
+            "distance": 140365.10358872043,
+            "pos": {
+              "x0": 653.3333333333333,
+              "y1": 831.6666666666666,
+              "x1": 675,
+              "y0": 821.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 144803,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "1cfe87c8cbb98a532c95c9323624256c",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 521,
+          "y1": 689,
+          "x1": 532,
+          "y0": 674.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.6129411764705882,
+          "y1": 0.6263636363636363,
+          "x1": 0.6258823529411764,
+          "y0": 0.6133333333333333
+        },
+        "text": "0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1563,
+          "y1": 2067,
+          "x1": 1596,
+          "y0": 2024
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_1_161",
+            "text": "0",
+            "distance": 140564.8571364044,
+            "pos": {
+              "x0": 523,
+              "y1": 687,
+              "x1": 530,
+              "y0": 676.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mi Initial Premium Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "40d9d6559db2c37ee5098538988501e9",
+      "DATAPOINT ORDER": "16",
+      "ID": "2a7a5bfe-3163-3270-a5c6-4e1f02470490",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 104368,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "MI INITIAL PREMIUM AMOUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 521,
+          "y1": 689,
+          "x1": 532,
+          "y0": 674.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.6129411764705882,
+          "y1": 0.6263636363636363,
+          "x1": 0.6258823529411764,
+          "y0": 0.6133333333333333
+        },
+        "text": "0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1563,
+          "y1": 2067,
+          "x1": 1596,
+          "y0": 2024
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_1_161",
+            "text": "0",
+            "distance": 140564.8571364044,
+            "pos": {
+              "x0": 523,
+              "y1": 687,
+              "x1": 530,
+              "y0": 676.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Projected Payment Mi Payment Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1714bd441c5ce17ed6eb3be19446b852",
+      "DATAPOINT ORDER": "17",
+      "ID": "4201173e-084d-370c-a869-fbd49dbeb784",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 110416,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROJECTED PAYMENT MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 418.3333333333333,
+          "y1": 523.6666666666666,
+          "x1": 443.3333333333333,
+          "y0": 508
+        },
+        "pos_normalized": {
+          "x0": 0.492156862745098,
+          "y1": 0.476060606060606,
+          "x1": 0.5215686274509803,
+          "y0": 0.4618181818181818
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1255,
+          "y1": 1571,
+          "x1": 1330,
+          "y0": 1524
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_145",
+            "text": "NO",
+            "distance": 140749.85333049393,
+            "pos": {
+              "x0": 420.3333333333333,
+              "y1": 521.6666666666666,
+              "x1": 441.3333333333333,
+              "y0": 510
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 98680,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "c13f0787f9ceeadb809bdd8cf01e486c",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 660.3333333333333,
+          "y1": 236,
+          "x1": 689.3333333333333,
+          "y0": 221.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7768627450980391,
+          "y1": 0.21454545454545454,
+          "x1": 0.8109803921568627,
+          "y0": 0.2012121212121212
+        },
+        "text": "ava",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1980.9999999999998,
+          "y1": 708,
+          "x1": 2068,
+          "y0": 664
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 0,
+            "id": "word_1_92",
+            "text": "ava",
+            "distance": 140780.7174419573,
+            "pos": {
+              "x0": 662.3333333333333,
+              "y1": 234,
+              "x1": 687.3333333333333,
+              "y0": 223.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 72218,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "20751501ec4a60eaabdbc9849dc6a63c",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 244.3333282470703,
+          "y1": 738,
+          "x1": 280.3333435058594,
+          "y0": 725
+        },
+        "pos_normalized": {
+          "x0": 0.287450974408318,
+          "y1": 0.6709090909090909,
+          "x1": 0.32980393353630516,
+          "y0": 0.6590909090909091
+        },
+        "text": "$64.67",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 732.9999847412109,
+          "y1": 2214,
+          "x1": 841.0000305175781,
+          "y0": 2175
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 36,
+            "id": "word_2_221",
+            "text": "$64.67",
+            "distance": 140717.3505401085,
+            "pos": {
+              "x0": 247.66666666666666,
+              "y1": 735.6666666666666,
+              "x1": 276.66666666666663,
+              "y0": 726.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "64.67"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c28c320c686c007ffff2dd77304f7258",
+      "DATAPOINT ORDER": "15",
+      "ID": "7dcfcd32-9f28-34a8-8c6a-4fb5be237e0e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 491183,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "64.67",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 599,
+          "y1": 659.6666666666666,
+          "x1": 636,
+          "y0": 645
+        },
+        "pos_normalized": {
+          "x0": 0.7047058823529412,
+          "y1": 0.5996969696969696,
+          "x1": 0.7482352941176471,
+          "y0": 0.5863636363636363
+        },
+        "text": "Salem,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e75e1a48408008368320",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e7822c2633dc9b3b4301",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1797,
+          "y1": 1979,
+          "x1": 1908,
+          "y0": 1935
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_5_441",
+            "text": "Salem,",
+            "distance": 62.204412842267104,
+            "pos": {
+              "x0": 601,
+              "y1": 657.6666666666666,
+              "x1": 634,
+              "y0": 647
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 1213916,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Salem,",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "ObjectId": "bdc08090cc68c208c711977dc6758b69",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589380644533,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 371.3333333333333,
+          "y1": 161.33333333333331,
+          "x1": 398,
+          "y0": 147.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4368627450980392,
+          "y1": 0.14666666666666664,
+          "x1": 0.4682352941176471,
+          "y0": 0.13424242424242425
+        },
+        "text": "Noel",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1114,
+          "y1": 483.99999999999994,
+          "x1": 1194,
+          "y0": 443
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_47",
+            "text": "Noel",
+            "distance": 141038.08041575548,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 159.33333333333331,
+              "x1": 396,
+              "y0": 149.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "27b727a71ed34e2c0006a718bdc71926",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 167308,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Noel",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 578.3333129882812,
+          "y1": 528,
+          "x1": 631.3333129882812,
+          "y0": 517
+        },
+        "pos_normalized": {
+          "x0": 0.6803921329273898,
+          "y1": 0.48,
+          "x1": 0.7427450741038603,
+          "y0": 0.47
+        },
+        "text": "$4,525.99",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1734.9999389648438,
+          "y1": 1584,
+          "x1": 1893.9999389648438,
+          "y0": 1551
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 80,
+            "id": "word_2_152",
+            "text": "$4,525.99",
+            "distance": 140621.9845157182,
+            "pos": {
+              "x0": 582.3333333333333,
+              "y1": 526.6666666666666,
+              "x1": 629,
+              "y0": 517
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "4525.99"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ba09dacc89b8c74b7e319adfdf90036a",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 523782,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4525.99",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 267.66666666666663,
+          "y1": 374.66666666666663,
+          "x1": 313.66666666666663,
+          "y0": 356.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.3149019607843137,
+          "y1": 0.3406060606060606,
+          "x1": 0.3690196078431372,
+          "y0": 0.3242424242424242
+        },
+        "text": "4250",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 802.9999999999999,
+          "y1": 1124,
+          "x1": 940.9999999999999,
+          "y0": 1070
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 33,
+            "id": "word_1_118",
+            "text": "4250",
+            "distance": 140955.1471428254,
+            "pos": {
+              "x0": 269.66666666666663,
+              "y1": 372.66666666666663,
+              "x1": 311.66666666666663,
+              "y0": 358.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "edit_input": {
+        "text": "4250%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4e4086ac30deff576ca30975fcfc5c87",
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 86820,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4250%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 441,
+          "y1": 191.33333333333331,
+          "x1": 475.66666666666663,
+          "y0": 178
+        },
+        "pos_normalized": {
+          "x0": 0.5188235294117647,
+          "y1": 0.17393939393939392,
+          "x1": 0.5596078431372549,
+          "y0": 0.1618181818181818
+        },
+        "text": "97385",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1323,
+          "y1": 574,
+          "x1": 1427,
+          "y0": 534
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_67",
+            "text": "97385",
+            "distance": 140964.69807977535,
+            "pos": {
+              "x0": 443,
+              "y1": 189.33333333333331,
+              "x1": 473.66666666666663,
+              "y0": 180
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 207493,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "97385",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "ObjectId": "c51fab1e208eb3455ab23731789603a1",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 341,
+          "y1": 741.3333333333333,
+          "x1": 352.3333333333333,
+          "y0": 723
+        },
+        "pos_normalized": {
+          "x0": 0.4011764705882353,
+          "y1": 0.6739393939393938,
+          "x1": 0.4145098039215686,
+          "y0": 0.6572727272727272
+        },
+        "text": "3",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1023,
+          "y1": 2224,
+          "x1": 1057,
+          "y0": 2169
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_225",
+            "text": "3",
+            "distance": 140656.64868799798,
+            "pos": {
+              "x0": 343,
+              "y1": 739.3333333333333,
+              "x1": 350.3333333333333,
+              "y0": 725
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 493611,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b3efe294ada51852f8623a1425bb5be1",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "16",
+      "ID": "8558b5f4-fe1e-3399-921f-2c63e018db83",
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 371.3333333333333,
+          "y1": 193.66666666666666,
+          "x1": 424.3333333333333,
+          "y0": 177.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4368627450980392,
+          "y1": 0.17606060606060606,
+          "x1": 0.4992156862745098,
+          "y0": 0.1615151515151515
+        },
+        "text": "Sublimity,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1114,
+          "y1": 581,
+          "x1": 1273,
+          "y0": 533
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_65",
+            "text": "Sublimity,",
+            "distance": 141006.71791965168,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 191.66666666666666,
+              "x1": 422.3333333333333,
+              "y0": 179.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 202964,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Sublimity,",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "ObjectId": "74a88cdaa55d4236313dfa84ea883445",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 583.3333129882812,
+          "y1": 721,
+          "x1": 630.3333129882812,
+          "y0": 712
+        },
+        "pos_normalized": {
+          "x0": 0.6862744858685662,
+          "y1": 0.6554545454545454,
+          "x1": 0.741568603515625,
+          "y0": 0.6472727272727272
+        },
+        "text": "§$796.50",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1749.9999389648438,
+          "y1": 2163,
+          "x1": 1890.9999389648438,
+          "y0": 2136
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 43,
+            "id": "word_2_217",
+            "text": "§$796.50",
+            "distance": 140484.22731257454,
+            "pos": {
+              "x0": 585,
+              "y1": 722.6666666666666,
+              "x1": 623,
+              "y0": 714
+            }
+          }
+        ]
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "796.50"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d63cb910775ba5cdb94a791266578893",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 407449,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "796.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 608.3333129882812,
+          "y1": 724,
+          "x1": 664.3333129882812,
+          "y0": 713
+        },
+        "pos_normalized": {
+          "x0": 0.7156862505744486,
+          "y1": 0.6581818181818182,
+          "x1": 0.781568603515625,
+          "y0": 0.6481818181818182
+        },
+        "text": "Tasha Walery",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e75e1a48408008368320",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e7822c2633dc9b3b4301",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1824.9999389648438,
+          "y1": 2172,
+          "x1": 1992.9999389648438,
+          "y0": 2139
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_445",
+            "text": "Tasha",
+            "distance": 1.7400452388198318,
+            "pos": {
+              "x0": 600,
+              "y1": 721,
+              "x1": 629.6666666666666,
+              "y0": 711.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_446",
+            "text": "Walery",
+            "distance": 34.450064623783746,
+            "pos": {
+              "x0": 632,
+              "y1": 723.3333333333333,
+              "x1": 667.3333333333333,
+              "y0": 711.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 1219519,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Tasha Walery",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "ObjectId": "71a4b8e9644f4624d5e2113e315c1ef2",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 267.3333435058594,
+          "y1": 1021.3333129882812,
+          "x1": 336.3333435058594,
+          "y0": 1007.3333129882812
+        },
+        "pos_normalized": {
+          "x0": 0.3145098158892463,
+          "y1": 0.9284848299893466,
+          "x1": 0.3956862864774816,
+          "y0": 0.9157575572620739
+        },
+        "text": "$30,242.92",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 802.0000305175781,
+          "y1": 3063.9999389648438,
+          "x1": 1009.0000305175781,
+          "y0": 3021.9999389648438
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_254",
+            "text": "$30,242.92",
+            "distance": 140488.05033297712,
+            "pos": {
+              "x0": 262,
+              "y1": 1024.6666666666665,
+              "x1": 345,
+              "y0": 1004.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Cash From Borrower At Closing Amount",
+      "edit_input": {
+        "text": "30242.92"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4a42873e72162a56789bbacba9968dc9",
+      "DATAPOINT ORDER": "4",
+      "ID": "df0f9de0-b502-331a-9910-2492d3df813d",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 161838,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30242.92",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH FROM BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 567.3333129882812,
+          "y1": 652,
+          "x1": 598.3333129882812,
+          "y0": 644
+        },
+        "pos_normalized": {
+          "x0": 0.6674509564568015,
+          "y1": 0.5927272727272728,
+          "x1": 0.7039215446920956,
+          "y0": 0.5854545454545454
+        },
+        "text": "$776.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e75eb8e8d1a9ca567db0",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781c60b806474ffff90",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1701.9999389648438,
+          "y1": 1956,
+          "x1": 1794.9999389648438,
+          "y0": 1932
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_2_188",
+            "text": "$776.00",
+            "distance": 140547.6152438106,
+            "pos": {
+              "x0": 566.6666666666666,
+              "y1": 653,
+              "x1": 602,
+              "y0": 643.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "776.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e5dccd76a69143b57f34bb6fc3f1b8e1",
+      "DATAPOINT ORDER": "4",
+      "ID": "5234449a-1671-3214-ba16-9ad299691f0f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 264283,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "776.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589380644533,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 397.3333333333333,
+          "y1": 163.33333333333331,
+          "x1": 438.3333333333333,
+          "y0": 147.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4674509803921568,
+          "y1": 0.14848484848484847,
+          "x1": 0.5156862745098039,
+          "y0": 0.13424242424242425
+        },
+        "text": "Bandey",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1192,
+          "y1": 489.99999999999994,
+          "x1": 1315,
+          "y0": 443
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_48",
+            "text": "Bandey",
+            "distance": 141013.9490361779,
+            "pos": {
+              "x0": 399.3333333333333,
+              "y1": 161.33333333333331,
+              "x1": 436.3333333333333,
+              "y0": 149.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5bf45cc635a2199ebf68489dad2f29f9",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 170342,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Bandey",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 471.3333435058594,
+          "y1": 769,
+          "x1": 570.3333129882812,
+          "y0": 748
+        },
+        "pos_normalized": {
+          "x0": 0.5545098158892463,
+          "y1": 0.6990909090909091,
+          "x1": 0.6709803682215073,
+          "y0": 0.68
+        },
+        "text": "$1 ,390.81",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1414.0000305175781,
+          "y1": 2307,
+          "x1": 1710.9999389648438,
+          "y0": 2244
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 78,
+            "id": "word_1_174",
+            "text": "$1",
+            "distance": 140537.72205957532,
+            "pos": {
+              "x0": 481.66666666666663,
+              "y1": 772.3333333333333,
+              "x1": 493.3333333333333,
+              "y0": 746.3333333333333
+            }
+          },
+          {
+            "score": 78,
+            "id": "word_1_175",
+            "text": ",390.81",
+            "distance": 140509.75704060952,
+            "pos": {
+              "x0": 500,
+              "y1": 772.3333333333333,
+              "x1": 552.6666666666666,
+              "y0": 747.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "1390.81"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "37025716d84787095f481c646ccc9250",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 132183,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1390.81",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 602.3333129882812,
+          "y1": 624,
+          "x1": 658.3333129882812,
+          "y0": 610
+        },
+        "pos_normalized": {
+          "x0": 0.7086274270450368,
+          "y1": 0.5672727272727273,
+          "x1": 0.7745097799862133,
+          "y0": 0.5545454545454546
+        },
+        "text": "AmeriTitle",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e75e1a48408008368320",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e7822c2633dc9b3b4301",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1806.9999389648438,
+          "y1": 1872,
+          "x1": 1974.9999389648438,
+          "y0": 1830
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_5_436",
+            "text": "AmeriTitle",
+            "distance": 99.48101669854987,
+            "pos": {
+              "x0": 600.6666666666666,
+              "y1": 620.3333333333333,
+              "x1": 652.6666666666666,
+              "y0": 611
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 1203566,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "AmeriTitle",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "ObjectId": "11007ff25cd5fd41f184e7f338a170d9",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1589380644533,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 371.3333435058594,
+          "y1": 180,
+          "x1": 446.3333435058594,
+          "y0": 161
+        },
+        "pos_normalized": {
+          "x0": 0.4368627570657169,
+          "y1": 0.16363636363636364,
+          "x1": 0.525098051183364,
+          "y0": 0.14636363636363636
+        },
+        "text": "POBox 72",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1114.0000305175781,
+          "y1": 540,
+          "x1": 1339.0000305175781,
+          "y0": 483
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_1_58",
+            "text": "POBox",
+            "distance": 141022.7528396472,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 174.33333333333331,
+              "x1": 409,
+              "y0": 165
+            }
+          },
+          {
+            "score": 95,
+            "id": "word_1_59",
+            "text": "72",
+            "distance": 141003.91887629303,
+            "pos": {
+              "x0": 411.66666666666663,
+              "y1": 174.33333333333331,
+              "x1": 424,
+              "y0": 165
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 191703,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "POBox 72",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "ObjectId": "5b66cc192f41a2989e9c982189bb3a56",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1589380644532,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 180.33333333333331,
+          "y1": 176.33333333333331,
+          "x1": 229,
+          "y0": 162.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.212156862745098,
+          "y1": 0.16030303030303028,
+          "x1": 0.26941176470588235,
+          "y0": 0.14787878787878786
+        },
+        "text": "1/9/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 541,
+          "y1": 529,
+          "x1": 687,
+          "y0": 488
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_57",
+            "text": "1/9/2018",
+            "distance": 141154.66131999012,
+            "pos": {
+              "x0": 182.33333333333331,
+              "y1": 174.33333333333331,
+              "x1": 227,
+              "y0": 164.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "edit_input": {
+        "text": "01/09/2018"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d65f5fe8666db32e302a4af4361f1919",
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 15273,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "01/09/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1589380644532,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 180.33333333333331,
+          "y1": 161.33333333333331,
+          "x1": 229,
+          "y0": 148
+        },
+        "pos_normalized": {
+          "x0": 0.212156862745098,
+          "y1": 0.14666666666666664,
+          "x1": 0.26941176470588235,
+          "y0": 0.13454545454545455
+        },
+        "text": "1/8/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 541,
+          "y1": 483.99999999999994,
+          "x1": 687,
+          "y0": 444
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 85,
+            "id": "word_1_45",
+            "text": "1/8/2018",
+            "distance": 141165.15230769792,
+            "pos": {
+              "x0": 182.33333333333331,
+              "y1": 159.33333333333331,
+              "x1": 227,
+              "y0": 150
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "edit_input": {
+        "text": "01/08/2018"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "88cb3aea487a2688f467cb3b44649246",
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 9479,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "01/08/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1589380644532,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 179,
+          "y1": 274.66666666666663,
+          "x1": 229,
+          "y0": 259.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.21058823529411766,
+          "y1": 0.24969696969696967,
+          "x1": 0.26941176470588235,
+          "y0": 0.23575757575757575
+        },
+        "text": "$305,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 537,
+          "y1": 823.9999999999999,
+          "x1": 687,
+          "y0": 778
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_103",
+            "text": "$305,000",
+            "distance": 141086.194655962,
+            "pos": {
+              "x0": 181,
+              "y1": 272.66666666666663,
+              "x1": 227,
+              "y0": 261.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "305000"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1e4a6c3e95fa698dee8752075a35d8ee",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 28344,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "305000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1589380644532,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 180.33333333333331,
+          "y1": 191.66666666666666,
+          "x1": 234.66666666666666,
+          "y0": 178
+        },
+        "pos_normalized": {
+          "x0": 0.212156862745098,
+          "y1": 0.17424242424242423,
+          "x1": 0.276078431372549,
+          "y0": 0.1618181818181818
+        },
+        "text": "1/10/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e75e7647401d2aad07b3",
+          "DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+          "scale": 3,
+          "PageOcr": "5eb2e781e1595a1c466cb4f0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 541,
+          "y1": 575,
+          "x1": 704,
+          "y0": 534
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_64",
+            "text": "1/10/2018",
+            "distance": 141141.81426651863,
+            "pos": {
+              "x0": 182.33333333333331,
+              "y1": 189.66666666666666,
+              "x1": 232.66666666666666,
+              "y0": 180
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "edit_input": {
+        "text": "01/10/2018"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cd5a0359d6c3e27c3126b52a9cdf4383",
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "workflow_time_elapsed": 19919,
+      "Type": "ExtractionUI",
+      "UserName": "prakhar.chandra.nayak@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "01/10/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "85ec8ea5-3e5d-4a54-af91-40ce55fcba0a",
+      "ExtractionUI::DocumentId": "4dc1d241-d65b-485b-8923-ebe67a47eea2",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DISBURSEMENT DATE"
+    }
+  ],
+  "Total": 43,
+  "IndexScannedCount": 43
+}

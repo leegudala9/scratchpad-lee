@@ -1,0 +1,3853 @@
+{
+  "Results": [
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group10",
+      "selection_input": {
+        "pos": {
+          "x0": 371.3333333333333,
+          "y1": 603.6666666666666,
+          "x1": 410.66666666666663,
+          "y0": 589.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4368627450980392,
+          "y1": 0.5487878787878787,
+          "x1": 0.48313725490196074,
+          "y0": 0.536060606060606
+        },
+        "text": "148.48",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1114,
+          "y1": 1811,
+          "x1": 1232,
+          "y0": 1769
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_188",
+            "text": "148.48",
+            "distance": 12.517765153750265,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 601.6666666666666,
+              "x1": 408.66666666666663,
+              "y0": 591.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mi Payment Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 777200,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "148.48",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "08fa59de1cbb96321a10ebfe74d2bf42",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "f7d344d0-dbed-3a16-8f9b-a039cadab6cc",
+      "NAME": "MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 613.6666666666666,
+          "y1": 160,
+          "x1": 654.3333333333333,
+          "y0": 145.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7219607843137255,
+          "y1": 0.14545454545454545,
+          "x1": 0.7698039215686273,
+          "y0": 0.1321212121212121
+        },
+        "text": "30years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1841,
+          "y1": 480,
+          "x1": 1962.9999999999998,
+          "y0": 435.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 68,
+            "id": "word_1_104",
+            "text": "30years",
+            "distance": 140863.38876470982,
+            "pos": {
+              "x0": 615.6666666666666,
+              "y1": 158,
+              "x1": 652.3333333333333,
+              "y0": 147.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 51911,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "f6d941dfc31b4c93dff2159ccbc2429e",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "NUMBER",
+      "selection_input": {
+        "pos": {
+          "x0": 325.5,
+          "y1": 753,
+          "x1": 348.5,
+          "y0": 737
+        },
+        "pos_normalized": {
+          "x0": 0.38294117647058823,
+          "y1": 0.6845454545454546,
+          "x1": 0.41,
+          "y0": 0.67
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 976.5,
+          "y1": 2259,
+          "x1": 1045.5,
+          "y0": 2211
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "edit_input": {
+        "text": "4"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9f6be616cac628a7de5f024cb4755916",
+      "DATAPOINT ORDER": "21",
+      "ID": "8c9921ed-62f0-38c2-b6de-b669654c4533",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 592030,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 650.5,
+          "y1": 727,
+          "x1": 751.5,
+          "y0": 706
+        },
+        "pos_normalized": {
+          "x0": 0.7652941176470588,
+          "y1": 0.6609090909090909,
+          "x1": 0.8841176470588236,
+          "y0": 0.6418181818181818
+        },
+        "text": "RickSchwartzenberg\"e‘rw",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e41725c165e87cdc3c06",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e43ab26bb293f4baac5b",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1951.5,
+          "y1": 2181,
+          "x1": 2254.5,
+          "y0": 2118
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 32,
+            "id": "word_5_493",
+            "text": "RickSchwartzenberg\"e‘rw",
+            "distance": 140419.38604231254,
+            "pos": {
+              "x0": 651.3333333333333,
+              "y1": 718.3333333333333,
+              "x1": 754.6666666666666,
+              "y0": 703.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "edit_input": {
+        "text": "Rick Schwartzenberger"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "00a7cc01d39e43b7e414db8ac328c237",
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 761006,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Rick Schwartzenberger",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "TEXT",
+      "selection_input": {
+        "pos": {
+          "x0": 613.6666666666666,
+          "y1": 160,
+          "x1": 654.3333333333333,
+          "y0": 145.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7219607843137255,
+          "y1": 0.14545454545454545,
+          "x1": 0.7698039215686273,
+          "y0": 0.1321212121212121
+        },
+        "text": "30years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1841,
+          "y1": 480,
+          "x1": 1962.9999999999998,
+          "y0": 435.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 68,
+            "id": "word_1_104",
+            "text": "30years",
+            "distance": 140863.38876470982,
+            "pos": {
+              "x0": 615.6666666666666,
+              "y1": 158,
+              "x1": 652.3333333333333,
+              "y0": 147.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "edit_input": {
+        "text": "30"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6087ab28df9e8801febfc4e8850d0841",
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 45683,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 371.3333333333333,
+          "y1": 603.6666666666666,
+          "x1": 410.66666666666663,
+          "y0": 589.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4368627450980392,
+          "y1": 0.5487878787878787,
+          "x1": 0.48313725490196074,
+          "y0": 0.536060606060606
+        },
+        "text": "148.48",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1114,
+          "y1": 1811,
+          "x1": 1232,
+          "y0": 1769
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_188",
+            "text": "148.48",
+            "distance": 140720.92426600168,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 601.6666666666666,
+              "x1": 408.66666666666663,
+              "y0": 591.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mi Initial Premium Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 95490,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "148.48",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8ca52cf258d592ce4e5636c71db84cb9",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "16",
+      "ID": "2a7a5bfe-3163-3270-a5c6-4e1f02470490",
+      "NAME": "MI INITIAL PREMIUM AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 449.5,
+          "y1": 268,
+          "x1": 477.5,
+          "y0": 263
+        },
+        "pos_normalized": {
+          "x0": 0.5288235294117647,
+          "y1": 0.24363636363636362,
+          "x1": 0.5617647058823529,
+          "y0": 0.2390909090909091
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1348.5,
+          "y1": 804,
+          "x1": 1432.5,
+          "y0": 789
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Appraisal Fee Borrower Paid At Closing",
+      "edit_input": {
+        "text": "700"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a0a1224f9cb7a94bd74e81d6eaee1b26",
+      "DATAPOINT ORDER": "9",
+      "ID": "5efd8943-a0a6-3fd3-b5e0-e3cfa2f56048",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 309477,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "700",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 453.5,
+          "y1": 709,
+          "x1": 531.5,
+          "y0": 698
+        },
+        "pos_normalized": {
+          "x0": 0.5335294117647059,
+          "y1": 0.6445454545454545,
+          "x1": 0.6252941176470588,
+          "y0": 0.6345454545454545
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1360.5,
+          "y1": 2127,
+          "x1": 1594.5,
+          "y0": 2094
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "587.96"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "754d89b801bf64f2c12f0917ba6d155d",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 525496,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "587.96",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 354.3333333333333,
+          "y1": 282.66666666666663,
+          "x1": 393.3333333333333,
+          "y0": 269
+        },
+        "pos_normalized": {
+          "x0": 0.41686274509803917,
+          "y1": 0.25696969696969696,
+          "x1": 0.46274509803921565,
+          "y0": 0.24454545454545454
+        },
+        "text": "5.304%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e41725c165e87cdc3c06",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e43ab26bb293f4baac5b",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1063,
+          "y1": 847.9999999999999,
+          "x1": 1180,
+          "y0": 807
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_5_177",
+            "text": "5.304%",
+            "distance": 140959.86824467295,
+            "pos": {
+              "x0": 356.3333333333333,
+              "y1": 280.66666666666663,
+              "x1": 391.3333333333333,
+              "y0": 271
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 707683,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5.304%",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4bc8891d7a1a355785663e4c23bf1091",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 410.3333333333333,
+          "y1": 474.3333333333333,
+          "x1": 435.3333333333333,
+          "y0": 458
+        },
+        "pos_normalized": {
+          "x0": 0.48274509803921567,
+          "y1": 0.4312121212121212,
+          "x1": 0.512156862745098,
+          "y0": 0.4163636363636364
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1231,
+          "y1": 1423,
+          "x1": 1306,
+          "y0": 1374
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_160",
+            "text": "NO",
+            "distance": 140790.62032283575,
+            "pos": {
+              "x0": 412.3333333333333,
+              "y1": 472.3333333333333,
+              "x1": 433.3333333333333,
+              "y0": 460
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 87838,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "6e236ce425c70c3a91af125cab4ebd26",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 371.3333333333333,
+          "y1": 603.6666666666666,
+          "x1": 410.66666666666663,
+          "y0": 589.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4368627450980392,
+          "y1": 0.5487878787878787,
+          "x1": 0.48313725490196074,
+          "y0": 0.536060606060606
+        },
+        "text": "148.48",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1114,
+          "y1": 1811,
+          "x1": 1232,
+          "y0": 1769
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_188",
+            "text": "148.48",
+            "distance": 140720.92426600168,
+            "pos": {
+              "x0": 373.3333333333333,
+              "y1": 601.6666666666666,
+              "x1": 408.66666666666663,
+              "y0": 591.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Projected Payment Mi Payment Amount",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 99798,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "148.48",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0cdd7e5643a683ffba9045946b20337b",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "17",
+      "ID": "4201173e-084d-370c-a869-fbd49dbeb784",
+      "NAME": "PROJECTED PAYMENT MI PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 461.5,
+          "y1": 515,
+          "x1": 527.5,
+          "y0": 508
+        },
+        "pos_normalized": {
+          "x0": 0.5429411764705883,
+          "y1": 0.4681818181818182,
+          "x1": 0.6205882352941177,
+          "y0": 0.4618181818181818
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1384.5,
+          "y1": 1545,
+          "x1": 1582.5,
+          "y0": 1524
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "2994.25"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1aa8e4b0e0423e1b29922ebcfcf97eb4",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 366691,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "2994.25",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 155.66666666666666,
+          "y1": 163.33333333333331,
+          "x1": 211.33333333333331,
+          "y0": 148
+        },
+        "pos_normalized": {
+          "x0": 0.18313725490196078,
+          "y1": 0.14848484848484847,
+          "x1": 0.24862745098039213,
+          "y0": 0.13454545454545455
+        },
+        "text": "13/15/2017",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 467,
+          "y1": 489.99999999999994,
+          "x1": 634,
+          "y0": 444
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 32,
+            "id": "word_1_27",
+            "text": "13/15/2017",
+            "distance": 141179.4092388397,
+            "pos": {
+              "x0": 157.66666666666666,
+              "y1": 161.33333333333331,
+              "x1": 209.33333333333331,
+              "y0": 150
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 9691,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "13/15/2017",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0244ec40c2c1af46d17a8554c43c3803",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 266.3333333333333,
+          "y1": 367.3333333333333,
+          "x1": 319,
+          "y0": 350
+        },
+        "pos_normalized": {
+          "x0": 0.3133333333333333,
+          "y1": 0.3339393939393939,
+          "x1": 0.37529411764705883,
+          "y0": 0.3181818181818182
+        },
+        "text": "4.375%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 799,
+          "y1": 1102,
+          "x1": 957,
+          "y0": 1050
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 79,
+            "id": "word_1_131",
+            "text": "4.375%",
+            "distance": 140958.68042582154,
+            "pos": {
+              "x0": 268.3333333333333,
+              "y1": 365.3333333333333,
+              "x1": 317,
+              "y0": 352
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 74123,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4.375%",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2cbe6b51502b5a78ae66a468886ca58d",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 437.5,
+          "y1": 658,
+          "x1": 514.5,
+          "y0": 634
+        },
+        "pos_normalized": {
+          "x0": 0.5147058823529411,
+          "y1": 0.5981818181818181,
+          "x1": 0.6052941176470589,
+          "y0": 0.5763636363636364
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1312.5,
+          "y1": 1974,
+          "x1": 1543.5,
+          "y0": 1902
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "1135.60"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "def34034629f93ef0309870fcf6d7aca",
+      "DATAPOINT ORDER": "4",
+      "ID": "5234449a-1671-3214-ba16-9ad299691f0f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 456393,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1135.60",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 225.5,
+          "y1": 723,
+          "x1": 283.5,
+          "y0": 712
+        },
+        "pos_normalized": {
+          "x0": 0.26529411764705885,
+          "y1": 0.6572727272727272,
+          "x1": 0.3335294117647059,
+          "y0": 0.6472727272727272
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 676.5,
+          "y1": 2169,
+          "x1": 850.5,
+          "y0": 2136
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Homeowners Insurance Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "94.63"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ea9f7c29df8d60d6459df5c07ce70cc4",
+      "DATAPOINT ORDER": "15",
+      "ID": "7dcfcd32-9f28-34a8-8c6a-4fb5be237e0e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 546298,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "94.63",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 226.5,
+          "y1": 755,
+          "x1": 272.5,
+          "y0": 739
+        },
+        "pos_normalized": {
+          "x0": 0.2664705882352941,
+          "y1": 0.6863636363636364,
+          "x1": 0.3205882352941177,
+          "y0": 0.6718181818181819
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 679.5,
+          "y1": 2265,
+          "x1": 817.5,
+          "y0": 2217
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "101.33"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2bb95c9546aa6af172e61e90eae9fe2b",
+      "DATAPOINT ORDER": "20",
+      "ID": "3620d405-85e5-3565-a0e3-6fe0a7eac86b",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 576120,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "101.33",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 650.5,
+          "y1": 608,
+          "x1": 746.5,
+          "y0": 591
+        },
+        "pos_normalized": {
+          "x0": 0.7652941176470588,
+          "y1": 0.5527272727272727,
+          "x1": 0.8782352941176471,
+          "y0": 0.5372727272727272
+        },
+        "text": "|Rels Law Firn, PC",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e41725c165e87cdc3c06",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e43ab26bb293f4baac5b",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1951.5,
+          "y1": 1824,
+          "x1": 2239.5,
+          "y0": 1773
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 65,
+            "id": "word_5_459",
+            "text": "|Rels",
+            "distance": 140534.17919179346,
+            "pos": {
+              "x0": 644.3333333333333,
+              "y1": 602.3333333333333,
+              "x1": 666.6666666666666,
+              "y0": 590
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_460",
+            "text": "Law",
+            "distance": 140519.21746044006,
+            "pos": {
+              "x0": 669.3333333333333,
+              "y1": 602.3333333333333,
+              "x1": 684.3333333333333,
+              "y0": 589.6666666666666
+            }
+          },
+          {
+            "score": 41,
+            "id": "word_5_461",
+            "text": "Firn,",
+            "distance": 140504.96293725714,
+            "pos": {
+              "x0": 685.3333333333333,
+              "y1": 606.6666666666666,
+              "x1": 705.6666666666666,
+              "y0": 588.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_462",
+            "text": "PC",
+            "distance": 140491.5357375272,
+            "pos": {
+              "x0": 708.3333333333333,
+              "y1": 604,
+              "x1": 722,
+              "y0": 589.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "edit_input": {
+        "text": "Rels Law Firn, PC"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "535383c946585753f90bf6cbf61ef817",
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 703535,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Rels Law Firn, PC",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 648.5,
+          "y1": 664,
+          "x1": 712.5,
+          "y0": 641
+        },
+        "pos_normalized": {
+          "x0": 0.7629411764705882,
+          "y1": 0.6036363636363636,
+          "x1": 0.8382352941176471,
+          "y0": 0.5827272727272728
+        },
+        "text": "Grand Forks, ND",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e41725c165e87cdc3c06",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e43ab26bb293f4baac5b",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1945.5,
+          "y1": 1992,
+          "x1": 2137.5,
+          "y0": 1923
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_5_478",
+            "text": "Grand",
+            "distance": 140494.69340957332,
+            "pos": {
+              "x0": 650.6666666666666,
+              "y1": 649,
+              "x1": 675.3333333333333,
+              "y0": 640
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_5_479",
+            "text": "Forks,",
+            "distance": 140475.01526566525,
+            "pos": {
+              "x0": 678.3333333333333,
+              "y1": 650.3333333333333,
+              "x1": 702,
+              "y0": 640
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_480",
+            "text": "ND",
+            "distance": 140460.523922896,
+            "pos": {
+              "x0": 705.3333333333333,
+              "y1": 648.6666666666666,
+              "x1": 717.3333333333333,
+              "y0": 640.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "Grand Forks"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "606030bb576ca5d9a9e0e30a2bd5776c",
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 719750,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Grand Forks",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 224.5,
+          "y1": 694,
+          "x1": 323.5,
+          "y0": 660
+        },
+        "pos_normalized": {
+          "x0": 0.2641176470588235,
+          "y1": 0.6309090909090909,
+          "x1": 0.38058823529411767,
+          "y0": 0.6
+        },
+        "text": "Treasurer to",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 673.5,
+          "y1": 2082,
+          "x1": 970.5,
+          "y0": 1980
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 85,
+            "id": "word_2_98",
+            "text": "Treasurer",
+            "distance": 140768.56133108068,
+            "pos": {
+              "x0": 223.66666666666666,
+              "y1": 682,
+              "x1": 262,
+              "y0": 673.6666666666666
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_2_95",
+            "text": "to",
+            "distance": 140750.69052771208,
+            "pos": {
+              "x0": 277.3333333333333,
+              "y1": 668.3333333333333,
+              "x1": 285.3333333333333,
+              "y0": 660.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "11/20/2018"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c98b846929b5a72764f4fd7e49995363",
+      "DATAPOINT ORDER": "10",
+      "ID": "78640e69-866a-39bf-a5d6-80e73c2a7811",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 485257,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/20/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 237.33333333333331,
+          "y1": 266.66666666666663,
+          "x1": 256,
+          "y0": 254
+        },
+        "pos_normalized": {
+          "x0": 0.27921568627450977,
+          "y1": 0.2424242424242424,
+          "x1": 0.30117647058823527,
+          "y0": 0.2309090909090909
+        },
+        "text": "MN",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 712,
+          "y1": 799.9999999999999,
+          "x1": 768,
+          "y0": 762
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_87",
+            "text": "MN",
+            "distance": 141060.73210992807,
+            "pos": {
+              "x0": 239.33333333333331,
+              "y1": 264.66666666666663,
+              "x1": 254,
+              "y0": 256
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 253653,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "MN",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "ObjectId": "7bce0e36d7fbcb6d709fac0d8f73d1f9",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 639.3333333333333,
+          "y1": 736.6666666666666,
+          "x1": 662.6666666666666,
+          "y0": 723
+        },
+        "pos_normalized": {
+          "x0": 0.752156862745098,
+          "y1": 0.6696969696969697,
+          "x1": 0.7796078431372548,
+          "y0": 0.6572727272727272
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1917.9999999999998,
+          "y1": 2210,
+          "x1": 1988,
+          "y0": 2169
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_227",
+            "text": "YES",
+            "distance": 140442.84936595304,
+            "pos": {
+              "x0": 641.3333333333333,
+              "y1": 734.6666666666666,
+              "x1": 660.6666666666666,
+              "y0": 725
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 135549,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "5bbea167f949d988fea497949e93407d",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 427.5,
+          "y1": 185,
+          "x1": 575.5,
+          "y0": 164
+        },
+        "pos_normalized": {
+          "x0": 0.5029411764705882,
+          "y1": 0.16818181818181818,
+          "x1": 0.6770588235294117,
+          "y0": 0.14909090909090908
+        },
+        "text": "will have an to escrow the account",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb2e417392322ebe5dc91be",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e43a6385b354159047dc",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1282.5,
+          "y1": 555,
+          "x1": 1726.5,
+          "y0": 492
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 81,
+            "id": "word_4_359",
+            "text": "will",
+            "distance": 140992.61971159655,
+            "pos": {
+              "x0": 425.66666666666663,
+              "y1": 177.33333333333331,
+              "x1": 442,
+              "y0": 162
+            }
+          },
+          {
+            "score": 79,
+            "id": "word_4_360",
+            "text": "have",
+            "distance": 140976.3790968189,
+            "pos": {
+              "x0": 445.66666666666663,
+              "y1": 174.33333333333331,
+              "x1": 468.3333333333333,
+              "y0": 164.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_361",
+            "text": "an",
+            "distance": 140960.96044985094,
+            "pos": {
+              "x0": 471.66666666666663,
+              "y1": 174.33333333333331,
+              "x1": 483,
+              "y0": 167.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_371",
+            "text": "to",
+            "distance": 140951.87019501452,
+            "pos": {
+              "x0": 471.3333333333333,
+              "y1": 189,
+              "x1": 481.3333333333333,
+              "y0": 180.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_362",
+            "text": "escrow",
+            "distance": 140942.72359021512,
+            "pos": {
+              "x0": 486.66666666666663,
+              "y1": 174,
+              "x1": 520.3333333333333,
+              "y0": 167.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_373",
+            "text": "the",
+            "distance": 140926.92570077666,
+            "pos": {
+              "x0": 504.3333333333333,
+              "y1": 189,
+              "x1": 520,
+              "y0": 179.66666666666666
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_4_363",
+            "text": "account",
+            "distance": 140915.78557579857,
+            "pos": {
+              "x0": 523.6666666666666,
+              "y1": 174,
+              "x1": 561.3333333333333,
+              "y0": 165.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 681771,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "5b6684a9e5dac6430686398ecfd0047a",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 640,
+          "y1": 753.3333333333333,
+          "x1": 663,
+          "y0": 739.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7529411764705882,
+          "y1": 0.6848484848484848,
+          "x1": 0.78,
+          "y0": 0.6724242424242424
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1920,
+          "y1": 2260,
+          "x1": 1989,
+          "y0": 2219
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_234",
+            "text": "YES",
+            "distance": 140430.71570350984,
+            "pos": {
+              "x0": 642,
+              "y1": 751.3333333333333,
+              "x1": 661,
+              "y0": 741.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 139511,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "31e67b78bf5461a7487bf35559b642d8",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 157.5,
+          "y1": 245,
+          "x1": 280.5,
+          "y0": 230
+        },
+        "pos_normalized": {
+          "x0": 0.18529411764705883,
+          "y1": 0.22272727272727272,
+          "x1": 0.33,
+          "y0": 0.20909090909090908
+        },
+        "text": "19895 410th Ave SW",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 472.5,
+          "y1": 735,
+          "x1": 841.5,
+          "y0": 690
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_44",
+            "text": "19895",
+            "distance": 141130.50690367722,
+            "pos": {
+              "x0": 159,
+              "y1": 240.33333333333331,
+              "x1": 185.33333333333331,
+              "y0": 232
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_45",
+            "text": "410th",
+            "distance": 141110.34925438475,
+            "pos": {
+              "x0": 188.33333333333331,
+              "y1": 240.33333333333331,
+              "x1": 213.66666666666666,
+              "y0": 231.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_46",
+            "text": "Ave",
+            "distance": 141093.14104765846,
+            "pos": {
+              "x0": 217,
+              "y1": 240.33333333333331,
+              "x1": 233.33333333333331,
+              "y0": 231.66666666666666
+            }
+          },
+          {
+            "score": 87,
+            "id": "word_1_47",
+            "text": "SW",
+            "distance": 141080.17731506436,
+            "pos": {
+              "x0": 236.33333333333331,
+              "y1": 240.33333333333331,
+              "x1": 250.66666666666666,
+              "y0": 231.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 194506,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "19895 410th Ave SW",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "ObjectId": "154c07862eee00e9a4dec9941775ca3b",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 288.5,
+          "y1": 680,
+          "x1": 386.5,
+          "y0": 656
+        },
+        "pos_normalized": {
+          "x0": 0.33941176470588236,
+          "y1": 0.6181818181818182,
+          "x1": 0.4547058823529412,
+          "y0": 0.5963636363636363
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 865.5,
+          "y1": 2040,
+          "x1": 1159.5,
+          "y0": 1968
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "12/01/2017",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d768255f859bef9625bcfeb50d14f7a3",
+      "DATAPOINT ORDER": "11",
+      "ID": "042e688a-3ebf-3c4f-bfca-55a2748db428",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 509992,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "12/01/2017",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 614.6666666666666,
+          "y1": 224,
+          "x1": 692.3333333333333,
+          "y0": 209.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7231372549019608,
+          "y1": 0.20363636363636364,
+          "x1": 0.8145098039215686,
+          "y0": 0.19030303030303028
+        },
+        "text": "[XConventional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1844,
+          "y1": 672,
+          "x1": 2077,
+          "y0": 628
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 0,
+            "id": "word_1_112",
+            "text": "[XConventional",
+            "distance": 140804.27297621727,
+            "pos": {
+              "x0": 616.6666666666666,
+              "y1": 222,
+              "x1": 690.3333333333333,
+              "y0": 211.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 65685,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "0aaa1364da4b13dfd21883c5009d508d",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 255.33333333333331,
+          "y1": 266.3333333333333,
+          "x1": 286.3333333333333,
+          "y0": 253.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.30039215686274506,
+          "y1": 0.2421212121212121,
+          "x1": 0.3368627450980392,
+          "y0": 0.2306060606060606
+        },
+        "text": "56721",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 766,
+          "y1": 799,
+          "x1": 859,
+          "y0": 761
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 22,
+            "id": "word_1_88",
+            "text": "56721",
+            "distance": 141043.87927530843,
+            "pos": {
+              "x0": 257.3333333333333,
+              "y1": 264.3333333333333,
+              "x1": 284.3333333333333,
+              "y0": 255.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 250254,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "56721",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "ObjectId": "792eba0348559bd1650e1306364be865",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 156.33333333333331,
+          "y1": 285.3333333333333,
+          "x1": 201.66666666666666,
+          "y0": 270
+        },
+        "pos_normalized": {
+          "x0": 0.18392156862745096,
+          "y1": 0.2593939393939394,
+          "x1": 0.2372549019607843,
+          "y0": 0.24545454545454545
+        },
+        "text": "4$155,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 468.99999999999994,
+          "y1": 856,
+          "x1": 605,
+          "y0": 810
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 20,
+            "id": "word_1_95",
+            "text": "4$155,000",
+            "distance": 141096.3400692748,
+            "pos": {
+              "x0": 158.33333333333331,
+              "y1": 283.3333333333333,
+              "x1": 199.66666666666666,
+              "y0": 272
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "155000"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "dd419ee245c0fd1bfcebb0728101f26b",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 26057,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "155000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 266.3333333333333,
+          "y1": 344.66666666666663,
+          "x1": 332.3333333333333,
+          "y0": 319
+        },
+        "pos_normalized": {
+          "x0": 0.3133333333333333,
+          "y1": 0.3133333333333333,
+          "x1": 0.3909803921568627,
+          "y0": 0.29
+        },
+        "text": "$147,250",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 799,
+          "y1": 1034,
+          "x1": 997,
+          "y0": 957
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_126",
+            "text": "$147,250",
+            "distance": 140972.9345600503,
+            "pos": {
+              "x0": 268.3333333333333,
+              "y1": 342.66666666666663,
+              "x1": 330.3333333333333,
+              "y0": 321
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "147250",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fcd15372e18919596cd6a19b67d1102f",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 71854,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "147250",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 614,
+          "y1": 174.33333333333331,
+          "x1": 657.3333333333333,
+          "y0": 161
+        },
+        "pos_normalized": {
+          "x0": 0.7223529411764706,
+          "y1": 0.15848484848484848,
+          "x1": 0.7733333333333332,
+          "y0": 0.14636363636363636
+        },
+        "text": "Purchase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1842,
+          "y1": 523,
+          "x1": 1971.9999999999998,
+          "y0": 483
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 67,
+            "id": "word_1_106",
+            "text": "Purchase",
+            "distance": 140851.58121957863,
+            "pos": {
+              "x0": 616,
+              "y1": 172.33333333333331,
+              "x1": 655.3333333333333,
+              "y0": 163
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 56166,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "PURCHASE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "control_input": {
+        "type": "text",
+        "value": "PURCHASE",
+        "control": "radio"
+      },
+      "ObjectId": "d66df33b5cf2ccee0a1ca169555ddd13",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 266.3333333333333,
+          "y1": 399.66666666666663,
+          "x1": 324,
+          "y0": 375.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.3133333333333333,
+          "y1": 0.3633333333333333,
+          "x1": 0.3811764705882353,
+          "y0": 0.3415151515151515
+        },
+        "text": "$735.20",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 799,
+          "y1": 1199,
+          "x1": 972,
+          "y0": 1127
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 76,
+            "id": "word_1_137",
+            "text": "$735.20",
+            "distance": 140936.41401404707,
+            "pos": {
+              "x0": 268.3333333333333,
+              "y1": 397.66666666666663,
+              "x1": 322,
+              "y0": 377.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "735.20",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e5879c2bb19f5bef82d8102fda1696c5",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 80894,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "735.20",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 438.5,
+          "y1": 830,
+          "x1": 592.5,
+          "y0": 799
+        },
+        "pos_normalized": {
+          "x0": 0.5158823529411765,
+          "y1": 0.7545454545454545,
+          "x1": 0.6970588235294117,
+          "y0": 0.7263636363636363
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1315.5,
+          "y1": 2490,
+          "x1": 1777.5,
+          "y0": 2397
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "101.25"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "10e319469a4f97a82a4b62dd07808c6a",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 609598,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "101.25",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1590014859709,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 392.3333333333333,
+          "y1": 159.33333333333331,
+          "x1": 421.66666666666663,
+          "y0": 146
+        },
+        "pos_normalized": {
+          "x0": 0.4615686274509804,
+          "y1": 0.14484848484848484,
+          "x1": 0.496078431372549,
+          "y0": 0.13272727272727272
+        },
+        "text": "Hecht",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1177,
+          "y1": 477.99999999999994,
+          "x1": 1265,
+          "y0": 438
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_52",
+            "text": "Hecht",
+            "distance": 141023.60549311514,
+            "pos": {
+              "x0": 394.3333333333333,
+              "y1": 157.33333333333331,
+              "x1": 419.66666666666663,
+              "y0": 148
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4ac3ee3e9fd446304e9da6671676c20f",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 169393,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Hecht",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 156.33333333333331,
+          "y1": 179.33333333333331,
+          "x1": 211.66666666666666,
+          "y0": 164
+        },
+        "pos_normalized": {
+          "x0": 0.18392156862745096,
+          "y1": 0.16303030303030303,
+          "x1": 0.24901960784313723,
+          "y0": 0.14909090909090908
+        },
+        "text": "11/20/2017",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 468.99999999999994,
+          "y1": 538,
+          "x1": 635,
+          "y0": 492
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 70,
+            "id": "word_1_30",
+            "text": "11/20/2017",
+            "distance": 141167.740874504,
+            "pos": {
+              "x0": 158.33333333333331,
+              "y1": 177.33333333333331,
+              "x1": 209.66666666666666,
+              "y0": 166
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 13140,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/20/2017",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6fa1f1cbd9fcfc1fc17912c10eba2d33",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1590014859709,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 71.5,
+          "y1": 979,
+          "x1": 255.5,
+          "y0": 958
+        },
+        "pos_normalized": {
+          "x0": 0.08411764705882353,
+          "y1": 0.89,
+          "x1": 0.30058823529411766,
+          "y0": 0.8709090909090909
+        },
+        "text": "S /_v s e et // Seedyy 5 ,/./y ,9*)1",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2e41725c165e87cdc3c06",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e43ab26bb293f4baac5b",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 214.5,
+          "y1": 2937,
+          "x1": 766.5,
+          "y0": 2874
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 3,
+            "id": "word_5_568",
+            "text": "S",
+            "distance": 140682.90078064054,
+            "pos": {
+              "x0": 57.33333333333333,
+              "y1": 969.3333333333333,
+              "x1": 94,
+              "y0": 966
+            }
+          },
+          {
+            "score": 44,
+            "id": "word_5_570",
+            "text": "/_v",
+            "distance": 140642.64398842747,
+            "pos": {
+              "x0": 130.33333333333331,
+              "y1": 970.6666666666666,
+              "x1": 139,
+              "y0": 960
+            }
+          },
+          {
+            "score": 38,
+            "id": "word_5_569",
+            "text": "s",
+            "distance": 140654.0163588971,
+            "pos": {
+              "x0": 114.66666666666666,
+              "y1": 970.3333333333333,
+              "x1": 119,
+              "y0": 964
+            }
+          },
+          {
+            "score": 49,
+            "id": "word_5_578",
+            "text": "e",
+            "distance": 140649.44908461446,
+            "pos": {
+              "x0": 109.66666666666666,
+              "y1": 984.6666666666666,
+              "x1": 121,
+              "y0": 965.6666666666666
+            }
+          },
+          {
+            "score": 27,
+            "id": "word_5_579",
+            "text": "et",
+            "distance": 140623.4211669395,
+            "pos": {
+              "x0": 121.33333333333333,
+              "y1": 983,
+              "x1": 179.66666666666666,
+              "y0": 970.3333333333333
+            }
+          },
+          {
+            "score": 63,
+            "id": "word_5_572",
+            "text": "//",
+            "distance": 140591.40467691395,
+            "pos": {
+              "x0": 203.33333333333331,
+              "y1": 970.3333333333333,
+              "x1": 212.66666666666666,
+              "y0": 958
+            }
+          },
+          {
+            "score": 1,
+            "id": "word_5_580",
+            "text": "Seedyy",
+            "distance": 140576.88902143354,
+            "pos": {
+              "x0": 195.33333333333331,
+              "y1": 980.3333333333333,
+              "x1": 248.66666666666666,
+              "y0": 961
+            }
+          },
+          {
+            "score": 42,
+            "id": "word_5_571",
+            "text": "5",
+            "distance": 140620.18547708972,
+            "pos": {
+              "x0": 161.33333333333331,
+              "y1": 970.3333333333333,
+              "x1": 162.66666666666666,
+              "y0": 969
+            }
+          },
+          {
+            "score": 33,
+            "id": "word_5_573",
+            "text": ",/./y",
+            "distance": 140567.27725472083,
+            "pos": {
+              "x0": 236.33333333333331,
+              "y1": 970.6666666666666,
+              "x1": 246.33333333333331,
+              "y0": 959
+            }
+          },
+          {
+            "score": 44,
+            "id": "word_5_574",
+            "text": ",9*)1",
+            "distance": 140557.45957219377,
+            "pos": {
+              "x0": 249.33333333333331,
+              "y1": 971.3333333333333,
+              "x1": 261.3333333333333,
+              "y0": 958
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "134c1fb4bd262430d61b888fd39e59f7",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 181984,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 435.5,
+          "y1": 141,
+          "x1": 518.5,
+          "y0": 118
+        },
+        "pos_normalized": {
+          "x0": 0.5123529411764706,
+          "y1": 0.12818181818181817,
+          "x1": 0.61,
+          "y0": 0.10727272727272727
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1306.5,
+          "y1": 423,
+          "x1": 1555.5,
+          "y0": 354
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "1772.50"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "821391e41a51d72499916925315a8c26",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 280621,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1772.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 455.5,
+          "y1": 989,
+          "x1": 613.5,
+          "y0": 953
+        },
+        "pos_normalized": {
+          "x0": 0.5358823529411765,
+          "y1": 0.899090909090909,
+          "x1": 0.721764705882353,
+          "y0": 0.8663636363636363
+        },
+        "text": "5,345, $5,345.34 4$3,282.85]",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1366.5,
+          "y1": 2967,
+          "x1": 1840.5,
+          "y0": 2859
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 50,
+            "id": "word_2_116",
+            "text": "5,345,",
+            "distance": 140398.8267037078,
+            "pos": {
+              "x0": 465.66666666666663,
+              "y1": 970,
+              "x1": 493.3333333333333,
+              "y0": 958.3333333333333
+            }
+          },
+          {
+            "score": 70,
+            "id": "word_2_122",
+            "text": "$5,345.34",
+            "distance": 140401.7115646308,
+            "pos": {
+              "x0": 442.3333333333333,
+              "y1": 984.6666666666666,
+              "x1": 481,
+              "y0": 971.3333333333333
+            }
+          },
+          {
+            "score": 25,
+            "id": "word_2_123",
+            "text": "4$3,282.85]",
+            "distance": 140300.95444010905,
+            "pos": {
+              "x0": 584.3333333333333,
+              "y1": 983.3333333333333,
+              "x1": 627,
+              "y0": 969
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "5345.34",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d777f7e29d40caac154b58b177491419",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 632234,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5345.34",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 347.3333333333333,
+          "y1": 693.3333333333333,
+          "x1": 397.3333333333333,
+          "y0": 672
+        },
+        "pos_normalized": {
+          "x0": 0.40862745098039216,
+          "y1": 0.6303030303030303,
+          "x1": 0.4674509803921568,
+          "y0": 0.610909090909091
+        },
+        "text": "$1’O79",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1042,
+          "y1": 2080,
+          "x1": 1192,
+          "y0": 2016
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 66,
+            "id": "word_1_213",
+            "text": "$1’O79",
+            "distance": 140673.40841605028,
+            "pos": {
+              "x0": 349.3333333333333,
+              "y1": 691.3333333333333,
+              "x1": 395.3333333333333,
+              "y0": 674
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "1079.64"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "36f158774b619e557139e31627d3a25f",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 124739,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1079.64",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 350.5,
+          "y1": 266,
+          "x1": 475.5,
+          "y0": 256
+        },
+        "pos_normalized": {
+          "x0": 0.4123529411764706,
+          "y1": 0.24181818181818182,
+          "x1": 0.5594117647058824,
+          "y0": 0.23272727272727273
+        },
+        "text": "American Federal Bank",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1051.5,
+          "y1": 798,
+          "x1": 1426.5,
+          "y0": 768
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 50,
+            "id": "word_1_90",
+            "text": "American",
+            "distance": 140970.71696888763,
+            "pos": {
+              "x0": 353.66666666666663,
+              "y1": 264.3333333333333,
+              "x1": 395.66666666666663,
+              "y0": 255
+            }
+          },
+          {
+            "score": 65,
+            "id": "word_1_91",
+            "text": "Federal",
+            "distance": 140942.68848266738,
+            "pos": {
+              "x0": 399.3333333333333,
+              "y1": 263.3333333333333,
+              "x1": 431.3333333333333,
+              "y0": 254
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_92",
+            "text": "Bank",
+            "distance": 140921.37626044848,
+            "pos": {
+              "x0": 435.3333333333333,
+              "y1": 263,
+              "x1": 456.3333333333333,
+              "y0": 253.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 34861,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "American Federal Bank",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "ObjectId": "b51cc4d547f6e9e906d740491b99a5b1",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "NUMBER",
+      "selection_input": {
+        "pos": {
+          "x0": 324.5,
+          "y1": 725,
+          "x1": 348.5,
+          "y0": 713
+        },
+        "pos_normalized": {
+          "x0": 0.38176470588235295,
+          "y1": 0.6590909090909091,
+          "x1": 0.41,
+          "y0": 0.6481818181818182
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 973.5,
+          "y1": 2175,
+          "x1": 1045.5,
+          "y0": 2139
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "edit_input": {
+        "text": "3"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e7b440297e7721b9270657c1ebdf280f",
+      "DATAPOINT ORDER": "16",
+      "ID": "8558b5f4-fe1e-3399-921f-2c63e018db83",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 558320,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 159.5,
+          "y1": 269,
+          "x1": 234.5,
+          "y0": 257
+        },
+        "pos_normalized": {
+          "x0": 0.18764705882352942,
+          "y1": 0.24454545454545454,
+          "x1": 0.27588235294117647,
+          "y0": 0.23363636363636364
+        },
+        "text": "East Grand Forks,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 478.5,
+          "y1": 807,
+          "x1": 703.5,
+          "y0": 771
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_84",
+            "text": "East",
+            "distance": 141116.01944666743,
+            "pos": {
+              "x0": 158.66666666666666,
+              "y1": 265.3333333333333,
+              "x1": 176.66666666666666,
+              "y0": 257
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_85",
+            "text": "Grand",
+            "distance": 141098.57014444037,
+            "pos": {
+              "x0": 179.66666666666666,
+              "y1": 265.3333333333333,
+              "x1": 206,
+              "y0": 256
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_86",
+            "text": "Forks,",
+            "distance": 141077.35141492414,
+            "pos": {
+              "x0": 209.66666666666666,
+              "y1": 266.3333333333333,
+              "x1": 235.33333333333331,
+              "y0": 255.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": {
+        "text": "East Grand Forks"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "61a0bab2ebd5bcc8cf0f9a3214d6e5cc",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 246841,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "East Grand Forks",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1590014859709,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 351.3333333333333,
+          "y1": 159.33333333333331,
+          "x1": 392.3333333333333,
+          "y0": 146.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.41333333333333333,
+          "y1": 0.14484848484848484,
+          "x1": 0.4615686274509804,
+          "y0": 0.13303030303030303
+        },
+        "text": "Nicholas",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1054,
+          "y1": 477.99999999999994,
+          "x1": 1177,
+          "y0": 438.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_51",
+            "text": "Nicholas",
+            "distance": 141048.32456722847,
+            "pos": {
+              "x0": 353.3333333333333,
+              "y1": 157.33333333333331,
+              "x1": 390.3333333333333,
+              "y0": 148.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0cb52e9ba1656acf2bee0af561ffb7fe",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 164755,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Nicholas",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 587.5,
+          "y1": 986,
+          "x1": 647.5,
+          "y0": 973
+        },
+        "pos_normalized": {
+          "x0": 0.6911764705882353,
+          "y1": 0.8963636363636364,
+          "x1": 0.7617647058823529,
+          "y0": 0.8845454545454545
+        },
+        "text": "4$3,282.85]",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1762.5,
+          "y1": 2958,
+          "x1": 1942.5,
+          "y0": 2919
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 25,
+            "id": "word_2_123",
+            "text": "4$3,282.85]",
+            "distance": 140300.95444010905,
+            "pos": {
+              "x0": 584.3333333333333,
+              "y1": 983.3333333333333,
+              "x1": 627,
+              "y0": 969
+            }
+          }
+        ]
+      },
+      "label": "Closing Costs Subtotal Seller Paid At Closing",
+      "edit_input": {
+        "text": "3282.85",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "50f9461f1807c23925fc6070afb3a77d",
+      "DATAPOINT ORDER": "25",
+      "ID": "a1680f06-0112-3210-a60b-ec66e0aa60fa",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 662369,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3282.85",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "CLOSING COSTS SUBTOTAL SELLER PAID AT CLOSING"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 156.33333333333331,
+          "y1": 195.33333333333331,
+          "x1": 212,
+          "y0": 180.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.18392156862745096,
+          "y1": 0.17757575757575755,
+          "x1": 0.24941176470588236,
+          "y0": 0.1639393939393939
+        },
+        "text": "11/20/2017",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 468.99999999999994,
+          "y1": 586,
+          "x1": 636,
+          "y0": 541
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 48,
+            "id": "word_1_33",
+            "text": "11/20/2017",
+            "distance": 141156.19121817584,
+            "pos": {
+              "x0": 158.33333333333331,
+              "y1": 193.33333333333331,
+              "x1": 210,
+              "y0": 182.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 15143,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/20/2017",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2bde59ba163f973eb489d3c91119a6e8",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 464.5,
+          "y1": 630,
+          "x1": 543.5,
+          "y0": 616
+        },
+        "pos_normalized": {
+          "x0": 0.5464705882352942,
+          "y1": 0.5727272727272728,
+          "x1": 0.6394117647058823,
+          "y0": 0.56
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2e417ee729059111447e3",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e439096bc81d146042f3",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1393.5,
+          "y1": 1890,
+          "x1": 1630.5,
+          "y0": 1848
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "1332.45"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7041fb8fe842d998da983817c59163fe",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 385115,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1332.45",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1590014859709,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 267.66666666666663,
+          "y1": 910.6666666666666,
+          "x1": 348,
+          "y0": 888.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3149019607843137,
+          "y1": 0.8278787878787879,
+          "x1": 0.40941176470588236,
+          "y0": 0.8075757575757575
+        },
+        "text": "$13,235.26",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2e417f0de065e113faffb",
+          "DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+          "scale": 3,
+          "PageOcr": "5eb2e4390b05a2d9277755e0",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 802.9999999999999,
+          "y1": 2732,
+          "x1": 1044,
+          "y0": 2665
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 67,
+            "id": "word_1_297",
+            "text": "$13,235.26",
+            "distance": 140566.14393745188,
+            "pos": {
+              "x0": 269.66666666666663,
+              "y1": 908.6666666666666,
+              "x1": 346,
+              "y0": 890.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Cash From Borrower At Closing Amount",
+      "edit_input": {
+        "text": "13235.26",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "de638738547ddb03581594d6f749ef64",
+      "DATAPOINT ORDER": "4",
+      "ID": "df0f9de0-b502-331a-9910-2492d3df813d",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "workflow_time_elapsed": 157479,
+      "Type": "ExtractionUI",
+      "UserName": "avinandan.raghav.baliarjena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "13235.26",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "3f79b0cc-bb14-4855-bea0-bec3c8b30e32",
+      "ExtractionUI::DocumentId": "544d1d12-3d0f-41b0-963c-d9e18159c189",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH FROM BORROWER AT CLOSING AMOUNT"
+    }
+  ],
+  "Total": 47,
+  "IndexScannedCount": 47
+}

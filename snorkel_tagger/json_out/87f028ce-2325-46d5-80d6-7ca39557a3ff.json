@@ -1,0 +1,3906 @@
+{
+  "Results": [
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 680.3333333333333,
+          "y1": 621,
+          "x1": 730.3333333333333,
+          "y0": 607
+        },
+        "pos_normalized": {
+          "x0": 0.800392156862745,
+          "y1": 0.5645454545454546,
+          "x1": 0.8592156862745097,
+          "y0": 0.5518181818181818
+        },
+        "text": "GREELEY,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31b3953cc7098bb5a8bea",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5e7b4404b8ed746dcb",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2040.9999999999998,
+          "y1": 1863,
+          "x1": 2191,
+          "y0": 1821
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_5_504",
+            "text": "GREELEY,",
+            "distance": 82.24117649396261,
+            "pos": {
+              "x0": 682.3333333333333,
+              "y1": 619,
+              "x1": 728.3333333333333,
+              "y0": 609
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "GREELEY"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1ca4c0ca5faa370e8e0f89905222f5c4",
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 559325,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "GREELEY",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 683,
+          "y1": 821.3333333333333,
+          "x1": 707,
+          "y0": 808.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.8035294117647059,
+          "y1": 0.7466666666666666,
+          "x1": 0.831764705882353,
+          "y0": 0.7348484848484848
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2049,
+          "y1": 2464,
+          "x1": 2121,
+          "y0": 2425
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_216",
+            "text": "YES",
+            "distance": 140351.64710716595,
+            "pos": {
+              "x0": 685,
+              "y1": 819.3333333333333,
+              "x1": 705,
+              "y0": 810.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 75374,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "058f299516b6f5177a7ba8cf698d30c5",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 153.66666666666666,
+          "y1": 140,
+          "x1": 216.66666666666666,
+          "y0": 125.33333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.1807843137254902,
+          "y1": 0.12727272727272726,
+          "x1": 0.2549019607843137,
+          "y0": 0.11393939393939394
+        },
+        "text": "10/23/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 461,
+          "y1": 420,
+          "x1": 650,
+          "y0": 376
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_50",
+            "text": "10/23/2018",
+            "distance": 141194.4976919151,
+            "pos": {
+              "x0": 155.66666666666666,
+              "y1": 138,
+              "x1": 214.66666666666666,
+              "y0": 127.33333333333333
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 11111,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "10/23/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f77eed57caa3be378deeded6d4394947",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 501,
+          "y1": 759,
+          "x1": 567.3333333333333,
+          "y0": 738
+        },
+        "pos_normalized": {
+          "x0": 0.5894117647058823,
+          "y1": 0.69,
+          "x1": 0.6674509803921568,
+          "y0": 0.6709090909090909
+        },
+        "text": "5911'97",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1503,
+          "y1": 2277,
+          "x1": 1701.9999999999998,
+          "y0": 2214
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 68,
+            "id": "word_1_197",
+            "text": "5911'97",
+            "distance": 140512.33435340985,
+            "pos": {
+              "x0": 503,
+              "y1": 757,
+              "x1": 565.3333333333333,
+              "y0": 740
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "911.97"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4cf9a39901ee7d19b4d2b9f70869c270",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 65055,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "911.97",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 153.66666666666666,
+          "y1": 173.33333333333331,
+          "x1": 216.66666666666666,
+          "y0": 158.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.1807843137254902,
+          "y1": 0.15757575757575756,
+          "x1": 0.2549019607843137,
+          "y0": 0.14424242424242423
+        },
+        "text": "10/30/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 461,
+          "y1": 520,
+          "x1": 650,
+          "y0": 476
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_71",
+            "text": "10/30/2018",
+            "distance": 141170.92323620012,
+            "pos": {
+              "x0": 155.66666666666666,
+              "y1": 171.33333333333331,
+              "x1": 214.66666666666666,
+              "y0": 160.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "edit_input": {
+        "text": "10/30/2018"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8f14edfb2a446619ce2b00f1569fd7a2",
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 21444,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "10/30/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 452,
+          "y1": 612.6666666666666,
+          "x1": 500,
+          "y0": 598.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.5317647058823529,
+          "y1": 0.5569696969696969,
+          "x1": 0.5882352941176471,
+          "y0": 0.5442424242424242
+        },
+        "text": "$1,200.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1356,
+          "y1": 1838,
+          "x1": 1500,
+          "y0": 1796
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_191",
+            "text": "$1,200.00",
+            "distance": 140654.41096630343,
+            "pos": {
+              "x0": 454,
+              "y1": 610.6666666666666,
+              "x1": 498,
+              "y0": 600.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "1200.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6dd6d32d87ee3d1fea33f9c27038efeb",
+      "DATAPOINT ORDER": "4",
+      "ID": "5234449a-1671-3214-ba16-9ad299691f0f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 421723,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "1200.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 477.66666666666663,
+          "y1": 978.6666666666666,
+          "x1": 526,
+          "y0": 964.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.5619607843137254,
+          "y1": 0.8896969696969697,
+          "x1": 0.6188235294117647,
+          "y0": 0.876969696969697
+        },
+        "text": "$8,825.45",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1433,
+          "y1": 2936,
+          "x1": 1578,
+          "y0": 2894
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_318",
+            "text": "$8,825.45",
+            "distance": 140377.70619940176,
+            "pos": {
+              "x0": 479.66666666666663,
+              "y1": 976.6666666666666,
+              "x1": 524,
+              "y0": 966.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "8825.45",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d0ac3932d357cf3c3af15b43c9a0849d",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 463945,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "8825.45",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 231.66666666666666,
+          "y1": 698.3333333333333,
+          "x1": 271.3333333333333,
+          "y0": 684.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.2725490196078431,
+          "y1": 0.6348484848484848,
+          "x1": 0.3192156862745098,
+          "y0": 0.6224242424242424
+        },
+        "text": "$100.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 695,
+          "y1": 2095,
+          "x1": 814,
+          "y0": 2054
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_220",
+            "text": "$100.00",
+            "distance": 140752.77708805606,
+            "pos": {
+              "x0": 233.66666666666666,
+              "y1": 696.3333333333333,
+              "x1": 269.3333333333333,
+              "y0": 686.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "100.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c424f6612834c6cf39ec1978bf51b0c1",
+      "DATAPOINT ORDER": "15",
+      "ID": "7dcfcd32-9f28-34a8-8c6a-4fb5be237e0e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 449066,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "100.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 381.5,
+          "y1": 231,
+          "x1": 575.5,
+          "y0": 207
+        },
+        "pos_normalized": {
+          "x0": 0.44882352941176473,
+          "y1": 0.21,
+          "x1": 0.6770588235294117,
+          "y0": 0.18818181818181817
+        },
+        "text": "CHERRY CREEK MORTGAGE CO., INC.",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1144.5,
+          "y1": 693,
+          "x1": 1726.5,
+          "y0": 621
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_101",
+            "text": "CHERRY",
+            "distance": 140976.88646744742,
+            "pos": {
+              "x0": 388.66666666666663,
+              "y1": 221.33333333333331,
+              "x1": 428,
+              "y0": 213.33333333333331
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_102",
+            "text": "CREEK",
+            "distance": 140949.33843780734,
+            "pos": {
+              "x0": 431.66666666666663,
+              "y1": 221.33333333333331,
+              "x1": 463,
+              "y0": 213.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_103",
+            "text": "MORTGAGE",
+            "distance": 140914.49910515084,
+            "pos": {
+              "x0": 467,
+              "y1": 221.33333333333331,
+              "x1": 526.3333333333333,
+              "y0": 213.33333333333331
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_1_104",
+            "text": "CO.,",
+            "distance": 140883.19626398158,
+            "pos": {
+              "x0": 530.3333333333333,
+              "y1": 223,
+              "x1": 550,
+              "y0": 213.33333333333331
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_105",
+            "text": "INC.",
+            "distance": 140866.60916399286,
+            "pos": {
+              "x0": 555,
+              "y1": 221.33333333333331,
+              "x1": 574,
+              "y0": 213.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 28852,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "CHERRY CREEK MORTGAGE CO., INC.",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "ObjectId": "495b4a8533a535fa7771816377f951b6",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 203.66666666666666,
+          "y1": 245.66666666666666,
+          "x1": 221.33333333333331,
+          "y0": 233.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.2396078431372549,
+          "y1": 0.22333333333333333,
+          "x1": 0.2603921568627451,
+          "y0": 0.2121212121212121
+        },
+        "text": "CO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 611,
+          "y1": 737,
+          "x1": 664,
+          "y0": 700
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_116",
+            "text": "CO",
+            "distance": 141099.6239435102,
+            "pos": {
+              "x0": 205.66666666666666,
+              "y1": 243.66666666666666,
+              "x1": 219.33333333333331,
+              "y0": 235.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 113293,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "CO",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "ObjectId": "d37af0a4e308a278ea69b263bc84f9b6",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 477.66666666666663,
+          "y1": 83,
+          "x1": 526,
+          "y0": 69
+        },
+        "pos_normalized": {
+          "x0": 0.5619607843137254,
+          "y1": 0.07545454545454545,
+          "x1": 0.6188235294117647,
+          "y0": 0.06272727272727273
+        },
+        "text": "$4,626.92",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1433,
+          "y1": 249,
+          "x1": 1578,
+          "y0": 207
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_44",
+            "text": "$4,626.92",
+            "distance": 141010.96653816602,
+            "pos": {
+              "x0": 479.66666666666663,
+              "y1": 81,
+              "x1": 524,
+              "y0": 71
+            }
+          }
+        ]
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "4626.92",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9b89c4cd9b32bbb95a5204bd60f27024",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 381217,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "4626.92",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 682.5,
+          "y1": 706,
+          "x1": 762.5,
+          "y0": 694
+        },
+        "pos_normalized": {
+          "x0": 0.8029411764705883,
+          "y1": 0.6418181818181818,
+          "x1": 0.8970588235294118,
+          "y0": 0.6309090909090909
+        },
+        "text": "MORGAN CARON",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31b3953cc7098bb5a8bea",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5e7b4404b8ed746dcb",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2047.5,
+          "y1": 2118,
+          "x1": 2287.5,
+          "y0": 2082
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_508",
+            "text": "MORGAN",
+            "distance": 17.927322412699727,
+            "pos": {
+              "x0": 683,
+              "y1": 700.3333333333333,
+              "x1": 729.6666666666666,
+              "y0": 692.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_509",
+            "text": "CARON",
+            "distance": 62.860073885486955,
+            "pos": {
+              "x0": 734.3333333333333,
+              "y1": 700.3333333333333,
+              "x1": 768.3333333333333,
+              "y0": 692.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 560861,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "MORGAN CARON",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "ObjectId": "824c36fd95ddb4b54c16379a8f99919d",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 529,
+          "y1": 685.3333333333333,
+          "x1": 539,
+          "y0": 672.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6223529411764706,
+          "y1": 0.6230303030303029,
+          "x1": 0.6341176470588236,
+          "y0": 0.6112121212121211
+        },
+        "text": "0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1587,
+          "y1": 2056,
+          "x1": 1617,
+          "y0": 2016.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_182",
+            "text": "0",
+            "distance": 140561.66955122503,
+            "pos": {
+              "x0": 531,
+              "y1": 683.3333333333333,
+              "x1": 537,
+              "y0": 674.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Mi Initial Premium Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "14ccbb9353875045819780ecb1129739",
+      "DATAPOINT ORDER": "16",
+      "ID": "2a7a5bfe-3163-3270-a5c6-4e1f02470490",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 57159,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "MI INITIAL PREMIUM AMOUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 375.3333333333333,
+          "y1": 253.66666666666666,
+          "x1": 419.66666666666663,
+          "y0": 240.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.44156862745098036,
+          "y1": 0.2306060606060606,
+          "x1": 0.49372549019607836,
+          "y0": 0.21878787878787878
+        },
+        "text": "5.584%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31b3953cc7098bb5a8bea",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5e7b4404b8ed746dcb",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1126,
+          "y1": 761,
+          "x1": 1259,
+          "y0": 722
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_78",
+            "text": "5.584%",
+            "distance": 533.6554235750923,
+            "pos": {
+              "x0": 377.3333333333333,
+              "y1": 251.66666666666666,
+              "x1": 417.66666666666663,
+              "y0": 242.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 513758,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "5.584%",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "8ad8d99fc30b8f3d2248e756db3925bc",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "NAME": "APR PERCENT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589989531114,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 39.5,
+          "y1": 915,
+          "x1": 185.5,
+          "y0": 887
+        },
+        "pos_normalized": {
+          "x0": 0.04647058823529412,
+          "y1": 0.8318181818181818,
+          "x1": 0.21823529411764706,
+          "y0": 0.8063636363636364
+        },
+        "text": "Deisy pric A",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31b3953cc7098bb5a8bea",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5e7b4404b8ed746dcb",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 118.5,
+          "y1": 2745,
+          "x1": 556.5,
+          "y0": 2661
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 49,
+            "id": "word_5_549",
+            "text": "Deisy",
+            "distance": 140744.85120886503,
+            "pos": {
+              "x0": 34.666666666666664,
+              "y1": 917.6666666666666,
+              "x1": 79.66666666666666,
+              "y0": 879
+            }
+          },
+          {
+            "score": 59,
+            "id": "word_5_550",
+            "text": "pric",
+            "distance": 140710.4160491405,
+            "pos": {
+              "x0": 87.66666666666666,
+              "y1": 908,
+              "x1": 123.66666666666666,
+              "y0": 888.6666666666666
+            }
+          },
+          {
+            "score": 16,
+            "id": "word_5_551",
+            "text": "A",
+            "distance": 140685.68131960378,
+            "pos": {
+              "x0": 131.66666666666666,
+              "y1": 905.3333333333333,
+              "x1": 152.33333333333331,
+              "y0": 888.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "edit_input": {
+        "text": null
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bc97e29930d428a2c80726c397d6b231",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 92656,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 683,
+          "y1": 804.6666666666666,
+          "x1": 707,
+          "y0": 791.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.8035294117647059,
+          "y1": 0.7315151515151515,
+          "x1": 0.831764705882353,
+          "y0": 0.7196969696969696
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2049,
+          "y1": 2414,
+          "x1": 2121,
+          "y0": 2375
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_209",
+            "text": "YES",
+            "distance": 140363.4255983176,
+            "pos": {
+              "x0": 685,
+              "y1": 802.6666666666666,
+              "x1": 705,
+              "y0": 793.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 73005,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "6ed7c36f79ebc952198009bd04498e8b",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 685.5,
+          "y1": 585,
+          "x1": 815.5,
+          "y0": 559
+        },
+        "pos_normalized": {
+          "x0": 0.8064705882352942,
+          "y1": 0.5318181818181819,
+          "x1": 0.9594117647058824,
+          "y0": 0.5081818181818182
+        },
+        "text": "FIDELITY COMPANY NATIONAL TITLE",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb31b3953cc7098bb5a8bea",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5e7b4404b8ed746dcb",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2056.5,
+          "y1": 1755,
+          "x1": 2446.5,
+          "y0": 1677
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_413",
+            "text": "FIDELITY",
+            "distance": 129.10052069780534,
+            "pos": {
+              "x0": 683,
+              "y1": 570.3333333333333,
+              "x1": 725,
+              "y0": 562.3333333333333
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_416",
+            "text": "COMPANY",
+            "distance": 115.63508214301673,
+            "pos": {
+              "x0": 682.6666666666666,
+              "y1": 584.6666666666666,
+              "x1": 735,
+              "y0": 576.6666666666666
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_5_414",
+            "text": "NATIONAL",
+            "distance": 144.46847022409042,
+            "pos": {
+              "x0": 729,
+              "y1": 570.3333333333333,
+              "x1": 781.3333333333333,
+              "y0": 562.3333333333333
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_5_415",
+            "text": "TITLE",
+            "distance": 168.03314818478196,
+            "pos": {
+              "x0": 784.3333333333333,
+              "y1": 570.3333333333333,
+              "x1": 810,
+              "y0": 562.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 483114,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "FIDELITY COMPANY NATIONAL TITLE",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "ObjectId": "6c7790d9be8b8917eb6059be97e0f456",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 263.66666666666663,
+          "y1": 315.66666666666663,
+          "x1": 340.3333333333333,
+          "y0": 294.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3101960784313725,
+          "y1": 0.28696969696969693,
+          "x1": 0.4003921568627451,
+          "y0": 0.2675757575757576
+        },
+        "text": "$140,800",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 790.9999999999999,
+          "y1": 946.9999999999999,
+          "x1": 1021,
+          "y0": 883
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 72,
+            "id": "word_1_133",
+            "text": "$140,800",
+            "distance": 140990.0211167443,
+            "pos": {
+              "x0": 265.66666666666663,
+              "y1": 313.66666666666663,
+              "x1": 338.3333333333333,
+              "y0": 296.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "140800",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "99255fc2171bf82d9c5af8701c86995c",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 44304,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "140800",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 477.66666666666663,
+          "y1": 491.3333333333333,
+          "x1": 526,
+          "y0": 477.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.5619607843137254,
+          "y1": 0.44666666666666666,
+          "x1": 0.6188235294117647,
+          "y0": 0.4342424242424242
+        },
+        "text": "$7,032.92",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1433,
+          "y1": 1474,
+          "x1": 1578,
+          "y0": 1433
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_2_150",
+            "text": "$7,032.92",
+            "distance": 140721.79246221168,
+            "pos": {
+              "x0": 479.66666666666663,
+              "y1": 489.3333333333333,
+              "x1": 524,
+              "y0": 479.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "7032.92",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ca3c2a43c7c320ccb0e56d65c2435c8c",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 415171,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "7032.92",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589989531114,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 418.66666666666663,
+          "y1": 142.66666666666666,
+          "x1": 457.66666666666663,
+          "y0": 130.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4925490196078431,
+          "y1": 0.1296969696969697,
+          "x1": 0.5384313725490195,
+          "y0": 0.11878787878787878
+        },
+        "text": "PRIETO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1256,
+          "y1": 428,
+          "x1": 1373,
+          "y0": 392
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_53",
+            "text": "PRIETO",
+            "distance": 141012.92752843225,
+            "pos": {
+              "x0": 420.66666666666663,
+              "y1": 140.66666666666666,
+              "x1": 455.66666666666663,
+              "y0": 132.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "63d98bb7dd333630b710dd5a1ece4bd5",
+      "DATAPOINT ORDER": "2",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 84677,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "PRIETO",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 221.33333333333331,
+          "y1": 245.66666666666666,
+          "x1": 256,
+          "y0": 233.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.2603921568627451,
+          "y1": 0.22333333333333333,
+          "x1": 0.30117647058823527,
+          "y0": 0.2121212121212121
+        },
+        "text": "80634",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 664,
+          "y1": 737,
+          "x1": 768,
+          "y0": 700
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_117",
+            "text": "80634",
+            "distance": 141081.12002565915,
+            "pos": {
+              "x0": 223.33333333333331,
+              "y1": 243.66666666666666,
+              "x1": 254,
+              "y0": 235.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 111550,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "80634",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "ObjectId": "5b35c82b5e4f088450d8f46fd76b05a9",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 482,
+          "y1": 683.6666666666666,
+          "x1": 522,
+          "y0": 670
+        },
+        "pos_normalized": {
+          "x0": 0.5670588235294117,
+          "y1": 0.6215151515151515,
+          "x1": 0.6141176470588235,
+          "y0": 0.6090909090909091
+        },
+        "text": "$403.43",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1446,
+          "y1": 2051,
+          "x1": 1566,
+          "y0": 2010
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_217",
+            "text": "$403.43",
+            "distance": 140585.7282290576,
+            "pos": {
+              "x0": 484,
+              "y1": 681.6666666666666,
+              "x1": 520,
+              "y0": 672
+            }
+          }
+        ]
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "403.43",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b4a099181dae9e9af36957b0d88bcb3a",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 446065,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "403.43",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 600.6666666666666,
+          "y1": 993.6666666666666,
+          "x1": 654.3333333333333,
+          "y0": 980
+        },
+        "pos_normalized": {
+          "x0": 0.7066666666666667,
+          "y1": 0.9033333333333333,
+          "x1": 0.7698039215686273,
+          "y0": 0.8909090909090909
+        },
+        "text": "$10,898.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1802,
+          "y1": 2981,
+          "x1": 1962.9999999999998,
+          "y0": 2940
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_326",
+            "text": "$10,898.00",
+            "distance": 140277.95898540554,
+            "pos": {
+              "x0": 602.6666666666666,
+              "y1": 991.6666666666666,
+              "x1": 652.3333333333333,
+              "y0": 982
+            }
+          }
+        ]
+      },
+      "label": "Closing Costs Subtotal Seller Paid At Closing",
+      "edit_input": {
+        "text": "10898.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bf0f131d386f9f13a5f1ee9093d66eed",
+      "DATAPOINT ORDER": "25",
+      "ID": "a1680f06-0112-3210-a60b-ec66e0aa60fa",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 473353,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "10898.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "CLOSING COSTS SUBTOTAL SELLER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 145.5,
+          "y1": 233,
+          "x1": 316.5,
+          "y0": 221
+        },
+        "pos_normalized": {
+          "x0": 0.1711764705882353,
+          "y1": 0.21181818181818182,
+          "x1": 0.3723529411764706,
+          "y0": 0.2009090909090909
+        },
+        "text": "4708 GRAND CANYON DRIVE",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 436.5,
+          "y1": 699,
+          "x1": 949.5,
+          "y0": 663
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_107",
+            "text": "4708",
+            "distance": 141140.87671326438,
+            "pos": {
+              "x0": 155,
+              "y1": 230.33333333333331,
+              "x1": 179.66666666666666,
+              "y0": 222.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_108",
+            "text": "GRAND",
+            "distance": 141116.594292529,
+            "pos": {
+              "x0": 183.33333333333331,
+              "y1": 230.33333333333331,
+              "x1": 220,
+              "y0": 222.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_109",
+            "text": "CANYON",
+            "distance": 141085.71685818836,
+            "pos": {
+              "x0": 224,
+              "y1": 230.33333333333331,
+              "x1": 266.66666666666663,
+              "y0": 222.33333333333331
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_1_110",
+            "text": "DRIVE",
+            "distance": 141056.73122088937,
+            "pos": {
+              "x0": 271.66666666666663,
+              "y1": 230.33333333333331,
+              "x1": 301,
+              "y0": 222.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 99782,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "4708 GRAND CANYON DRIVE",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "ObjectId": "6c3b7c54a87d1a6320ac819925df440a",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 227.66666666666666,
+          "y1": 640.3333333333333,
+          "x1": 272.66666666666663,
+          "y0": 626.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.26784313725490194,
+          "y1": 0.582121212121212,
+          "x1": 0.32078431372549016,
+          "y0": 0.5696969696969697
+        },
+        "text": "10/30/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 683,
+          "y1": 1920.9999999999998,
+          "x1": 817.9999999999999,
+          "y0": 1880
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_203",
+            "text": "10/30/18",
+            "distance": 140794.64914469505,
+            "pos": {
+              "x0": 229.66666666666666,
+              "y1": 638.3333333333333,
+              "x1": 270.66666666666663,
+              "y0": 628.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "10/30/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4571c4e2ccaf7a560b77163052701af7",
+      "DATAPOINT ORDER": "10",
+      "ID": "78640e69-866a-39bf-a5d6-80e73c2a7811",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 428460,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "10/30/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 337,
+          "y1": 697,
+          "x1": 345.3333333333333,
+          "y0": 686
+        },
+        "pos_normalized": {
+          "x0": 0.39647058823529413,
+          "y1": 0.6336363636363637,
+          "x1": 0.40627450980392155,
+          "y0": 0.6236363636363637
+        },
+        "text": "3",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1011,
+          "y1": 2091,
+          "x1": 1036,
+          "y0": 2058
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_224",
+            "text": "3",
+            "distance": 140689.24740757947,
+            "pos": {
+              "x0": 339,
+              "y1": 695,
+              "x1": 343.3333333333333,
+              "y0": 688
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 450730,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "3",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "973ce25f574dc6eadff91305f6a54c67",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "16",
+      "ID": "8558b5f4-fe1e-3399-921f-2c63e018db83",
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 477.66666666666663,
+          "y1": 598,
+          "x1": 526.3333333333333,
+          "y0": 584
+        },
+        "pos_normalized": {
+          "x0": 0.5619607843137254,
+          "y1": 0.5436363636363636,
+          "x1": 0.6192156862745097,
+          "y0": 0.5309090909090909
+        },
+        "text": "$1,240.50",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1433,
+          "y1": 1794,
+          "x1": 1578.9999999999998,
+          "y0": 1752
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_182",
+            "text": "$1,240.50",
+            "distance": 140646.3812847668,
+            "pos": {
+              "x0": 479.66666666666663,
+              "y1": 596,
+              "x1": 524.3333333333333,
+              "y0": 586
+            }
+          }
+        ]
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "1240.50",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "4fae48f21e14a32c41db5591b9d867ea",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 418307,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "1240.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 664.3333333333333,
+          "y1": 142.66666666666666,
+          "x1": 680,
+          "y0": 130.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7815686274509803,
+          "y1": 0.1296969696969697,
+          "x1": 0.8,
+          "y0": 0.11878787878787878
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1992.9999999999998,
+          "y1": 428,
+          "x1": 2040,
+          "y0": 392
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 70,
+            "id": "word_1_56",
+            "text": "30",
+            "distance": 140847.8123725707,
+            "pos": {
+              "x0": 666.3333333333333,
+              "y1": 140.66666666666666,
+              "x1": 678,
+              "y0": 132.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 30848,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f4b21b5955e30cdf1b63159b4616dc7d",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 153.33333333333331,
+          "y1": 247.33333333333331,
+          "x1": 203.33333333333331,
+          "y0": 233.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.18039215686274507,
+          "y1": 0.22484848484848483,
+          "x1": 0.2392156862745098,
+          "y0": 0.2121212121212121
+        },
+        "text": "GREELEY,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 459.99999999999994,
+          "y1": 742,
+          "x1": 610,
+          "y0": 700
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_115",
+            "text": "GREELEY,",
+            "distance": 141123.1996875622,
+            "pos": {
+              "x0": 155.33333333333331,
+              "y1": 245.33333333333331,
+              "x1": 201.33333333333331,
+              "y0": 235.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": {
+        "text": "GREELEY"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e084fe281df121aabd7c86491330bffb",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 103495,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "GREELEY",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 153.33333333333331,
+          "y1": 261.3333333333333,
+          "x1": 219.66666666666666,
+          "y0": 246.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.18039215686274507,
+          "y1": 0.23757575757575755,
+          "x1": 0.2584313725490196,
+          "y0": 0.2239393939393939
+        },
+        "text": "$176,000.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 459.99999999999994,
+          "y1": 784,
+          "x1": 659,
+          "y0": 739
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_1_122",
+            "text": "$176,000.00",
+            "distance": 141107.88026345108,
+            "pos": {
+              "x0": 155.33333333333331,
+              "y1": 259.3333333333333,
+              "x1": 217.66666666666666,
+              "y0": 248.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "176000.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "98ce26a6740e8cde7544dcf5f0804785",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 25764,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "176000.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 263.66666666666663,
+          "y1": 341.66666666666663,
+          "x1": 313,
+          "y0": 324.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.3101960784313725,
+          "y1": 0.31060606060606055,
+          "x1": 0.36823529411764705,
+          "y0": 0.2951515151515151
+        },
+        "text": "5.25%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 790.9999999999999,
+          "y1": 1025,
+          "x1": 939,
+          "y0": 973.9999999999999
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_137",
+            "text": "5.25%",
+            "distance": 140979.77161684894,
+            "pos": {
+              "x0": 265.66666666666663,
+              "y1": 339.66666666666663,
+              "x1": 311,
+              "y0": 326.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 45322,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "5.25%",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "686eb0bbf34d8e8c6de779ba086a4908",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 153.66666666666666,
+          "y1": 156.66666666666666,
+          "x1": 216.66666666666666,
+          "y0": 142
+        },
+        "pos_normalized": {
+          "x0": 0.1807843137254902,
+          "y1": 0.14242424242424243,
+          "x1": 0.2549019607843137,
+          "y0": 0.1290909090909091
+        },
+        "text": "10/30/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 461,
+          "y1": 470,
+          "x1": 650,
+          "y0": 426
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_60",
+            "text": "10/30/2018",
+            "distance": 141182.70997235776,
+            "pos": {
+              "x0": 155.66666666666666,
+              "y1": 154.66666666666666,
+              "x1": 214.66666666666666,
+              "y0": 144
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 12287,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "10/30/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7dfd8405b02f3450f1992f2f41e3dad2",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 457,
+          "y1": 795.6666666666666,
+          "x1": 499.66666666666663,
+          "y0": 782
+        },
+        "pos_normalized": {
+          "x0": 0.5376470588235294,
+          "y1": 0.7233333333333333,
+          "x1": 0.5878431372549019,
+          "y0": 0.7109090909090909
+        },
+        "text": "$-172.33",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1371,
+          "y1": 2387,
+          "x1": 1499,
+          "y0": 2346
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_2_244",
+            "text": "$-172.33",
+            "distance": 140523.38429411748,
+            "pos": {
+              "x0": 459,
+              "y1": 793.6666666666666,
+              "x1": 497.66666666666663,
+              "y0": 784
+            }
+          }
+        ]
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "-172.33"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "222aec0a884044ec4f82430963e491a8",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 460085,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "-172.33",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 665,
+          "y1": 156.66666666666666,
+          "x1": 713.6666666666666,
+          "y0": 144.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7823529411764706,
+          "y1": 0.14242424242424243,
+          "x1": 0.8396078431372549,
+          "y0": 0.1312121212121212
+        },
+        "text": "Purchase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1995,
+          "y1": 470,
+          "x1": 2141,
+          "y0": 432.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_68",
+            "text": "Purchase",
+            "distance": 140825.8984989188,
+            "pos": {
+              "x0": 667,
+              "y1": 154.66666666666666,
+              "x1": 711.6666666666666,
+              "y0": 146.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 36534,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "PURCHASE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "control_input": {
+        "type": "text",
+        "value": "PURCHASE",
+        "control": "radio"
+      },
+      "ObjectId": "ff4568a89c74d62933e5e7ee99cf7052",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 670.5,
+          "y1": 178,
+          "x1": 730.5,
+          "y0": 165
+        },
+        "pos_normalized": {
+          "x0": 0.7888235294117647,
+          "y1": 0.1618181818181818,
+          "x1": 0.8594117647058823,
+          "y0": 0.15
+        },
+        "text": "Fixed Rate",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2011.5,
+          "y1": 534,
+          "x1": 2191.5,
+          "y0": 495
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_76",
+            "text": "Fixed",
+            "distance": 140821.13471518477,
+            "pos": {
+              "x0": 667,
+              "y1": 171.33333333333331,
+              "x1": 691.6666666666666,
+              "y0": 163
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_1_77",
+            "text": "Rate",
+            "distance": 140801.38746879908,
+            "pos": {
+              "x0": 696.3333333333333,
+              "y1": 171.33333333333331,
+              "x1": 718,
+              "y0": 163.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Interest Only Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 40352,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "bf808075df1b458322d62b5489215146",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "10",
+      "ID": "91cec963-8a42-34c7-9928-e0dafef170ac",
+      "NAME": "INTEREST ONLY INDICATOR"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589989531114,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 387,
+          "y1": 142.66666666666666,
+          "x1": 418.66666666666663,
+          "y0": 130.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.45529411764705885,
+          "y1": 0.1296969696969697,
+          "x1": 0.4925490196078431,
+          "y0": 0.11878787878787878
+        },
+        "text": "DEISY",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1161,
+          "y1": 428,
+          "x1": 1256,
+          "y0": 392
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 63,
+            "id": "word_1_52",
+            "text": "DEISY",
+            "distance": 141037.8763859986,
+            "pos": {
+              "x0": 389,
+              "y1": 140.66666666666666,
+              "x1": 416.66666666666663,
+              "y0": 132.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "638438e785f2fc0d7b3bd121f2ef5b93",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 82829,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "DEISY",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 355.66666666666663,
+          "y1": 992.3333333333333,
+          "x1": 415.66666666666663,
+          "y0": 974
+        },
+        "pos_normalized": {
+          "x0": 0.4184313725490196,
+          "y1": 0.9021212121212121,
+          "x1": 0.4890196078431372,
+          "y0": 0.8854545454545455
+        },
+        "text": "$41,101.19",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 2,
+          "PageJpeg": "5eb31b39b3b621fed3b8473d",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5e15628765d321aab8",
+          "file_index": 2
+        },
+        "pos_original": {
+          "x0": 1067,
+          "y1": 2977,
+          "x1": 1247,
+          "y0": 2922
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_3_379",
+            "text": "$41,101.19",
+            "distance": 140451.9590458088,
+            "pos": {
+              "x0": 357.66666666666663,
+              "y1": 990.3333333333333,
+              "x1": 413.66666666666663,
+              "y0": 976
+            }
+          }
+        ]
+      },
+      "label": "Cash From Borrower At Closing Amount",
+      "edit_input": {
+        "text": "41101.19",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1e0fa9e0c460ea200166effdabf554be",
+      "DATAPOINT ORDER": "4",
+      "ID": "df0f9de0-b502-331a-9910-2492d3df813d",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 79683,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "41101.19",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 2,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 2,
+      "manual_input": true,
+      "NAME": "CASH FROM BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589989531114,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 457.66666666666663,
+          "y1": 142.66666666666666,
+          "x1": 477.3333333333333,
+          "y0": 130.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.5384313725490195,
+          "y1": 0.1296969696969697,
+          "x1": 0.5615686274509804,
+          "y0": 0.11878787878787878
+        },
+        "text": "GIL",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1373,
+          "y1": 428,
+          "x1": 1432,
+          "y0": 392
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_54",
+            "text": "GIL",
+            "distance": 140992.21864235785,
+            "pos": {
+              "x0": 459.66666666666663,
+              "y1": 140.66666666666666,
+              "x1": 475.3333333333333,
+              "y0": 132.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "790695e73422e641cb92e68b8f8c7eab",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 86499,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "GIL",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 679.6666666666666,
+          "y1": 144.66666666666666,
+          "x1": 710,
+          "y0": 132.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7996078431372549,
+          "y1": 0.1315151515151515,
+          "x1": 0.8352941176470589,
+          "y0": 0.12060606060606059
+        },
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2039,
+          "y1": 434,
+          "x1": 2130,
+          "y0": 398
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_57",
+            "text": "years",
+            "distance": 140830.41051848695,
+            "pos": {
+              "x0": 681.6666666666666,
+              "y1": 142.66666666666666,
+              "x1": 708,
+              "y0": 134.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 33250,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "dd82e84e68d1a2ce6eff57e45e592c17",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 452,
+          "y1": 97,
+          "x1": 499.66666666666663,
+          "y0": 83
+        },
+        "pos_normalized": {
+          "x0": 0.5317647058823529,
+          "y1": 0.08818181818181818,
+          "x1": 0.5878431372549019,
+          "y0": 0.07545454545454545
+        },
+        "text": "$3,329.92",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1356,
+          "y1": 291,
+          "x1": 1499,
+          "y0": 249
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_56",
+            "text": "$3,329.92",
+            "distance": 141019.39424311268,
+            "pos": {
+              "x0": 454,
+              "y1": 95,
+              "x1": 497.66666666666663,
+              "y0": 85
+            }
+          }
+        ]
+      },
+      "label": "Discount Points Borrower Paid At Closing",
+      "edit_input": {
+        "text": "3329.92",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a39517ff04382c6bb9ad25ded639c9a4",
+      "DATAPOINT ORDER": "4",
+      "ID": "846f68fb-82a9-3ceb-a0cb-7129420f2f42",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 384139,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "3329.92",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "DISCOUNT POINTS BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 663.3333333333333,
+          "y1": 201.33333333333331,
+          "x1": 746.6666666666666,
+          "y0": 187.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.780392156862745,
+          "y1": 0.18303030303030302,
+          "x1": 0.8784313725490196,
+          "y0": 0.1703030303030303
+        },
+        "text": "[X|Conventional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1989.9999999999998,
+          "y1": 604,
+          "x1": 2240,
+          "y0": 562
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 37,
+            "id": "word_1_90",
+            "text": "[X|Conventional",
+            "distance": 140783.77330600916,
+            "pos": {
+              "x0": 665.3333333333333,
+              "y1": 199.33333333333331,
+              "x1": 744.6666666666666,
+              "y0": 189.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 42100,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "1f131ffc29d3a5cec27e5b390200fa29",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 414,
+          "y1": 503.3333333333333,
+          "x1": 438.3333333333333,
+          "y0": 488.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.48705882352941177,
+          "y1": 0.4575757575757576,
+          "x1": 0.5156862745098039,
+          "y0": 0.4439393939393939
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1242,
+          "y1": 1510,
+          "x1": 1315,
+          "y0": 1465
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_163",
+            "text": "NO",
+            "distance": 140767.29108433615,
+            "pos": {
+              "x0": 416,
+              "y1": 501.3333333333333,
+              "x1": 436.3333333333333,
+              "y0": 490.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 51080,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "317a022145dcf427cfd4fd3ea23f9dc3",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 285,
+          "y1": 640.6666666666666,
+          "x1": 327.3333333333333,
+          "y0": 626.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.3352941176470588,
+          "y1": 0.5824242424242424,
+          "x1": 0.38509803921568625,
+          "y0": 0.5696969696969697
+        },
+        "text": "11/1/18)",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 855,
+          "y1": 1922,
+          "x1": 982,
+          "y0": 1880
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_205",
+            "text": "11/1/18)",
+            "distance": 140754.86289576482,
+            "pos": {
+              "x0": 287,
+              "y1": 638.6666666666666,
+              "x1": 325.3333333333333,
+              "y0": 628.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "11/01/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "3b9fb605886e20e9adb697978902ce20",
+      "DATAPOINT ORDER": "11",
+      "ID": "042e688a-3ebf-3c4f-bfca-55a2748db428",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 430603,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "11/01/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 331.3333333333333,
+          "y1": 724.6666666666666,
+          "x1": 340,
+          "y0": 713.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.3898039215686274,
+          "y1": 0.6587878787878787,
+          "x1": 0.4,
+          "y0": 0.6487878787878788
+        },
+        "text": "8",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 994,
+          "y1": 2174,
+          "x1": 1020,
+          "y0": 2141
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_2_239",
+            "text": "8",
+            "distance": 140673.61648560432,
+            "pos": {
+              "x0": 333.3333333333333,
+              "y1": 722.6666666666666,
+              "x1": 338,
+              "y0": 715.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 456384,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "8",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "30dc8f78751dc50f2df6a69e8f0a1f42",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "21",
+      "ID": "8c9921ed-62f0-38c2-b6de-b669654c4533",
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 460.3333333333333,
+          "y1": 224,
+          "x1": 500,
+          "y0": 210.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.5415686274509803,
+          "y1": 0.20363636363636364,
+          "x1": 0.5882352941176471,
+          "y0": 0.1915151515151515
+        },
+        "text": "$650.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1381,
+          "y1": 672,
+          "x1": 1500,
+          "y0": 632
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_80",
+            "text": "$650.00",
+            "distance": 140926.15048601007,
+            "pos": {
+              "x0": 462.3333333333333,
+              "y1": 222,
+              "x1": 498,
+              "y0": 212.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Appraisal Fee Borrower Paid At Closing",
+      "edit_input": {
+        "text": "650.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "074460d98c655302c066c53bfd4798d0",
+      "DATAPOINT ORDER": "9",
+      "ID": "5efd8943-a0a6-3fd3-b5e0-e3cfa2f56048",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 396963,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "650.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 262.3333333333333,
+          "y1": 405.3333333333333,
+          "x1": 330.3333333333333,
+          "y0": 382
+        },
+        "pos_normalized": {
+          "x0": 0.3086274509803921,
+          "y1": 0.36848484848484847,
+          "x1": 0.38862745098039214,
+          "y0": 0.3472727272727273
+        },
+        "text": "$§777.50",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 787,
+          "y1": 1216,
+          "x1": 991,
+          "y0": 1146
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 45,
+            "id": "word_1_143",
+            "text": "$§777.50",
+            "distance": 140931.34804360912,
+            "pos": {
+              "x0": 264.3333333333333,
+              "y1": 403.3333333333333,
+              "x1": 328.3333333333333,
+              "y0": 384
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "777.50",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2c96027e4bdfee72c00315ffd1e68d45",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 48488,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "777.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 231.66666666666666,
+          "y1": 726,
+          "x1": 265.66666666666663,
+          "y0": 712.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.2725490196078431,
+          "y1": 0.66,
+          "x1": 0.3125490196078431,
+          "y0": 0.6475757575757575
+        },
+        "text": "$34.47",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb31b392100e0906dc24f3e",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5df7cc52ab5b4c54b6",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 695,
+          "y1": 2178,
+          "x1": 796.9999999999999,
+          "y0": 2137
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_2_235",
+            "text": "$34.47",
+            "distance": 140735.26664322233,
+            "pos": {
+              "x0": 233.66666666666666,
+              "y1": 724,
+              "x1": 263.66666666666663,
+              "y0": 714.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "34.47",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "eb4b48c084ec3eab6741d3080d4cf10e",
+      "DATAPOINT ORDER": "20",
+      "ID": "3620d405-85e5-3565-a0e3-6fe0a7eac86b",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 454561,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "34.47",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589989531114,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 529,
+          "y1": 685.3333333333333,
+          "x1": 539,
+          "y0": 672.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.6223529411764706,
+          "y1": 0.6230303030303029,
+          "x1": 0.6341176470588236,
+          "y0": 0.6112121212121211
+        },
+        "text": "0",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb31b3962338dc58be42bb3",
+          "DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+          "scale": 3,
+          "PageOcr": "5eb31b5de7a816cb1751cae8",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1587,
+          "y1": 2056,
+          "x1": 1617,
+          "y0": 2016.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_182",
+            "text": "0",
+            "distance": 140561.66955122503,
+            "pos": {
+              "x0": 531,
+              "y1": 683.3333333333333,
+              "x1": 537,
+              "y0": 674.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Projected Payment Mi Payment Amount",
+      "edit_input": {
+        "text": "0.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f5460fdf80f55559199d0da015f93c26",
+      "DATAPOINT ORDER": "17",
+      "ID": "4201173e-084d-370c-a869-fbd49dbeb784",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "workflow_time_elapsed": 60319,
+      "Type": "ExtractionUI",
+      "UserName": "ashley.brown@usbank.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "11d4f319-75ac-4689-b7bf-213e8ff0b840",
+      "ExtractionUI::DocumentId": "87f028ce-2325-46d5-80d6-7ca39557a3ff",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROJECTED PAYMENT MI PAYMENT AMOUNT"
+    }
+  ],
+  "Total": 48,
+  "IndexScannedCount": 48
+}

@@ -1,0 +1,1563 @@
+{
+  "Results": [
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1582589274007,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "Krao Hasanee",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 373.66666666666663,
+          "y1": 151.33333333333331,
+          "x1": 450,
+          "y0": 138.33333333333331
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "text": "Krao",
+            "distance": 141043.39361660613,
+            "pos": {
+              "x0": 375.66666666666663,
+              "y1": 149.33333333333331,
+              "x1": 398,
+              "y0": 140.33333333333331
+            }
+          },
+          {
+            "score": 89,
+            "text": "Hasanee",
+            "distance": 141017.96999456803,
+            "pos": {
+              "x0": 401.3333333333333,
+              "y1": 150.33333333333331,
+              "x1": 443.3333333333333,
+              "y0": 140.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.4396078431372549,
+          "y1": 0.13757575757575755,
+          "x1": 0.5294117647058824,
+          "y0": 0.12575757575757573
+        }
+      },
+      "label": "Borrower Full Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "362d288c908e42ebddc8867cb51a1f1e",
+      "DATAPOINT ORDER": "5",
+      "ID": "5ab00829-e85a-3fd2-a437-0ba8fded3f34",
+      "clone_id": 0,
+      "ENTITY ORIGIN": "BORROWER FULL NAME",
+      "ENTITY DERIVATION": "[{\"operands\":[\"BORROWER FIRST NAME\",\"BORROWER MIDDLE NAME\",\"BORROWER LAST NAME\",\"BORROWER SUFFIX NAME\",\" \"],\"operator\":\"CONCAT\",\"id\":\"BORROWER FULL NAME\"}]",
+      "GROUP NAME": "Group13",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 264419,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Krao Hasanee",
+        "source": "selection"
+      },
+      "ENTITY": "BORROWER FIRST NAME",
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "NAME": "BORROWER FULL NAME"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$4,080.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 259.3333333333333,
+          "y1": 992.3333333333333,
+          "x1": 337,
+          "y0": 971
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 80,
+            "text": "$4,080.00",
+            "distance": 140515.08726873028,
+            "pos": {
+              "x0": 261.3333333333333,
+              "y1": 990.3333333333333,
+              "x1": 335,
+              "y0": 973
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.30509803921568623,
+          "y1": 0.9021212121212121,
+          "x1": 0.39647058823529413,
+          "y0": 0.8827272727272727
+        }
+      },
+      "label": "Cash To Borrower At Closing Amount",
+      "edit_input": {
+        "text": "4080.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2c579d354e9d735c04d641a840c118f6",
+      "DATAPOINT ORDER": "4",
+      "ID": "ab8dec44-a11d-3b38-9156-d73f75a4ef22",
+      "GROUP NAME": "Group27",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 573779,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4080.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "manual_input": true,
+      "NAME": "CASH TO BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$41103",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 269.66666666666663,
+          "y1": 322.66666666666663,
+          "x1": 324.3333333333333,
+          "y0": 301.66666666666663
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 43,
+            "text": "$41103",
+            "distance": 140988.4894439771,
+            "pos": {
+              "x0": 271.66666666666663,
+              "y1": 320.66666666666663,
+              "x1": 322.3333333333333,
+              "y0": 303.66666666666663
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.31725490196078426,
+          "y1": 0.2933333333333333,
+          "x1": 0.38156862745098036,
+          "y0": 0.27424242424242423
+        }
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "41103",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "379b4e25e5d839125fed4f6a1c17bb2a",
+      "DATAPOINT ORDER": "1",
+      "ID": "2175907c-f3b6-3865-b113-aa709dcb02c1",
+      "GROUP NAME": "Group12",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 179190,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "41103",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "text": "10",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 654,
+          "y1": 155.33333333333331,
+          "x1": 669,
+          "y0": 142.33333333333331
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 86,
+            "text": "10",
+            "distance": 140846.7092354111,
+            "pos": {
+              "x0": 656,
+              "y1": 153.33333333333331,
+              "x1": 667,
+              "y0": 144.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.7694117647058824,
+          "y1": 0.1412121212121212,
+          "x1": 0.7870588235294118,
+          "y0": 0.12939393939393937
+        }
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 157129,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "10",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "85a79d276ca731e612816c259c50811d",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "1",
+      "ID": "24d04f20-26e9-33ce-8b78-7cdf108bb7df",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "text": "5/22/2019",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 182.66666666666666,
+          "y1": 163.66666666666666,
+          "x1": 237.66666666666666,
+          "y0": 149.66666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "text": "5/22/2019",
+            "distance": 141159.8496485653,
+            "pos": {
+              "x0": 184.66666666666666,
+              "y1": 161.66666666666666,
+              "x1": 235.66666666666666,
+              "y0": 151.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.21490196078431373,
+          "y1": 0.14878787878787877,
+          "x1": 0.2796078431372549,
+          "y0": 0.13606060606060605
+        }
+      },
+      "label": "Closing Date",
+      "edit_input": {
+        "text": "05/22/2019"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "43b364c1c6e468e15c4f8705e10c9952",
+      "DATAPOINT ORDER": "2",
+      "ID": "1b7f472c-71d5-3f5a-9267-dbb97fd682dc",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 117748,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "05/22/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "manual_input": true,
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "text": "SC",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 235.33333333333331,
+          "y1": 238,
+          "x1": 251.66666666666666,
+          "y0": 224.66666666666666
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "text": "SC",
+            "distance": 141083.47730933782,
+            "pos": {
+              "x0": 237.33333333333331,
+              "y1": 236,
+              "x1": 249.66666666666666,
+              "y0": 226.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.2768627450980392,
+          "y1": 0.21636363636363637,
+          "x1": 0.296078431372549,
+          "y0": 0.20424242424242423
+        }
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 91385,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "SC",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "ObjectId": "14d95845d799163eae06783048eb4cc1",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "4",
+      "ID": "de978ed9-b620-3c88-9750-f07e5c5a1d7f",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "Conventional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 672.6666666666666,
+          "y1": 213,
+          "x1": 741.3333333333333,
+          "y0": 199.66666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "text": "Conventional",
+            "distance": 140773.85588339114,
+            "pos": {
+              "x0": 674.6666666666666,
+              "y1": 211,
+              "x1": 739.3333333333333,
+              "y0": 201.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.7913725490196079,
+          "y1": 0.19363636363636363,
+          "x1": 0.872156862745098,
+          "y0": 0.18151515151515152
+        }
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 708860,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "OTHER",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "control_input": {
+        "type": "text",
+        "value": "OTHER",
+        "control": "radio"
+      },
+      "ObjectId": "338b14a453584e1df8ad653bcc9d76b2",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "3",
+      "ID": "2ec547b9-20b5-3eb1-baaf-44dc65a0cbbe",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 668.3333333333333,
+          "y1": 157.66666666666666,
+          "x1": 698,
+          "y0": 144.33333333333331
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 75,
+            "text": "years",
+            "distance": 140829.89274781512,
+            "pos": {
+              "x0": 670.3333333333333,
+              "y1": 155.66666666666666,
+              "x1": 696,
+              "y0": 146.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.7862745098039214,
+          "y1": 0.1433333333333333,
+          "x1": 0.8211764705882353,
+          "y0": 0.1312121212121212
+        }
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 163804,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "8831c036ebb89661918731b07f6a060d",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "2",
+      "ID": "30200fe4-94ca-328f-9df3-988f0ee6fbda",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "text": "206 Finsbury Road",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 182,
+          "y1": 222.66666666666666,
+          "x1": 280,
+          "y0": 209.33333333333331
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "text": "206",
+            "distance": 141130.02918053974,
+            "pos": {
+              "x0": 184,
+              "y1": 220.66666666666666,
+              "x1": 202,
+              "y0": 211.33333333333331
+            }
+          },
+          {
+            "score": 89,
+            "text": "Finsbury",
+            "distance": 141105.2796604562,
+            "pos": {
+              "x0": 205.33333333333331,
+              "y1": 223.33333333333331,
+              "x1": 248,
+              "y0": 211.33333333333331
+            }
+          },
+          {
+            "score": 92,
+            "text": "Road",
+            "distance": 141079.70964247678,
+            "pos": {
+              "x0": 251,
+              "y1": 221.33333333333331,
+              "x1": 275.66666666666663,
+              "y0": 212.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.21411764705882352,
+          "y1": 0.20242424242424242,
+          "x1": 0.32941176470588235,
+          "y0": 0.19030303030303028
+        }
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 82529,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "206 Finsbury Road",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "ObjectId": "b5ed622dbbe5e2306f4223db915a8c9a",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "1",
+      "ID": "6eb08a9f-14d1-32fb-be49-1a1ff5b312f5",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "Midland Mortgage Corporation (Branch",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 373.3333333333333,
+          "y1": 196.33333333333331,
+          "x1": 620.6666666666666,
+          "y0": 182.33333333333331
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "text": "Midland",
+            "distance": 141005.77066097132,
+            "pos": {
+              "x0": 375.3333333333333,
+              "y1": 194.33333333333331,
+              "x1": 415.66666666666663,
+              "y0": 184.33333333333331
+            }
+          },
+          {
+            "score": 86,
+            "text": "Mortgage",
+            "distance": 140970.33502852847,
+            "pos": {
+              "x0": 419.3333333333333,
+              "y1": 197.33333333333331,
+              "x1": 468,
+              "y0": 185.33333333333331
+            }
+          },
+          {
+            "score": 89,
+            "text": "Corporation",
+            "distance": 140929.96873279926,
+            "pos": {
+              "x0": 471,
+              "y1": 197.33333333333331,
+              "x1": 530.3333333333333,
+              "y0": 185.66666666666666
+            }
+          },
+          {
+            "score": 89,
+            "text": "(Branch",
+            "distance": 140892.6711799525,
+            "pos": {
+              "x0": 534.3333333333333,
+              "y1": 198,
+              "x1": 571.3333333333333,
+              "y0": 186.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.4392156862745098,
+          "y1": 0.17848484848484847,
+          "x1": 0.7301960784313725,
+          "y0": 0.16575757575757574
+        }
+      },
+      "label": "Lender Full Name",
+      "edit_input": {
+        "text": "Midland Mortgage Corporation (Branch)"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6fe102aae30c991a4fc64ec30ffff23d",
+      "DATAPOINT ORDER": "2",
+      "ID": "d891d2f0-84db-313e-bb8f-cd72cbbf45d6",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 641094,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Midland Mortgage Corporation (Branch)",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "manual_input": true,
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$141,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 181.33333333333331,
+          "y1": 259.3333333333333,
+          "x1": 230.66666666666666,
+          "y0": 244.33333333333331
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 67,
+            "text": "$141,000",
+            "distance": 141095.50158442726,
+            "pos": {
+              "x0": 183.33333333333331,
+              "y1": 257.3333333333333,
+              "x1": 228.66666666666666,
+              "y0": 246.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.21333333333333332,
+          "y1": 0.23575757575757575,
+          "x1": 0.27137254901960783,
+          "y0": 0.2221212121212121
+        }
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "141000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1baa3de56ccaae7cfbbc4f03103d60ee",
+      "DATAPOINT ORDER": "4",
+      "ID": "8ce94e42-e23e-3a15-b115-d4b31dcc14df",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 139653,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "141000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1582589274007,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "text": "Applicant",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5e455df20431768973cbfcd7",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e4560707d65e904edb38e43",
+          "file_index": 118
+        },
+        "pos": {
+          "x0": 60,
+          "y1": 1005.3333333333333,
+          "x1": 112.33333333333333,
+          "y0": 988.6666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 64,
+            "text": "Applicant",
+            "distance": 140654.794992425,
+            "pos": {
+              "x0": 62,
+              "y1": 1003.3333333333333,
+              "x1": 110.33333333333333,
+              "y0": 990.6666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.07058823529411765,
+          "y1": 0.9139393939393938,
+          "x1": 0.13215686274509802,
+          "y0": 0.8987878787878788
+        }
+      },
+      "label": "Borrower Signature Present Indicator",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f5a9d33596a4eb2f4d1d11df6760ec21",
+      "DATAPOINT ORDER": "6",
+      "ID": "b4190803-53cc-339b-9518-fd4ef94d5e09",
+      "clone_id": 0,
+      "GROUP NAME": "Group13",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 287706,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 118,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group31",
+      "selection_input": {
+        "text": "Purchase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 653.3333333333333,
+          "y1": 171.33333333333331,
+          "x1": 702.3333333333333,
+          "y0": 157.66666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "text": "Purchase",
+            "distance": 140824.08310765284,
+            "pos": {
+              "x0": 655.3333333333333,
+              "y1": 169.33333333333331,
+              "x1": 700.3333333333333,
+              "y0": 159.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.7686274509803921,
+          "y1": 0.15575757575757573,
+          "x1": 0.8262745098039215,
+          "y0": 0.1433333333333333
+        }
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 729481,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "OTHER",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "control_input": {
+        "type": "text",
+        "value": "OTHER",
+        "control": "radio"
+      },
+      "ObjectId": "f2d53f57bfb4dbc97939885c56217af0",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "4",
+      "ID": "3f2fddef-8f65-38fd-a030-d6b72e518912",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "text": "5/22/2019",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 182.33333333333331,
+          "y1": 178.66666666666666,
+          "x1": 237.33333333333331,
+          "y0": 164.66666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "text": "5/22/2019",
+            "distance": 141149.4762599997,
+            "pos": {
+              "x0": 184.33333333333331,
+              "y1": 176.66666666666666,
+              "x1": 235.33333333333331,
+              "y0": 166.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.2145098039215686,
+          "y1": 0.16242424242424242,
+          "x1": 0.27921568627450977,
+          "y0": 0.1496969696969697
+        }
+      },
+      "label": "Disbursement Date",
+      "edit_input": {
+        "text": "05/22/2019"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a65dd9c818f3484f88547d60a35481f5",
+      "DATAPOINT ORDER": "3",
+      "ID": "7e153b80-e1fe-336c-8dea-b049dfd86124",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 127427,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "05/22/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "manual_input": true,
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "text": "29212",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 253.33333333333331,
+          "y1": 238.33333333333331,
+          "x1": 287.66666666666663,
+          "y0": 225
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "text": "29212",
+            "distance": 141064.15213427227,
+            "pos": {
+              "x0": 255.33333333333331,
+              "y1": 236.33333333333331,
+              "x1": 285.66666666666663,
+              "y0": 227
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.2980392156862745,
+          "y1": 0.21666666666666665,
+          "x1": 0.33843137254901956,
+          "y0": 0.20454545454545456
+        }
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 93837,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "29212",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "ObjectId": "c4e4d26a7fbaa600baa0119bf6dd1172",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "5",
+      "ID": "a1b41962-ab72-3c5d-a0b9-69e84d6334f4",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "text": "5/17/2019",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 183,
+          "y1": 149,
+          "x1": 238,
+          "y0": 135
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 86,
+            "text": "5/17/2019",
+            "distance": 141169.9880861722,
+            "pos": {
+              "x0": 185,
+              "y1": 147,
+              "x1": 236,
+              "y0": 137
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.21529411764705883,
+          "y1": 0.13545454545454547,
+          "x1": 0.28,
+          "y0": 0.12272727272727273
+        }
+      },
+      "label": "Date Issued",
+      "edit_input": {
+        "text": "05/17/2019"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "48680645b347d6c0f5dbc7df2a214716",
+      "DATAPOINT ORDER": "1",
+      "ID": "a513856f-54c1-32f1-995d-95627650a82b",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 109412,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "05/17/2019",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "manual_input": true,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group12",
+      "selection_input": {
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 418.3333333333333,
+          "y1": 503.3333333333333,
+          "x1": 443.3333333333333,
+          "y0": 487.3333333333333
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "text": "NO",
+            "distance": 140764.34357513586,
+            "pos": {
+              "x0": 420.3333333333333,
+              "y1": 501.3333333333333,
+              "x1": 441.3333333333333,
+              "y0": 489.3333333333333
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.492156862745098,
+          "y1": 0.4575757575757576,
+          "x1": 0.5215686274509803,
+          "y0": 0.443030303030303
+        }
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 207764,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "79210299082dc7bd61ddee88936d28d5",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "3",
+      "ID": "64fe8bf0-2813-3c91-b6bf-6e1e95cf937f",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "text": "$23.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e455df21f6ba000483c2ba8",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606fbaee635445369d35",
+          "file_index": 115
+        },
+        "pos": {
+          "x0": 564.3333333333333,
+          "y1": 1002,
+          "x1": 597.3333333333333,
+          "y0": 988.6666666666666
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 81,
+            "text": "$23.00",
+            "distance": 140305.0229160461,
+            "pos": {
+              "x0": 566.3333333333333,
+              "y1": 1000,
+              "x1": 595.3333333333333,
+              "y0": 990.6666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.6639215686274509,
+          "y1": 0.9109090909090909,
+          "x1": 0.7027450980392156,
+          "y0": 0.8987878787878788
+        }
+      },
+      "label": "Total Closing Costs Lender Credits",
+      "edit_input": {
+        "text": "23.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1cc8b03547048cfef553183ba27e5b13",
+      "DATAPOINT ORDER": "77",
+      "ID": "9968bcc2-32d8-322f-bf07-c804355eac79",
+      "GROUP NAME": "Group31",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 891376,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "23.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 115,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS LENDER CREDITS"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1582589274007,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "Hasanee",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 399.3333333333333,
+          "y1": 152.33333333333331,
+          "x1": 445.3333333333333,
+          "y0": 138.33333333333331
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "text": "Hasanee",
+            "distance": 141017.96999456803,
+            "pos": {
+              "x0": 401.3333333333333,
+              "y1": 150.33333333333331,
+              "x1": 443.3333333333333,
+              "y0": 140.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.46980392156862744,
+          "y1": 0.13848484848484846,
+          "x1": 0.523921568627451,
+          "y0": 0.12575757575757573
+        }
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "119205afba50ffb51fabc63eba399ba9",
+      "DATAPOINT ORDER": "4",
+      "ID": "87f2229c-3f23-360d-ae8e-d6a7c2043e91",
+      "clone_id": 0,
+      "GROUP NAME": "Group13",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 247593,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Hasanee",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1582589274007,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "text": "Krao",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 373.66666666666663,
+          "y1": 151.33333333333331,
+          "x1": 400,
+          "y0": 138.33333333333331
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "text": "Krao",
+            "distance": 141043.39361660613,
+            "pos": {
+              "x0": 375.66666666666663,
+              "y1": 149.33333333333331,
+              "x1": 398,
+              "y0": 140.33333333333331
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.4396078431372549,
+          "y1": 0.13757575757575755,
+          "x1": 0.47058823529411764,
+          "y0": 0.12575757575757573
+        }
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "cbaf86be32da62c2b07bfed4b41b6e4e",
+      "DATAPOINT ORDER": "2",
+      "ID": "cb2b3493-1a17-35d4-afc8-1cec6cfa7f2d",
+      "clone_id": 0,
+      "GROUP NAME": "Group13",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 240241,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Krao",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "FileIndex": 114,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1582589274007,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "text": "Columbia,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e455df20fc89df65df4933d",
+          "DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+          "scale": 3,
+          "PageOcr": "5e45606f5a4da827cca0c3be",
+          "file_index": 114
+        },
+        "pos": {
+          "x0": 181.66666666666666,
+          "y1": 239,
+          "x1": 236.33333333333331,
+          "y0": 223.66666666666666
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 83,
+            "text": "Columbia,",
+            "distance": 141107.87311466516,
+            "pos": {
+              "x0": 183.66666666666666,
+              "y1": 237,
+              "x1": 234.33333333333331,
+              "y0": 225.66666666666666
+            }
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.21372549019607842,
+          "y1": 0.21727272727272728,
+          "x1": 0.2780392156862745,
+          "y0": 0.20333333333333334
+        }
+      },
+      "label": "Property Address City",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "workflow_time_elapsed": 88112,
+      "Type": "ExtractionUI",
+      "UserName": "anand.kumar.ghughaloth@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Columbia,",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "14008335-32f0-46d8-bb99-d53e6940921f",
+      "ExtractionUI::DocumentId": "9e01963b-6707-4655-b931-a473f41f2633",
+      "ObjectId": "010c61402267edf616fd2182dfb0c9d5",
+      "FileIndex": 114,
+      "DATAPOINT ORDER": "3",
+      "ID": "8e2f5e7e-d629-3bf8-b338-bb9a749e1843",
+      "NAME": "PROPERTY ADDRESS CITY"
+    }
+  ],
+  "Total": 21,
+  "IndexScannedCount": 21
+}

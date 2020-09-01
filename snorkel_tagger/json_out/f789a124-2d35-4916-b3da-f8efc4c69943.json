@@ -1,0 +1,1165 @@
+{
+  "Results": [
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 196,
+          "y1": 144.66666666666666,
+          "x1": 251.66666666666666,
+          "y0": 130.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.23058823529411765,
+          "y1": 0.10333333333333333,
+          "x1": 0.296078431372549,
+          "y0": 0.09309523809523808
+        },
+        "text": "11/20/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 588,
+          "y1": 434,
+          "x1": 755,
+          "y0": 390.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_8",
+            "text": "11/20/2018",
+            "distance": 141163.74686669535,
+            "pos": {
+              "x0": 198,
+              "y1": 142.66666666666666,
+              "x1": 249.66666666666666,
+              "y0": 132.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "ttl": 1748945756,
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b595554b03575c87ed77d6cff09c5bd8",
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 98343,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/20/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 194.33333333333331,
+          "y1": 246,
+          "x1": 225.33333333333331,
+          "y0": 231.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.22862745098039214,
+          "y1": 0.1757142857142857,
+          "x1": 0.26509803921568625,
+          "y0": 0.16547619047619047
+        },
+        "text": "Tulsa,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 583,
+          "y1": 738,
+          "x1": 676,
+          "y0": 695
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_32",
+            "text": "Tulsa,",
+            "distance": 141101.98116453062,
+            "pos": {
+              "x0": 196.33333333333331,
+              "y1": 244,
+              "x1": 223.33333333333331,
+              "y0": 233.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "ttl": 1748945756,
+      "edit_input": {
+        "text": "Tulsa"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "578e20ef89c787dbbcdc57dd794b5611",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 445942,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Tulsa",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1591265756185,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 0.3333333333333333,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "text": "18",
+        "pos_original": {
+          "x0": 20.444444444444443,
+          "y1": 311,
+          "x1": 23.777777777777775,
+          "y0": 308.22222222222223
+        },
+        "pos": {
+          "x0": 61.33333333333333,
+          "y1": 933,
+          "x1": 71.33333333333333,
+          "y0": 924.6666666666666
+        },
+        "ocr": [
+          {
+            "pos": {
+              "x0": 61.33333333333333,
+              "y1": 933,
+              "x1": 71.33333333333333,
+              "y0": 924.6666666666666
+            },
+            "text": "18"
+          }
+        ],
+        "pos_normalized": {
+          "x0": 0.07215686274509803,
+          "y1": 0.8481818181818181,
+          "x1": 0.08392156862745097,
+          "y0": 0.8406060606060606
+        }
+      },
+      "label": "Borrower Full Name",
+      "ttl": 1748945756,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "415996625ebfad15d03af80ffc48d0e8",
+      "DATAPOINT ORDER": "5",
+      "ID": "4ebaa459-f31c-3ae4-82ee-97cf88cac879",
+      "clone_id": 0,
+      "ENTITY ORIGIN": "BORROWER FULL NAME",
+      "ENTITY DERIVATION": "[{\"operands\":[\"BORROWER FIRST NAME\",\"BORROWER MIDDLE NAME\",\"BORROWER LAST NAME\",\"BORROWER SUFFIX NAME\",\" \"],\"operator\":\"CONCAT\",\"id\":\"BORROWER FULL NAME\"}]",
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "ENTITY ID": "7ed7a538-01c4-3c42-a98e-bff8182110d1",
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "18",
+        "source": "aivaextracteddatapoint"
+      },
+      "ENTITY": "MORTGAGE TYPE",
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "FileIndex": 0,
+      "aivaextracteddatapoint": {
+        "coordinates": {
+          "x0": 184,
+          "y1": 2799,
+          "x1": 214,
+          "y0": 2774
+        },
+        "text": "18",
+        "entity_id": "7a4636b2-7fb6-47da-8662-7bdbb0c3a43b_2",
+        "confidence": 0.6559706926
+      },
+      "NAME": "BORROWER FULL NAME"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 198,
+          "y1": 226.47000122070312,
+          "x1": 249,
+          "y0": 221.47000122070312
+        },
+        "pos_normalized": {
+          "x0": 0.23294117647058823,
+          "y1": 0.16176428658621653,
+          "x1": 0.29294117647058826,
+          "y0": 0.15819285801478794
+        },
+        "text": "Unit 48",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 594,
+          "y1": 679.4100036621094,
+          "x1": 747,
+          "y0": 664.4100036621094
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_30",
+            "text": "Unit",
+            "distance": 141114.1189917067,
+            "pos": {
+              "x0": 197,
+              "y1": 229.33333333333331,
+              "x1": 215.33333333333331,
+              "y0": 221.33333333333331
+            }
+          },
+          {
+            "score": 96,
+            "id": "word_1_31",
+            "text": "48",
+            "distance": 141101.5082748744,
+            "pos": {
+              "x0": 218.33333333333331,
+              "y1": 229.66666666666666,
+              "x1": 229.33333333333331,
+              "y0": 221.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 2",
+      "ttl": 1748945756,
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e800283abd9df791269774f8eb5c5217",
+      "DATAPOINT ORDER": "2",
+      "ID": "2474b7b4-616d-38cb-b65c-7afaa3ac6467",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 409535,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "Unit 48",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "PROPERTY ADDRESS LINE 2"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1591265756185,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 574.6666666666666,
+          "y1": 145.33333333333331,
+          "x1": 602.6666666666666,
+          "y0": 132.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.676078431372549,
+          "y1": 0.1038095238095238,
+          "x1": 0.7090196078431372,
+          "y0": 0.09476190476190476
+        },
+        "text": "Davis",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1724,
+          "y1": 435.99999999999994,
+          "x1": 1808,
+          "y0": 398
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_49",
+            "text": "Davis",
+            "distance": 140905.0556353856,
+            "pos": {
+              "x0": 576.6666666666666,
+              "y1": 143.33333333333331,
+              "x1": 600.6666666666666,
+              "y0": 134.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "ttl": 1748945756,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f0e8312b81629707ee0c8b5ec4f88655",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 348048,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Davis",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 225.33333333333331,
+          "y1": 244.33333333333331,
+          "x1": 242.33333333333331,
+          "y0": 232
+        },
+        "pos_normalized": {
+          "x0": 0.26509803921568625,
+          "y1": 0.1745238095238095,
+          "x1": 0.28509803921568627,
+          "y0": 0.1657142857142857
+        },
+        "text": "OK",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 676,
+          "y1": 733,
+          "x1": 727,
+          "y0": 696
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_33",
+            "text": "OK",
+            "distance": 141085.48054951965,
+            "pos": {
+              "x0": 227.33333333333331,
+              "y1": 242.33333333333331,
+              "x1": 240.33333333333331,
+              "y0": 234
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "ttl": 1748945756,
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ffeed40d2c502b4021aec64aeae67a01",
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 452470,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "OK",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 196,
+          "y1": 159.33333333333331,
+          "x1": 251.66666666666666,
+          "y0": 145.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.23058823529411765,
+          "y1": 0.11380952380952379,
+          "x1": 0.296078431372549,
+          "y0": 0.1038095238095238
+        },
+        "text": "11/21/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 588,
+          "y1": 477.99999999999994,
+          "x1": 755,
+          "y0": 435.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_11",
+            "text": "11/21/2018",
+            "distance": 141153.2539705416,
+            "pos": {
+              "x0": 198,
+              "y1": 157.33333333333331,
+              "x1": 249.66666666666666,
+              "y0": 147.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "invalid_value": false,
+      "ttl": 1748945756,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 103953,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/21/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "ObjectId": "46d76b3fd52116738176a3751a2f2bd7",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1591265756185,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 566.3333333333333,
+          "y1": 145.33333333333331,
+          "x1": 575,
+          "y0": 133
+        },
+        "pos_normalized": {
+          "x0": 0.6662745098039214,
+          "y1": 0.1038095238095238,
+          "x1": 0.6764705882352942,
+          "y0": 0.095
+        },
+        "text": "L",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1698.9999999999998,
+          "y1": 435.99999999999994,
+          "x1": 1725,
+          "y0": 399
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_48",
+            "text": "L",
+            "distance": 140917.63727489504,
+            "pos": {
+              "x0": 568.3333333333333,
+              "y1": 143.33333333333331,
+              "x1": 573,
+              "y0": 135
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name",
+      "ttl": 1748945756,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a915d76b2118ffd4735e39d9cef7ffef",
+      "DATAPOINT ORDER": "2",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 343472,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "L",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "FileIndex": 0,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 194.66666666666666,
+          "y1": 268,
+          "x1": 235,
+          "y0": 253.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.22901960784313724,
+          "y1": 0.19142857142857142,
+          "x1": 0.27647058823529413,
+          "y0": 0.18119047619047618
+        },
+        "text": "$90,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 584,
+          "y1": 804,
+          "x1": 705,
+          "y0": 761
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_37",
+            "text": "$90,000",
+            "distance": 141082.89154095034,
+            "pos": {
+              "x0": 196.66666666666666,
+              "y1": 266,
+              "x1": 233,
+              "y0": 255.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "ttl": 1748945756,
+      "edit_input": {
+        "text": "90000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "77a180da9506f01498755ba74e57ffb0",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 119960,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "90000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1591265756185,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 523.6666666666666,
+          "y1": 145,
+          "x1": 566.3333333333333,
+          "y0": 132.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.616078431372549,
+          "y1": 0.10357142857142858,
+          "x1": 0.6662745098039214,
+          "y0": 0.09452380952380951
+        },
+        "text": "Maranda",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1571,
+          "y1": 435,
+          "x1": 1698.9999999999998,
+          "y0": 396.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_47",
+            "text": "Maranda",
+            "distance": 140936.1024564363,
+            "pos": {
+              "x0": 525.6666666666666,
+              "y1": 143,
+              "x1": 564.3333333333333,
+              "y0": 134.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "ttl": 1748945756,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0be5c3e4ae3836076a2a3084b847796b",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 337317,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Maranda",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 196,
+          "y1": 175.33333333333331,
+          "x1": 251.66666666666666,
+          "y0": 161
+        },
+        "pos_normalized": {
+          "x0": 0.23058823529411765,
+          "y1": 0.12523809523809523,
+          "x1": 0.296078431372549,
+          "y0": 0.115
+        },
+        "text": "11/21/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 588,
+          "y1": 526,
+          "x1": 755,
+          "y0": 483
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_14",
+            "text": "11/21/2018",
+            "distance": 141142.05454749794,
+            "pos": {
+              "x0": 198,
+              "y1": 173.33333333333331,
+              "x1": 249.66666666666666,
+              "y0": 163
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "invalid_value": false,
+      "ttl": 1748945756,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 107895,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/21/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "ObjectId": "668e64c6facd2476b68720ac64c3dc33",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 242.33333333333331,
+          "y1": 245,
+          "x1": 273.3333333333333,
+          "y0": 232.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.28509803921568627,
+          "y1": 0.175,
+          "x1": 0.32156862745098036,
+          "y0": 0.16595238095238093
+        },
+        "text": "74136",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 727,
+          "y1": 735,
+          "x1": 820,
+          "y0": 697
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_34",
+            "text": "74136",
+            "distance": 141068.1570511416,
+            "pos": {
+              "x0": 244.33333333333331,
+              "y1": 243,
+              "x1": 271.3333333333333,
+              "y0": 234.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "ttl": 1748945756,
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a1789e2835f13a80aff247fd52723da2",
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 449160,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "74136",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 207,
+          "y1": 216.47000122070312,
+          "x1": 326,
+          "y0": 206.47000122070312
+        },
+        "pos_normalized": {
+          "x0": 0.24352941176470588,
+          "y1": 0.15462142944335938,
+          "x1": 0.3835294117647059,
+          "y0": 0.14747857230050224
+        },
+        "text": "6211 S Yorktown Ave",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83c45843dc0869d33769e",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c757cc1b06bed6e6e1b",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 621,
+          "y1": 649.4100036621094,
+          "x1": 978,
+          "y0": 619.4100036621094
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_26",
+            "text": "6211",
+            "distance": 141121.8965627667,
+            "pos": {
+              "x0": 197,
+              "y1": 217,
+              "x1": 218.33333333333331,
+              "y0": 208.66666666666666
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_1_27",
+            "text": "S",
+            "distance": 141109.52241629746,
+            "pos": {
+              "x0": 222.33333333333331,
+              "y1": 217,
+              "x1": 228,
+              "y0": 208.66666666666666
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_1_28",
+            "text": "Yorktown",
+            "distance": 141089.9616472097,
+            "pos": {
+              "x0": 231.66666666666666,
+              "y1": 217.33333333333331,
+              "x1": 273.66666666666663,
+              "y0": 208.66666666666666
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_1_29",
+            "text": "Ave",
+            "distance": 141066.28001177713,
+            "pos": {
+              "x0": 277.3333333333333,
+              "y1": 217.66666666666666,
+              "x1": 294,
+              "y0": 209.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "ttl": 1748945756,
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b874aaaecf0925cf6d2f7b7e57357ffc",
+      "DATAPOINT ORDER": "1",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 404754,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "6211 S Yorktown Ave",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1591265756185,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 613.6666666666666,
+          "y1": 801,
+          "x1": 663,
+          "y0": 786.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7219607843137255,
+          "y1": 0.5721428571428572,
+          "x1": 0.78,
+          "y0": 0.5619047619047619
+        },
+        "text": "$7,614.01",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1400
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83c45abe85c22d5f1e1a3",
+          "DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+          "scale": 3,
+          "PageOcr": "5ed83c75a1d396d42caace0a",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1841,
+          "y1": 2403,
+          "x1": 1989,
+          "y0": 2360
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_345",
+            "text": "$7,614.01",
+            "distance": 140406.58320916517,
+            "pos": {
+              "x0": 615.6666666666666,
+              "y1": 799,
+              "x1": 661,
+              "y0": 788.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "ttl": 1748945756,
+      "edit_input": {
+        "text": "7614.01",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6aead6608f0bd2c5356842bd024ef457",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "workflow_time_elapsed": 1451687,
+      "Type": "ExtractionUI",
+      "UserName": "diane.cunningham@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "7614.01",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "8a1c9b9d-5415-4081-b030-d74746eeb6c4",
+      "ExtractionUI::DocumentId": "f789a124-2d35-4916-b3da-f8efc4c69943",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    }
+  ],
+  "Total": 14,
+  "IndexScannedCount": 14
+}

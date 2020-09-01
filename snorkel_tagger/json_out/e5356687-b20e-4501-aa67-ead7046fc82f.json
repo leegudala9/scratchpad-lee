@@ -1,0 +1,3355 @@
+{
+  "Results": [
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1591305619903,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 43.55934195064629,
+          "y1": 619.545240893067,
+          "x1": 80.48178613396004,
+          "y0": 609.5593419506463
+        },
+        "pos_normalized": {
+          "x0": 0.0769599681106825,
+          "y1": 0.8418500380820689,
+          "x1": 0.14219396843455837,
+          "y0": 0.8282810057498337
+        },
+        "text": "BRIENNA",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 735.9330199764981
+          },
+          "document_index": 4,
+          "PageJpeg": "5ed83cfb94b1deee455dca54",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0070671378091873,
+          "PageOcr": "5ed83d1b61586f1aa9c8e9b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 130.98586572438163,
+          "y1": 1863.0141342756185,
+          "x1": 242.01413427561837,
+          "y0": 1832.9858657243817
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_525",
+            "text": "BRIENNA",
+            "distance": 140941.36718577336,
+            "pos": {
+              "x0": 45.55934195064629,
+              "y1": 617.545240893067,
+              "x1": 78.48178613396004,
+              "y0": 611.5593419506463
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0e28d857efe182e7d73dd08569ede130",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1928421,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "BRIENNA",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "FileIndex": 4,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 263.5105757931845,
+          "y1": 333.80493537015275,
+          "x1": 282.8349001175088,
+          "y0": 321.4764982373678
+        },
+        "pos_normalized": {
+          "x0": 0.4647452835858633,
+          "y1": 0.45155634400038785,
+          "x1": 0.4988269843342307,
+          "y0": 0.4348789872298961
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 790.9964726631393,
+          "y1": 1002.0035273368607,
+          "x1": 849.0035273368607,
+          "y0": 964.9964726631393
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_155",
+            "text": "NO",
+            "distance": 140994.4009093007,
+            "pos": {
+              "x0": 265.5105757931845,
+              "y1": 331.80493537015275,
+              "x1": 280.8349001175088,
+              "y0": 323.4764982373678
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1839974,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "a2659a4dd5beead0eff88d8e2e9e1128",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 313.62823529411764,
+          "y1": 335.94,
+          "x1": 347.9258823529412,
+          "y0": 325.28117647058826
+        },
+        "pos_normalized": {
+          "x0": 0.5541134899189357,
+          "y1": 0.4547125133563809,
+          "x1": 0.614710039492829,
+          "y0": 0.4402852333763817
+        },
+        "text": "$4,019.00",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 941.9929328621907,
+          "y1": 1009.0070671378091,
+          "x1": 1045.0070671378091,
+          "y0": 976.9929328621909
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 80,
+            "id": "word_2_228",
+            "text": "$4,019.00",
+            "distance": 140951.5632267868,
+            "pos": {
+              "x0": 315.62823529411764,
+              "y1": 333.94,
+              "x1": 345.9258823529412,
+              "y0": 327.28117647058826
+            }
+          }
+        ]
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "4019.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7adca37bb7e2a55e4c020c4af092324c",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2074552,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4019.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 112.59929494712104,
+          "y1": 93.61280846063455,
+          "x1": 148.91363102232668,
+          "y0": 80.28495887191539
+        },
+        "pos_normalized": {
+          "x0": 0.19858782177622758,
+          "y1": 0.12663520835370018,
+          "x1": 0.2626342698806467,
+          "y0": 0.10860589124071174
+        },
+        "text": "11/29/2018",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 337.99647266313934,
+          "y1": 281.00352733686066,
+          "x1": 447.0035273368607,
+          "y0": 240.99647266313931
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_1_39",
+            "text": "11/29/2018",
+            "distance": 141265.29738632494,
+            "pos": {
+              "x0": 114.59929494712104,
+              "y1": 91.61280846063455,
+              "x1": 146.91363102232668,
+              "y0": 82.28495887191539
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "59dfa3ac1bdd0ae76b1b6afd0e9c5632",
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1672499,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/29/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 316.62470588235294,
+          "y1": 462.12470588235294,
+          "x1": 344.9294117647059,
+          "y0": 451.7988235294118
+        },
+        "pos_normalized": {
+          "x0": 0.5594076075659946,
+          "y1": 0.6255101699584539,
+          "x1": 0.6094159218457701,
+          "y0": 0.6115335434259536
+        },
+        "text": "4291.46",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 950.9929328621909,
+          "y1": 1388.0070671378091,
+          "x1": 1036.0070671378091,
+          "y0": 1356.9929328621909
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 36,
+            "id": "word_2_311",
+            "text": "4291.46",
+            "distance": 140862.24771218025,
+            "pos": {
+              "x0": 318.62470588235294,
+              "y1": 460.12470588235294,
+              "x1": 342.9294117647059,
+              "y0": 453.7988235294118
+            }
+          }
+        ]
+      },
+      "label": "Initial Escrow Payment At Closing Borrower Paid",
+      "edit_input": {
+        "text": "291.46"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bc7f1b68862119a700250ad54984d935",
+      "DATAPOINT ORDER": "12",
+      "ID": "298c0104-5aec-386e-8697-8040eb5960e4",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2172073,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "291.46",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "INITIAL ESCROW PAYMENT AT CLOSING BORROWER PAID"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 174.56286721504114,
+          "y1": 209.21151586368978,
+          "x1": 217.53995299647474,
+          "y0": 193.55170387779083
+        },
+        "pos_normalized": {
+          "x0": 0.3078710180159456,
+          "y1": 0.28301195463580925,
+          "x1": 0.3836683474364634,
+          "y0": 0.26182806339032866
+        },
+        "text": "$94,000",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 523.9964726631393,
+          "y1": 628.0035273368607,
+          "x1": 653.0035273368607,
+          "y0": 580.9964726631393
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_1_116",
+            "text": "$94,000",
+            "distance": 141138.20738379794,
+            "pos": {
+              "x0": 176.56286721504114,
+              "y1": 207.21151586368978,
+              "x1": 215.53995299647474,
+              "y0": 195.55170387779083
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "94000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ca695c0ac3bc61eaa5f3b78852c46ac6",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1787352,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "94000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 112.26615746180964,
+          "y1": 167.90246768507637,
+          "x1": 138.58636897767332,
+          "y0": 157.2397179788484
+        },
+        "pos_normalized": {
+          "x0": 0.19800027771042264,
+          "y1": 0.22713092714594893,
+          "x1": 0.2444204038406937,
+          "y0": 0.21270683761295148
+        },
+        "text": "$97,000",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 336.99647266313934,
+          "y1": 504.00352733686066,
+          "x1": 416.00352733686066,
+          "y0": 471.9964726631393
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 82,
+            "id": "word_1_106",
+            "text": "$97,000",
+            "distance": 141215.5924761478,
+            "pos": {
+              "x0": 114.26615746180964,
+              "y1": 165.90246768507637,
+              "x1": 136.58636897767332,
+              "y0": 159.2397179788484
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "97000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "99ee752e872db4c61c2f009494207fc4",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1680098,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "97000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 303.3070588235294,
+          "y1": 418.1764705882353,
+          "x1": 329.61411764705883,
+          "y0": 407.85058823529414
+        },
+        "pos_normalized": {
+          "x0": 0.5358781958012887,
+          "y1": 0.5660239148886027,
+          "x1": 0.5823570983163584,
+          "y0": 0.5520472883561023
+        },
+        "text": "$837.70",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 910.9929328621909,
+          "y1": 1256.0070671378091,
+          "x1": 990.0070671378093,
+          "y0": 1224.9929328621909
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 79,
+            "id": "word_2_273",
+            "text": "$837.70",
+            "distance": 140903.4353622094,
+            "pos": {
+              "x0": 305.3070588235294,
+              "y1": 416.1764705882353,
+              "x1": 327.61411764705883,
+              "y0": 409.85058823529414
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "837.70",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b93915b6fb88cd58eefb7a5482709f06",
+      "DATAPOINT ORDER": "4",
+      "ID": "5234449a-1671-3214-ba16-9ad299691f0f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2120777,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "837.70",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 112.59929494712104,
+          "y1": 104.6063454759107,
+          "x1": 148.91363102232668,
+          "y0": 88.61339600470035
+        },
+        "pos_normalized": {
+          "x0": 0.19858782177622758,
+          "y1": 0.141506772121163,
+          "x1": 0.2626342698806467,
+          "y0": 0.11987222742818357
+        },
+        "text": "11/30/2018",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 337.99647266313934,
+          "y1": 314.00352733686066,
+          "x1": 447.0035273368607,
+          "y0": 265.9964726631393
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_50",
+            "text": "11/30/2018",
+            "distance": 141258.4647041505,
+            "pos": {
+              "x0": 114.59929494712104,
+              "y1": 102.6063454759107,
+              "x1": 146.91363102232668,
+              "y0": 90.61339600470035
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5d7fef9de1b2abd5366d5ebe1871dbc8",
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1674793,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/30/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 438,
+          "y1": 107,
+          "x1": 488,
+          "y0": 98
+        },
+        "pos_normalized": {
+          "x0": 0.7724867724867724,
+          "y1": 0.14474480059578454,
+          "x1": 0.8606701940035273,
+          "y0": 0.13257000428398957
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1314.7724867724867,
+          "y1": 321.1887125220459,
+          "x1": 1464.8606701940034,
+          "y0": 294.1728395061728
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Interest Only Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1717618,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "7773e672e51e88d1bee03951f5461dd2",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "10",
+      "ID": "91cec963-8a42-34c7-9928-e0dafef170ac",
+      "NAME": "INTEREST ONLY INDICATOR"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 313.62823529411764,
+          "y1": 647.9058823529411,
+          "x1": 347.5929411764706,
+          "y0": 637.2470588235294
+        },
+        "pos_normalized": {
+          "x0": 0.5541134899189357,
+          "y1": 0.8769747936628253,
+          "x1": 0.6141218041987113,
+          "y0": 0.862547513682826
+        },
+        "text": "$5,413.43",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 941.9929328621907,
+          "y1": 1946.0070671378091,
+          "x1": 1044.0070671378094,
+          "y0": 1913.9929328621909
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_417",
+            "text": "$5,413.43",
+            "distance": 140731.26063593006,
+            "pos": {
+              "x0": 315.62823529411764,
+              "y1": 645.9058823529411,
+              "x1": 345.5929411764706,
+              "y0": 639.2470588235294
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "5413.43",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "074872b1f3210919244c46a06ea22faa",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2233740,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "5413.43",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 251,
+          "y1": 164,
+          "x1": 377,
+          "y0": 145
+        },
+        "pos_normalized": {
+          "x0": 0.4426807760141093,
+          "y1": 0.2218518439038193,
+          "x1": 0.6649029982363316,
+          "y0": 0.19614949613447435
+        },
+        "text": "CORNERSTONE HOME LENDING, INC.",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 753.4426807760141,
+          "y1": 492.28924162257493,
+          "x1": 1131.6649029982364,
+          "y0": 435.2557319223986
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 34,
+            "id": "word_1_100",
+            "text": "CORNERSTONE",
+            "distance": 141114.4451441109,
+            "pos": {
+              "x0": 257.8484136310223,
+              "y1": 153.24324324324326,
+              "x1": 302.8219741480611,
+              "y0": 148.24618096357227
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_101",
+            "text": "HOME",
+            "distance": 141090.67066604094,
+            "pos": {
+              "x0": 305.1539365452409,
+              "y1": 153.24324324324326,
+              "x1": 322.810223266745,
+              "y0": 148.24618096357227
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_1_102",
+            "text": "LENDING,",
+            "distance": 141072.5476011417,
+            "pos": {
+              "x0": 325.1421856639248,
+              "y1": 154.24265569917745,
+              "x1": 353.1257344300823,
+              "y0": 148.24618096357227
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_103",
+            "text": "INC.",
+            "distance": 141057.48727452982,
+            "pos": {
+              "x0": 355.12455934195066,
+              "y1": 153.24324324324326,
+              "x1": 366.7843713278496,
+              "y0": 148.24618096357227
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "abc6f805d1be67b73ed571987d9061f2",
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 769327,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "CORNERSTONE HOME LENDING, INC.",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 281.9488830566406,
+          "y1": 111.19886779785156,
+          "x1": 407.9488830566406,
+          "y0": 100.19886779785156
+        },
+        "pos_normalized": {
+          "x0": 0.4972643440152392,
+          "y1": 0.15062848435296874,
+          "x1": 0.7194865662374614,
+          "y0": 0.13572803293025498
+        },
+        "text": "will have an escrow account {also",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 738.2326674500588
+          },
+          "document_index": 3,
+          "PageJpeg": "5ed83cfb27b7851c3c9d662e",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1ab35e86de62063d8f",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 846.3439135139371,
+          "y1": 333.79272132617876,
+          "x1": 1224.5661357361594,
+          "y0": 300.7733209734451
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_4_345",
+            "text": "will",
+            "distance": 141128.14699078194,
+            "pos": {
+              "x0": 299.1574618096357,
+              "y1": 109.93537015276146,
+              "x1": 309.8178613396005,
+              "y0": 104.60517038777908
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_4_346",
+            "text": "have",
+            "distance": 141117.67515624056,
+            "pos": {
+              "x0": 312.14982373678026,
+              "y1": 109.93537015276146,
+              "x1": 326.4747356051704,
+              "y0": 104.60517038777908
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_347",
+            "text": "an",
+            "distance": 141108.02657725883,
+            "pos": {
+              "x0": 328.8066980023502,
+              "y1": 109.93537015276146,
+              "x1": 335.80258519388957,
+              "y0": 105.93772032902469
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_4_348",
+            "text": "escrow",
+            "distance": 141096.1444917674,
+            "pos": {
+              "x0": 338.13454759106935,
+              "y1": 109.93537015276146,
+              "x1": 360.1216216216216,
+              "y0": 105.93772032902469
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_4_349",
+            "text": "account",
+            "distance": 141078.3830061432,
+            "pos": {
+              "x0": 362.4535840188014,
+              "y1": 109.93537015276146,
+              "x1": 387.1057579318449,
+              "y0": 104.93830787309048
+            }
+          },
+          {
+            "score": 70,
+            "id": "word_4_350",
+            "text": "{also",
+            "distance": 141062.97477245526,
+            "pos": {
+              "x0": 389.1045828437133,
+              "y1": 110.93478260869566,
+              "x1": 403.7626321974148,
+              "y0": 104.27203290246769
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2298026,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "9b4535cec7a9667cb01f0ada554318fe",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 442.4054054054054,
+          "y1": 97.93830787309048,
+          "x1": 476.38777908343127,
+          "y0": 88.94653349001176
+        },
+        "pos_normalized": {
+          "x0": 0.7802564469231136,
+          "y1": 0.13248654994186015,
+          "x1": 0.8401900865668982,
+          "y0": 0.12032288087568245
+        },
+        "text": null,
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1327.9964726631392,
+          "y1": 293.98765432098764,
+          "x1": 1430.0035273368608,
+          "y0": 266.99647266313934
+        },
+        "valid_value": false,
+        "ocr": null
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1711824,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "PURCHASE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "PURCHASE",
+        "control": "radio"
+      },
+      "ObjectId": "70ba43bbab9e47140e603cdafc8c89d0",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1591305619903,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 110.93360752056404,
+          "y1": 620.6363102232667,
+          "x1": 139.91891891891893,
+          "y0": 610.3066980023502
+        },
+        "pos_normalized": {
+          "x0": 0.19565010144720288,
+          "y1": 0.8418452450686221,
+          "x1": 0.24677058010391345,
+          "y0": 0.8278339234808584
+        },
+        "text": "HURST",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 737.2332549941245
+          },
+          "document_index": 4,
+          "PageJpeg": "5ed83cfb94b1deee455dca54",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b61586f1aa9c8e9b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 332.9964726631393,
+          "y1": 1863.0035273368605,
+          "x1": 420.0035273368607,
+          "y0": 1831.9964726631395
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_527",
+            "text": "HURST",
+            "distance": 140895.76718498918,
+            "pos": {
+              "x0": 112.93360752056404,
+              "y1": 618.6363102232667,
+              "x1": 137.91891891891893,
+              "y0": 612.3066980023502
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "031373227a74650598aef0461c2b40ea",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1949634,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "HURST",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "FileIndex": 4,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 424.4159811985899,
+          "y1": 441.40834312573446,
+          "x1": 463.7285546415981,
+          "y0": 432.41128084606345
+        },
+        "pos_normalized": {
+          "x0": 0.7485290673696471,
+          "y1": 0.5987363431255585,
+          "x1": 0.8178634120663106,
+          "y0": 0.5865325226674828
+        },
+        "text": "OKLAHOMA",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 737.2332549941245
+          },
+          "document_index": 4,
+          "PageJpeg": "5ed83cfb94b1deee455dca54",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b61586f1aa9c8e9b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1273.9964726631395,
+          "y1": 1325.0035273368608,
+          "x1": 1392.0035273368605,
+          "y0": 1297.9964726631392
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 34,
+            "id": "word_5_444",
+            "text": "OKLAHOMA",
+            "distance": 30.360978177442476,
+            "pos": {
+              "x0": 426.4159811985899,
+              "y1": 439.40834312573446,
+              "x1": 461.7285546415981,
+              "y0": 434.41128084606345
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "11f5b176b7a502b51e4d4c7e9902df21",
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2357805,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "OKLAHOMA",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 4,
+      "manual_input": null,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 180.22620446533492,
+          "y1": 89.94829612220917,
+          "x1": 224.2027027027027,
+          "y0": 80.61809635722679
+        },
+        "pos_normalized": {
+          "x0": 0.3178592671346295,
+          "y1": 0.12184274699316817,
+          "x1": 0.3954192287525621,
+          "y0": 0.10920418441477406
+        },
+        "text": "73114-1303",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 738.2326674500588
+          },
+          "document_index": 5,
+          "PageJpeg": "5ed83cfbb714ea146cecc74a",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b9ba515147f6de567",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 540.9964726631393,
+          "y1": 270.00352733686066,
+          "x1": 673.0035273368607,
+          "y0": 241.99647266313931
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_6_14",
+            "text": "73114-1303",
+            "distance": 141215.96758489107,
+            "pos": {
+              "x0": 182.22620446533492,
+              "y1": 87.94829612220917,
+              "x1": 222.2027027027027,
+              "y0": 82.61809635722679
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5636b1bd638b02c327e19203cb1a437d",
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2001095,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "73114-1303",
+        "source": "selection"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 5,
+      "manual_input": null,
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 422.9488830566406,
+          "y1": 414.0170593261719,
+          "x1": 535.9488525390625,
+          "y0": 392.0170593261719
+        },
+        "pos_normalized": {
+          "x0": 0.7459415926924878,
+          "y1": 0.5615821811096563,
+          "x1": 0.9452360714974647,
+          "y0": 0.5317408793900597
+        },
+        "text": "OKLAHOMA TITLE COMPANY CITY ABSTRACT &",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 737.2332549941245
+          },
+          "document_index": 4,
+          "PageJpeg": "5ed83cfb94b1deee455dca54",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b61586f1aa9c8e9b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1269.5925907626142,
+          "y1": 1242.7813667956693,
+          "x1": 1608.791793688685,
+          "y0": 1176.742566090202
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_403",
+            "text": "OKLAHOMA",
+            "distance": 66.0573042846526,
+            "pos": {
+              "x0": 426.4159811985899,
+              "y1": 401.7638072855464,
+              "x1": 461.7285546415981,
+              "y0": 396.43360752056407
+            }
+          },
+          {
+            "score": 89,
+            "id": "word_5_412",
+            "text": "TITLE",
+            "distance": 55.645352390700985,
+            "pos": {
+              "x0": 426.0828437132785,
+              "y1": 410.7585193889542,
+              "x1": 442.73971797884843,
+              "y0": 405.4283196239718
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_413",
+            "text": "COMPANY",
+            "distance": 63.31663191386305,
+            "pos": {
+              "x0": 445.0716803760282,
+              "y1": 410.7585193889542,
+              "x1": 475.05405405405406,
+              "y0": 405.4283196239718
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_404",
+            "text": "CITY",
+            "distance": 76.20190373580336,
+            "pos": {
+              "x0": 463.3942420681551,
+              "y1": 401.430669800235,
+              "x1": 476.38660399529965,
+              "y0": 396.43360752056407
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_405",
+            "text": "ABSTRACT",
+            "distance": 93.60805959427778,
+            "pos": {
+              "x0": 478.38542890716803,
+              "y1": 401.430669800235,
+              "x1": 516.0299647473561,
+              "y0": 396.43360752056407
+            }
+          },
+          {
+            "score": 96,
+            "id": "word_5_406",
+            "text": "&",
+            "distance": 104.3280908225805,
+            "pos": {
+              "x0": 508.7009400705053,
+              "y1": 404.4289071680376,
+              "x1": 515.3636897767333,
+              "y0": 395.1010575793185
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "edit_input": {
+        "text": "OKLAHOMA CITY ABSTRACT & TITLE COMPANY"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f282df14b77ab73f4721525952510f64",
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2344623,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "OKLAHOMA CITY ABSTRACT & TITLE COMPANY",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 424.9488830566406,
+          "y1": 472.0170593261719,
+          "x1": 511.9488830566406,
+          "y0": 459.0170593261719
+        },
+        "pos_normalized": {
+          "x0": 0.749468929553158,
+          "y1": 0.6402547038249565,
+          "x1": 0.9029080829923115,
+          "y0": 0.6226212073542858
+        },
+        "text": "CONNIE CALAWAY",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 737.2332549941245
+          },
+          "document_index": 4,
+          "PageJpeg": "5ed83cfb94b1deee455dca54",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b61586f1aa9c8e9b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1275.596118099475,
+          "y1": 1416.8836595646287,
+          "x1": 1536.7495572529142,
+          "y0": 1377.8607318750344
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_5_463",
+            "text": "CONNIE",
+            "distance": 8.736005034846393,
+            "pos": {
+              "x0": 426.4159811985899,
+              "y1": 467.39189189189193,
+              "x1": 449.73560517038777,
+              "y0": 462.3948296122209
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_464",
+            "text": "CALAWAY",
+            "distance": 36.636319493701464,
+            "pos": {
+              "x0": 451.73443008225615,
+              "y1": 467.39189189189193,
+              "x1": 480.3842538190364,
+              "y0": 462.3948296122209
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2366074,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "CONNIE CALAWAY",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "ObjectId": "12eb503ab554eb388074ac2749a03322",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 72,
+          "y1": 602,
+          "x1": 150,
+          "y0": 584
+        },
+        "pos_normalized": {
+          "x0": 0.12698412698412698,
+          "y1": 0.8165665288725991,
+          "x1": 0.26455026455026454,
+          "y0": 0.7921509183747473
+        },
+        "text": "Borwnne",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 737.2332549941245
+          },
+          "document_index": 4,
+          "PageJpeg": "5ed83cfb94b1deee455dca54",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b61586f1aa9c8e9b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 216.12698412698413,
+          "y1": 1807.0617283950617,
+          "x1": 450.2645502645503,
+          "y0": 1753.0299823633156
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 0,
+            "id": "word_5_523",
+            "text": "Borwnne",
+            "distance": 140937.75482428283,
+            "pos": {
+              "x0": 51.30317273795535,
+              "y1": 608.9753231492363,
+              "x1": 108.26968272620446,
+              "y0": 594.6504112808461
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9f123b0b57d9aab68abdd8dc0b2c4f06",
+      "DATAPOINT ORDER": "6",
+      "ID": "497f3048-c305-38c7-aaaa-ea373109df50",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1958153,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "FileIndex": 4,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 249.18566392479437,
+          "y1": 179.89541715628673,
+          "x1": 277.1715628672151,
+          "y0": 170.23207990599295
+        },
+        "pos_normalized": {
+          "x0": 0.4394808887562511,
+          "y1": 0.24401424642424793,
+          "x1": 0.4888387352155469,
+          "y0": 0.23090667540132823
+        },
+        "text": "6.443%",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 737.2332549941245
+          },
+          "document_index": 4,
+          "PageJpeg": "5ed83cfb94b1deee455dca54",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b61586f1aa9c8e9b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 747.9964726631393,
+          "y1": 540.0035273368607,
+          "x1": 832.0035273368608,
+          "y0": 510.9964726631393
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_5_74",
+            "text": "6.443%",
+            "distance": 332.9431108787745,
+            "pos": {
+              "x0": 251.18566392479437,
+              "y1": 177.89541715628673,
+              "x1": 275.1715628672151,
+              "y0": 172.23207990599295
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "70e9b10d2c9082a4a72eeb4ba71b9475",
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2349208,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "6.443%",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 4,
+      "manual_input": null,
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 430.41245593419507,
+          "y1": 538.6844888366628,
+          "x1": 448.7373678025852,
+          "y0": 528.6880141010575
+        },
+        "pos_normalized": {
+          "x0": 0.759104860554136,
+          "y1": 0.7287082142121951,
+          "x1": 0.7914239291050885,
+          "y0": 0.7151854315741952
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1291.9964726631392,
+          "y1": 1617.0035273368608,
+          "x1": 1347.0035273368605,
+          "y0": 1586.9964726631392
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_201",
+            "text": "YES",
+            "distance": 140731.05108231868,
+            "pos": {
+              "x0": 432.41245593419507,
+              "y1": 536.6844888366628,
+              "x1": 446.7373678025852,
+              "y0": 530.6880141010575
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1874281,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "0f69496a55657b84048efac3b873479b",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 450.400705052879,
+          "y1": 90.94770857814336,
+          "x1": 469.7250293772033,
+          "y0": 81.617508813161
+        },
+        "pos_normalized": {
+          "x0": 0.7943575045024321,
+          "y1": 0.12302998077370919,
+          "x1": 0.8284392052507995,
+          "y0": 0.11040850503070725
+        },
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1351.9964726631395,
+          "y1": 273.00352733686066,
+          "x1": 1410.0035273368608,
+          "y0": 244.99647266313934
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_47",
+            "text": "years",
+            "distance": 141033.1579838041,
+            "pos": {
+              "x0": 452.400705052879,
+              "y1": 88.94770857814336,
+              "x1": 467.7250293772033,
+              "y0": 83.617508813161
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1690463,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "9a9fd9762dd635f5f3a1b905e7305ccb",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 398.86117647058825,
+          "y1": 170.13529411764705,
+          "x1": 425.16823529411766,
+          "y0": 160.47529411764705
+        },
+        "pos_normalized": {
+          "x0": 0.7047017252130534,
+          "y1": 0.23028709650194196,
+          "x1": 0.7511806277281231,
+          "y0": 0.2172117768644393
+        },
+        "text": "$500.00",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1197.9929328621909,
+          "y1": 511.00706713780914,
+          "x1": 1277.0070671378091,
+          "y0": 481.9929328621908
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 61,
+            "id": "word_2_86",
+            "text": "$500.00",
+            "distance": 141011.11593919867,
+            "pos": {
+              "x0": 400.86117647058825,
+              "y1": 168.13529411764705,
+              "x1": 423.16823529411766,
+              "y0": 162.47529411764705
+            }
+          }
+        ]
+      },
+      "label": "Appraisal Fee Seller Paid At Closing",
+      "edit_input": {
+        "text": "500.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0eb48af069569bbcf0bace147d0073e8",
+      "DATAPOINT ORDER": "11",
+      "ID": "49efdd08-9cd0-3337-b183-6c091b62b252",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2055224,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "500.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE SELLER PAID AT CLOSING"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 168.23325499412456,
+          "y1": 90.28143360752057,
+          "x1": 182.2273795534665,
+          "y0": 80.28495887191539
+        },
+        "pos_normalized": {
+          "x0": 0.2967076807656518,
+          "y1": 0.12229401053107432,
+          "x1": 0.3213886764611402,
+          "y0": 0.10875292087686793
+        },
+        "text": "OK",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 738.2326674500588
+          },
+          "document_index": 5,
+          "PageJpeg": "5ed83cfbb714ea146cecc74a",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b9ba515147f6de567",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 504.99647266313934,
+          "y1": 271.00352733686066,
+          "x1": 547.0035273368607,
+          "y0": 240.99647266313931
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_6_13",
+            "text": "OK",
+            "distance": 141235.0383659292,
+            "pos": {
+              "x0": 170.23325499412456,
+              "y1": 88.28143360752057,
+              "x1": 180.2273795534665,
+              "y0": 82.28495887191539
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d5c894bebbfdd52b6245e560522673bc",
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2005099,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "OK",
+        "source": "selection"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 5,
+      "manual_input": null,
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 310.2988235294118,
+          "y1": 530.3776470588235,
+          "x1": 329.61411764705883,
+          "y0": 520.3847058823529
+        },
+        "pos_normalized": {
+          "x0": 0.5482311369777593,
+          "y1": 0.717894126695723,
+          "x1": 0.5823570983163584,
+          "y0": 0.7043681536107215
+        },
+        "text": "$0.00",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 931.9929328621909,
+          "y1": 1593.0070671378091,
+          "x1": 990.0070671378093,
+          "y0": 1562.9929328621909
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_2_343",
+            "text": "$0.00",
+            "distance": 140821.56585063538,
+            "pos": {
+              "x0": 312.2988235294118,
+              "y1": 528.3776470588235,
+              "x1": 327.61411764705883,
+              "y0": 522.3847058823529
+            }
+          }
+        ]
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "0.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5e96c7aec6aa4034907a01fe3bb0eff0",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2225204,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 33,
+          "y1": 98,
+          "x1": 121,
+          "y0": 81
+        },
+        "pos_normalized": {
+          "x0": 0.0582010582010582,
+          "y1": 0.13274947631144984,
+          "x1": 0.21340388007054673,
+          "y0": 0.10972150593089221
+        },
+        "text": "1300 NW 92ND ST,",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 738.2326674500588
+          },
+          "document_index": 5,
+          "PageJpeg": "5ed83cfbb714ea146cecc74a",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b9ba515147f6de567",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 99.05820105820105,
+          "y1": 294.1728395061728,
+          "x1": 363.21340388007053,
+          "y0": 243.14285714285714
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_6_7",
+            "text": "1300",
+            "distance": 141321.949080639,
+            "pos": {
+              "x0": 43.974148061104586,
+              "y1": 88.61457109283197,
+              "x1": 59.9647473560517,
+              "y0": 82.61809635722679
+            }
+          },
+          {
+            "score": 79,
+            "id": "word_6_8",
+            "text": "NW",
+            "distance": 141310.52275558247,
+            "pos": {
+              "x0": 62.629847238542894,
+              "y1": 88.28143360752057,
+              "x1": 73.95652173913044,
+              "y0": 82.61809635722679
+            }
+          },
+          {
+            "score": 79,
+            "id": "word_6_9",
+            "text": "92ND",
+            "distance": 141298.39070062264,
+            "pos": {
+              "x0": 75.95534665099882,
+              "y1": 88.61457109283197,
+              "x1": 94.61104582843714,
+              "y0": 82.61809635722679
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_6_10",
+            "text": "ST,",
+            "distance": 141286.25960908932,
+            "pos": {
+              "x0": 97.27614571092832,
+              "y1": 89.61398354876616,
+              "x1": 106.60399529964748,
+              "y0": 82.61809635722679
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "edit_input": {
+        "text": "1300 NW 92ND ST"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ba4f6999aa10ebb421b78fe0e82ad6c1",
+      "DATAPOINT ORDER": "1",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1989526,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "1300 NW 92ND ST",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 5,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 329.47179788484135,
+          "y1": 498.04171562867214,
+          "x1": 365.78613396004704,
+          "y0": 477.0517038777908
+        },
+        "pos_normalized": {
+          "x0": 0.5810790086152405,
+          "y1": 0.6737284936173324,
+          "x1": 0.6451254567196597,
+          "y0": 0.6453341472118699
+        },
+        "text": "$716.88",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 988.9964726631392,
+          "y1": 1495.0035273368605,
+          "x1": 1098.0035273368608,
+          "y0": 1431.9964726631392
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 75,
+            "id": "word_1_184",
+            "text": "$716.88",
+            "distance": 140828.71128638517,
+            "pos": {
+              "x0": 331.47179788484135,
+              "y1": 496.04171562867214,
+              "x1": 363.78613396004704,
+              "y0": 479.0517038777908
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "716.88",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a69e2429d1404d90dc48bcca1e62aa54",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1863904,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "716.88",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 430.41245593419507,
+          "y1": 526.0252643948296,
+          "x1": 448.7373678025852,
+          "y0": 516.0287896592245
+        },
+        "pos_normalized": {
+          "x0": 0.759104860554136,
+          "y1": 0.7115833832072378,
+          "x1": 0.7914239291050885,
+          "y0": 0.6980606005692381
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1291.9964726631392,
+          "y1": 1579.0035273368605,
+          "x1": 1347.0035273368605,
+          "y0": 1548.9964726631392
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_195",
+            "text": "YES",
+            "distance": 140739.99855688776,
+            "pos": {
+              "x0": 432.41245593419507,
+              "y1": 524.0252643948296,
+              "x1": 446.7373678025852,
+              "y0": 518.0287896592245
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1870119,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "ef62955204d9021cd85a370c5fba1114",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 175.06248474121094,
+          "y1": 290.6979064941406,
+          "x1": 238.06248474121094,
+          "y0": 265.6979064941406
+        },
+        "pos_normalized": {
+          "x0": 0.30875217767409335,
+          "y1": 0.3932430888701533,
+          "x1": 0.41986328878520446,
+          "y0": 0.3594242102262784
+        },
+        "text": "SS 71.15",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 525.496206401307,
+          "y1": 872.60641420287,
+          "x1": 714.607317512418,
+          "y0": 797.5623224921117
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 71,
+            "id": "word_1_133",
+            "text": "SS",
+            "distance": 141095.35047522624,
+            "pos": {
+              "x0": 176.56286721504114,
+              "y1": 281.5011750881316,
+              "x1": 187.22326674500587,
+              "y0": 270.84077555816685
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_134",
+            "text": "71.15",
+            "distance": 141081.09294171113,
+            "pos": {
+              "x0": 188.55581668625146,
+              "y1": 280.5017626321974,
+              "x1": 215.20681551116334,
+              "y0": 272.17332549941244
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "571.15"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "93675ed59c4b27c5d6cc42902a1353b1",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1828198,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "571.15",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 174.22972972972974,
+          "y1": 238.86075205640424,
+          "x1": 215.20799059929496,
+          "y0": 226.19917743830788
+        },
+        "pos_normalized": {
+          "x0": 0.30728347395014066,
+          "y1": 0.32312011146320896,
+          "x1": 0.37955553897582883,
+          "y0": 0.3059921012452183
+        },
+        "text": "6.125%",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 522.9964726631393,
+          "y1": 717.0035273368607,
+          "x1": 646.0035273368607,
+          "y0": 678.9964726631393
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_120",
+            "text": "6.125%",
+            "distance": 141117.1269084058,
+            "pos": {
+              "x0": 176.22972972972974,
+              "y1": 236.86075205640424,
+              "x1": 213.20799059929496,
+              "y0": 228.19917743830788
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d56bca72f5033f7511055baf07416af9",
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1790248,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "6.125%",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 320.62,
+          "y1": 85.90117647058824,
+          "x1": 340.9341176470588,
+          "y0": 71.58
+        },
+        "pos_normalized": {
+          "x0": 0.5664664310954064,
+          "y1": 0.116271774284727,
+          "x1": 0.6023570983163583,
+          "y0": 0.09688730638224012
+        },
+        "text": "$0.00",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 962.9929328621909,
+          "y1": 258.0070671378092,
+          "x1": 1024.0070671378091,
+          "y0": 214.9929328621908
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_2_38",
+            "text": "$0.00",
+            "distance": 141129.77473653125,
+            "pos": {
+              "x0": 322.62,
+              "y1": 83.90117647058824,
+              "x1": 338.9341176470588,
+              "y0": 73.58
+            }
+          }
+        ]
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "0.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "bf249a942f116d4ef54bbb4030c0f118",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2016592,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "0.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 173.23031727379555,
+          "y1": 677.2696827262045,
+          "x1": 223.8695652173913,
+          "y0": 661.943008225617
+        },
+        "pos_normalized": {
+          "x0": 0.3055208417527258,
+          "y1": 0.9161800483717263,
+          "x1": 0.39483168468675717,
+          "y0": 0.8954468105737448
+        },
+        "text": "$2,203_29",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 519.9964726631393,
+          "y1": 2033.0035273368605,
+          "x1": 672.0035273368607,
+          "y0": 1986.9964726631395
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 66,
+            "id": "word_1_266",
+            "text": "$2,203_29",
+            "distance": 140805.74969212594,
+            "pos": {
+              "x0": 175.23031727379555,
+              "y1": 675.2696827262045,
+              "x1": 221.8695652173913,
+              "y0": 663.943008225617
+            }
+          }
+        ]
+      },
+      "label": "Cash From Borrower At Closing Amount",
+      "edit_input": {
+        "text": "2203.29"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c240cd8564988698c879cdfb6fa4a5bd",
+      "DATAPOINT ORDER": "4",
+      "ID": "df0f9de0-b502-331a-9910-2492d3df813d",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1885342,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "2203.29",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH FROM BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1591305619903,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 79.14218566392479,
+          "y1": 619.545240893067,
+          "x1": 111.74148061104582,
+          "y0": 609.5593419506463
+        },
+        "pos_normalized": {
+          "x0": 0.13982718315181059,
+          "y1": 0.8418500380820689,
+          "x1": 0.1974231106202223,
+          "y0": 0.8282810057498337
+        },
+        "text": "NOELLE",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 735.9330199764981
+          },
+          "document_index": 4,
+          "PageJpeg": "5ed83cfb94b1deee455dca54",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0070671378091873,
+          "PageOcr": "5ed83d1b61586f1aa9c8e9b1",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 237.98586572438163,
+          "y1": 1863.0141342756185,
+          "x1": 336.01413427561835,
+          "y0": 1832.9858657243817
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_5_526",
+            "text": "NOELLE",
+            "distance": 140917.67133057836,
+            "pos": {
+              "x0": 81.14218566392479,
+              "y1": 617.545240893067,
+              "x1": 109.74148061104582,
+              "y0": 611.5593419506463
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1e685443ab44dc0d6ae198b7e9f6dbbb",
+      "DATAPOINT ORDER": "2",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1935311,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "NOELLE",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "FileIndex": 4,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 112.59929494712104,
+          "y1": 113.60105757931845,
+          "x1": 148.91363102232668,
+          "y0": 103.60458284371327
+        },
+        "pos_normalized": {
+          "x0": 0.19858782177622758,
+          "y1": 0.15367441520363256,
+          "x1": 0.2626342698806467,
+          "y0": 0.14015163256563287
+        },
+        "text": "11/30/2018",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 337.99647266313934,
+          "y1": 341.00352733686066,
+          "x1": 447.0035273368607,
+          "y0": 310.9964726631393
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 24,
+            "id": "word_1_59",
+            "text": "11/30/2018",
+            "distance": 141249.9832133221,
+            "pos": {
+              "x0": 114.59929494712104,
+              "y1": 111.60105757931845,
+              "x1": 146.91363102232668,
+              "y0": 105.60458284371327
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1676239,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "11/30/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f4705a06d786b1285498e352c7087e61",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 445,
+          "y1": 117,
+          "x1": 494,
+          "y0": 103
+        },
+        "pos_normalized": {
+          "x0": 0.7848324514991182,
+          "y1": 0.15827235205333448,
+          "x1": 0.8712522045855379,
+          "y0": 0.13933378001276456
+        },
+        "text": "[X] conventional",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1335.7848324514991,
+          "y1": 351.2063492063492,
+          "x1": 1482.8712522045855,
+          "y0": 309.1816578483245
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 29,
+            "id": "word_1_66",
+            "text": "[X]",
+            "distance": 141024.98268113344,
+            "pos": {
+              "x0": 440.74089306698005,
+              "y1": 116.93125734430083,
+              "x1": 452.400705052879,
+              "y0": 105.60458284371327
+            }
+          },
+          {
+            "score": 55,
+            "id": "word_1_67",
+            "text": "conventional",
+            "distance": 141005.3441602384,
+            "pos": {
+              "x0": 453.4001175088132,
+              "y1": 115.26556991774383,
+              "x1": 492.71034077555817,
+              "y0": 109.93537015276146
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1723166,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "2fb1a96bedafd293234e2f169ffab67a",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 304.3058823529412,
+          "y1": 665.2188235294118,
+          "x1": 329.61411764705883,
+          "y0": 655.2258823529412
+        },
+        "pos_normalized": {
+          "x0": 0.5376429016836417,
+          "y1": 0.9004087729327668,
+          "x1": 0.5823570983163584,
+          "y0": 0.8868827998477652
+        },
+        "text": "-§71.50",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 913.9929328621909,
+          "y1": 1998.0070671378091,
+          "x1": 990.0070671378093,
+          "y0": 1967.9929328621909
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 21,
+            "id": "word_2_438",
+            "text": "-§71.50",
+            "distance": 140728.47196873755,
+            "pos": {
+              "x0": 306.3058823529412,
+              "y1": 663.2188235294118,
+              "x1": 327.61411764705883,
+              "y0": 657.2258823529412
+            }
+          }
+        ]
+      },
+      "label": "Lender Credits Borrower Paid At Closing",
+      "edit_input": {
+        "text": "-71.50"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "ded9f5da7041df796fdfebb0374264e4",
+      "DATAPOINT ORDER": "28",
+      "ID": "d219d9b6-42dc-3624-9d54-a9801f3226b0",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2271180,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "-71.50",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "LENDER CREDITS BORROWER PAID AT CLOSING"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "TEXT",
+      "selection_input": {
+        "pos": {
+          "x0": 441.7391304347826,
+          "y1": 89.61515863689777,
+          "x1": 452.40188014101057,
+          "y0": 80.28495887191539
+        },
+        "pos_normalized": {
+          "x0": 0.7790813587915038,
+          "y1": 0.1212273669837137,
+          "x1": 0.7978869138289428,
+          "y0": 0.10860589124071174
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 739.2320799059929
+          },
+          "document_index": 0,
+          "PageJpeg": "5ed83cfb6be1fc786e2b2d7c",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1a227a19626ff14222",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1325.9964726631395,
+          "y1": 269.0035273368607,
+          "x1": 1358.0035273368605,
+          "y0": 240.99647266313931
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 78,
+            "id": "word_1_46",
+            "text": "30",
+            "distance": 141043.27199942013,
+            "pos": {
+              "x0": 443.7391304347826,
+              "y1": 87.61515863689777,
+              "x1": 450.40188014101057,
+              "y0": 82.28495887191539
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a0c650644f1cccc47706ff6319f93779",
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1687518,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 106.93595769682726,
+          "y1": 90.28143360752057,
+          "x1": 151.24559341950646,
+          "y0": 80.61809635722679
+        },
+        "pos_normalized": {
+          "x0": 0.18859957265754368,
+          "y1": 0.12229401053107432,
+          "x1": 0.26674707834128125,
+          "y0": 0.10920418441477406
+        },
+        "text": "OKLAHOMA",
+        "page": {
+          "size": {
+            "width": 567,
+            "height": 738.2326674500588
+          },
+          "document_index": 5,
+          "PageJpeg": "5ed83cfbb714ea146cecc74a",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.001763668430335,
+          "PageOcr": "5ed83d1b9ba515147f6de567",
+          "file_index": 5
+        },
+        "pos_original": {
+          "x0": 320.9964726631393,
+          "y1": 271.00352733686066,
+          "x1": 454.00352733686066,
+          "y0": 241.99647266313931
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_6_11",
+            "text": "OKLAHOMA",
+            "distance": 141267.5352163553,
+            "pos": {
+              "x0": 108.93595769682726,
+              "y1": 88.28143360752057,
+              "x1": 149.24559341950646,
+              "y0": 82.61809635722679
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "556da67218ba03ef398ace0ad9d86f2a",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 1995311,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "OKLAHOMA",
+        "source": "selection"
+      },
+      "DocumentIndex": 5,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 5,
+      "manual_input": null,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1591305619903,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 316.62470588235294,
+          "y1": 409.1870588235294,
+          "x1": 344.9294117647059,
+          "y0": 399.1941176470588
+        },
+        "pos_normalized": {
+          "x0": 0.5594076075659946,
+          "y1": 0.5538562718061331,
+          "x1": 0.6094159218457701,
+          "y0": 0.5403302987211315
+        },
+        "text": "4853.47",
+        "page": {
+          "size": {
+            "width": 566,
+            "height": 738.7964705882353
+          },
+          "document_index": 1,
+          "PageJpeg": "5ed83cfbb18d867e44d6f086",
+          "DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+          "scale": 3.0035335689045937,
+          "PageOcr": "5ed83d1aa8a7b04cddcb4866",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 950.9929328621909,
+          "y1": 1229.0070671378091,
+          "x1": 1036.0070671378091,
+          "y0": 1198.9929328621909
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 29,
+            "id": "word_2_263",
+            "text": "4853.47",
+            "distance": 140899.54387252443,
+            "pos": {
+              "x0": 318.62470588235294,
+              "y1": 407.1870588235294,
+              "x1": 342.9294117647059,
+              "y0": 401.1941176470588
+            }
+          }
+        ]
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "4853.47"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "65187066c88b2ec40421c0f22e0b264e",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "workflow_time_elapsed": 2099758,
+      "Type": "ExtractionUI",
+      "UserName": "jyotiranjan.badajena@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4853.47",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "ef012300-b794-4502-aa64-69642e6efecb",
+      "ExtractionUI::DocumentId": "e5356687-b20e-4501-aa67-ead7046fc82f",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    }
+  ],
+  "Total": 40,
+  "IndexScannedCount": 40
+}

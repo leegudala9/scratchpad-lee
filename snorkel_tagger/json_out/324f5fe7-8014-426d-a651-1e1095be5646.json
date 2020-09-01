@@ -1,0 +1,3401 @@
+{
+  "Results": [
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 259.66666666666663,
+          "y1": 425.3333333333333,
+          "x1": 340,
+          "y0": 403.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.3054901960784313,
+          "y1": 0.38666666666666666,
+          "x1": 0.4,
+          "y0": 0.36696969696969695
+        },
+        "text": "$1,858.37",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 778.9999999999999,
+          "y1": 1276,
+          "x1": 1020,
+          "y0": 1211
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_1_130",
+            "text": "$1,858.37",
+            "distance": 140914.14829998836,
+            "pos": {
+              "x0": 261.66666666666663,
+              "y1": 423.3333333333333,
+              "x1": 338,
+              "y0": 405.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "1858.37",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "b5a2dfd3e4729d1bdc04da433b1f3bc2",
+      "DATAPOINT ORDER": "14",
+      "ID": "ac09049d-2998-3976-8ef2-644822e069ec",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 141078,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1858.37",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 673.3333333333333,
+          "y1": 153,
+          "x1": 703.6666666666666,
+          "y0": 139.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.792156862745098,
+          "y1": 0.1390909090909091,
+          "x1": 0.8278431372549019,
+          "y0": 0.12696969696969695
+        },
+        "text": "years",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 2019.9999999999998,
+          "y1": 459,
+          "x1": 2111,
+          "y0": 419
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_44",
+            "text": "years",
+            "distance": 140829.44041651156,
+            "pos": {
+              "x0": 675.3333333333333,
+              "y1": 151,
+              "x1": 701.6666666666666,
+              "y0": 141.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 85485,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YEARLY",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "control_input": {
+        "type": "text",
+        "value": "YEARLY",
+        "control": "radio"
+      },
+      "ObjectId": "c03704a6b4f706890c678f60915846f0",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "7",
+      "ID": "8f57e1c4-ff09-3f72-ac98-8bce5fb3c827",
+      "NAME": "LOAN AMORTIZATION PERIOD TYPE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 294.66666666666663,
+          "y1": 676,
+          "x1": 334.3333333333333,
+          "y0": 661.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.3466666666666666,
+          "y1": 0.6145454545454545,
+          "x1": 0.3933333333333333,
+          "y0": 0.6012121212121212
+        },
+        "text": "4/1/18)",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 883.9999999999999,
+          "y1": 2028,
+          "x1": 1003,
+          "y0": 1983.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 51,
+            "id": "word_2_220",
+            "text": "4/1/18)",
+            "distance": 140724.25393665364,
+            "pos": {
+              "x0": 296.66666666666663,
+              "y1": 674,
+              "x1": 332.3333333333333,
+              "y0": 663.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid Through Date",
+      "edit_input": {
+        "text": "04/01/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7d88ab3e9706d5f58759d2365e3de27a",
+      "DATAPOINT ORDER": "11",
+      "ID": "042e688a-3ebf-3c4f-bfca-55a2748db428",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 279476,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "04/01/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID THROUGH DATE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 467.3333333333333,
+          "y1": 1021,
+          "x1": 526,
+          "y0": 1006.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.5498039215686275,
+          "y1": 0.9281818181818182,
+          "x1": 0.6188235294117647,
+          "y0": 0.9151515151515152
+        },
+        "text": "$13,750.23",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1402,
+          "y1": 3063,
+          "x1": 1578,
+          "y0": 3020
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_310",
+            "text": "$13,750.23",
+            "distance": 140351.62653779812,
+            "pos": {
+              "x0": 469.3333333333333,
+              "y1": 1019,
+              "x1": 524,
+              "y0": 1008.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs",
+      "edit_input": {
+        "text": "13750.23",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f710b63c09916959e792071cac956a9b",
+      "DATAPOINT ORDER": "24",
+      "ID": "d9e64a87-7707-3586-86ad-3fc28de33e1e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 318930,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "13750.23",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589497302849,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 458.66666666666663,
+          "y1": 150.66666666666666,
+          "x1": 499.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.5396078431372549,
+          "y1": 0.13696969696969696,
+          "x1": 0.5874509803921568,
+          "y0": 0.12484848484848483
+        },
+        "text": "Biorato",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1376,
+          "y1": 452,
+          "x1": 1498,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_1_41",
+            "text": "Biorato",
+            "distance": 140978.90640269557,
+            "pos": {
+              "x0": 460.66666666666663,
+              "y1": 148.66666666666666,
+              "x1": 497.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fc8fcea6dcdd5a77af05c58f0ab4b13a",
+      "DATAPOINT ORDER": "3",
+      "ID": "fb75c9bc-3c8e-33ff-8c40-243bd7ea5b80",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 185910,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Biorato",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 685.4545288085938,
+          "y1": 802.0170288085938,
+          "x1": 772.4545288085938,
+          "y0": 781.0170288085938
+        },
+        "pos_normalized": {
+          "x0": 0.8064170927159926,
+          "y1": 0.7291063898259943,
+          "x1": 0.9087700338924632,
+          "y0": 0.7100154807350852
+        },
+        "text": "Debbie Smith",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fb1134c5a07a631e6576",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb33c72d07ff8d29eb9c",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2056.3635864257812,
+          "y1": 2406.0510864257812,
+          "x1": 2317.3635864257812,
+          "y0": 2343.0510864257812
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_526",
+            "text": "Debbie",
+            "distance": 14.044292718282042,
+            "pos": {
+              "x0": 685,
+              "y1": 791.3333333333333,
+              "x1": 721.6666666666666,
+              "y0": 782
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_5_527",
+            "text": "Smith",
+            "distance": 50.591161292088756,
+            "pos": {
+              "x0": 725.3333333333333,
+              "y1": 791.3333333333333,
+              "x1": 754.6666666666666,
+              "y0": 782
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 357139,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Debbie Smith",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "ObjectId": "18561da803a480f4429c89a366965fb3",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "6",
+      "ID": "2a4562d5-4198-3233-9c2d-f29631d183e4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 531.3333333333333,
+          "y1": 249.66666666666666,
+          "x1": 571,
+          "y0": 235.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.6250980392156862,
+          "y1": 0.22696969696969696,
+          "x1": 0.6717647058823529,
+          "y0": 0.21424242424242423
+        },
+        "text": "$750.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1593.9999999999998,
+          "y1": 749,
+          "x1": 1713,
+          "y0": 707
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_80",
+            "text": "$750.00",
+            "distance": 140858.078899078,
+            "pos": {
+              "x0": 533.3333333333333,
+              "y1": 247.66666666666666,
+              "x1": 569,
+              "y0": 237.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Appraisal Fee Borrower Paid Before Closing",
+      "edit_input": {
+        "text": "750.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "943c693fef7496b370abc75fb574896d",
+      "DATAPOINT ORDER": "10",
+      "ID": "c9c79e02-6ac9-3777-9372-bc18bcb32cb4",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 239772,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "750.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "APPRAISAL FEE BORROWER PAID BEFORE CLOSING"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 200,
+          "y1": 733,
+          "x1": 234,
+          "y0": 719
+        },
+        "pos_normalized": {
+          "x0": 0.23529411764705882,
+          "y1": 0.6663636363636364,
+          "x1": 0.2752941176470588,
+          "y0": 0.6536363636363637
+        },
+        "text": "$56.09",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 600,
+          "y1": 2199,
+          "x1": 702,
+          "y0": 2157
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 48,
+            "id": "word_2_238",
+            "text": "$56.09",
+            "distance": 140752.89339299567,
+            "pos": {
+              "x0": 202,
+              "y1": 731,
+              "x1": 232,
+              "y0": 721
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "56.09",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7c14fa20325909efd423538cd1b9718f",
+      "DATAPOINT ORDER": "15",
+      "ID": "7dcfcd32-9f28-34a8-8c6a-4fb5be237e0e",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 288194,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "56.09",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 253,
+          "y1": 1031,
+          "x1": 314,
+          "y0": 1009.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.29764705882352943,
+          "y1": 0.9372727272727273,
+          "x1": 0.36941176470588233,
+          "y0": 0.9178787878787878
+        },
+        "text": "-$75.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 759,
+          "y1": 3093,
+          "x1": 942,
+          "y0": 3029
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_274",
+            "text": "-$75.00",
+            "distance": 140498.25159657485,
+            "pos": {
+              "x0": 255,
+              "y1": 1029,
+              "x1": 312,
+              "y0": 1011.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Cash From Borrower At Closing Amount",
+      "edit_input": {
+        "text": "-75.00"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a3b267d0d18a4778196d167d3dbf638e",
+      "DATAPOINT ORDER": "4",
+      "ID": "df0f9de0-b502-331a-9910-2492d3df813d",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 174793,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "-75.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CASH FROM BORROWER AT CLOSING AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 416,
+          "y1": 516.3333333333333,
+          "x1": 441.66666666666663,
+          "y0": 500
+        },
+        "pos_normalized": {
+          "x0": 0.4894117647058824,
+          "y1": 0.4693939393939393,
+          "x1": 0.5196078431372548,
+          "y0": 0.45454545454545453
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1248,
+          "y1": 1548.9999999999998,
+          "x1": 1325,
+          "y0": 1500
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_158",
+            "text": "NO",
+            "distance": 140756.68704146487,
+            "pos": {
+              "x0": 418,
+              "y1": 514.3333333333333,
+              "x1": 439.66666666666663,
+              "y0": 502
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 145203,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "569cc57b7bc5ba24bca2914d592b8462",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "15",
+      "ID": "0da5d23d-63a8-3f28-9e04-2cacfff2d4bb",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "TEXT",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 658,
+          "y1": 150.33333333333331,
+          "x1": 674,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.7741176470588236,
+          "y1": 0.13666666666666666,
+          "x1": 0.7929411764705883,
+          "y0": 0.12484848484848483
+        },
+        "text": "30",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1974,
+          "y1": 450.99999999999994,
+          "x1": 2022,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 82,
+            "id": "word_1_43",
+            "text": "30",
+            "distance": 140847.08023725986,
+            "pos": {
+              "x0": 660,
+              "y1": 148.33333333333331,
+              "x1": 672,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Loan Amortization Period Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 79492,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "30",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "719a3445ddfb9b52a5ab092a4f3214b5",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "6",
+      "ID": "c979f2a0-7b00-3ab2-a4cc-4699ba985ad1",
+      "NAME": "LOAN AMORTIZATION PERIOD COUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 452,
+          "y1": 830,
+          "x1": 495.3333333333333,
+          "y0": 816.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.5317647058823529,
+          "y1": 0.7545454545454545,
+          "x1": 0.5827450980392157,
+          "y0": 0.7421212121212121
+        },
+        "text": "-$392.63",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1356,
+          "y1": 2490,
+          "x1": 1486,
+          "y0": 2449
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 82,
+            "id": "word_2_269",
+            "text": "-$392.63",
+            "distance": 140502.45261847053,
+            "pos": {
+              "x0": 454,
+              "y1": 828,
+              "x1": 493.3333333333333,
+              "y0": 818.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Escrow Aggregate Accounting Adjustment Amount",
+      "edit_input": {
+        "text": "-392.63"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1c7a99fc007ac894281484e874fb1960",
+      "DATAPOINT ORDER": "23",
+      "ID": "f0aeb412-ca0b-30d7-8c6d-7276a057c568",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 313093,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "-392.63",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ESCROW AGGREGATE ACCOUNTING ADJUSTMENT AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 300.3333333333333,
+          "y1": 759.6666666666666,
+          "x1": 309.3333333333333,
+          "y0": 747.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.35333333333333333,
+          "y1": 0.6906060606060606,
+          "x1": 0.36392156862745095,
+          "y0": 0.6793939393939393
+        },
+        "text": "8",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 901,
+          "y1": 2279,
+          "x1": 928,
+          "y0": 2242
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_2_259",
+            "text": "8",
+            "distance": 140671.23799286206,
+            "pos": {
+              "x0": 302.3333333333333,
+              "y1": 757.6666666666666,
+              "x1": 307.3333333333333,
+              "y0": 749.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 306772,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "8",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5801c1c8aa8362c14ec2af2f2c227e4b",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "21",
+      "ID": "8c9921ed-62f0-38c2-b6de-b669654c4533",
+      "NAME": "PROPERTY TAX ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 165.66666666666666,
+          "x1": 223.66666666666666,
+          "y0": 152.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.1506060606060606,
+          "x1": 0.26313725490196077,
+          "y0": 0.13848484848484846
+        },
+        "text": "3/19/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 497,
+          "x1": 671,
+          "y0": 456.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_47",
+            "text": "3/19/2018",
+            "distance": 141168.21443405736,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 163.66666666666666,
+              "x1": 221.66666666666666,
+              "y0": 154.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Closing Date",
+      "edit_input": {
+        "text": "03/19/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "938622f70f32ad62b8ec7b0124d4934d",
+      "DATAPOINT ORDER": "2",
+      "ID": "f726e94d-6ad1-3c94-8a1b-8c0fa7a06612",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 53164,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/19/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "CLOSING DATE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 404.3333333333333,
+          "y1": 181.33333333333331,
+          "x1": 422.66666666666663,
+          "y0": 168
+        },
+        "pos_normalized": {
+          "x0": 0.4756862745098039,
+          "y1": 0.16484848484848483,
+          "x1": 0.49725490196078426,
+          "y0": 0.15272727272727274
+        },
+        "text": "OR",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1213,
+          "y1": 544,
+          "x1": 1268,
+          "y0": 504
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_59",
+            "text": "OR",
+            "distance": 141003.43941323244,
+            "pos": {
+              "x0": 406.3333333333333,
+              "y1": 179.33333333333331,
+              "x1": 420.66666666666663,
+              "y0": 170
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 217166,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "OR",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "ObjectId": "77a3205dbef8b607d897caa1373f32fb",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "f5a1c5a0-0661-3eb7-8561-633f844ee5ba",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 364.4545593261719,
+          "y1": 166.28977966308594,
+          "x1": 474.4545593261719,
+          "y0": 150.28977966308594
+        },
+        "pos_normalized": {
+          "x0": 0.4287700697954963,
+          "y1": 0.15117252696644176,
+          "x1": 0.5581818345013787,
+          "y0": 0.1366270724209872
+        },
+        "text": "951 Red Hill Dr SE",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1093.3636779785156,
+          "y1": 498.8693389892578,
+          "x1": 1423.3636779785156,
+          "y0": 450.8693389892578
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_48",
+            "text": "951",
+            "distance": 141039.83851636466,
+            "pos": {
+              "x0": 369,
+              "y1": 164,
+              "x1": 385.66666666666663,
+              "y0": 154.66666666666666
+            }
+          },
+          {
+            "score": 90,
+            "id": "word_1_49",
+            "text": "Red",
+            "distance": 141023.47607648326,
+            "pos": {
+              "x0": 391.3333333333333,
+              "y1": 164,
+              "x1": 409.66666666666663,
+              "y0": 154.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_50",
+            "text": "Hill",
+            "distance": 141008.64589499074,
+            "pos": {
+              "x0": 414,
+              "y1": 163.66666666666666,
+              "x1": 429.3333333333333,
+              "y0": 154.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_51",
+            "text": "Dr",
+            "distance": 140996.0529995235,
+            "pos": {
+              "x0": 433.66666666666663,
+              "y1": 163.66666666666666,
+              "x1": 445.3333333333333,
+              "y0": 154.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_52",
+            "text": "SE",
+            "distance": 140985.69672468354,
+            "pos": {
+              "x0": 448.3333333333333,
+              "y1": 164,
+              "x1": 459.66666666666663,
+              "y0": 154.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 202950,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "951 Red Hill Dr SE",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "ObjectId": "8b7d9dcde622652508dbb4e170fa4b09",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "caae8c66-cd73-30ff-b19c-0c58e9dc67f8",
+      "NAME": "PROPERTY ADDRESS LINE 1"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 150.66666666666666,
+          "x1": 224.66666666666666,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.13696969696969696,
+          "x1": 0.26431372549019605,
+          "y0": 0.12484848484848483
+        },
+        "text": "3/26/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 452,
+          "x1": 674,
+          "y0": 411.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_37",
+            "text": "3/26/2018",
+            "distance": 141178.46993876225,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 148.66666666666666,
+              "x1": 222.66666666666666,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Date Issued",
+      "edit_input": {
+        "text": "03/26/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "6d564323d171c987194e0a5cc708224b",
+      "DATAPOINT ORDER": "1",
+      "ID": "4429bb9b-26b5-324f-aa06-f623eb625d8f",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 48889,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/26/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DATE ISSUED"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 194.33333333333331,
+          "y1": 760.6666666666666,
+          "x1": 234,
+          "y0": 746.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.22862745098039214,
+          "y1": 0.6915151515151515,
+          "x1": 0.2752941176470588,
+          "y0": 0.6787878787878787
+        },
+        "text": "$216.16",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 583,
+          "y1": 2282,
+          "x1": 702,
+          "y0": 2240
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_255",
+            "text": "$216.16",
+            "distance": 140735.39043943028,
+            "pos": {
+              "x0": 196.33333333333331,
+              "y1": 758.6666666666666,
+              "x1": 232,
+              "y0": 748.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Tax Escrow Monthly Payment Amount",
+      "edit_input": {
+        "text": "216.16",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0fead469289010e2bb25698c9d1b22ca",
+      "DATAPOINT ORDER": "20",
+      "ID": "3620d405-85e5-3565-a0e3-6fe0a7eac86b",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 303481,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "216.16",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PROPERTY TAX ESCROW MONTHLY PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 259.3333333333333,
+          "y1": 365.66666666666663,
+          "x1": 306.3333333333333,
+          "y0": 347.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.30509803921568623,
+          "y1": 0.3324242424242424,
+          "x1": 0.36039215686274506,
+          "y0": 0.31575757575757574
+        },
+        "text": "4750",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 778,
+          "y1": 1097,
+          "x1": 919,
+          "y0": 1042
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 55,
+            "id": "word_1_123",
+            "text": "4750",
+            "distance": 140967.16760571513,
+            "pos": {
+              "x0": 261.3333333333333,
+              "y1": 363.66666666666663,
+              "x1": 304.3333333333333,
+              "y0": 349.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Interest Rate",
+      "edit_input": {
+        "text": "4.750%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fc62890d55f0febecdf588e2e14b8212",
+      "DATAPOINT ORDER": "13",
+      "ID": "d139411e-8d5d-30c7-af5c-a41008e455b3",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 126435,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4.750%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "INTEREST RATE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 658.3333333333333,
+          "y1": 166.66666666666666,
+          "x1": 708.3333333333333,
+          "y0": 153.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7745098039215685,
+          "y1": 0.15151515151515152,
+          "x1": 0.8333333333333333,
+          "y0": 0.13969696969696968
+        },
+        "text": "Pyrchase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1974.9999999999998,
+          "y1": 500,
+          "x1": 2125,
+          "y0": 461
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 60,
+            "id": "word_1_54",
+            "text": "Pyrchase",
+            "distance": 140823.27624652666,
+            "pos": {
+              "x0": 660.3333333333333,
+              "y1": 164.66666666666666,
+              "x1": 706.3333333333333,
+              "y0": 155.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "edit_input": null,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c7e228c6167285baa8a6ac0819435f3b",
+      "DATAPOINT ORDER": "8",
+      "ID": "3458a5f9-2799-33dd-994c-97420e511fad",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 101942,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "PURCHASE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "control_input": {
+        "type": "text",
+        "value": "PURCHASE",
+        "control": "radio"
+      },
+      "FileIndex": 0,
+      "manual_input": null,
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 659.3333333333333,
+          "y1": 812,
+          "x1": 686,
+          "y0": 797.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7756862745098039,
+          "y1": 0.7381818181818182,
+          "x1": 0.8070588235294117,
+          "y0": 0.7251515151515151
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1977.9999999999998,
+          "y1": 2436,
+          "x1": 2058,
+          "y0": 2393
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_203",
+            "text": "YES",
+            "distance": 140374.5157574511,
+            "pos": {
+              "x0": 661.3333333333333,
+              "y1": 810,
+              "x1": 684,
+              "y0": 799.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 159914,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "1011f00f92983238e3544d70719cf53a",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "1",
+      "ID": "36401203-a379-367d-86ce-787bcf7de9e8",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 666.4545288085938,
+          "y1": 209.1079559326172,
+          "x1": 730.4545288085938,
+          "y0": 194.1079559326172
+        },
+        "pos_normalized": {
+          "x0": 0.784064151539522,
+          "y1": 0.19009814175692472,
+          "x1": 0.8593582691865809,
+          "y0": 0.17646177812056107
+        },
+        "text": "[X]Conventional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1999.3635864257812,
+          "y1": 627.3238677978516,
+          "x1": 2191.3635864257812,
+          "y0": 582.3238677978516
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 53,
+            "id": "word_1_83",
+            "text": "[X]Conventional",
+            "distance": 140775.9819516257,
+            "pos": {
+              "x0": 667,
+              "y1": 208.33333333333331,
+              "x1": 746.6666666666666,
+              "y0": 198.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 109645,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "93d5ffce5a45f4b0656d6940fb233569",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "11",
+      "ID": "292ec7a0-7d5c-37b8-84a1-5dd1b29169a4",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 455.66666666666663,
+          "y1": 647,
+          "x1": 495.3333333333333,
+          "y0": 633
+        },
+        "pos_normalized": {
+          "x0": 0.536078431372549,
+          "y1": 0.5881818181818181,
+          "x1": 0.5827450980392157,
+          "y0": 0.5754545454545454
+        },
+        "text": "$673.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1367,
+          "y1": 1941,
+          "x1": 1486,
+          "y0": 1899
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_203",
+            "text": "$673.00",
+            "distance": 140630.50540778838,
+            "pos": {
+              "x0": 457.66666666666663,
+              "y1": 645,
+              "x1": 493.3333333333333,
+              "y0": 635
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Prepaid Item Actual Total Amount",
+      "edit_input": {
+        "text": "673.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7d7e2c54eabc8d7c048249e07deac1d7",
+      "DATAPOINT ORDER": "4",
+      "ID": "5234449a-1671-3214-ba16-9ad299691f0f",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 267093,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "673.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "control_input": null,
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "HOMEOWNERS INSURANCE PREPAID ITEM ACTUAL TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 682.6666666666666,
+          "y1": 729.3333333333333,
+          "x1": 720,
+          "y0": 714.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.8031372549019608,
+          "y1": 0.663030303030303,
+          "x1": 0.8470588235294118,
+          "y0": 0.6496969696969697
+        },
+        "text": "Salem,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fb1134c5a07a631e6576",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb33c72d07ff8d29eb9c",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2048,
+          "y1": 2188,
+          "x1": 2160,
+          "y0": 2144
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_5_515",
+            "text": "Salem,",
+            "distance": 63.63556307593665,
+            "pos": {
+              "x0": 684.6666666666666,
+              "y1": 727.3333333333333,
+              "x1": 718,
+              "y0": 716.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "Salem"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "80d05e6be15a8f30d800f599dc564656",
+      "DATAPOINT ORDER": "5",
+      "ID": "2ca78128-5ef3-3e2d-9b77-bf9c66948271",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 351405,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Salem",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 260,
+          "y1": 331.3333333333333,
+          "x1": 336.3333333333333,
+          "y0": 307
+        },
+        "pos_normalized": {
+          "x0": 0.3058823529411765,
+          "y1": 0.3012121212121212,
+          "x1": 0.3956862745098039,
+          "y0": 0.2790909090909091
+        },
+        "text": "$356,250",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 780,
+          "y1": 994,
+          "x1": 1009,
+          "y0": 921
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_119",
+            "text": "$356,250",
+            "distance": 140982.7151127242,
+            "pos": {
+              "x0": 262,
+              "y1": 329.3333333333333,
+              "x1": 334.3333333333333,
+              "y0": 309
+            }
+          }
+        ]
+      },
+      "label": "Loan Amount",
+      "edit_input": {
+        "text": "356250",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "148046ae626658e7b716599ff5145064",
+      "DATAPOINT ORDER": "12",
+      "ID": "5179affa-0b59-3794-bb3a-06c749a83c82",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 115109,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "356250",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "LOAN AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 244.33333333333331,
+          "y1": 673.6666666666666,
+          "x1": 284,
+          "y0": 661.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.28745098039215683,
+          "y1": 0.6124242424242424,
+          "x1": 0.3341176470588235,
+          "y0": 0.6012121212121212
+        },
+        "text": "3/19/18",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 733,
+          "y1": 2021,
+          "x1": 852,
+          "y0": 1983.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_2_218",
+            "text": "3/19/18",
+            "distance": 140760.73602551402,
+            "pos": {
+              "x0": 246.33333333333331,
+              "y1": 671.6666666666666,
+              "x1": 282,
+              "y0": 663.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepaid Interest Prepaid Item Paid From Date",
+      "edit_input": {
+        "text": "03/19/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "85345fe898791ef5a75b388fd7183b9d",
+      "DATAPOINT ORDER": "10",
+      "ID": "78640e69-866a-39bf-a5d6-80e73c2a7811",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 274271,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/19/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAID INTEREST PREPAID ITEM PAID FROM DATE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 366.4545593261719,
+          "y1": 249.1079559326172,
+          "x1": 530.4545288085938,
+          "y0": 228.1079559326172
+        },
+        "pos_normalized": {
+          "x0": 0.4311230109719669,
+          "y1": 0.2264617781205611,
+          "x1": 0.6240641515395221,
+          "y0": 0.207370869029652
+        },
+        "text": "Pacific Residential Mortgage",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1099.3636779785156,
+          "y1": 747.3238677978516,
+          "x1": 1591.3635864257812,
+          "y0": 684.3238677978516
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 57,
+            "id": "word_1_100",
+            "text": "Pacific",
+            "distance": 140979.3362818545,
+            "pos": {
+              "x0": 369.66666666666663,
+              "y1": 241,
+              "x1": 402,
+              "y0": 231.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_101",
+            "text": "Residential",
+            "distance": 140945.66017805506,
+            "pos": {
+              "x0": 405.66666666666663,
+              "y1": 241,
+              "x1": 461.3333333333333,
+              "y0": 231.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_1_102",
+            "text": "Mortgage",
+            "distance": 140904.45704694526,
+            "pos": {
+              "x0": 465.66666666666663,
+              "y1": 243.33333333333331,
+              "x1": 515.6666666666666,
+              "y0": 231.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 74808,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "Pacific Residential Mortgage",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "ObjectId": "46a45d4a9b46afe71bff6c2cdfb0da57",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "5",
+      "ID": "87c97e28-cdf5-3f51-a0e1-c63176c23dac",
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 683.4545288085938,
+          "y1": 678.1079711914062,
+          "x1": 791.4545288085938,
+          "y0": 654.1079711914062
+        },
+        "pos_normalized": {
+          "x0": 0.804064151539522,
+          "y1": 0.6164617919921875,
+          "x1": 0.9311229750689338,
+          "y0": 0.5946436101740057
+        },
+        "text": "First American Title",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fb1134c5a07a631e6576",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb33c72d07ff8d29eb9c",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 2050.3635864257812,
+          "y1": 2034.3239135742188,
+          "x1": 2374.3635864257812,
+          "y0": 1962.3239135742188
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_5_488",
+            "text": "First",
+            "distance": 125.83712474896157,
+            "pos": {
+              "x0": 685,
+              "y1": 663.3333333333333,
+              "x1": 706.3333333333333,
+              "y0": 654.3333333333333
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_5_489",
+            "text": "American",
+            "distance": 133.28867018378963,
+            "pos": {
+              "x0": 709.3333333333333,
+              "y1": 663.3333333333333,
+              "x1": 758.3333333333333,
+              "y0": 654.3333333333333
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_5_490",
+            "text": "Title",
+            "distance": 150.8727064056489,
+            "pos": {
+              "x0": 761.6666666666666,
+              "y1": 663.3333333333333,
+              "x1": 783.6666666666666,
+              "y0": 654
+            }
+          }
+        ]
+      },
+      "label": "Closing Agency Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 336059,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "First American Title",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "ObjectId": "5df3cc7cac98f7b9d3ef283efcd32e36",
+      "FileIndex": 4,
+      "DATAPOINT ORDER": "3",
+      "ID": "af53ab0c-59ba-3450-ad68-ee8cfe70ce81",
+      "NAME": "CLOSING AGENCY FULL NAME"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 467.3333333333333,
+          "y1": 518.3333333333333,
+          "x1": 526,
+          "y0": 503.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.5498039215686275,
+          "y1": 0.47121212121212114,
+          "x1": 0.6188235294117647,
+          "y0": 0.45787878787878783
+        },
+        "text": "$10,802.63",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1402,
+          "y1": 1554.9999999999998,
+          "x1": 1578,
+          "y0": 1511
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_162",
+            "text": "$10,802.63",
+            "distance": 140706.70734881278,
+            "pos": {
+              "x0": 469.3333333333333,
+              "y1": 516.3333333333333,
+              "x1": 524,
+              "y0": 505.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "10802.63",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7bff603fe09031796f4203e7da903965",
+      "DATAPOINT ORDER": "14",
+      "ID": "9bc4357c-9ba4-35a6-8921-8e290090fc5e",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 247700,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "10802.63",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 265.3333333333333,
+          "x1": 218.66666666666666,
+          "y0": 250.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.24121212121212118,
+          "x1": 0.2572549019607843,
+          "y0": 0.22757575757575757
+        },
+        "text": "$375,000",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 796,
+          "x1": 656,
+          "y0": 751
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_107",
+            "text": "$375,000",
+            "distance": 141100.10138944307,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 263.3333333333333,
+              "x1": 216.66666666666666,
+              "y0": 252.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "375000",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "42e77254b8661b92980bb59c7ef211fe",
+      "DATAPOINT ORDER": "4",
+      "ID": "e113b170-952e-300d-8242-7b3d868bc717",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 70245,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "375000",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 367,
+          "y1": 182.33333333333331,
+          "x1": 404.3333333333333,
+          "y0": 168
+        },
+        "pos_normalized": {
+          "x0": 0.43176470588235294,
+          "y1": 0.16575757575757574,
+          "x1": 0.4756862745098039,
+          "y0": 0.15272727272727274
+        },
+        "text": "Salem,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1101,
+          "y1": 547,
+          "x1": 1213,
+          "y0": 504
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_58",
+            "text": "Salem,",
+            "distance": 141022.74441547442,
+            "pos": {
+              "x0": 369,
+              "y1": 180.33333333333331,
+              "x1": 402.3333333333333,
+              "y0": 170
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": {
+        "text": "Salem"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "63da0282f2b8917607dff2e1a0b67ae9",
+      "DATAPOINT ORDER": "3",
+      "ID": "5d45436e-35fb-3a38-a5c0-88143352168e",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 209424,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Salem",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589497302849,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 408,
+          "y1": 150.66666666666666,
+          "x1": 459.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.48,
+          "y1": 0.13696969696969696,
+          "x1": 0.5403921568627451,
+          "y0": 0.12484848484848483
+        },
+        "text": "Gonzalez",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1224,
+          "y1": 452,
+          "x1": 1378,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_1_40",
+            "text": "Gonzalez",
+            "distance": 141010.91165914942,
+            "pos": {
+              "x0": 410,
+              "y1": 148.66666666666666,
+              "x1": 457.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower Middle Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "2131a1260fddac744a16def75a4bc83d",
+      "DATAPOINT ORDER": "2",
+      "ID": "e79e63b1-b01a-3e6c-9bca-e3d05f69f81a",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 183711,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Gonzalez",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "NAME": "BORROWER MIDDLE NAME"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 482.4545593261719,
+          "y1": 764.7443237304688,
+          "x1": 575.4545288085938,
+          "y0": 742.7443237304688
+        },
+        "pos_normalized": {
+          "x0": 0.567593599207261,
+          "y1": 0.6952221124822443,
+          "x1": 0.6770053280101103,
+          "y0": 0.6752221124822443
+        },
+        "text": "$2’1 30.62",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1447.3636779785156,
+          "y1": 2294.2329711914062,
+          "x1": 1726.3635864257812,
+          "y0": 2228.2329711914062
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 70,
+            "id": "word_1_190",
+            "text": "$2’1",
+            "distance": 140534.7585008381,
+            "pos": {
+              "x0": 483.66666666666663,
+              "y1": 761,
+              "x1": 514,
+              "y0": 743.3333333333333
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_1_191",
+            "text": "30.62",
+            "distance": 140506.55851131806,
+            "pos": {
+              "x0": 518,
+              "y1": 759,
+              "x1": 560,
+              "y0": 744.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "2130.62",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "5254703c316ec4149b31b47a8859e2b9",
+      "DATAPOINT ORDER": "18",
+      "ID": "0dbe6e5a-1e2b-3931-aa7f-ca953308f661",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 152941,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "2130.62",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 422.3333333333333,
+          "y1": 181.33333333333331,
+          "x1": 457.3333333333333,
+          "y0": 168
+        },
+        "pos_normalized": {
+          "x0": 0.4968627450980392,
+          "y1": 0.16484848484848483,
+          "x1": 0.5380392156862744,
+          "y0": 0.15272727272727274
+        },
+        "text": "97302",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1267,
+          "y1": 544,
+          "x1": 1372,
+          "y0": 504
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_1_60",
+            "text": "97302",
+            "distance": 140984.84248246532,
+            "pos": {
+              "x0": 424.3333333333333,
+              "y1": 179.33333333333331,
+              "x1": 455.3333333333333,
+              "y0": 170
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 213998,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "97302",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "ObjectId": "726269abb313fcd61c318983b248b41c",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "4",
+      "ID": "40011092-2d55-3fc5-94e8-afc9e76b6f6d",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 435.66666666666663,
+          "y1": 170.33333333333331,
+          "x1": 451,
+          "y0": 155.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.512549019607843,
+          "y1": 0.15484848484848482,
+          "x1": 0.5305882352941177,
+          "y0": 0.1412121212121212
+        },
+        "text": "[X]",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 3,
+          "PageJpeg": "5eb2fb1171fc9ada8b92b4e4",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32708c91047d52e4ca",
+          "file_index": 3
+        },
+        "pos_original": {
+          "x0": 1307,
+          "y1": 510.99999999999994,
+          "x1": 1353,
+          "y0": 465.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 76,
+            "id": "word_4_361",
+            "text": "[X]",
+            "distance": 140990.74986964767,
+            "pos": {
+              "x0": 437.66666666666663,
+              "y1": 168.33333333333331,
+              "x1": 449,
+              "y0": 157.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Escrow Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 328674,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 3,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "81b5b83c5323534efd14e67218772428",
+      "FileIndex": 3,
+      "DATAPOINT ORDER": "1",
+      "ID": "0a282018-cd94-358b-acd5-ed66b4332892",
+      "NAME": "ESCROW INDICATOR"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 470.3333333333333,
+          "y1": 632.3333333333333,
+          "x1": 522.6666666666666,
+          "y0": 617.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.5533333333333333,
+          "y1": 0.5748484848484848,
+          "x1": 0.6149019607843137,
+          "y0": 0.5612121212121212
+        },
+        "text": "$1,275.68",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1411,
+          "y1": 1896.9999999999998,
+          "x1": 1568,
+          "y0": 1851.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_193",
+            "text": "$1,275.68",
+            "distance": 140626.3617917273,
+            "pos": {
+              "x0": 472.3333333333333,
+              "y1": 630.3333333333333,
+              "x1": 520.6666666666666,
+              "y0": 619.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Prepaids Borrower Paid",
+      "edit_input": {
+        "text": "1275.68",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "7987df77239808a2891da10f7df086a3",
+      "DATAPOINT ORDER": "1",
+      "ID": "b2c2ac74-9ed8-3522-b0c7-45fc5c614ad1",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 253340,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1275.68",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "PREPAIDS BORROWER PAID"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 659.3333333333333,
+          "y1": 831.3333333333333,
+          "x1": 686,
+          "y0": 817
+        },
+        "pos_normalized": {
+          "x0": 0.7756862745098039,
+          "y1": 0.7557575757575757,
+          "x1": 0.8070588235294117,
+          "y0": 0.7427272727272727
+        },
+        "text": "YES",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1977.9999999999998,
+          "y1": 2494,
+          "x1": 2058,
+          "y0": 2451
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 93,
+            "id": "word_1_210",
+            "text": "YES",
+            "distance": 140360.8547974549,
+            "pos": {
+              "x0": 661.3333333333333,
+              "y1": 829.3333333333333,
+              "x1": 684,
+              "y0": 819
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 165834,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "control_input": {
+        "type": "text",
+        "value": "ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "af3d06278063737de3db026f9a88004f",
+      "FileIndex": 0,
+      "DATAPOINT ORDER": "2",
+      "ID": "b3f740ed-8704-3d01-9a53-7b68cc6f7b60",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "DATE",
+      "selection_input": {
+        "pos": {
+          "x0": 168.33333333333331,
+          "y1": 181.33333333333331,
+          "x1": 224.66666666666666,
+          "y0": 168
+        },
+        "pos_normalized": {
+          "x0": 0.1980392156862745,
+          "y1": 0.16484848484848483,
+          "x1": 0.26431372549019605,
+          "y0": 0.15272727272727274
+        },
+        "text": "3/19/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 504.99999999999994,
+          "y1": 544,
+          "x1": 674,
+          "y0": 504
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_1_57",
+            "text": "3/19/2018",
+            "distance": 141156.7812942797,
+            "pos": {
+              "x0": 170.33333333333331,
+              "y1": 179.33333333333331,
+              "x1": 222.66666666666666,
+              "y0": 170
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "edit_input": {
+        "text": "03/19/2018",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c7e45dd4de00ab5686049e7382a42479",
+      "DATAPOINT ORDER": "3",
+      "ID": "c19de7e5-c701-355d-83f5-9ba4c0f408c1",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 66956,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "03/19/2018",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "manual_input": true,
+      "NAME": "DISBURSEMENT DATE"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "NUMBER",
+      "GROUP NAME": "Group6",
+      "selection_input": {
+        "pos": {
+          "x0": 300.3333333333333,
+          "y1": 732,
+          "x1": 309.3333333333333,
+          "y0": 719.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.35333333333333333,
+          "y1": 0.6654545454545454,
+          "x1": 0.36392156862745095,
+          "y0": 0.6542424242424242
+        },
+        "text": "3",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 901,
+          "y1": 2196,
+          "x1": 928,
+          "y0": 2159
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_2_242",
+            "text": "3",
+            "distance": 140690.75847601207,
+            "pos": {
+              "x0": 302.3333333333333,
+              "y1": 730,
+              "x1": 307.3333333333333,
+              "y0": 721.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Escrow Collected Number Of Months Count",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 291773,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "3",
+        "source": "selection"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "d6aa7cfe2bde979a3967a44d0334f5a2",
+      "FileIndex": 1,
+      "DATAPOINT ORDER": "16",
+      "ID": "8558b5f4-fe1e-3399-921f-2c63e018db83",
+      "NAME": "HOMEOWNERS INSURANCE ESCROW COLLECTED NUMBER OF MONTHS COUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1589497302849,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 367.3333333333333,
+          "y1": 150.66666666666666,
+          "x1": 408.3333333333333,
+          "y0": 137.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.432156862745098,
+          "y1": 0.13696969696969696,
+          "x1": 0.48039215686274506,
+          "y0": 0.12484848484848483
+        },
+        "text": "Patricia",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5eb2fb11da78e05923f9eba7",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32798086d0a542f518",
+          "file_index": 0
+        },
+        "pos_original": {
+          "x0": 1102,
+          "y1": 452,
+          "x1": 1225,
+          "y0": 411.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_1_39",
+            "text": "Patricia",
+            "distance": 141043.27734432358,
+            "pos": {
+              "x0": 369.3333333333333,
+              "y1": 148.66666666666666,
+              "x1": 406.3333333333333,
+              "y0": 139.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "72453a3c9291da7829b057a6a6b0d6e2",
+      "DATAPOINT ORDER": "1",
+      "ID": "9f4cd35c-1891-38ff-87fb-cd828028b215",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 180567,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Patricia",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 0,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 470.3333333333333,
+          "y1": 107.33333333333333,
+          "x1": 523,
+          "y0": 92.33333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.5533333333333333,
+          "y1": 0.09757575757575757,
+          "x1": 0.6152941176470588,
+          "y0": 0.08393939393939394
+        },
+        "text": "$1,663.25",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5eb2fb11530504f6d76db139",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb32d56c7072ac617230",
+          "file_index": 1
+        },
+        "pos_original": {
+          "x0": 1411,
+          "y1": 322,
+          "x1": 1569,
+          "y0": 277
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_2_42",
+            "text": "$1,663.25",
+            "distance": 140997.7249407671,
+            "pos": {
+              "x0": 472.3333333333333,
+              "y1": 105.33333333333333,
+              "x1": 521,
+              "y0": 94.33333333333333
+            }
+          }
+        ]
+      },
+      "label": "Origination Charges Borrower Paid",
+      "edit_input": {
+        "text": "1663.25",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "a94aebd7172bb69f7257a3a3fa9aab51",
+      "DATAPOINT ORDER": "1",
+      "ID": "39d5a7ea-0024-372c-aea9-d6518b993862",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 228148,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1663.25",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 1,
+      "manual_input": true,
+      "NAME": "ORIGINATION CHARGES BORROWER PAID"
+    },
+    {
+      "ts": 1589497302849,
+      "ENTITY TYPE": "PERCENT",
+      "selection_input": {
+        "pos": {
+          "x0": 372.66666666666663,
+          "y1": 270,
+          "x1": 404.3333333333333,
+          "y0": 256.66666666666663
+        },
+        "pos_normalized": {
+          "x0": 0.43843137254901954,
+          "y1": 0.24545454545454545,
+          "x1": 0.4756862745098039,
+          "y0": 0.2333333333333333
+        },
+        "text": "4977",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5eb2fb1134c5a07a631e6576",
+          "DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+          "scale": 3,
+          "PageOcr": "5eb2fb33c72d07ff8d29eb9c",
+          "file_index": 4
+        },
+        "pos_original": {
+          "x0": 1118,
+          "y1": 810,
+          "x1": 1213,
+          "y0": 769.9999999999999
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 12,
+            "id": "word_5_74",
+            "text": "4977",
+            "distance": 601.83558621907,
+            "pos": {
+              "x0": 374.66666666666663,
+              "y1": 268,
+              "x1": 402.3333333333333,
+              "y0": 258.66666666666663
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "edit_input": {
+        "text": "4.977%"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "0b8114919420c5bdfeba0e3197e3f326",
+      "DATAPOINT ORDER": "4",
+      "ID": "e4ce51e4-0c9e-36b9-855c-cd523ff60da5",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "workflow_time_elapsed": 346111,
+      "Type": "ExtractionUI",
+      "UserName": "saumendu.roy@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "4.977%",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "e74b10dc-7f0b-44f4-8954-c82b169eb21e",
+      "ExtractionUI::DocumentId": "324f5fe7-8014-426d-a651-1e1095be5646",
+      "FileIndex": 4,
+      "manual_input": true,
+      "NAME": "APR PERCENT"
+    }
+  ],
+  "Total": 42,
+  "IndexScannedCount": 42
+}

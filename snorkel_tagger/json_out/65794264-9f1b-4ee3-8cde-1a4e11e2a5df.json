@@ -1,0 +1,2054 @@
+{
+  "Results": [
+    {
+      "ts": 1584740931278,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 610.6666666666666,
+          "y1": 724.3333333333333,
+          "x1": 713.6666666666666,
+          "y0": 712.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.7184313725490196,
+          "y1": 0.6584848484848485,
+          "x1": 0.8396078431372549,
+          "y0": 0.6475757575757575
+        },
+        "text": "Jean Schaeufele",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5e7399c92fec1860f696fcfa",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b85a913e8fa3bcb8130",
+          "file_index": 96
+        },
+        "pos_original": {
+          "x0": 1832,
+          "y1": 2173,
+          "x1": 2141,
+          "y0": 2137
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 92,
+            "id": "word_97_392",
+            "text": "Jean",
+            "distance": 14.7159432926916,
+            "pos": {
+              "x0": 612.6666666666666,
+              "y1": 722.3333333333333,
+              "x1": 635.6666666666666,
+              "y0": 714.3333333333333
+            }
+          },
+          {
+            "score": 87,
+            "id": "word_97_393",
+            "text": "Schaeufele",
+            "distance": 28.62004580118065,
+            "pos": {
+              "x0": 640,
+              "y1": 722.3333333333333,
+              "x1": 694.6666666666666,
+              "y0": 714
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1527348,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Jean Schaeufele",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "ObjectId": "17fe245abbb9965de0d6aaa05759953a",
+      "FileIndex": 96,
+      "DATAPOINT ORDER": "4",
+      "ID": "aa0b3afb-6c23-37e2-a1ab-2d7dec2332a4",
+      "NAME": "CLOSING AGENT FULL NAME"
+    },
+    {
+      "ts": 1584740931278,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 611,
+          "y1": 668,
+          "x1": 653,
+          "y0": 654.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.7188235294117648,
+          "y1": 0.6072727272727273,
+          "x1": 0.768235294117647,
+          "y0": 0.5948484848484847
+        },
+        "text": "Omaha,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5e7399c92fec1860f696fcfa",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b85a913e8fa3bcb8130",
+          "file_index": 96
+        },
+        "pos_original": {
+          "x0": 1833,
+          "y1": 2004,
+          "x1": 1959,
+          "y0": 1962.9999999999998
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_97_379",
+            "text": "Omaha,",
+            "distance": 59.30867852220766,
+            "pos": {
+              "x0": 613,
+              "y1": 666,
+              "x1": 651,
+              "y0": 656.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Closing Agent City Name",
+      "edit_input": {
+        "text": "Omaha"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "1aae28e630e438e1c11634af0d40f387",
+      "DATAPOINT ORDER": "3",
+      "ID": "69798617-09f4-3c55-a95e-68e01f4cd400",
+      "GROUP NAME": "Group7",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1514289,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Omaha",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 96,
+      "manual_input": true,
+      "NAME": "CLOSING AGENT CITY NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1584740931277,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 372.3333333333333,
+          "y1": 145,
+          "x1": 417.3333333333333,
+          "y0": 130.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.43803921568627446,
+          "y1": 0.1318181818181818,
+          "x1": 0.49098039215686273,
+          "y0": 0.11878787878787878
+        },
+        "text": "KassyJo",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 1117,
+          "y1": 435,
+          "x1": 1252,
+          "y0": 392
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_93_46",
+            "text": "KassyJo",
+            "distance": 141042.69977760478,
+            "pos": {
+              "x0": 374.3333333333333,
+              "y1": 143,
+              "x1": 415.3333333333333,
+              "y0": 132.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower First Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c86e6836ac3f1ba15094583b024f34c1",
+      "DATAPOINT ORDER": "1",
+      "ID": "74b2a783-eb94-31ee-863a-90627cbfbee2",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1332674,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "KassyJo",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 92,
+      "NAME": "BORROWER FIRST NAME"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1584740931277,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 417.66666666666663,
+          "y1": 142.66666666666666,
+          "x1": 452,
+          "y0": 130.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.4913725490196078,
+          "y1": 0.1296969696969697,
+          "x1": 0.5317647058823529,
+          "y0": 0.11878787878787878
+        },
+        "text": "Novak",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 1253,
+          "y1": 428,
+          "x1": 1356,
+          "y0": 392
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_93_47",
+            "text": "Novak",
+            "distance": 141015.28100459737,
+            "pos": {
+              "x0": 419.66666666666663,
+              "y1": 140.66666666666666,
+              "x1": 450,
+              "y0": 132.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower Last Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "72fd4b31d2e08a7d67ca98fb68d3a086",
+      "DATAPOINT ORDER": "3",
+      "ID": "5f21335d-fb6f-3ad9-a0bb-014185d7d6ea",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1341409,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "Novak",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 92,
+      "NAME": "BORROWER LAST NAME"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 257.3333333333333,
+          "y1": 221,
+          "x1": 299.3333333333333,
+          "y0": 207.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.3027450980392157,
+          "y1": 0.2009090909090909,
+          "x1": 0.352156862745098,
+          "y0": 0.18848484848484848
+        },
+        "text": "Omaha,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 772,
+          "y1": 663,
+          "x1": 898,
+          "y0": 622
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 85,
+            "id": "word_93_92",
+            "text": "Omaha,",
+            "distance": 141070.99212384364,
+            "pos": {
+              "x0": 259.3333333333333,
+              "y1": 219,
+              "x1": 297.3333333333333,
+              "y0": 209.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address City",
+      "edit_input": {
+        "text": "Omaha"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9f08c92344e879debeaf008fa205da62",
+      "DATAPOINT ORDER": "3",
+      "ID": "b6f3c1a5-723b-32d0-955d-3d505caac316",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1387807,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "CITY",
+      "value": {
+        "type": "text",
+        "value": "Omaha",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 92,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS CITY"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 300,
+          "y1": 219.33333333333331,
+          "x1": 318,
+          "y0": 207.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.35294117647058826,
+          "y1": 0.19939393939393937,
+          "x1": 0.37411764705882355,
+          "y0": 0.18848484848484848
+        },
+        "text": "NE",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 900,
+          "y1": 658,
+          "x1": 954,
+          "y0": 622
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 96,
+            "id": "word_93_93",
+            "text": "NE",
+            "distance": 141049.90569633304,
+            "pos": {
+              "x0": 302,
+              "y1": 217.33333333333331,
+              "x1": 316,
+              "y0": 209.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address State",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 732881,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "STATE",
+      "value": {
+        "type": "text",
+        "value": "NE",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "ObjectId": "cdcbf73502f2b5c9f762642d78451f91",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "5",
+      "ID": "0bd2d4cc-ce37-399a-95b6-290f732b7fd5",
+      "NAME": "PROPERTY ADDRESS STATE"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "NAME",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 372.66666666666663,
+          "y1": 189,
+          "x1": 514.3333638509114,
+          "y0": 176.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.43843137254901954,
+          "y1": 0.17181818181818181,
+          "x1": 0.6050980751187193,
+          "y0": 0.16060606060606059
+        },
+        "text": "First National Bank of Omaha",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 1118,
+          "y1": 567,
+          "x1": 1543.0000915527341,
+          "y0": 530
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_93_77",
+            "text": "First",
+            "distance": 141017.78857421185,
+            "pos": {
+              "x0": 374.66666666666663,
+              "y1": 187,
+              "x1": 395.3333333333333,
+              "y0": 178.66666666666666
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_93_78",
+            "text": "National",
+            "distance": 140993.89109303834,
+            "pos": {
+              "x0": 399.3333333333333,
+              "y1": 187,
+              "x1": 438.3333333333333,
+              "y0": 178.66666666666666
+            }
+          },
+          {
+            "score": 92,
+            "id": "word_93_79",
+            "text": "Bank",
+            "distance": 140968.23231927902,
+            "pos": {
+              "x0": 443,
+              "y1": 187,
+              "x1": 467.3333333333333,
+              "y0": 178.66666666666666
+            }
+          },
+          {
+            "score": 91,
+            "id": "word_93_80",
+            "text": "of",
+            "distance": 140953.87521711568,
+            "pos": {
+              "x0": 471,
+              "y1": 186.66666666666666,
+              "x1": 480.3333333333333,
+              "y0": 178.66666666666666
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_93_81",
+            "text": "Omaha",
+            "distance": 140935.87129741354,
+            "pos": {
+              "x0": 483.3333333333333,
+              "y1": 187,
+              "x1": 518.6666666666666,
+              "y0": 178.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Lender Full Name",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1171696,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "COMPANY NAME",
+      "value": {
+        "type": "text",
+        "value": "First National Bank of Omaha",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "ObjectId": "042782659ad029558902e290219be70c",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "5",
+      "ID": "05078dba-d340-3bc3-9849-bdb84c526da8",
+      "NAME": "LENDER FULL NAME"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 150,
+          "y1": 255.33333333333331,
+          "x1": 215,
+          "y0": 241
+        },
+        "pos_normalized": {
+          "x0": 0.17647058823529413,
+          "y1": 0.23212121212121212,
+          "x1": 0.2529411764705882,
+          "y0": 0.2190909090909091
+        },
+        "text": "$140,000.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 450,
+          "y1": 766,
+          "x1": 645,
+          "y0": 723
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 83,
+            "id": "word_93_104",
+            "text": "$140,000.00",
+            "distance": 141114.71523590694,
+            "pos": {
+              "x0": 152,
+              "y1": 253.33333333333331,
+              "x1": 213,
+              "y0": 243
+            }
+          }
+        ]
+      },
+      "label": "Purchase Price Amount",
+      "edit_input": {
+        "text": "140000.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "f329aed56026b956c784c4fdb1341042",
+      "DATAPOINT ORDER": "4",
+      "ID": "8746f9ba-0f7c-33d9-a7a8-6b286a9621bb",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 242694,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "140000.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 92,
+      "manual_input": true,
+      "NAME": "PURCHASE PRICE AMOUNT"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1584740931277,
+      "ENTITY TYPE": "NAME",
+      "selection_input": {
+        "pos": {
+          "x0": 372.3333333333333,
+          "y1": 145,
+          "x1": 547.3333638509114,
+          "y0": 130.66666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.43803921568627446,
+          "y1": 0.1318181818181818,
+          "x1": 0.643921604530484,
+          "y0": 0.11878787878787878
+        },
+        "text": "KassyJo Novak",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 1117,
+          "y1": 435,
+          "x1": 1642.0000915527341,
+          "y0": 392
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_93_46",
+            "text": "KassyJo",
+            "distance": 141042.69977760478,
+            "pos": {
+              "x0": 374.3333333333333,
+              "y1": 143,
+              "x1": 415.3333333333333,
+              "y0": 132.66666666666666
+            }
+          },
+          {
+            "score": 88,
+            "id": "word_93_47",
+            "text": "Novak",
+            "distance": 141015.28100459737,
+            "pos": {
+              "x0": 419.66666666666663,
+              "y1": 140.66666666666666,
+              "x1": 450,
+              "y0": 132.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Borrower Full Name",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "00be5fbfdbb65b58c87bdeb9b6ee014d",
+      "DATAPOINT ORDER": "5",
+      "ID": "9aa3d0d7-c1ab-36f0-96b2-de8c44c7e42f",
+      "clone_id": 0,
+      "ENTITY ORIGIN": "BORROWER FULL NAME",
+      "ENTITY DERIVATION": "[{\"operands\":[\"BORROWER FIRST NAME\",\"BORROWER MIDDLE NAME\",\"BORROWER LAST NAME\",\"BORROWER SUFFIX NAME\",\" \"],\"operator\":\"CONCAT\",\"id\":\"BORROWER FULL NAME\"}]",
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1350843,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "PERSON NAME",
+      "value": {
+        "type": "text",
+        "value": "KassyJo Novak",
+        "source": "selection"
+      },
+      "ENTITY": "BORROWER FIRST NAME",
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 92,
+      "NAME": "BORROWER FULL NAME"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 612.6666666666666,
+          "y1": 574,
+          "x1": 645.6666666666666,
+          "y0": 561.3333333333333
+        },
+        "pos_normalized": {
+          "x0": 0.7207843137254901,
+          "y1": 0.5218181818181818,
+          "x1": 0.7596078431372548,
+          "y0": 0.5103030303030303
+        },
+        "text": "$34.00",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e7399c966e2bd1c30e65c44",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b848e573253cbef20e2",
+          "file_index": 93
+        },
+        "pos_original": {
+          "x0": 1838,
+          "y1": 1722,
+          "x1": 1937,
+          "y0": 1683.9999999999998
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 89,
+            "id": "word_94_129",
+            "text": "$34.00",
+            "distance": 140572.9526775056,
+            "pos": {
+              "x0": 614.6666666666666,
+              "y1": 572,
+              "x1": 643.6666666666666,
+              "y0": 563.3333333333333
+            }
+          }
+        ]
+      },
+      "label": "Total Loan Costs Integrated Disclosure Section Total Amount",
+      "edit_input": {
+        "text": "34.00",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "36d3e99dae37f09ef1c2f0a70d24f847",
+      "DATAPOINT ORDER": "14",
+      "ID": "d8c06f6c-488c-33cb-8a28-1a14034a7183",
+      "GROUP NAME": "Group5",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1436843,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "34.00",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 93,
+      "manual_input": true,
+      "NAME": "TOTAL LOAN COSTS INTEGRATED DISCLOSURE SECTION TOTAL AMOUNT"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 676,
+          "y1": 207.33333333333331,
+          "x1": 743.6666666666666,
+          "y0": 195
+        },
+        "pos_normalized": {
+          "x0": 0.7952941176470588,
+          "y1": 0.18848484848484848,
+          "x1": 0.8749019607843137,
+          "y0": 0.17727272727272728
+        },
+        "text": "Conventional",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 2028,
+          "y1": 622,
+          "x1": 2231,
+          "y0": 585
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 90,
+            "id": "word_93_85",
+            "text": "Conventional",
+            "distance": 140775.5201336116,
+            "pos": {
+              "x0": 678,
+              "y1": 205.33333333333331,
+              "x1": 741.6666666666666,
+              "y0": 197
+            }
+          }
+        ]
+      },
+      "label": "Mortgage Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1202809,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "control_input": {
+        "type": "text",
+        "value": "CONVENTIONAL",
+        "control": "radio"
+      },
+      "ObjectId": "48fd01851476fa7d4b889a5429e9ab26",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "10",
+      "ID": "e6904eaa-cdf4-332e-a901-cbeee59ee322",
+      "NAME": "MORTGAGE TYPE"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 415.66666666666663,
+          "y1": 513.3333333333333,
+          "x1": 441,
+          "y0": 498
+        },
+        "pos_normalized": {
+          "x0": 0.4890196078431372,
+          "y1": 0.4666666666666666,
+          "x1": 0.5188235294117647,
+          "y0": 0.4527272727272727
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 1247,
+          "y1": 1539.9999999999998,
+          "x1": 1323,
+          "y0": 1494
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 86,
+            "id": "word_93_149",
+            "text": "NO",
+            "distance": 140758.80780513247,
+            "pos": {
+              "x0": 417.66666666666663,
+              "y1": 511.3333333333333,
+              "x1": 439,
+              "y0": 500
+            }
+          }
+        ]
+      },
+      "label": "Prepayment Penalty Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1217341,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "ObjectId": "fba4c7b631b45e444d7f3b64931a025b",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "14",
+      "ID": "bb100dae-d62f-39a7-87d6-31f386c25dc1",
+      "NAME": "PREPAYMENT PENALTY INDICATOR"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "ADDRESS",
+      "GROUP NAME": "Group4",
+      "selection_input": {
+        "pos": {
+          "x0": 159.7777557373047,
+          "y1": 226.80902099609375,
+          "x1": 173.7777557373047,
+          "y0": 223.80902099609375
+        },
+        "pos_normalized": {
+          "x0": 0.187973830279182,
+          "y1": 0.20619001908735796,
+          "x1": 0.2044444185144761,
+          "y0": 0.20346274636008524
+        },
+        "text": "68134",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 479.33326721191406,
+          "y1": 680.4270629882812,
+          "x1": 521.3332672119141,
+          "y0": 671.4270629882812
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 71,
+            "id": "word_93_97",
+            "text": "68134",
+            "distance": 141142.2906512353,
+            "pos": {
+              "x0": 152,
+              "y1": 228.66666666666666,
+              "x1": 182,
+              "y0": 220.66666666666666
+            }
+          }
+        ]
+      },
+      "label": "Property Address Zipcode",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 727902,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "ZIPCODE",
+      "value": {
+        "type": "text",
+        "value": "68134",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "ObjectId": "1d6e3d015003bbeac34bcba8a43999b4",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "4",
+      "ID": "e331eb93-3bf7-37f0-96e8-afce8b01d263",
+      "NAME": "PROPERTY ADDRESS ZIPCODE"
+    },
+    {
+      "MULTIPLE VALUES": "BORROWER",
+      "ts": 1584740931277,
+      "ENTITY TYPE": "LIST",
+      "selection_input": {
+        "pos": {
+          "x0": 90,
+          "y1": 1046.6666666666665,
+          "x1": 120.66666666666666,
+          "y0": 1035.6666666666665
+        },
+        "pos_normalized": {
+          "x0": 0.10588235294117647,
+          "y1": 0.9515151515151514,
+          "x1": 0.14196078431372547,
+          "y0": 0.9415151515151514
+        },
+        "text": "Novak",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5e7399c92fec1860f696fcfa",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b85a913e8fa3bcb8130",
+          "file_index": 96
+        },
+        "pos_original": {
+          "x0": 270,
+          "y1": 3139.9999999999995,
+          "x1": 362,
+          "y0": 3106.9999999999995
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_97_446",
+            "text": "Novak",
+            "distance": 140610.09411539018,
+            "pos": {
+              "x0": 92,
+              "y1": 1044.6666666666665,
+              "x1": 118.66666666666666,
+              "y0": 1037.6666666666665
+            }
+          }
+        ]
+      },
+      "label": "Borrower Signature Present Indicator",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e57c7ea864241d23c1f273c13c902ea4",
+      "DATAPOINT ORDER": "6",
+      "ID": "8247ee79-256c-34d8-8a51-4e3ba3cea91c",
+      "clone_id": 0,
+      "GROUP NAME": "Group3",
+      "group_label": "Borrower Info",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1360247,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NO",
+        "source": "control_input"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "control_input": {
+        "type": "text",
+        "value": "NO",
+        "control": "radio"
+      },
+      "FileIndex": 96,
+      "NAME": "BORROWER SIGNATURE PRESENT INDICATOR"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 257.3333333333333,
+          "y1": 420,
+          "x1": 315,
+          "y0": 400
+        },
+        "pos_normalized": {
+          "x0": 0.3027450980392157,
+          "y1": 0.38181818181818183,
+          "x1": 0.37058823529411766,
+          "y0": 0.36363636363636365
+        },
+        "text": "$61.33",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 772,
+          "y1": 1260,
+          "x1": 945,
+          "y0": 1200
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 81,
+            "id": "word_93_128",
+            "text": "$61.33",
+            "distance": 140926.99794939143,
+            "pos": {
+              "x0": 259.3333333333333,
+              "y1": 418,
+              "x1": 313,
+              "y0": 402
+            }
+          }
+        ]
+      },
+      "label": "Initial Principal And Interest Payment Amount",
+      "edit_input": {
+        "text": "61.33",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "47e5fb14fbcc10b9d1080cdc7601217e",
+      "DATAPOINT ORDER": "13",
+      "ID": "19cc0c72-85fa-3232-91a1-f53613a30500",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1214894,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "61.33",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 92,
+      "manual_input": true,
+      "NAME": "INITIAL PRINCIPAL AND INTEREST PAYMENT AMOUNT"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 690.6666666666666,
+          "y1": 173.33333333333331,
+          "x1": 717,
+          "y0": 161.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.8125490196078431,
+          "y1": 0.15757575757575756,
+          "x1": 0.8435294117647059,
+          "y0": 0.14666666666666664
+        },
+        "text": "Rate",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 2072,
+          "y1": 520,
+          "x1": 2151,
+          "y0": 483.99999999999994
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_93_69",
+            "text": "Rate",
+            "distance": 140803.73811256653,
+            "pos": {
+              "x0": 692.6666666666666,
+              "y1": 171.33333333333331,
+              "x1": 715,
+              "y0": 163.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Interest Only Indicator",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1196543,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "YES",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "control_input": {
+        "type": "text",
+        "value": "YES",
+        "control": "radio"
+      },
+      "ObjectId": "1aff2a141a56dd13f8d71031ab024af5",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "9",
+      "ID": "b438182a-c7f5-3030-bfe3-74693158efb0",
+      "NAME": "INTEREST ONLY INDICATOR"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 496.3333333333333,
+          "y1": 761,
+          "x1": 554,
+          "y0": 741
+        },
+        "pos_normalized": {
+          "x0": 0.5839215686274509,
+          "y1": 0.6918181818181818,
+          "x1": 0.6517647058823529,
+          "y0": 0.6736363636363636
+        },
+        "text": "$61-33",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 1489,
+          "y1": 2283,
+          "x1": 1662,
+          "y0": 2223
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 75,
+            "id": "word_93_184",
+            "text": "$61-33",
+            "distance": 140516.93955069775,
+            "pos": {
+              "x0": 498.3333333333333,
+              "y1": 759,
+              "x1": 552,
+              "y0": 743
+            }
+          }
+        ]
+      },
+      "label": "Proposed Total Monthly Housing Expense",
+      "edit_input": {
+        "text": "6133",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "e669f4aec99056fb2896cd639c5fdfa9",
+      "DATAPOINT ORDER": "17",
+      "ID": "0bf5e8ae-031b-3665-b659-39ee7a6bc4d8",
+      "GROUP NAME": "Group1",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1288904,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "6133",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 92,
+      "manual_input": true,
+      "NAME": "PROPOSED TOTAL MONTHLY HOUSING EXPENSE"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 660.6666666666666,
+          "y1": 166.33333333333331,
+          "x1": 710.3333333333333,
+          "y0": 146
+        },
+        "pos_normalized": {
+          "x0": 0.7772549019607843,
+          "y1": 0.1512121212121212,
+          "x1": 0.8356862745098038,
+          "y0": 0.13272727272727272
+        },
+        "text": "Purchase",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 1982,
+          "y1": 498.99999999999994,
+          "x1": 2131,
+          "y0": 438
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 70,
+            "id": "word_93_63",
+            "text": "Purchase",
+            "distance": 140824.58412665184,
+            "pos": {
+              "x0": 662.6666666666666,
+              "y1": 164.33333333333331,
+              "x1": 708.3333333333333,
+              "y0": 148
+            }
+          }
+        ]
+      },
+      "label": "Loan Purpose Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1189217,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "PURCHASE",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "control_input": {
+        "type": "text",
+        "value": "PURCHASE",
+        "control": "radio"
+      },
+      "ObjectId": "827c872b4deb7232e29147875ac53bd5",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "8",
+      "ID": "c4653c6d-c973-3a9e-9609-afb93537b5bd",
+      "NAME": "LOAN PURPOSE TYPE"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "PERCENT",
+      "GROUP NAME": "Group7",
+      "selection_input": {
+        "pos": {
+          "x0": 362.66666666666663,
+          "y1": 275.66666666666663,
+          "x1": 407,
+          "y0": 262
+        },
+        "pos_normalized": {
+          "x0": 0.42666666666666664,
+          "y1": 0.25060606060606055,
+          "x1": 0.4788235294117647,
+          "y0": 0.2381818181818182
+        },
+        "text": "1.218%",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 4,
+          "PageJpeg": "5e7399c92fec1860f696fcfa",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b85a913e8fa3bcb8130",
+          "file_index": 96
+        },
+        "pos_original": {
+          "x0": 1088,
+          "y1": 826.9999999999999,
+          "x1": 1221,
+          "y0": 786
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_97_74",
+            "text": "1.218%",
+            "distance": 517.8006000106932,
+            "pos": {
+              "x0": 364.66666666666663,
+              "y1": 273.66666666666663,
+              "x1": 405,
+              "y0": 264
+            }
+          }
+        ]
+      },
+      "label": "Apr Percent",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1501929,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "1.218%",
+        "source": "selection"
+      },
+      "DocumentIndex": 4,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c5b3bb8578aa637077cd1e0eef8dd7bb",
+      "FileIndex": 96,
+      "DATAPOINT ORDER": "2",
+      "ID": "4cd4628b-585b-3679-a7ec-977a97de4177",
+      "NAME": "APR PERCENT"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "TEXT",
+      "selection_input": {
+        "pos": {
+          "x0": 263,
+          "y1": 820.6666666666666,
+          "x1": 330.66666666666663,
+          "y0": 800.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.30941176470588233,
+          "y1": 0.746060606060606,
+          "x1": 0.3890196078431372,
+          "y0": 0.7278787878787878
+        },
+        "text": "$349.24",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 789,
+          "y1": 2462,
+          "x1": 991.9999999999999,
+          "y0": 2402
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 78,
+            "id": "word_93_195",
+            "text": "$349.24",
+            "distance": 140636.58349615944,
+            "pos": {
+              "x0": 265,
+              "y1": 818.6666666666666,
+              "x1": 328.66666666666663,
+              "y0": 802.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Projected Payment Estimated Taxes Insurance Assessment Component Type",
+      "edit_input": {
+        "text": "349.24"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c5e04662d0a8e3f60471e23c11dab4d0",
+      "DATAPOINT ORDER": "3",
+      "ID": "8c259fb6-3c6d-3188-86df-183e3ceb6443",
+      "GROUP NAME": "Group2",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1313502,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "349.24",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "control_input": null,
+      "FileIndex": 92,
+      "manual_input": true,
+      "NAME": "PROJECTED PAYMENT ESTIMATED TAXES INSURANCE ASSESSMENT COMPONENT TYPE"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "CURRENCY",
+      "selection_input": {
+        "pos": {
+          "x0": 630,
+          "y1": 965.3333333333333,
+          "x1": 668.3333333333333,
+          "y0": 952.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.7411764705882353,
+          "y1": 0.8775757575757575,
+          "x1": 0.7862745098039214,
+          "y0": 0.866060606060606
+        },
+        "text": "$109.19",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 1,
+          "PageJpeg": "5e7399c966e2bd1c30e65c44",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b848e573253cbef20e2",
+          "file_index": 93
+        },
+        "pos_original": {
+          "x0": 1890,
+          "y1": 2896,
+          "x1": 2004.9999999999998,
+          "y0": 2858
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 91,
+            "id": "word_94_227",
+            "text": "$109.19",
+            "distance": 140282.26043954302,
+            "pos": {
+              "x0": 632,
+              "y1": 963.3333333333333,
+              "x1": 666.3333333333333,
+              "y0": 954.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Total Closing Costs Lender Credits",
+      "edit_input": {
+        "text": "109.19",
+        "used_suggestion": true
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "fa673075c5a77ea05decdd3dbe45fee9",
+      "DATAPOINT ORDER": "24",
+      "ID": "48490423-b508-3c4f-8742-ba0c5aaafcf7",
+      "GROUP NAME": "Group6",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1493099,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "109.19",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 1,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 93,
+      "manual_input": true,
+      "NAME": "TOTAL CLOSING COSTS LENDER CREDITS"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "ADDRESS",
+      "selection_input": {
+        "pos": {
+          "x0": 150,
+          "y1": 219.66666666666666,
+          "x1": 253.66666666666666,
+          "y0": 207.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.17647058823529413,
+          "y1": 0.19969696969696968,
+          "x1": 0.2984313725490196,
+          "y0": 0.18848484848484848
+        },
+        "text": "8711 Fowler Avenue,",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 450,
+          "y1": 659,
+          "x1": 761,
+          "y0": 622
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 88,
+            "id": "word_93_89",
+            "text": "8711",
+            "distance": 141153.13161165707,
+            "pos": {
+              "x0": 152,
+              "y1": 217.66666666666666,
+              "x1": 173.66666666666666,
+              "y0": 209.33333333333331
+            }
+          },
+          {
+            "score": 93,
+            "id": "word_93_90",
+            "text": "Fowler",
+            "distance": 141129.79309407983,
+            "pos": {
+              "x0": 179.66666666666666,
+              "y1": 217.66666666666666,
+              "x1": 212,
+              "y0": 209.33333333333331
+            }
+          },
+          {
+            "score": 85,
+            "id": "word_93_91",
+            "text": "Avenue,",
+            "distance": 141101.74472895634,
+            "pos": {
+              "x0": 215,
+              "y1": 219,
+              "x1": 254.66666666666666,
+              "y0": 209.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Property Address Line 2",
+      "edit_input": {
+        "text": "8711 Fowler Avenue"
+      },
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "9778053ad22329b6e7df8b80c21b0e70",
+      "DATAPOINT ORDER": "1",
+      "ID": "20f02f6a-1ab9-3598-bca0-ea70f8dd3988",
+      "GROUP NAME": "Group4",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1380899,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "CHILD ENTITY TYPE": "ROUTE",
+      "value": {
+        "type": "text",
+        "value": "8711 Fowler Avenue",
+        "source": "edit_input"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "FileIndex": 92,
+      "manual_input": true,
+      "NAME": "PROPERTY ADDRESS LINE 2"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 728.6666666666666,
+          "y1": 810.3333333333333,
+          "x1": 750,
+          "y0": 797
+        },
+        "pos_normalized": {
+          "x0": 0.8572549019607842,
+          "y1": 0.7366666666666666,
+          "x1": 0.8823529411764706,
+          "y0": 0.7245454545454545
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 2186,
+          "y1": 2431,
+          "x1": 2250,
+          "y0": 2391
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 84,
+            "id": "word_93_199",
+            "text": "NO",
+            "distance": 140328.1765269858,
+            "pos": {
+              "x0": 730.6666666666666,
+              "y1": 808.3333333333333,
+              "x1": 748,
+              "y0": 799
+            }
+          }
+        ]
+      },
+      "label": "Property Taxes Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1295548,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NOT ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "control_input": {
+        "type": "text",
+        "value": "NOT ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "218ae7225abb4fff6853fc33d5bea138",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "1",
+      "ID": "309cb9ac-419f-3b44-b4fe-7ef102c1b988",
+      "NAME": "PROPERTY TAXES PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "LIST",
+      "GROUP NAME": "Group2",
+      "selection_input": {
+        "pos": {
+          "x0": 728.6666666666666,
+          "y1": 826,
+          "x1": 750,
+          "y0": 812.6666666666666
+        },
+        "pos_normalized": {
+          "x0": 0.8572549019607842,
+          "y1": 0.7509090909090909,
+          "x1": 0.8823529411764706,
+          "y0": 0.7387878787878788
+        },
+        "text": "NO",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 2186,
+          "y1": 2478,
+          "x1": 2250,
+          "y0": 2438
+        },
+        "valid_value": false,
+        "ocr": [
+          {
+            "score": 95,
+            "id": "word_93_203",
+            "text": "NO",
+            "distance": 140317.102550101,
+            "pos": {
+              "x0": 730.6666666666666,
+              "y1": 824,
+              "x1": 748,
+              "y0": 814.6666666666666
+            }
+          }
+        ]
+      },
+      "label": "Homeowners Insurance Projected Payment Escrowed Type",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 1300646,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "NOT ESCROWED",
+        "source": "control_input"
+      },
+      "DocumentIndex": 0,
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "control_input": {
+        "type": "text",
+        "value": "NOT ESCROWED",
+        "control": "radio"
+      },
+      "ObjectId": "993415d3b43623414a914384908fb28e",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "2",
+      "ID": "e906ed0a-68bc-3eb7-950f-64a593e30e0f",
+      "NAME": "HOMEOWNERS INSURANCE PROJECTED PAYMENT ESCROWED TYPE"
+    },
+    {
+      "ts": 1584740931277,
+      "ENTITY TYPE": "DATE",
+      "GROUP NAME": "Group1",
+      "selection_input": {
+        "pos": {
+          "x0": 150,
+          "y1": 173.33333333333331,
+          "x1": 208.66666666666666,
+          "y0": 161.33333333333331
+        },
+        "pos_normalized": {
+          "x0": 0.17647058823529413,
+          "y1": 0.15757575757575756,
+          "x1": 0.24549019607843137,
+          "y0": 0.14666666666666664
+        },
+        "text": "08/31/2018",
+        "page": {
+          "size": {
+            "width": 850,
+            "height": 1100
+          },
+          "document_index": 0,
+          "PageJpeg": "5e7399c903230cbef946d7bf",
+          "DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+          "scale": 3,
+          "PageOcr": "5e739b8424dd3f04a1a5ddba",
+          "file_index": 92
+        },
+        "pos_original": {
+          "x0": 450,
+          "y1": 520,
+          "x1": 626,
+          "y0": 483.99999999999994
+        },
+        "valid_value": true,
+        "ocr": [
+          {
+            "score": 87,
+            "id": "word_93_66",
+            "text": "08/31/2018",
+            "distance": 141174.1048211589,
+            "pos": {
+              "x0": 152,
+              "y1": 171.33333333333331,
+              "x1": 206.66666666666666,
+              "y0": 163.33333333333331
+            }
+          }
+        ]
+      },
+      "label": "Disbursement Date",
+      "invalid_value": false,
+      "IS": "ENTITY",
+      "TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "workflow_time_elapsed": 220656,
+      "Type": "ExtractionUI",
+      "UserName": "harish.gingam@bkfs.com",
+      "value": {
+        "type": "text",
+        "value": "08/31/2018",
+        "source": "selection"
+      },
+      "DocumentIndex": 0,
+      "ExtractionUI::TransactionId": "9d85f9e8-11e9-485c-9190-fb16e1af217d",
+      "ExtractionUI::DocumentId": "65794264-9f1b-4ee3-8cde-1a4e11e2a5df",
+      "DOCUMENT TYPE": "CLOSING DISCLOSURE",
+      "ObjectId": "c60ce322294f63edc0be9259857460ae",
+      "FileIndex": 92,
+      "DATAPOINT ORDER": "3",
+      "ID": "27f95b29-046a-375f-95ee-8ab76e496c7c",
+      "NAME": "DISBURSEMENT DATE"
+    }
+  ],
+  "Total": 25,
+  "IndexScannedCount": 25
+}
